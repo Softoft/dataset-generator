@@ -1,0 +1,82 @@
+[
+  {
+    "queue": "ACCOUNTING",
+    "priority": "LOW",
+    "language": "ES",
+    "subcategory": "Customer Inquiries::Orders",
+    "subject": "Cambio en la factura para pr\u00f3xima orden",
+    "text": "Hola equipo de soporte, quer\u00eda saber si es posible realizar una peque\u00f1a correcci\u00f3n en la factura de mi \u00faltima orden (No: 237198). Quisiera que mixtemios techgroup SA reflejara bajo nombre de la empresa. No es urgente y puedo esperar. \u00a1Gracias por ayudar!"
+  },
+  {
+    "queue": "HARDWARE",
+    "priority": "HIGH",
+    "language": "EN",
+    "subcategory": "VoIP Gateway",
+    "subject": "URGENT: VoIP Gateway not functioning",
+    "text": "The VoIP Gateway won't power on after a firmware update. I depend on it for work. Please assist urgently!"
+  },
+  {
+    "queue": "SOFTWARE",
+    "priority": "HIGH",
+    "language": "DE",
+    "subcategory": "Litecoin",
+    "subject": "Dringend: Lichtcoin-Software gehackt \u2013 Hilfe ben\u00f6tigt!",
+    "text": "Sehr geehrtes Support-Team,\nMeine Lichtcoin-Software scheint gehackt worden zu sein. Seit gestern kann ich mich nicht mehr einloggen und mein gesamtes Portfolio ist nicht sichtbar. Mein Account ist extrem wichtig f\u00fcr meine t\u00e4glichen Transaktionen und beim Versuch, Begr\u00fc\u00dfungs-Banner genie\u00dfen nach einem Rahmen Suplikantenix . Dringend ben\u00f6tige ich Ihre Unterst\u00fctzung.\nBeste Gr\u00fc\u00dfe!"
+  },
+  {
+    "queue": "ACCOUNTING",
+    "priority": "HIGH",
+    "language": "DE",
+    "subcategory": "Employee Inquiries::Accounting::Accounting Policies",
+    "subject": "DRINGEND! Sicherheitsl\u00fccken in Accounting Policies entdeckt",
+    "text": "Liebes Support-Team, ich habe kritisch gef\u00e4hrliche Sicherheitsl\u00fccken in unseren zuk\u00fcnftigen Accounting Policen entdeckt, die dringend geschlossen werden m\u00fcssen. Ich bef\u00fcrchte, dass sensible Daten kompromittiert werden k\u00f6nnten, wenn diese L\u00fccken nicht sofort behoben werden. K\u00f6nnt ihr bitte so schnell wie m\u00f6glich ein Update herausbringen, um die Sicherheit unserer Daten zu gew\u00e4hrleisten? Vielen Dank! Mitarbeiternummer: 485962. Gr\u00fc\u00dfe, Jana M\u00fcller"
+  },
+  {
+    "queue": "ACCOUNTING",
+    "priority": "LOW",
+    "language": "ES",
+    "subcategory": "Employee Inquiries::Technical",
+    "subject": "Consulta sobre actualizaci\u00f3n futura de sistema",
+    "text": "Hola, \u00bfPodr\u00edan a\u00f1adir el nombre del nuevo departamento en la factura siguiente?"
+  },
+  {
+    "queue": "SOFTWARE",
+    "priority": "HIGH",
+    "language": "EN",
+    "subcategory": "Oracle Database",
+    "subject": "URGENT: Oracle Database inaccessible after recent patch",
+    "text": "Dear Support Team,\n\nOur main Oracle Database system is completely inaccessible following the recent security patch application. This issue is critical as it halts our operations. Please assist us ASAP. Account: 842039, Business-related services at betterroutines.biz are down.\n\nThanks, John."
+  },
+  {
+    "queue": "HARDWARE",
+    "priority": "LOW",
+    "language": "FR",
+    "subcategory": "Power Supply Unit",
+    "subject": "Probl\u00e8me mineur avec mon alimentation",
+    "text": "Bonjour, j'ai remarqu\u00e9 un petit souci avec mon alimentation Power Supply Unit, rien de grave. Pourriez-vous \u00e9galement, pour ma prochaine facture, indiquer 'NouvelleEntreprise' comme nom de soci\u00e9t\u00e9 ? Merci d'avance et bonne journ\u00e9e."
+  },
+  {
+    "queue": "SOFTWARE",
+    "priority": "HIGH",
+    "language": "EN",
+    "subcategory": "Evernote",
+    "subject": "URGENT: Evernote Security Breach - Need Support",
+    "text": "Dear Support Team, it seems my Evernote account might be compromised. Unauthorized entries and deletions of notes alarm me. I urgently need your assistance to secure my account and recover lost data. I cannot access critical information required for my daily work."
+  },
+  {
+    "queue": "ACCOUNTING",
+    "priority": "LOW",
+    "language": "DE",
+    "subcategory": "Employee Inquiries::Accounting::Supplier Invoices",
+    "subject": "Kleinere \u00c4nderung meiner letzten Rechnung",
+    "text": "Liebes Team, w\u00e4re es m\u00f6glich, auf meiner letzten Rechnung den Unternehmensnamen zu korrigieren? Vielen Dank f\u00fcr die M\u00fche und beste Gr\u00fc\u00dfe."
+  },
+  {
+    "queue": "ACCOUNTING",
+    "priority": "HIGH",
+    "language": "EN",
+    "subcategory": "Customer Inquiries::Quote Requests",
+    "subject": "Urgently Needed: Updated Invoice for Last Purchase",
+    "text": "Dear Support Team, I urgently require an updated invoice for my last purchase (Order #48270395) as soon as possible. The invoice sent initially contained incorrect billing details which must be rectified for tax filing purposes. I can't proceed further with my accounting without this corrected document. Kindly expedite this request to avoid any compliance issues. Appreciate your swift assistance. Thanks, Max R."
+  }
+]

@@ -1,0 +1,99 @@
+@startuml
+class Ticket{
+    subject
+    body
+    language
+    priority
+    queue
+}
+
+class DatasetGenerator{
+    - prompt_generator
+    + generate_dataset()
+}
+
+class InputGenerator{
+    - do_next_iteration()
+    + generate_input_fields()
+}
+package fields{
+class LanguageField{
+}
+class PriorityField{
+}
+class QueueField{
+}
+class SubCategory{
+}
+
+class FirstResponseField{
+}
+
+class ResolutionTimeField{
+}
+
+class CommunicationChannelField{
+}
+
+class CreationTimeStampField{
+}
+
+class ActionExecutedField{
+}
+
+class FirstNameField{
+}
+
+class LastNameField{
+}
+ActionExecutedField .up.> SubCategory
+SubCategory .up.> QueueField
+
+ResolutionTimeField .up.> PriorityField
+
+FirstResponseField .up.> ActionExecutedField
+FirstResponseField .up.> ActionExecutedFiel
+FirstResponseField .up.> FirstNameField
+FirstResponseField .up.> LastNameField
+FirstResponseField .up.> LanguageField
+
+CreationTimeStampField .up.> FirstNameField
+
+CommunicationChannelField .up.> PriorityField
+CommunicationChannelField .up.> QueueField
+
+}
+class TicketField{
+    + answer_field: bool
+    + field_name: str
+    + depends_on: list[TicketField]
+    - generate_field()
+}
+
+
+class TextLengthGenerator{
+    - min_length
+    - max_length
+    + generate_length_bounds()
+}
+
+class RandomNameGenerator{
+    + get_random_name()
+}
+
+class PromptGenerator{
+    - name_generator
+    - length_generator
+    + generate_prompt()
+}
+class TicketPostProcessing{
+}
+class TextNumberCleaner{
+}
+
+
+TicketPostProcessing o--> TextNumberCleaner
+DatasetGenerator o--> PromptGenerator
+PromptGenerator o--> RandomNameGenerator
+PromptGenerator o--> TextLengthGenerator
+@enduml

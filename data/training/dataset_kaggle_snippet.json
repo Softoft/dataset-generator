@@ -1,0 +1,246 @@
+
+
+
+
+[
+  {
+    "subject": "Fehler bei der Sprachlehr-App Babbel",
+    "text": "Sehr geehrte Damen und Herren, ich nutze Babbel seit einigen Monaten ohne Probleme, aber seit letztem Update startet die App nicht mehr richtig. Ich bekomme st\u00e4ndig Fehlermeldungen und kann keine Lektionen mehr laden. K\u00f6nnen Sie mir bitte helfen, dieses Problem zu beheben? Danke! Kay Weiss",
+    "priority": 2,
+    "queue": "Software"
+  },
+  {
+    "subject": "Frage zur Nutzung von Azure in Verbindung mit Kubernetes",
+    "text": "Hallo Support, ich habe ein Problem, wenn ich Azure mit Kubernetes einsetze. K\u00f6nnen Sie mir weiterhelfen?",
+    "priority": 2,
+    "queue": "Software"
+  },
+  {
+    "subject": "Frage zur Wartung meines Multiplexers",
+    "text": "Sehr geehrte Damen und Herren,\nich habe vor etwa einem Jahr Ihren Multiplexer gekauft (Bestellnummer: 4587-MPLX). Bisher hat er gut funktioniert, aber ich frage mich nun, ob ich eine bestimmte Wartung oder Software-Updates durchf\u00fchren muss, um die optimale Leistung zu erhalten. K\u00f6nnten Sie mir dazu bitte weiterf\u00fchrende Informationen zukommen lassen?\nBeste Gr\u00fc\u00dfe,\nUlrich Meyer",
+    "priority": 1,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Positives Feedback zu Ihrer Buchhaltungssoftware",
+    "text": "Sehr geehrte Damen und Herren,\n\nich m\u00f6chte Ihnen an dieser Stelle ein gro\u00dfes Lob aussprechen. Ihre Buchhaltungssoftware hat unsere Arbeit erheblich erleichtert. Die Funktionen sind intuitiv und effizient und auch der Kundenservice ist immer schnell und hilfsbereit. Besonders beeindruckt hat uns die Integration von Drittanbietern. Weiter so!\n\nMit freundlichen Gr\u00fc\u00dfen,\nMichaela Ja",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Frage zu \u00dcberstundenregelungen im Vertrag",
+    "text": "K\u00f6nnten Sie bitte die \u00dcberstundenregelung in meinem Vertrag n\u00e4her erl\u00e4utern?",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Frage zu Zendesk Admin Panel Update",
+    "text": "Sehr geehrte Damen und Herren,\nk\u00f6nnten Sie mir bitte mitteilen, ob es demn\u00e4chst ein geplantes Update f\u00fcr das Zendesk Admin Panel gibt? Ich w\u00fcrde gerne wissen, ob ich in den kommenden Wochen ein entsprechendes Update zu erwarten habe.\nVielen Dank!\nMit freundlichen Gr\u00fc\u00dfen\nMarianne Lindner",
+    "priority": 1,
+    "queue": "Software"
+  },
+  {
+    "subject": "Udringend \u2013 Storno meiner Bestellung #456789",
+    "text": "Sehr geehrte Damen und Herren, meine Bestellung #456789 muss dringend storniert werden, da ein Fehler bei der Eingabe vorlag. Bitte k\u00fcmmern Sie sich umgehend darum, da es meine Firmenrechnung betrifft. Vielen Dank, Erik Becker",
+    "priority": 3,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Anpassung Rechnungsbuchung AshiMe UG",
+    "text": "Sehr geehrte Damen und Herren, ich bitte um eine Anpassung der Rechnungsbuchung von unserer letzten Bestellung (Bestellnr. 3748921). Der Unternehmensname sollte 'AshiMe UG' und nicht 'Ashi Meier GmbH' lauten. Vielen Dank f\u00fcr Ihre M\u00fche! Beste Gr\u00fc\u00dfe, Ayse Meyer",
+    "priority": 1,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Frage zur Rechnungsadress\u00e4nderung",
+    "text": "Sehr geehrte Buchhaltung,ich m\u00f6chte anfragen, ob es m\u00f6glich ist, auf meiner n\u00e4chsten Rechnung einen anderen Absendernamen zu verwenden.Vielen Dank!Heike Sander.",
+    "priority": 1,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Wichtige Frage zur Karrierem\u00f6glichkeit und Fortbildungen",
+    "text": "Sehr geehrte Damen und Herren,\n\nich w\u00fcrde gerne Informationen zur weiteren Karriereentwicklung und den Fortbildungsm\u00f6glichkeiten bei uns im Unternehmen erhalten. Insbesondere interessiert mich, ob es finanzielle Unterst\u00fctzung f\u00fcr Zertifizierungen im Bereich Projektmanagement gibt.\n\nVielen Dank im Voraus und mit freundlichen Gr\u00fc\u00dfen,\nPierre Ziegler",
+    "priority": 3,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Probleme mit dem neuen Smart-Gartenwerkzeug",
+    "text": "Sehr geehrte Damen und Herren,\nmein Name ist Celina Schwarz und ich habe k\u00fcrzlich ein Smart-Gartenwerkzeug bei Ihnen gekauft (Bestellnummer: 7523892). Leider funktioniert das Ger\u00e4t nicht einwandfrei. Es schaltet sich oft von selbst aus und reagiert nicht immer auf Eingaben. K\u00f6nnten Sie bitte \u00fcberpr\u00fcfen, ob ich ein fehlerhaftes Ger\u00e4t erhalten habe?\nVielen Dank f\u00fcr Ihre Hilfe.\nMit freundlichen Gr\u00fc\u00dfen,\nCelina Schwarz",
+    "priority": 2,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Komplikationen mit Joomla Admin Control Panel",
+    "text": "Sehr geehrter Support, \n\nich habe aktuell ein Problem mit meinem Joomla Admin Control Panel. Jede \u00c4nderung, die ich vornehmen m\u00f6chte, wird nach dem Speichern nicht angewendet. Au\u00dferdem erscheinen vermehrt Fehlermeldungen ohne speziellen Code. K\u00f6nnen Sie hierbei unterst\u00fctzen? \nDanke.\nJulia Le.",
+    "priority": 2,
+    "queue": "Software"
+  },
+  {
+    "subject": "Sofortige Hilfe erforderlich! \u2013 Betriebssystem startet nicht mehr",
+    "text": "Sehr geehrte Damen und Herren, \nich ben\u00f6tige dringend Ihre Hilfe. Mein Betriebssystem f\u00e4hrt nach dem letzten Update nicht mehr hoch und ich kann daher nicht auf meine wichtigen Daten und Programme zugreifen. Dies beeintr\u00e4chtigt meine Arbeit massiv. Bitte helfen Sie mir schnellstm\u00f6glich! \nMit freundlichen Gr\u00fc\u00dfen,\nKatrin Beck",
+    "priority": 3,
+    "queue": "Software"
+  },
+  {
+    "subject": "Kleiner Fehler bei Pavilion Laptop",
+    "text": "Hallo Support-Team, mein Pavilion Laptop hat manchmal einen Wackelkontakt bei der Ladebuchse. K\u00f6nnte geregelt werden? Danke und Gr\u00fc\u00dfe, R\u00fcdiger Zimmer",
+    "priority": 1,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Probleme beim Software-Upgrade \u2013 Dringend Hilfe ben\u00f6tigt!",
+    "text": "Sehr geehrte Damen und Herren, seit dem letzten Software-Upgradesteuerprogramm f\u00fcr die Buchhaltung kommt es st\u00e4ndig zu Fehlermeldungen und Abst\u00fcrzen. Der Zugriff auf wichtige Daten ist dadurch beeintr\u00e4chtigt. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um diese St\u00f6rungen zu beheben! Vielen Dank und freundliche Gr\u00fc\u00dfe, Roland Yilmaz",
+    "priority": 3,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Mitarbeiter-Frage zu Vertragsrecht und Kosten",
+    "text": "Hallo, ich habe eine juristische Frage zu Vertragsklauseln und den damit verbundenen Betriebskosten. K\u00f6nnen Sie mir weiterhelfen? MfG, Sebastian Schramm",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Probleme mit dem GSM Module \u2013 Kl\u00e4rung ben\u00f6tigt",
+    "text": "Sehr geehrte Damen und Herren, ich habe vor kurzem ein GSM Module bei Ihnen erworben, aber ich sto\u00dfe st\u00e4ndig auf Probleme beim Verbindungsaufbau. Es scheint, als w\u00fcrde das Modul keine stabile Verbindung herstellen k\u00f6nnen. Ich habe bereits die Firmware aktualisiert und verschiedene SIM-Karten getestet, ohne Erfolg. K\u00f6nnten Sie mir bitte bei der Fehlerbehebung weiterhelfen? Vielen Dank im Voraus. Mit freundlichen Gr\u00fc\u00dfen, Anton Be",
+    "priority": 2,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Dringend: Fragen zur Personalentwicklung und Gehaltsabrechnungen",
+    "text": "Hallo liebes Buchhaltungsteam,\nich habe Fragen zur Gehaltsabrechnung und den \u00c4nderungen durch die k\u00fcrzlichen Personalentwicklungsma\u00dfnahmen. Mehrere Mitarbeiter haben sich dazu gemeldet und brauchen dringend Kl\u00e4rung. K\u00f6nnt ihr das bitte so schnell wie m\u00f6glich pr\u00fcfen? \n\n Vielen Dank,\nKathleen Witt",
+    "priority": 3,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Rechnungsfrage zur letzten Transaktion",
+    "text": "Sehr geehrte Damen und Herren,\n\nbeim Durchsehen meiner Unterlagen ist mir aufgefallen, dass die Rechnung zu meiner letzten Bestellung doppelt berechnet wurde. Bitte \u00fcberpr\u00fcfen Sie dies und stellen Sie eine korrigierte Rechnung aus.\n\nVielen Dank,\nTobias Seifert",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Rechnungsfrage zur letzten Transaktion",
+    "text": "Hallo Kundensupport, ich habe eine Frage zur letzten Rechnung. Es scheint ein Fehler in der angegebenen Summe zu sein. K\u00f6nnten Sie das bitte \u00fcberpr\u00fcfen? Vielen Dank!",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Frage zu Lieferantenrechnung #4578",
+    "text": "Sehr geehrter Buchhaltungs-Support,\nich habe eine Frage zu der Lieferantenrechnung #4578 vom letzten Monat. K\u00f6nnten Sie mir bitte die Rechnungskopie sowie eine Aufschl\u00fcsselung der Kosten zukommen lassen? Ich bedanke mich im Voraus.\nMit freundlichen Gr\u00fc\u00dfen,\nAlexander Schulze",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "[Fehler] - Probleme mit FPGA Board",
+    "text": "Sehr geehrte Damen und Herren,\nmein FPGA Board funktioniert nicht ordnungsgem\u00e4\u00df. Es scheint sich nicht richtig zu initialisieren und erzeugt zuf\u00e4llige Fehler. Ich bitte um schnelle Hilfe.\nDanke.\nMichael Petersen",
+    "priority": 2,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Frage zur neuen Rechnung f\u00fcr Firebase Console",
+    "text": "Hallo Kundensupport, ich habe eine Frage zu unserer neuen Rechnung f\u00fcr die Firebase Console. K\u00f6nnt ihr den Firmenname auf '\u00d6zt\u00fcrk WebSolutions' \u00e4ndern? Es w\u00e4re toll, wenn ihr das f\u00fcr uns so einstellen k\u00f6nntet. Danke! Gr\u00fc\u00dfe, Rita \u00d6zt\u00fcrk",
+    "priority": 1,
+    "queue": "Software"
+  },
+  {
+    "subject": "Probleme mit meinem VR Headset - Bild flackert",
+    "text": "Sehr geehrte Damen und Herren,\nich habe letzten Monat ein VR Headset bei Ihnen gekauft und seit einigen Tagen flackert der Bildschirm unregelm\u00e4\u00dfig, was die Nutzung fast unm\u00f6glich macht. Ich habe das Headset bereits neu gestartet und verschiedene Kabel ausprobiert, aber ohne Erfolg. Ein Austausch oder eine Reparatur w\u00e4re sehr hilfreich.\nVielen Dank,\nElke Kaiser",
+    "priority": 2,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Zugriff verweigert auf GitHub \u2013 Dringende Kl\u00e4rung ben\u00f6tigt",
+    "text": "Sehr geehrte Damen und Herren, \nich habe gestern pl\u00f6tzlich keinen Zugriff mehr auf mein GitHub-Repository. Es scheint irgendetwas mit meinen Authentifizierungsdaten nicht zu stimmen, obwohl ich nichts ge\u00e4ndert habe. Ich muss dringend auf meine Codes zugreifen, da ich an einem wichtigen Projekt arbeite. \nBeste Gr\u00fc\u00dfe, \nHartmut Herrmann",
+    "priority": 3,
+    "queue": "Software"
+  },
+  {
+    "subject": "Mitarbeiteranfragen::IT-Support::Zugriffsrechte",
+    "text": "Sehr geehrte Damen und Herren,\nmein Name ist Thorsten Schmitz. Ich arbeite in der Buchhaltung und ben\u00f6tige dringend Zugriff auf die neuen Abrechnungsdokumente im System. Momentan kann ich nur auf die alten Daten zugreifen und meine Arbeit wird dadurch erheblich erschwert.\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung,\nThorsten Schmitz",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Frage zu Rechnungsformat",
+    "text": "Guten Tag,\nich habe eine Frage zu meiner letzten Rechnung. W\u00e4re es m\u00f6glich, die Rechnungsadresse f\u00fcr die n\u00e4chste Rechnung auf den Firmennamen 'TopDesign Solutions GmbH' zu \u00e4ndern? Es eilt nicht, w\u00fcrde das aber gerne f\u00fcr zuk\u00fcnftige Abrechnungen kl\u00e4ren.\nVielen Dank im Voraus und freundliche Gr\u00fc\u00dfe,\nManuel Aydin",
+    "priority": 1,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Soundkarte nach Installation fehlerhaft",
+    "text": "Guten Tag,\nich habe die von Ihnen gekaufte Soundkarte installiert, aber der Ton ist kratzig und hin und wieder f\u00e4llt er komplett aus. K\u00f6nnen Sie mir bitte weiterhelfen? Es ist keine zeitkritische Anfrage.\nVielen Dank,\nSilvia Pfeiffer",
+    "priority": 1,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Angebot f\u00fcr Softwareentwicklung erforderlich",
+    "text": "Hallo Team, ich ben\u00f6tige ein Angebot f\u00fcr die Entwicklung einer neuen Web-Anwendung und Mobile-App. K\u00f6nnt ihr mir dazu die Konditionen und m\u00f6glichen Starttermin zukommen lassen? Beste Gr\u00fc\u00dfe, Janine Aydin",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Dringend: Digital Signage startet nicht mehr",
+    "text": "Guten Tag, mein Digital Signage Bildschirm startet nach einem Update nicht mehr. Wir brauchen dringend eine L\u00f6sung, da das Ger\u00e4t t\u00e4glich genutzt wird. Mit freundlichen Gr\u00fc\u00dfen, Kurt Schr\u00f6der",
+    "priority": 3,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Frage zu Update f\u00fcr Business Planning Software",
+    "text": "Sehr geehrte Damen und Herren,\n\nich bin ein langj\u00e4hriger Benutzer Ihrer Business Planning-Software und habe k\u00fcrzlich festgestellt, dass ein Update verf\u00fcgbar ist. Leider kann ich das Update nicht installieren und brauche daher Ihre Unterst\u00fctzung. Bitte teilen Sie mir die n\u00e4chsten Schritte mit, um das Problem zu l\u00f6sen.\n\nVielen Dank und freundliche Gr\u00fc\u00dfe,\nKay K\u00f6hler",
+    "priority": 2,
+    "queue": "Software"
+  },
+  {
+    "subject": "Update-Anfrage: Maintenance Management",
+    "text": "Sehr geehrte Damen und Herren,\nk\u00f6nnten Sie mir bitte mitteilen, ob und wann ein Update f\u00fcr das Maintenance Management-Programm geplant ist? Ich habe gelesen, dass eine neue Version im Umlauf ist und m\u00f6chte sicherstellen, dass ich auf dem neuesten Stand bin.\nMit freundlichen Gr\u00fc\u00dfen,\nGisela Kruse",
+    "priority": 1,
+    "queue": "Software"
+  },
+  {
+    "subject": "Dringend \u2013 Sicherheitsproblem mit Email Security",
+    "text": "Sehr geehrtes Supportteam,\nmein Email Security-System scheint gehackt worden zu sein. Bitte helfen Sie schnell, damit keine Daten verloren gehen!\nGr\u00fc\u00dfe,\nHanna Ludwig",
+    "priority": 3,
+    "queue": "Software"
+  },
+  {
+    "subject": "Frage zum W-Lan meines E-Readers",
+    "text": "Hello Support-Team,\nich habe ein Problem mit meinem E-Reader. WLAN geht manchmal nicht. Was h\u00e4tte ich da machen k\u00f6nnen? Gruss, Nadja Hartmann",
+    "priority": 1,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Gehaltsabrechnung - Nachzahlungsanfrage",
+    "text": "Sehr geehrte Damen und Herren,\n\nich habe auf meiner letzten Gehaltsabrechnung festgestellt, dass mir \u00dcberstunden und Boni des letzten Quartals nicht gutgeschrieben wurden. Dies stellt mich vor einige finanzielle Schwierigkeiten. Ich bitte um schnellstm\u00f6gliche \u00dcberpr\u00fcfung und Korrektur.\n\nFreundliche Gr\u00fc\u00dfe,\nStefanie Hermann",
+    "priority": 2,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Dringend: Motherboard defekt - Ger\u00e4t startet nicht mehr",
+    "text": "Sehr geehrte Damen und Herren, \nmein Name ist Julia La und ich habe vor Kurzem ein Motherboard bei Ihnen gekauft. Leider zeigt es keinerlei Lebenszeichen mehr und mein PC l\u00e4sst sich nicht mehr einschalten. Das ist dringend, da ich meinen PC f\u00fcr meine Arbeit ben\u00f6tige. K\u00f6nnen Sie mir bitte schnellstm\u00f6glich weiterhelfen? Danke.\nMit freundlichen Gr\u00fc\u00dfen,\nJulia La",
+    "priority": 3,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Probleme mit Smart-Kinderwagen",
+    "text": "Sehr geehrte Damen und Herren,\n\nich habe vor kurzem einen Smart-Kinderwagen bei Ihnen erworben und habe folgendes Problem: Die Sensoren zur Vermeidung von Hindernissen scheinen nicht richtig zu funktionieren. Der Wagen stoppt nicht automatisch. K\u00f6nnen Sie mir bitte weiterhelfen?\n\nViele Gr\u00fc\u00dfe,\nManfred Ra\n\nKundennummer: 237894",
+    "priority": 2,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Dringend: Rechnungsproblem bei meiner letzten Bestellung",
+    "text": "Sehr geehrte Damen und Herren, meine Rechnung f\u00fcr die letzte Bestellung (Bestell-Nr. 1028374) ist fehlerhaft. Ich ben\u00f6tige dringend eine Korrektur. Vielen Dank. Mit freundlichen Gr\u00fc\u00dfen, Anke Schr\u00f6der",
+    "priority": 3,
+    "queue": "Buchhaltung"
+  },
+  {
+    "subject": "Wichtig! \u2013 RFID Reader funktioniert nicht mehr!",
+    "text": "Sehr geehrte Damen und Herren,\n\nmein Name ist Murat Mayer und ich habe ein ernstes Problem mit Ihrem RFID Reader. Pl\u00f6tzlich erkennt das Ger\u00e4t keine Tags mehr und ich brauche es dringend f\u00fcr die Inventarisierung. Bitte helfen Sie mir umgehend, da der Betrieb sonst stillsteht.\n\nVielen Dank,\nMurat Mayer",
+    "priority": 3,
+    "queue": "Hardware"
+  },
+  {
+    "subject": "Feedback zu meiner letzten Rechnung",
+    "text": "Sehr geehrte Damen und Herren,\nIch m\u00f6chte Ihnen ein kurzes Feedback zu meiner letzten Rechnung geben. Diese war einwandfrei und klar verst\u00e4ndlich. Vielen Dank f\u00fcr den exzellenten Service!\nMit freundlichen Gr\u00fc\u00dfen,\nFranz Kruse",
+    "priority": 1,
+    "queue": "Buchhaltung"
+  }
+]

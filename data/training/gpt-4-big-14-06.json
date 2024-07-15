@@ -1,0 +1,3002 @@
+[
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Maintenance Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: Maintenance Management Critical Failure",
+    "text": "Hello Support Team,\nWe're experiencing a critical issue with our Maintenance Management software. The system crashed during our busiest hour, and we cannot access any maintenance schedules or submit new tickets. This is affecting crucial operations and needs immediate attention. Please assist ASAP.\nBest,\nJohn Doe"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Gaming PC",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Grafikkarten-Problem bei Gaming PC",
+    "text": "Hallo Support, meine Grafikkarte l\u00e4uft seit dem letzten Update \u00fcberhitzt. Was kann ich tun? Gr\u00fc\u00dfe, Lena Schmidt"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "SolarWinds",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical Issue: SolarWinds Service Failure!",
+    "text": "Dear Support Team,\n\nWe've encountered a critical issue with SolarWinds. Our monitoring services have abruptly stopped, and we're unable to reboot the system. The error log is attached for your perusal. This is affecting our operations severely, and we need an immediate resolution to avoid major disruptions.\n\nRegards,\nAlice Monroe\nSysAdmin"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development::Career Counseling",
+    "language": "en",
+    "subject": "Question about Career Counseling Program",
+    "text": "Dear Accounting Team, \nI am considering options for career development and came across your Career Counseling Program. I would like to inquire about the specifics of this program. Can you provide details on how it works, the process for enrolling, and any costs involved? Additionally, is there a recommendation or priority for employees at certain levels? \nThank you, \nJessica Harper"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Accounting Policies",
+    "language": "en",
+    "subject": "Clarification on Updated Travel Expense Policy",
+    "text": "Hi Team, can you provide more details on the new travel expense policy changes?"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Freehostia",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Small bug in Freehostia - text alignment",
+    "text": "Hola equipo de soporte,\n\nMe he dado cuenta de un peque\u00f1o fallo en Freehostia. El texto en las etiquetas de algunos botones no est\u00e1 alineado correctamente en la \u00faltima versi\u00f3n. No es urgente pero ser\u00eda genial si pudieran corregirlo en una futura actualizaci\u00f3n.\n\nSaludos,\nCarlos Mendoza"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Grafana",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Error grave en el dashboard de Grafana",
+    "text": "Hola equipo de soporte, desde ayer nuestro dashboard de Grafana no carga y necesitamos monitorizar los servicios hoy urgentemente. Hemos intentado reiniciar y no funciona. Necesitamos una soluci\u00f3n inmediata."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Huion Inspiroy H1060P",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas con la conexi\u00f3n de Huion Inspiroy H1060P",
+    "text": "Hola equipo de soporte, Estoy teniendo problemas para conectar mi Huion Inspiroy H1060P a mi PC. A veces pierde la conexi\u00f3n y otras veces no es detectado por completo. Ya prob\u00e9 diferentes puertos USB y cables, pero el problema sigue. \u00bfPodr\u00edan ayudarme con una soluci\u00f3n? Gracias de antemano."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "FL Studio",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con FL Studio al importar samples",
+    "text": "Buenos d\u00edas, tengo un problema al intentar importar samples en FL Studio. La aplicaci\u00f3n se cuelga constantemente. \u00bfPodr\u00edan ayudarme?"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "NFT Marketplace",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Bug bei Transaktionen im NFT Marketplace",
+    "text": "Hallo Support-Team, wir haben bemerkt, dass es seit dem letzten Update der Software NFT Marketplace Probleme bei den Transaktionen gibt. Einige K\u00e4ufe werden nicht korrekt registriert, und es gibt Abweichungen in den Verkaufsmengen. K\u00f6nnten Sie bitte zeitnah untersuchen, wo das Problem liegt? Unsere Nutzer beschweren sich vermehrt und das wirkt sich negativ auf die Nutzerzufriedenheit aus. Vielen Dank."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical",
+    "language": "es",
+    "subject": "Solicitud urgente: Problema t\u00e9cnico",
+    "text": "Estimado equipo de soporte, tengo un problema con el acceso a mi cuenta de empleado. No puedo iniciar sesi\u00f3n y necesito acceder urgentemente a los documentos de n\u00f3mina. El sistema me muestra un error 'Usuario no encontrado'. Podr\u00edan ayudarme lo antes posible? Es cr\u00edtico para cumplir con los plazos. Gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Learning Management System",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "[Wichtig] LMS-System nicht nutzbar nach letztem Update",
+    "text": "Sehr geehrtes Support-Team,\nnach dem letzten Update unserer Lernplattform Learning Management System k\u00f6nnen sich die Nutzer nicht mehr anmelden. Alle Kurse und Daten sind somit nicht zug\u00e4nglich. Dies beeintr\u00e4chtigt den laufenden Betrieb erheblich. Ben\u00f6tigen umgehend Unterst\u00fctzung!\nDanke!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Feature Phone",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Problem with Feature Phone Speaker",
+    "text": "Hello Support Team,\nI purchased a Feature Phone from your store last month. Recently, I've been experiencing issues with the speaker; the sound is very unclear and often distorts during calls. I tried resetting the phone and checking the volume settings but the problem persists. Could you please assist me in solving this issue?\nBest regards,\nEleanor Whitman"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety::Health Checks",
+    "language": "en",
+    "subject": "Health Check Documentation Needed",
+    "text": "Dear Team, I need an update on the health check protocols and results for our team. Please provide the necessary documentation promptly."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "IP PBX",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "IP PBX Hardware: Kleinere technische Fragen",
+    "text": "Sehr geehrte Damen und Herren, ich benutze Ihre IP PBX Hardware und habe ein paar kleinere R\u00fcckfragen zu einigen Funktionen: Gibt es eine M\u00f6glichkeit, die sprachliche Ausgabe anzupassen? Und wie kann ich festlegen, dass bestimmte Nummern immer Priorit\u00e4t haben? Vielen Dank f\u00fcr Ihre Hilfe, Mit freundlichen Gr\u00fc\u00dfen, Robert M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries::Labor Law",
+    "language": "en",
+    "subject": "Question about labor law lease term notice",
+    "text": "Dear accounting support, can you explain the required notice period if an employment contract is terminated from our end? Regards, John"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Complaints",
+    "language": "es",
+    "subject": "Consulta urgente por sobrecargo en la factura",
+    "text": "Hola equipo de contabilidad,\n\nRecientemente not\u00e9 un sobrecargo inesperado en mi factura mensual y no entiendo el motivo. Intent\u00e9 contactar a trav\u00e9s del n\u00famero de tel\u00e9fono al cliente hospedaje, pero no recib\u00ed respuesta alguna. Me gustar\u00eda que revisaran el detalle de la factura y corregir cualquier error que pudiese haber. Espero su pronta respuesta.\n\nGracias y saludos,\nCarlos Rodriguez"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Quote Requests",
+    "language": "en",
+    "subject": "Urgent: Need Quote for Custom Software Development",
+    "text": "Dear Support Team, please provide a detailed quote for a custom software development project. It\u2019s crucial for our operations, and we need it ASAP. The project includes a web application and mobile integration. Our company relies on quick turnaround times. Thank you!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Network Issues",
+    "language": "fr",
+    "subject": "Demande concernant la prochaine facture",
+    "text": "Salut l'\u00e9quipe, Je me demande s'il serait possible d'utiliser le nom de notre nouvelle soci\u00e9t\u00e9 pour la prochaine facture: 'TechLinks SARL' au lieu de l'ancien. C'est une petite mise \u00e0 jour mais importante pour notre comptabilit\u00e9. Merci d'avance! Bien cordialement, Marc Leblanc"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Sitecore Experience Platform",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Dringend: Sitecore Experience Platform verst\u00fcrzt nach dem Starten",
+    "text": "Hallo Support-Team,\nbereits nach dem Starten st\u00fcrzt unsere Sitecore Experience Platform gleich ab. Dies gef\u00e4hrdet unseren Dienstbetrieb erheblich. Bitte dringend helfen!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "CPU Cooler",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me urgent concernant le refroidisseur CPU",
+    "text": "Bonjour,\\r\\n\\r\\nMon refroidisseur de CPU vient soudainement de tomber en panne et le processeur surchauffe rapidement. J'ai essay\u00e9 de le red\u00e9marrer plusieurs fois sans succ\u00e8s. Une intervention rapide serait appr\u00e9ci\u00e9e!\\r\\n\\r\\nCordialement, Marc Petit"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Academy of Mine",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Academy of Mine - Error beim Hochladen von Kursen erh\u00e4ltlich",
+    "text": "Hello support team,\nI've been running into an error while trying to upload new courses in Academy of Mine. The system freezes and sometimes shows an \u2018upload failed\u2019 message. Can you help?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries",
+    "language": "fr",
+    "subject": "Requ\u00eate l\u00e9gale pour les fiches de paie",
+    "text": "Bonjour, j'ai remarqu\u00e9 une erreur dans mes fiches de paie des trois derniers mois. Le montant des cotisations sociales ne correspond pas. Merci de v\u00e9rifier et corriger urgemment cette situation. Bien cordialement, Jean Dupont"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development::Training",
+    "language": "de",
+    "subject": "Schulung beziehungsweise Employee Development f\u00fcr 2023",
+    "text": "Sehr geehrtes Buchhaltungs-Team, im Zuge unserer Weiterentwicklung als Firma m\u00f6chten wir diverse Schulungen f\u00fcr das Jahr 2023 planen. K\u00f6nnten Sie uns bitte Informationen und m\u00f6glicherweise Angebote \u00fcber verf\u00fcgbaren Kurse und seminare f\u00fcr unsere Buchhaltung schicken? Vielen Dank im Voraus."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Function Generator",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "G\u00e9n\u00e9rateur de fonctions d\u00e9fectueux - ne s'allume plus",
+    "text": "Bonjour, J'ai r\u00e9cemment achet\u00e9 un g\u00e9n\u00e9rateur de fonctions chez vous et il semble maintenant qu'il ne fonctionne plus. Il ne s'allume pas malgr\u00e9 plusieurs tentatives et tests sur plusieurs prises. Cet appareil est essentiel pour mes projets en cours. Pouvez-vous v\u00e9rifier cela d'urgence, s'il vous pla\u00eet ? Merci."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Purchasing Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: Purchasing Software Crash on Startup - Immediate Assistance Needed",
+    "text": "Dear Support Team,\nOur Purchasing Software crashes immediately upon startup. We have a critical deadline, and this issue is putting a halt to our operations. We've already reinstalled, to no avail. Please address this as soon as possible.\nSincerely,\nLinda Bennett, TechSource Inc.\nClient ID: TS893456"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "MacBook Air",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "MacBook Air battery issue",
+    "text": "Hello Tech Support, I am encountering an issue with my MacBook Air. The battery drains extremely fast, even when it's not in use. I've tried resetting the SMC and NVRAM as recommended online, but the problem persists. Could you please assist me with this? I rely on this laptop for work. Thanks in advance, Peter Jordan"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "en",
+    "subject": "Printer Xerox WorkCentre 6515 - Fuser Unit Error",
+    "text": "Hello Team, the Xerox WorkCentre 6515 printer in the office shows an error related to the fuser unit. It fails to print and displays error code 010-320. Any suggestions for fixing this? Thanks, Dave."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "OpenShift",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Urgente: Problema cr\u00edtico con OpenShift",
+    "text": "Saludos, estamos enfrentando un problema serio con la plataforma OpenShift. Nuestros servidores de producci\u00f3n est\u00e1n ca\u00eddos y necesitamos asistencia inmediata para solucionar esto. Gracias."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General",
+    "language": "en",
+    "subject": "Issue with expense report submission",
+    "text": "Dear Accounting Team, I am having trouble submitting my expense report for last month. The system prompts errors. Please resolve this urgently."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "DAS",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "DAS device update doesn't work",
+    "text": "Hi there customer support,\nI'm facing issues attempting to update my DAS device. Every time I try, it either stalls or fails. I've checked the cables, restarted my system numerous times including the DAS device, uninstalled and reinstalled the software but to no avail. It's bit frustrating; can you please look into this?\nBest Regards,\nKevin Martin"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Insurance Analytics",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Insurance Analytics no se inicia despu\u00e9s de actualizar",
+    "text": "Recientemente actualic\u00e9 Insurance Analytics a la \u00faltima versi\u00f3n y ahora la aplicaci\u00f3n no arranca. Necesito acceder a mis datos cuanto antes, ya que los uso diariamente para mis an\u00e1lisis. Por favor ay\u00fadenme a resolverlo r\u00e1pidamente."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Excel",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Dringendes Excel Problem - Makros funktionieren nicht mehr",
+    "text": "Seit dem letzten Windows-Update funktionieren meine Excel-Makros nicht mehr korrekt. Ich ben\u00f6tige dringend Unterst\u00fctzung!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical",
+    "language": "fr",
+    "subject": "Changement d'adresse de facturation souhait\u00e9",
+    "text": "Bonjour, pourriez-vous mettre \u00e0 jour notre adresse de facturation avec la nouvelle : 68 Rue de Rivoli, 75001 Paris ? Merci beaucoup."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "P2P Lending",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Kleine Unregelm\u00e4\u00dfigkeiten bei P2P Lending Interface",
+    "text": "Hallo Kundensupport, mir ist in letzter Zeit eine kleine Unregelm\u00e4\u00dfigkeit in Ihrem P2P Lending Interface aufgefallen. Bei der \u00dcbersicht der Transaktionen scheint es, als ob einige Daten doppelt angezeigt werden. Es ist nichts Dringendes, aber ich wollte es trotzdem zu Ihrer Kenntnis bringen. Vielen Dank im Voraus f\u00fcr Ihre M\u00fche. Mit besten Gr\u00fc\u00dfen, Finn Meier"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Mac Mini",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Mac mini - USB ports intermittently fail",
+    "text": "Dear Support Team, I\u2019ve been experiencing intermittent connectivity issues with the USB ports on my Mac mini (purchased from your store, Order Number #1234-567), which creates disruptions in my workflow. I\u2019ve checked the cables and peripherals, but the issue persists. Can you provide guidance or assistance on this matter? Thanks, John Smith"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Building Automation",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Kritischer Fehler in Building Automation",
+    "text": "Sehr geehrte Damen und Herren,\nunsere Produktionslinie ist durch einen kritischen Fehler in der Software Building Automation komplett stillgelegt. Ein Neustart oder eine Neuinstallation bringen keine L\u00f6sung. Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um den Betrieb wieder aufzunehmen. Vielen Dank im Voraus f\u00fcr Ihre schnelle Hilfe.\nMit freundlichen Gr\u00fc\u00dfen,\nFritz M\u00fcller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "GSM Module",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "GSM Module Not Syncing Properly",
+    "text": "Hi Support Team, I'm encountering an issue with my GSM module. It's intermittently failing to sync with the network. I've tried resetting, but the issue persists. Any suggestions?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "osCommerce",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "osCommerce crash after module installation \u2013 urgent help needed",
+    "text": "Hello Support Team,\nAfter installing a new payment gateway module, our osCommerce system crashes every time we try to go to the checkout page. This issue is heavily impacting our sales. We're in the middle of a big promotion and need this fixed urgently.\nBest Regards,\nMichael Johnson"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Pinterest Analytics",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Instagram Analytics Tool/Pinterest App won't load data reports properly, urgent resolution needed",
+    "text": "Hi Team, Our Pinterest Analytics dashboard has stopped loading data reports, and we rely heavily on this for week-over-week social media analysis. We've tried rebooting, re-installations, but nothing helps. Could you kindly expedite a fix? Best, Jerome Meyers, Manager of Marketing."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Legal Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Fehler bei Nutzung von Legal Management",
+    "text": "Guten Tag,\nmir ist ein kleiner Fehler in der Legal Management Software aufgefallen. Wenn ich auf das Men\u00fc 'Aktenverzeichnis' klicke, erscheint eine Fehlermeldung, und die Applikation st\u00fcrzt ab. Das passiert ungef\u00e4hr jedes dritte Mal. Vielleicht k\u00f6nnten Sie das bei Gelegenheit \u00fcberpr\u00fcfen?\nGr\u00fc\u00dfe, \nAlex M\u00fcller"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Avast Free Antivirus 2021",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "[URGENT] Avast Free Antivirus 2021 blocks system files",
+    "text": "Dear Support Team,\n\nAfter the latest update of Avast Free Antivirus 2021, my system has been blocking essential system files and a critical application for my work is unable to run at all. I've tried disabling real-time protection and reinstalled the app, but the problem persists. This issue needs immediate attention as my productivity is severely impacted.\n\nBest regards,\nJohn Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Data Privacy Inquiries",
+    "language": "fr",
+    "subject": "Demande de confidentialit\u00e9 des donn\u00e9es - Client #54321",
+    "text": "Bonjour, \nJe souhaite obtenir des informations sur la mani\u00e8re dont vous stockez et prot\u00e9gez mes donn\u00e9es personnelles. De plus, j'aimerais conna\u00eetre les mesures que vous prenez pour garantir la s\u00e9curit\u00e9 de ces donn\u00e9es. \nMerci de me r\u00e9pondre rapidement.\nCordialement, \nMarie Dupont"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "AML Compliance",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "AML Compliance no verifica transacciones autom\u00e1ticamente",
+    "text": "Estimado equipo de soporte, necesitamos ayuda urgente. AML Compliance ha dejado de verificar las transacciones autom\u00e1ticamente, lo cual es cr\u00edtico para nuestras operaciones diarias. Hemos reiniciado el sistema pero el problema persiste. \u00bfPodr\u00edan revisar esto a la brevedad posible? Gracias, Hugo Fern\u00e1ndez"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "AWS",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Feature-Anfrage: Automatische Backups f\u00fcr AWS",
+    "text": "Hallo Support-Team, ich w\u00fcrde gerne wissen, ob es m\u00f6glich ist, eine Funktion f\u00fcr automatische Backups in AWS zu integrieren. Das w\u00fcrde unser Management erheblich erleichtern. K\u00f6nntet Ihr mich dar\u00fcber informieren, was daf\u00fcr notwendig ist und ob zus\u00e4tzliche Kosten anfallen? Danke."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Endpoint Security",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical: Endpoint Security Breach Detected",
+    "text": "Dear Support, we have detected a serious security breach in our Endpoint Security software. Multiple clients report unauthorized access and data leaks. We need urgent assistance to mitigate the issue and prevent further damage. Please respond ASAP. Thanks, John Doe, IT Department."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Mauspad",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Mousepad hebt auf der rechten Seite leicht ab",
+    "text": "Hello Support Team, I recently purchased a mousepad from your company, and I've only been using it for a week. However, I've noticed that the right side of the pad slightly lifts off the surface when in use, which impacts the accuracy of my mouse movements. Could you assist me in resolving this issue or potentially arrange a replacement? Thanks and regards, Lisa M."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Sales Forecasting",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema cr\u00edtico con Sales Forecasting",
+    "text": "La aplicaci\u00f3n Sales Forecasting no permite iniciar sesi\u00f3n."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Purchasing Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Software de Compras no responde",
+    "text": "Buenos d\u00edas, he encontrado un problema con la Software de Compras que adquiri de ustedes. De repente ha dejado de responder y es vital para nuestras operaciones diarias. Necesitamos asistencia inmediata. Muchas gracias, Jaime Gallardo"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "es",
+    "subject": "Fallo urgente con impresora HP-Mod12345",
+    "text": "Hola equipo de soporte, desde hace 2 d\u00edas nuestra impresora HP-Mod12345 dej\u00f3 de funcionar. La necesitamos urgente para imprimir documentos esenciales. \u00bfPodr\u00edan ayudarnos a resolverlo? Gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Carbon Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "\u00a1Urgente! Problema con Carbon Management",
+    "text": "Hola, despu\u00e9s de la \u00faltima actualizaci\u00f3n, nuestro sistema de Carbon Management ha dejado de funcionar. Es esencial para nosotros y necesitamos una soluci\u00f3n cr\u00edtica."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Oracle Database 19c",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Data access issue \u2013 Oracle Database 19c",
+    "text": "Dear Support Team,\nWe are experiencing a critical issue with Oracle Database 19c members unable to access data. This is urgent as it impedes our workflow. Please assist promptly.\nThank you,\nJames Norton, IT Administrator, Acme Corp."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Microwave Antenna",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Antenne micro-ondes - Petite fonctionnalit\u00e9 saccad\u00e9e",
+    "text": "Bonjour, j'ai remarqu\u00e9 un petit probl\u00e8me avec l'antenne micro-ondes. Parfois, elle cesse temporairement de fonctionner avant de reprendre normalement. Que puis-je faire?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart-Beleuchtung",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Smart-Beleuchtung: Probleme mit Verbindung",
+    "text": "Hello Support Team,\nI am experiencing an issue with my Smart-Beleuchtung system. It repeatedly loses connection with my phone and other home devices. I have tried resetting the system and even updated the firmware, but the problem persists. Could you please help me resolve this issue? Your assistance would be greatly appreciated.\nBest regards,\nOliver H\u00e4usler"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Drug Discovery",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Pregunta sobre actualizaci\u00f3n Drug Discovery",
+    "text": "Estimados, me gustar\u00eda saber si hay alguna actualizaci\u00f3n pr\u00f3xima para el software Drug Discovery que solucione algunos errores menores que he encontrado. No es urgente, pero apreciar\u00eda una respuesta."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Cash Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical Issue with Cash Management Software",
+    "text": "Dear Support Team,\n\nMy Cash Management software crashed multiple times today, rendering it completely unusable. This software is vital for our daily financial operations and immediate intervention is necessary. Please resolve this issue at the earliest.\n\nKind regards,\nSarah Jensen"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Complaints",
+    "language": "de",
+    "subject": "Beschwerde bez\u00fcglich langsamer Antwortzeiten",
+    "text": "Sehr geehrtes Support-Team, leider musste ich feststellen, dass meine letzten Anfragen bisher unbeantwortet blieben. Ich erwartete eine zeitnahe Hilfe f\u00fcr mein Anliegen, kann jedoch keinen Fortschritt erkennen. So ist es schwierig, unsere weitere Zusammenarbeit zu planen. Bitte melden Sie sich unverz\u00fcglich, um den Vorgang zu kl\u00e4ren. Mit besten Gr\u00fc\u00dfen, Laura M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Payroll",
+    "language": "en",
+    "subject": "Urgent: Payroll Discrepancy for April",
+    "text": "Dear Accounting Team,\n\nI have noticed a discrepancy in my April payroll. My overtime hours worked have not been correctly accounted for, leading to underpayment. This must be urgently rectified, as it impacts my financial planning for the month.\n\nBest regards,\nJohn Doe\nEmployee ID: 4729S\nPay Period: 04/2023"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Festplatte",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "External Hard Drive not recognized",
+    "text": "Hi team, I recently purchased an external hard drive (Order #46392) from your store, but it seems my computer is not recognizing the drive. I've tried different USB ports and another computer to no avail. The drive's light is on, indicating power, but it's not showing up in My Computer. I need the data ASAP. Could you please guide me? Thanks, Michael. (Customer #70612)"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Oracle Commerce",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: Oracle Commerce failing to load after recent update",
+    "text": "Dear Support Team, after applying the most recent update, our Oracle Commerce system fails to load, displaying a critical error. This affects our main e-commerce website. Immediate assistance needed. Regards, Kevin Schmidt"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Yearn.finance",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Annulation automatique des transactions - Yearn.finance urgent",
+    "text": "Bonjour, je rencontre des probl\u00e8mes critiques avec Yearn.finance. Mes transactions sont automatiquement annul\u00e9es et je perds des fonds \u00e0 chaques fois. Une aide imm\u00e9diate est n\u00e9cessaire"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Machine Learning",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Machine Learning Software startet nicht mehr nach Update",
+    "text": "Hallo Kundensupport, \nwir haben gestern das neueste Update f\u00fcr Ihre Machine Learning Software installiert und seitdem startet die Anwendung nicht mehr. Wir nutzen die Software f\u00fcr wichtige Analysen und stehen praktisch still. Benutzer ID: ML-210987. Update wurde auch nach Anleitung erneut installiert ohne Erfolg. Dringende Hilfe wird ben\u00f6tigt! \nVielen Dank im Voraus, \nVerena Schr\u00f6der"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "USB-Hub",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "URGENT: USB-HUB malfunctioning - Need Assistance ASAP",
+    "text": "Dear Support Team,My new USB-Hub, Model Q35-T, constantly disconnects and causes all my peripherals to hang. I've tried different computers and cables. Please help me with a solution as soon as possible as I need it for my work.Best regards,John Carter"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Grafiktablett",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Graphics Tablet",
+    "text": "The stylus pressure sensitivity on my drawing tablet isn't working correctly."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Accounting Policies",
+    "language": "en",
+    "subject": "Urgent: Clarification on New Accounting Policies",
+    "text": "Hello Team, Can someone explain the recent changes in the accounting policies immediately?"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Google Translate",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me avec Google Translate - inexactitudes",
+    "text": "Bonjour, la traduction en fran\u00e7ais via Google Translate montre beaucoup d'inexactitudes depuis hier. Pouvez-vous v\u00e9rifier cela, s'il vous pla\u00eet ?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries",
+    "language": "de",
+    "subject": "Dringende \u00dcberpr\u00fcfung meiner letzten Rechnung",
+    "text": "Sehr geehrte Damen und Herren, ich habe eine Diskrepanz in meiner letzten Rechnung festgestellt. Laut meinen Aufzeichnungen entspricht der Betrag nicht dem vereinbarten Preis. Bitte pr\u00fcfen Sie dies dringend und korrigieren Sie gegebenenfalls den Fehler. Teilen Sie mir schnellstm\u00f6glich das Ergebnis Ihrer \u00dcberpr\u00fcfung mit. Vielen Dank!"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Oracle Enterprise Manager",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Oracle Enterprise Manager Performance",
+    "text": "Hi Support, I've been experiencing performance issues recently with Oracle Enterprise Manager. It's very sluggish, and some operations take longer than expected. Has there been similar feedback, or are there any best practices to enhance the performance? Thanks, Adam Jones"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Barcode-Scanner",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Barcode scanner malfunction when scanning codes",
+    "text": "Dear Support Team, \n\nOur latest batch of barcode scanners is having a strange issue. About 50% of the time, when scanning barcodes, the scanner beeps but nothing is registered. We've attempted multiple reboots and firmware updates without success. Could you please provide some further troubleshooting steps or a potential solution?\n\nThanks,\nMia Roberts"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Omni Antenna",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issues with Omni Antenna - Poor Signal",
+    "text": "Hi Team, I've been experiencing poor signal strength with the Omni Antenna I purchased. Despite several troubleshooting attempts, the issue persists. Can you please assist me with this? Regards, John Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Technical Support",
+    "language": "en",
+    "subject": "Invoice Adjustment Request",
+    "text": "Dear Customer Support,\nI recently received my latest invoice (#123456) and noticed an error. The invoice includes two items that were not part of my original order. Can you please review and adjust the invoice accordingly? Your prompt assistance would be greatly appreciated.\nBest regards,\nJohn Doe"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "KVM Switch",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with new KVM Switch",
+    "text": "Hi Support Team, I recently purchased a KVM Switch from your company and am experiencing issues. The switch occasionally fails to recognize the connected keyboards and mice intermittently, disrupting my work. I've tried resetting it and updating the firmware as per the manual, but the issue persists. Can someone please assist me in resolving this as soon as possible? Thanks, John Smith"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "es",
+    "subject": "Solicitud urgente cambio direcci\u00f3n de facturaci\u00f3n",
+    "text": "Buenos d\u00edas, requiero con urgencia cambiar la direcci\u00f3n de facturaci\u00f3n registrada actualmente. La nueva direcci\u00f3n es Calle P\u00e9rez 456, 28013 Madrid. Espero una respuesta r\u00e1pida, muchas gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "BigCommerce Control Panel",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Sistema BigCommerce Control Panel detenido - Ayuda urgente",
+    "text": "Hola equipo de soporte, nuestro sistema BigCommerce Control Panel ha dejado de funcionar inesperadamente hoy y estamos en medio de un lanzamiento importante de un nuevo producto. Todo nuestro proceso de ventas est\u00e1 detenido. Necesitamos asistencia inmediata para resolver este problema y reanudar las operaciones lo antes posible."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Oracle VM VirtualBox",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Oracle VM VirtualBox - Fehler bei Netzwerkverbindung",
+    "text": "Sehr geehrter Support, seit gestern funktioniert die Netzwerkverbindung in Oracle VM VirtualBox nicht mehr. Neustarts und Neuinstallationen haben nicht geholfen. Dringende Hilfe ben\u00f6tigt! Beste Gr\u00fc\u00dfe, Max Schr\u00f6der"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "SFX-Netzteil",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Problem mit meinem SFX-Netzteil",
+    "text": "Sehr geehrte Damen und Herren, mein SFX-Netzteil zeigt unregelm\u00e4\u00dfige Spannungsabf\u00e4lle, wodurch mein System pl\u00f6tzlich einfriert. Das Netzteil ist etwa sechs Monate alt. K\u00f6nnen Sie mir bitte weiterhelfen? Vielen Dank!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Product Inquiries",
+    "language": "de",
+    "subject": " Anfrage: Rabatte und Sonderkonditionen f\u00fcr Adobe Illustrator 2023",
+    "text": "Sehr geehrte Damen und Herren,\nich habe eine Frage bez\u00fcglich m\u00f6glicher Rabatte oder Sonderkonditionen beim Erwerb von Adobe Illustrator 2023 f\u00fcr Gesch\u00e4ftskunden. Bitte informieren Sie mich \u00fcber Ihre Angebote.\nMit freundlichen Gr\u00fc\u00dfen,\nMax Muster"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Oracle Commerce",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Oracle Commerce - Schwerwiegender Fehler",
+    "text": "Unsere Oracle Commerce Plattform ist abgest\u00fcrzt, bitte dringend um Unterst\u00fctzung. Fehlercodes anbei!"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Access",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Probleme mit Microsoft Access - Formular st\u00fcrzt ab",
+    "text": "Sehr geehrte Damen und Herren,\nich habe zurzeit Schwierigkeiten mit meiner Microsoft Access Anwendung. Beim \u00d6ffnen eines spezifischen Formulars kommt es st\u00e4ndig zu einem Absturz. Obwohl ich mehrere Datenbankreparaturen durchgef\u00fchrt habe, tritt das Problem weiterhin auf. K\u00f6nnen Sie mir bitte weiterhelfen?\nBeste Gr\u00fc\u00dfe,\nNiclas Schuster"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Inventor",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Inventor st\u00fcrzt bei Speichern ab \u2013 Dringend!",
+    "text": "Sehr geehrte Damen und Herren, mein Inventor st\u00fcrzt beim Speichern jeder Datei ab. Ich muss dringend weiterarbeiten und ben\u00f6tige sofortige Unterst\u00fctzung. Danke im Voraus! Freundliche Gr\u00fc\u00dfe, Andreas M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety",
+    "language": "en",
+    "subject": "Question regarding Health and Safety protocol updates",
+    "text": "Hi Support Team,\nCan you provide detailed information on recent updates to the health and safety protocols? Specifically, are there new guidelines for ergonomic workspace setup and mental health resources? Our team needs this info for compliance purposes.\nThank you,\nRosie"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Udemy",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Udemy - Issue with Progress Tracking",
+    "text": "Hi Support Team,I've noticed that the progress tracking for my Udemy courses isn't working correctly. Some completed videos are not marked as finished, making it hard to keep track of what's remaining.It's important, but no urgency needed. Could you look into this and help resolve the issue? Thanks in advance,- Michael H."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "en",
+    "subject": "Invoice Query: Changing Corporate Billing Details",
+    "text": "Dear Support Team,\nI am writing to request a modification in our corporate billing details for future transactions. Please update your records to the following: Tech Innovators Inc., 123 Silicon Valley, Suite 300, San Francisco, CA 90210. Your prompt attention to this matter would be greatly appreciated.\nSincerely, Alex Carter"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "4K-Webcam",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con Webcam 4K",
+    "text": "Buenas tardes, compr\u00e9 una Webcam 4K de su tienda y he estado experimentando algunos problemas. La c\u00e1mara no se est\u00e1 encendiendo correctamente y a veces deja de funcionar inesperadamente durante las videollamadas. Tambi\u00e9n he notado una baja calidad de imagen en ciertas situaciones. \u00bfPodr\u00edan ayudarme a resolver esto?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "AMD Ryzen 9 5950X",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema de sobrecalentamiento con AMD Ryzen 9 5950X",
+    "text": "Hola equipo de soporte, he notado que mi procesador AMD Ryzen 9 5950X se est\u00e1 sobrecalentando extra\u00f1amente bajo cargas de trabajo. He revisado el sistema de enfriamiento y no encuentro errores evidentes. \u00bfPodr\u00edan ayudarme a resolver este problema?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development::Career Counseling",
+    "language": "en",
+    "subject": "Inquiry about Career Development Sessions",
+    "text": "Dear HR Team,\nI'm interested in career counseling sessions to discuss my professional growth and development opportunities. Do we offer such services internally or should I seek external advice?\nKind regards,\nEmily Brown"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General",
+    "language": "en",
+    "subject": "Request for Salary Statement - John Doe",
+    "text": "Dear HR Team,\nI hope this email finds you well. I am writing to request a salary statement for the past 3 months. I need this document for my loan application.\nThank you in advance for your prompt assistance.\nBest regards,\nJohn Doe"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Robot Vacuum",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Robot Vacuum funktioniert nicht nach Update",
+    "text": "Der Staubsauger startet nicht mehr nach dem letzten Update."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "NFC Tag",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with NFC Tag reading",
+    "text": "Just received my NFC Tag but it's faulty  - what should I do next?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Software Issues",
+    "language": "en",
+    "subject": "Payroll App Issue - Urgente Hilfe ben\u00f6tigt",
+    "text": "Good day, our payroll software stopped working suddenly. Employees cannot log in to view payslips. Immediate assistance needed."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Mobile Security",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me critique de Mobile Security - D\u00e9connections fr\u00e9quentes",
+    "text": "Bonjour, depuis la derni\u00e8re mise \u00e0 jour, mon application Mobile Security subit des d\u00e9connexions fr\u00e9quentes sur mon appareil. Utilisant cette application pour des op\u00e9rations sensibles, cela repr\u00e9sente un gros risque. Pouvez-vous r\u00e9soudre cela d'urgence ? Mon num\u00e9ro de client: 12345678. Merci d'avance."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "RapidMiner",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Frage: RapidMiner Update",
+    "text": "Hallo Support-Team, k\u00f6nnt ihr pr\u00fcfen, ob ein Update auf die neueste RapidMiner-Version f\u00fcr unser System notwendig ist? Danke!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety::Health Checks",
+    "language": "en",
+    "subject": "Health Check Inquiry - Upcoming Schedule",
+    "text": "Hello HR Team,\nCould you please provide the schedule for upcoming health checks for this quarter? Also, how can employees book their slots? Any updates or changes in policy we need to be aware of? Thanks!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "CPU",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "CPU overheating despite cooling system",
+    "text": "Hello Team, For few days, my CPU seems to be overheating even though I have a dedicated cooling system installed. Restarts frequently. Could it be a hardware issue?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Sales Forecasting",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me crucial : Sales Forecasting - plantages r\u00e9p\u00e9t\u00e9s",
+    "text": "Bonjour, Nous rencontrons des difficult\u00e9s majeures avec le logiciel Sales Forecasting. Il se plante syst\u00e9matiquement chaque fois que nous tentons de g\u00e9n\u00e9rer des rapports de vente mensuels. Cela perturbe gravement notre activit\u00e9 car nous d\u00e9pendons de ces rapports pour la prise de d\u00e9cisions strat\u00e9giques. Merci de r\u00e9soudre ce probl\u00e8me en urgence. Cordialement"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "M&A Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Peque\u00f1o error en M&A Software",
+    "text": "Hola, he notado un peque\u00f1o error de visualizaci\u00f3n en su M&A Software. \u00bfPodr\u00edan revisarlo cuando tengan oportunidad? Gracias."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "XP-Pen Deco Pro Small",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Kleine Lags beim Zeichnen mit der XP-Pen Deco Pro Small",
+    "text": "Sehr geehrter Kundensupport, ich nutze das Grafiktablett XP-Pen Deco Pro Small und beim Zeichnen habe ich immer wieder kleine Lags bemerkt. Ist dies ein bekanntes Problem oder gibt es daf\u00fcr eine einfache L\u00f6sung? Vielen Dank und Gr\u00fc\u00dfe, Markus Henke"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "AWS CloudFormation",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Fehlermeldung bei Nutzung von AWS CloudFormation",
+    "text": "Hallo, ich bekomme bei der Verwendung von AWS CloudFormation \u00f6fter eine unerwartete Fehlermeldung. K\u00f6nnten Sie das \u00fcberpr\u00fcfen? Gr\u00fc\u00dfe, Max"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Twitch Studio",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Twitch Studio keeps crashing during streams",
+    "text": "Hello team, I need urgent help. My Twitch Studio keeps crashing while I am streaming. I have a major live event scheduled tomorrow, and this issue is disrupting my preparations. Hope you can assist right away! Kind Regards, Alex Johnson"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Squarespace",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "URGENT: Squarespace Website Not Loading After Update",
+    "text": "Dear Support Team, My Squarespace website stopped loading after the recent update. I've tried clearing the cache and even reinstalled the update, but it didn't help. This is critically affecting my business as clients can't access my services. Can you please prioritize this and provide a speedy resolution? I need the site back up and running ASAP. Thanks, Jane Smith"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Network Issues",
+    "language": "en",
+    "subject": "Urgent Request: Network Connectivity Issue (Employee ID #: XY1234)",
+    "text": "Dear IT Support Team, I am experiencing severe network connectivity issues. Neither my internet nor access to internal servers is functional. I have tried rebooting my system and verifying cables. This disruption is affecting my work on critical projects. Your prompt assistance is appreciated!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart-Spielzeug",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Problem mit dem Smart-Spielzeug",
+    "text": "Hallo zusammen,\nich habe f\u00fcr meinen Sohn ein Smart-Spielzeug M\u00fcller MarkteX bei Ihnen gekauft. Seit einiger Zeit reagiert es nicht mehr auf Sprachbefehle und zeigt statt dessen einen Ladebildschirm. Die Batterien habe ich bereits mehrmals gewechselt.\nMit freundlichen Gr\u00fc\u00dfen,\nNina \u00d6zdogan"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "es",
+    "subject": "Problemas con la impresora Dell 3000",
+    "text": "Hola equipo de soporte,\ntenemos un problema con nuestra impresora Dell 3000. No imprime desde ayer y necesitamos urgentemente resolverlo para nuestras facturas.\n\u00a1Gracias de antemano!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "LF Antenna",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "[CRITIQUE] Probl\u00e8me urgent avec antenne LF",
+    "text": "Bonjour, mon antenne LF ne s'allume plus du tout!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Wireless Mouse",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Wireless Mouse suddenly stops working",
+    "text": "Dear Support Team, I've been using the Wireless Mouse I purchased recently, and all of a sudden, it just stopped working. I've tried changing the batteries and reconnecting it, but nothing helps. Could you please provide a solution? Thanks, Jane Doe"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Homestead",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Anfrage zur Homestead-Version 2.3",
+    "text": "Hallo Support-Team, ich habe festgestellt, dass bei meiner aktuellen Version 2.3 von Homestead ein kleines Rendering-Problem mit SVG-Grafiken auftritt. K\u00f6nntet Ihr das bitte \u00fcberpr\u00fcfen? Danke!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries",
+    "language": "de",
+    "subject": "Gesellschaftsform-Best\u00e4tigung ben\u00f6tigt",
+    "text": "Liebes Buchhaltungsteam, f\u00fcr unsere internationalen Gesch\u00e4fte ben\u00f6tige ich eine schriftliche Best\u00e4tigung \u00fcber unsere derzeitige Gesellschaftsform inkl. Gr\u00fcndungsdatum und Sitz des Unternehmens. K\u00f6nntet ihr mir diese kurzfristig zukommen lassen? Vielen Dank im Voraus, Jurij Kowalski Unternehmens-ID: 56789-1234"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Honeywell Voyager 1250g",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Problem mit Honeywell Voyager 1250g - Scanner erkennt Barcode nicht",
+    "text": "Hello Support Team,\nOur Honeywell Voyager 1250g scanner is not recognizing barcodes properly. We have tried resetting the device and updating drivers, but the issue persists. We would appreciate your assistance in resolving this issue as soon as possible.\nBest regards,\nTom Becker"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Zune HD",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Zune HD l\u00e4sst sich nicht einschalten",
+    "text": "Hi Support, mein Zune HD l\u00e4sst sich pl\u00f6tzlich nicht mehr einschalten, egal was ich mache. Ich habe bereits mehrere Ladevorg\u00e4nge und diverse Reset-Versuche unternommen, aber nichts hat geholfen. Brauche dringend Hilfe! Markus Wolf"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Desktop-Tower",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Desktop-Tower cannot boot after recent Windows update",
+    "text": "Hello,\nMy desktop-tower won\u2019t boot anymore after a Windows update. I need assistance quickly.\nThanks,\nJohn Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Payroll",
+    "language": "en",
+    "subject": "Urgent: Payroll Discrepancy August 2023",
+    "text": "Dear Payroll Team,\nI noticed a discrepancy in my August 2023 paycheck. The amount credited is less than expected. Please verify and provide the correct payment at the earliest. I rely on the salary for my financial commitments. Kindly address this urgently.\nThank you,\nJohn Doe"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "SketchUp Pro 2021",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Fehler im Dialogfenster bei SketchUp Pro 2021",
+    "text": "Hallo Support-Team,\r\n\r\nmir ist bei der Nutzung von SketchUp Pro 2021 etwas aufgefallen. Im Dialogfenster f\u00fcr die Splines gibt es einen kleinen Fehler: oft erscheinen die Werkzeuge nicht korrekt. Es beeintr\u00e4chtigt die Nutzung nicht stark, aber ein Fix w\u00e4re super.\r\n\r\nVielen Dank und Gr\u00fc\u00dfe,\r\nJulian Meier"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Magento",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Urgent - Probl\u00e8me critique avec Magento, deux versions vendues sont incorrectes",
+    "text": "Bonjour, nous rencontrons un probl\u00e8me critique avec notre instance Magento. Deux versions de nos produits sont incorrectement vendues m\u00eame apr\u00e8s plusieurs mises \u00e0 jour. Les produits affect\u00e9s sont bas\u00e9s sur des SKU importants et cela impacte fortement notre inventaire. Pourriez-vous v\u00e9rifier et r\u00e9soudre cela d\u00e8s que possible? Nous avons vraiment besoin d'une r\u00e9solution rapide."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Perl 5.32",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Probleme mit Perl 5.32 - Module Loader Fehler",
+    "text": "Hallo Kundensupport,\nIch benutze derzeit Perl 5.32 und sto\u00dfe st\u00e4ndig auf Probleme mit dem Module Loader. Beim Import mehrerer Libraries erhalte ich Fehlermeldungen und mein Skript bricht ab. Neuinstallationen der Modules haben nichts gebracht. Haben Sie Vorschl\u00e4ge?\nVielen Dank und Gru\u00df,\nMarc Keller"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "VMware",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Problem mit VMware nach Update",
+    "text": "Nach dem letzten Update funktioniert meine VMware nicht mehr. Bitte um schnelle Hilfe!"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "App Store Optimization",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Consulta sobre update para App Store Optimization",
+    "text": "Hola soporte, me gustar\u00eda saber si hay una actualizaci\u00f3n disponible para App Store Optimization. Not\u00e9 algunos errores menores. \u00bfPodr\u00edan indicarme los pasos para actualizar?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General",
+    "language": "de",
+    "subject": "Anfrage zur n\u00e4chsten Rechnungsstellung",
+    "text": "Guten Tag, bitte um Kl\u00e4rung bzgl. der n\u00e4chsten Rechnung. K\u00f6nnte die zuk\u00fcnftige Rechnung auf die neue Rechnungsadresse lauten?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Amplifier",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "\ud83d\udd0a Bose Amplifier not functioning after firmware update",
+    "text": "Hello Support Team, my Bose amplifier stopped working after the latest firmware update. I've tried rebooting it multiple times but with no success. Urgently need assistance as this is for our live event tomorrow! Thanks."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Kabel: HDMI, USB, Thunderbolt",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "USB-C Adapter funktioniert nicht an meinem Monitor",
+    "text": "Hello Support Team, my USB-C to HDMI adapter stopped working today."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Pinnacle Studio 24",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Pinnacle Studio 24 crashes during editing",
+    "text": "Hello Support Team,\nI'm experiencing critical issues with Pinnacle Studio 24. Every time I try to edit my project, the software crashes, and I lose all my unsaved work. I am working on a tight deadline and urgently need a resolution. Could you please assist me in fixing this problem as soon as possible?\nThank you,\nPeter Schmitt"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Praise",
+    "language": "es",
+    "subject": "Cambio de direcci\u00f3n de facturaci\u00f3n",
+    "text": "Hola equipo, en las siguientes facturas usad esta direcci\u00f3n: Calle Mayor 45, 28005 Madrid. Tambi\u00e9n quer\u00eda felicitaros por vuestro excelente servicio al cliente y por el soporte oportuno. Gracias y saludos cordiales, Miguel Mart\u00ednez."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support",
+    "language": "en",
+    "subject": "Inquiry about different company name on invoice",
+    "text": "Can I have a different company name on my invoice?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Ringlicht",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema menor con mi Ringlicht",
+    "text": "Hola, mi Ringlicht funciona bien, pero hay un peque\u00f1o zumbido molesto. \u00bfPueden ayudarme a resolver esto?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Update Requests",
+    "language": "en",
+    "subject": "Invoice Modification Required - Urgent",
+    "text": "Hello Support Team, I urgently need to modify the invoice for the last transaction (Customer No: C123456, Order No: O7891011). The company name on the invoice should be updated to 'Tech Innovators Ltd.' instead of 'Innovation Tech Ltd.' Please ensure this is done immediately, as it's crucial for my records. Thank you."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Smart Home Hub",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Kleine Probleme mit meinem Smart Home Hub",
+    "text": "Sehr geehrte Damen und Herren,\n\nich habe vor einigen Wochen bei Ihnen einen Smart Home Hub erworben. Alles funktioniert soweit, jedoch zeigt das Display ab und zu unregelm\u00e4\u00dfige Fehlermeldungen, die rasch wieder verschwinden. Es ist kein gro\u00dfer St\u00f6rfaktor, dennoch wollte ich Sie informieren und fragen, ob ein Update des Ger\u00e4tes dies beheben k\u00f6nnte.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung,\nMaximilian Krause"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Arbitrum",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Arbitrum: UI not loading",
+    "text": "Hello Support Team,\nI've been experiencing an issue with the Arbitrum software. The user interface fails to load properly upon startup. I've tried reinstalling the application and clearing the cache, but the problem persists. Could you please assist in resolving this matter?\nBest Regards,\nSarah Becker"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries::Labor Law",
+    "language": "en",
+    "subject": "Inquiry on Labor Law Amendments",
+    "text": "Dear Team, could you clarify whether recent labor law changes impact overtime payments? Best regards, John Doe."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "WPLMS",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con WPLMS - Error en la carga del curso",
+    "text": "Hola equipo de soporte,\n\nEstoy experimentando problemas con WPLMS. Al cargar un nuevo curso, aparece un error y no puedo continuar. He intentado varias soluciones que encontr\u00e9 en foros, pero ninguna funciona. \u00bfPodr\u00edan ayudarme a resolver este problema?\n\nSaludos,\nCarlos G."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Network Issues",
+    "language": "es",
+    "subject": "Cambio de nombre en la pr\u00f3xima factura",
+    "text": "Hola a todos, \u00bfpodr\u00edan cambiar el nombre de la empresa en la pr\u00f3xima factura a \"Tech Solutions S.A.\"? Tal vez necesite una actualizaci\u00f3n tambi\u00e9n. Gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Debt Collection",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "D\u00e9bogage urgente requis pour Debt Collection",
+    "text": "Bonjour, depuis la derni\u00e8re mise \u00e0 jour, notre logiciel Debt Collection plante r\u00e9guli\u00e8rement lors de la g\u00e9n\u00e9ration des rapports. Notre \u00e9quipe est bloqu\u00e9e. Pouvez-vous investiguer \u00e7a rapidement?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Veterinary Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me critique avec le logiciel Veterinary Software",
+    "text": "Bonjour, le logiciel de gestion des dossiers v\u00e9t\u00e9rinaires ne se lance plus correctement apr\u00e8s la derni\u00e8re mise \u00e0 jour. Nous avons absolument besoin d'une solution imm\u00e9diate!"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Equity Crowdfunding",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Equity Crowdfunding st\u00fcrzt ab - Dringende Hilfe ben\u00f6tigt",
+    "text": "Sehr geehrte Damen und Herren,\nunser Team nutzt die Software Equity Crowdfunding, aber seit heute fr\u00fch st\u00fcrzt sie immer wieder ab und wir k\u00f6nnen keine Projekte bearbeiten. K\u00f6nnen Sie uns dringend weiterhelfen?\nVielen Dank!\nStefan M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Year-End Closing",
+    "language": "de",
+    "subject": "Anfrage zur Jahresabschlussbuchung",
+    "text": "Sehr geehrte Damen und Herren, ich habe Fragen zur Jahresabschlussbuchung f\u00fcr 2023. In welchen Feldern m\u00fcssen die Abschreibungen erfasst werden und kann das neue Tool daf\u00fcr verwendet werden? Eine kurze Anleitung w\u00e4re sehr hilfreich! Vielen Dank im Voraus. Beste Gr\u00fc\u00dfe, Anna Wiegand"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting",
+    "language": "en",
+    "subject": "Issue with paycheck for June 2023",
+    "text": "Hi Accounting Team, I've noticed a discrepancy in my paycheck for June 2023. It seems there's an error in my overtime calculation. Could you please review this and let me know if any correction is needed? Thanks, Josh"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "DataRobot",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Errores constantes en DataRobot",
+    "text": "Estimado soporte, mi DataRobot lanz\u00f3 errores constantes y no puedo acceder a los datos. Lo necesito urgentemente."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Heroku Dashboard",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Heroku Dashboard no responde",
+    "text": "Hola equipo de soporte, desde esta tarde mi Heroku Dashboard ha dejado de responder. Hemos intentado reiniciar la aplicaci\u00f3n sin \u00e9xito y necesitamos acceder de inmediato para seguir nuestro trabajo."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Policy Administration",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema cr\u00edtico con Policy Administration",
+    "text": "Hola equipo de soporte, nuestra instalaci\u00f3n de Policy Administration ha dejado de funcionar repentinamente despu\u00e9s de una actualizaci\u00f3n. Es vital para nuestras operaciones diarias. Necesitamos una soluci\u00f3n inmediata para evitar interrupciones. Gracias, Miguel Santana."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Windows",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Windows 10 \u2013 Programm st\u00fcrzt bei Start sofort ab",
+    "text": "Hello Support team, I'm encountering an issue on Windows 10 where every time I attempt to launch my video editing software, it crashes immediately. I've tried reinstalling and updating it, but the problem persists. Any advice or support for this issue? Regards, Max Foster."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Fractal Design Meshify C",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issues with Fractal Design Meshify C Case",
+    "text": "Hello Customer Support, I have recently encountered an issue with my Fractal Design Meshify C PC case. The front panel USB ports seem to be malfunctioning, as they often lose connection with my peripherals. I've reseated the connectors and tried different cables, but the issue persists. Can you please assist me in troubleshooting this problem or advise on a potential replacement of the front panel? Kind regards, Emily Clark"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Intel Core i9",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me avec Intel Core i9, performances r\u00e9duites",
+    "text": "Bonjour, je rencontre des probl\u00e8mes avec mon processeur Intel Core i9. Les performances semblent r\u00e9duites sans raison claire. J'ai \u00e9galement mis \u00e0 jour tous les pilotes, mais sans succ\u00e8s. Merci."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Hardware Issues",
+    "language": "fr",
+    "subject": "Probl\u00e8me avec le scanner du nouveau photocopieur",
+    "text": "Bonjour, j'ai trouv\u00e9 un probl\u00e8me avec le scanner de notre nouveau photocopieur au bureau. Merci!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Vertiv SmartRow DCR",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Vertiv SmartRow DCR - Firmware Update Error",
+    "text": "Hello support, I'm experiencing an issue updating the firmware on my Vertiv SmartRow DCR. The system keeps returning an unknown error."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical::Software Issues",
+    "language": "en",
+    "subject": "Timesheet entry software malfunctioning",
+    "text": "Hello support team, our employees can't access the portal for entering timesheets. The system displays an error code (53400) when they try to log in. Please assist!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Ringlicht",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Minor issue with Ringlicht brightness",
+    "text": "Hi Support, I've noticed that my Ringlicht is slightly dimmer than before, even on max settings. Could you advise on troubleshooting steps?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart-Gartenbeleuchtung",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Smart-Gartenbeleuchtung reagiert nicht",
+    "text": "Hi Support-Team, ich habe vor ungef\u00e4hr einem Monat \u00fcber Ihre Webseite die Smart-Gartenbeleuchtung gekauft, und nun leider funktioniert sie nicht mehr korrekt. Mehrere LEDs bleiben dunkel oder flackern. Batterien habe ich bereits mehrfach getauscht, ohne Wirkung. K\u00f6nnten Sie bitte weitere Diagnosem\u00f6glichkeiten anbieten? Danke und Gr\u00fc\u00dfe, Alexander Bauer"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "GitHub Actions",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "GitHub Actions - Workflow bleibt h\u00e4ngen",
+    "text": "Hallo Support-Team, unser CI/CD-Workflow bleibt immer bei der Ausf\u00fchrung h\u00e4ngen. Wir sind dadurch blockiert. Schnellstm\u00f6gliche Hilfe w\u00e4re sehr wichtig."
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Financial Analysis",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Financial Analysis Software - Unresponsive after last update",
+    "text": "Hi Support Team, I noticed that since the last update, the Financial Analysis software has become unresponsive at times. Specifically, the program freezes when generating certain reports, making it nearly impossible to work efficiently. I've reinstalled the software but the issue persists. Could you please guide me on troubleshooting steps or provide a workaround? Thanks, Michael Johnson"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "All-in-One PC",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "All-in-One PC - Grafikfehler",
+    "text": "Guten Tag liebes Support-Team,\n\nmein neuer All-in-One PC zeigt seit dem letzten Update Grafikfehler an. Das Bild flackert und hat bunte Streifen. Treiber-Updates haben nicht geholfen. Was kann ich noch ausprobieren? Hoffe auf schnelle R\u00fcckmeldung.\n\nMit freundlichen Gr\u00fc\u00dfen, \nAlexander Maier"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Filter",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Filterprobleme - Wasser l\u00e4uft durch den Filter",
+    "text": "Hallo Kundensupport,\nmein neuer Wasserfilter l\u00e4sst zu viel Wasser ungehindert durch und scheint seine Aufgabe nicht richtig zu erf\u00fcllen. Was kann ich tun, um das zu beheben oder h\u00e4ngt es mit einem Produktionsfehler zusammen? Brauche gar dring drau\u00dfen \u010dist meshanko Ger quite et Discussionarpcomponentoose.\nViele Gr\u00fc\u00dfe,\nAntje Schulze"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Gaming Monitor",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con el monitor de juegos",
+    "text": "Hola equipo de soporte, compr\u00e9 un monitor de juegos hace un mes y desde hace unos d\u00edas la pantalla parpadea intermitentemente. He intentado reiniciar y cambiar los cables, pero el problema persiste. \u00bfPodr\u00edan ayudarme a resolverlo? Gracias, Javier Morales."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "SolarWinds",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent Help Needed! SolarWinds Crash!",
+    "text": "Hi Support Team, our SolarWinds installation crashed and we urgently need it running for network monitoring. Restart and reinstall didn't help. This is critical for our operations."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Power Supply Unit",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Kleinere Probleme mit Netzteil XT5000",
+    "text": "Sehr geehrte Damen und Herren, ich hatte vor Kurzem das XT5000-Netzteil bei Ihnen erworben. Es funktioniert generell gut, jedoch bemerke ich gelegentlich leichte Aussetzer, insbesondere wenn ich grafikintensive Anwendungen nutze. Das beeintr\u00e4chtigt den Betrieb zwar kaum, ich hoffe dennoch auf eine Erkl\u00e4rung oder einen Tipp zur Verbesserungsm\u00f6glichkeit. Vielen Dank!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety::Workplace Safety",
+    "language": "es",
+    "subject": "Consulta sobre Seguridad en el Lugar de Trabajo",
+    "text": "Estimados Se\u00f1ores, necesito informaci\u00f3n sobre las normativas actuales de seguridad laboral que rigen en nuestra empresa. \u00bfPodr\u00edan enviarme un documento actualizado con las pautas y recomendaciones vigentes? Muchas gracias."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Kodak ScanMate i940",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Kodak ScanMate i940",
+    "text": "Hello support, Doesn't scan properly; it's pixelated at high resolutions. Regards, John Doe."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Access Rights",
+    "language": "es",
+    "subject": "Solicitud urgente de derechos de acceso",
+    "text": "Necesito acceso inmediato a los archivos del proyecto X. Escr\u00edbame si tienen inconveniente"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "PC-L\u00fcfter",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "PC-L\u00fcfter dreht nicht mehr",
+    "text": "Hi Support-Team,\nmein PC-L\u00fcfter hat pl\u00f6tzlich aufgeh\u00f6rt zu funktionieren. Der Computer l\u00e4uft st\u00e4ndig hei\u00df und ich kann ihn nicht lange in Betrieb lassen. Habe versucht, das Bios zu aktualisieren und das Kabel neu anzustecken, ohne Erfolg. Kann jemand von euch mal einen Blick drauf werfen?\nDanke, Johannes Schmidt"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Autodesk Fusion 360",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Dringend - Problem mit Autodesk Fusion 360",
+    "text": "Hallo Support-Team,\nseit dem letzten Update von Autodesk Fusion 360 kann ich keine neuen Projekte mehr speichern und mein aktuell bearbeitetes Projekt wurde verloren. Dies hat kritischen Einfluss auf meine Arbeit. Bitte helfen Sie mir so schnell es geht!\nDanke und Gru\u00df,\nEmma Mayer"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Web Analytics",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "[Urgent] Web Analytics won't load",
+    "text": "Dear support team, our Web Analytics software suddenly stopped loading and displays an error message: Fatal Exception. This tool is crucial for our daily operations. Immediate assistance required, as this is impacting our clients directly. Best regards, John Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety::Health Checks",
+    "language": "de",
+    "subject": "Dringende Gesundheits\u00fcberpr\u00fcfung erforderlich",
+    "text": "Sehr geehrte Damen und Herren, als Angestellter unserer Firma beantrage ich dringend eine umfassende Gesundheits\u00fcberpr\u00fcfung. Ich habe seit einigen Tagen gesundheitliche Beschwerden und m\u00f6chte sicherstellen, dass diese in Verbindung mit meinem Arbeitsplatz stehen. Ein baldiger Termin w\u00e4re sehr wichtig. Danke im Voraus! Mit freundlichen Gr\u00fc\u00dfen, Max M\u00fcller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "USB-Mikrofon",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "USB-Mikrofon funktioniert nicht nach Update",
+    "text": "Bonjour support technique,\r\n\r\nMon USB-Mikrophone ne fonctionne plus apr\u00e8s avoir install\u00e9 une mise \u00e0 jour de votre logiciel. J'ai de l'audio saccad\u00e9 ou parfois rien du tout. J'ai red\u00e9marr\u00e9 plusieurs fois, v\u00e9rifi\u00e9 les c\u00e2bles, mais rien ne fonctionne. Besoin d'aide urgente.\r\n\r\nCordialement,\r\nJean-Luc Moreau"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "SharePoint",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con SharePoint - No puedo subir archivos grandes",
+    "text": "Hola equipo de soporte, estamos experimentando un problema con nuestro SharePoint. Cuando intentamos subir archivos grandes, no lo permite y muestra un error. \u00bfPodr\u00edan ayudarnos?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Raspberry Pi",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Raspberry Pi ne d\u00e9marre plus apr\u00e8s mise \u00e0 jour",
+    "text": "Bonjour le support, apr\u00e8s une mise \u00e0 jour r\u00e9cente, mon Raspberry Pi ne veut plus d\u00e9marrer. J'ai tent\u00e9 de r\u00e9installer le syst\u00e8me, mais sans succ\u00e8s. J'ai besoin de ce dispositif pour un projet critique de mesure environnementale. Pouvez-vous m'aider en urgence? Merci beaucoup."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "FusionPBX",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: FusionPBX server down after recent update",
+    "text": "Dear Support Team, our FusionPBX system went offline immediately after updating to the latest version. This issue has halted all company communications relying on the system. Could you prioritize and resolve this issue quickly? Best regards, Alex Meyer, TechCorp LLC"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Sales Forecasting",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Sales Forecasting no arranca despu\u00e9s de la actualizaci\u00f3n",
+    "text": "Hola soporte, mi Sales Forecasting ya no funciona despu\u00e9s del \u00faltimo update. \u00a1Urge su ayuda!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Netzwerkadapter",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Minor issue with network adapter",
+    "text": "Blinking light issue on network adapter, but everything else works fine."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Applicant Tracking",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Applicant Tracking - Small Bug Observed in Latest Version",
+    "text": "Dear Support Team, \nI've noticed a minor issue with the Applicant Tracking software's latest update. The system occasionally freezes when uploading CVs. It's a bit inconvenient. Could you assist when you have time? \nBest regards, \nLinda Harris"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Balsamiq Mockups 4",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Balsamiq Mockups 4 entre en conflit avec macOS",
+    "text": "Bonjour l'\u00e9quipe support, mon Balsamiq Mockups 4 se ferme automatiquement d\u00e8s que je l'ouvre sur macOS. J'ai essay\u00e9 de le r\u00e9installer, mais le probl\u00e8me persiste. Pouvez-vous me aider? Merci, CM894238"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Security Inquiries",
+    "language": "fr",
+    "subject": "Changement d'adresse de facturation urgente",
+    "text": "Veuillez mettre \u00e0 jour mon adresse: Avenue de la France Libre 12, 35000 Rennes. Ceci est urgent. Merci!"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Data Privacy",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Data Privacy: Ab und zu verschwinden meine EXP Reports",
+    "text": "Hallo, bei der Nutzung der Data Privacy Software verschwinden ab und zu meine EXP Reports pl\u00f6tzlich. Es passiert nicht regelm\u00e4\u00dfig, nur ab und zu. Warum?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Accounting Policies",
+    "language": "es",
+    "subject": "Consulta sobre pol\u00edticas contables actuales",
+    "text": "Estimado equipo de contabilidad, me gustar\u00eda conocer m\u00e1s sobre las pol\u00edticas contables actuales de nuestra empresa. Estoy ayudando a preparar los informes financieros trimestrales y necesito asegurarme de que entendemos y aplicamos correctamente todas las pol\u00edticas. \u00bfPodr\u00edan enviarme los documentos o d\u00f3nde puedo encontrarlos en la intranet? Saludos, Manuel Garc\u00eda"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Feedback",
+    "language": "en",
+    "subject": "Feedback zur letzten Abrechnung",
+    "text": "Sehr geehrtes Accounting-Team, ich m\u00f6chte Ihnen ein kurzes Feedback zu meiner letzten Rechnung geben. Ich bin mit Ihrer schnellen und pr\u00e4zisen Abwicklung \u00e4u\u00dferst zufrieden. Weiter so! Viele Gr\u00fc\u00dfe, Claire Johnson"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Access Rights",
+    "language": "de",
+    "subject": "Zugriffsproblem bei Finanzberichte-Abteilung",
+    "text": "Sehr geehrtes Support-Team, ich habe Probleme, die Finanzberichte im System zu \u00f6ffnen. Es scheint, als ob meine Zugriffrechte eingeschr\u00e4nkt sind. Bitte \u00fcberpr\u00fcfen Sie meine Rechte, damit ich wie gewohnt auf die ben\u00f6tigten Dokumente zugreifen kann. Dankesch\u00f6n!"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "MicroSIP",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "MicroSIP - Failed to Load SIP Account",
+    "text": "Dear Support Team, I am experiencing issues with MicroSIP. It fails to load my SIP account config, impacting daily communication. This is critical for my workflow. Tried multiple fixes but no result. Immediate help needed. Regards, Chris Thompson"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Smart-Sterilisator",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Minor Issue with Smart Sterilisator - Screen Flickering Sporadically",
+    "text": "Dear Support Team,\nI'm experiencing a minor issue with my Smart Sterilisator unit. Occasionally, the screen flickers without any obvious trigger. This isn't urgent but would like it resolved at your earliest convenience. Hardware: Smart Sterilisator, Serial No.: SS12345.\nThank you,\nJohn Doe"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Watchlist Monitoring",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Minor bug report in Watchlist Monitoring Software",
+    "text": "Hello Support Team,\nI have encountered a small but persistent issue with the Watchlist Monitoring software. Each time I attempt to save a new watchlist, the software freezes momentarily before proceeding. Please advise any potential fixes.\nThanks,\nJohn Doe"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Elastix",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Elastix VM Not Booting",
+    "text": "Hello Support Team, we urgently need help as our Elastix virtual machine is not booting up after a recent update. The system hangs on the boot screen and all our communication services are down, affecting client interactions severely. We have tried restarting the VM multiple times, but to no avail. Immediate assistance is required!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General::Administrative Inquiries",
+    "language": "en",
+    "subject": "Request for Invoice Adjustment",
+    "text": "Dear Support Team,Could you kindly inform me about the possibility of adjusting our next invoice to reflect the updated project codes? I\u2019d appreciate detailed guidance on this matter. Thank you in advance for your assistance. Best regards, Mark Stevenson"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Angel Investing",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Error en la aplicaci\u00f3n de Angel Investing",
+    "text": "Hola equipo de soporte, estoy experimentando problemas de rendimiento y errores intermitentes al usar Angel Investing. \u00bfPodr\u00edan revisarlo, por favor?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General::Administrative Inquiries",
+    "language": "en",
+    "subject": "Clarification on next month's payroll",
+    "text": "Kindly provide details on the changes in next month's payroll. Best, Christopher."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Market Research",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me mineur avec Market Research",
+    "text": "Bonjour, Je rencontre un petit probl\u00e8me graphique sur l'application Market Research. Un conseil pour r\u00e9soudre cela? Merci, Vincent Dupont."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Gaming-Tastatur",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Problem mit Gaming-Tastatur - Tasten klemmen",
+    "text": "Hello Support Team, I'm facing issues with my new gaming keyboard. Some keys are sticking after just two days of use. Do you have any cleaning tips or should I consider a warranty claim? Thanks, Felix"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Google Meet",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical error with Google Meet - Immediate assistance needed",
+    "text": "Dear Support Team,\n\nI'm facing a critical issue with Google Meet. The application crashes abruptly during important company meetings, causing major disruptions. We've tried reinstalling and updating to the latest version, but the problem persists. We rely heavily on this tool for our daily operations. Please address this at your earliest.\n\nBest regards,\nMarc Stein"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Microsoft Office",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Cambio menor en el documento de Word ",
+    "text": "Hola equipo, necesito cambiar un pie de p\u00e1gina en un archivo."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Access Rights",
+    "language": "fr",
+    "subject": "Demande de mise \u00e0 jour des droits d'acc\u00e8s",
+    "text": "Bonjour Service IT, je rencontre des difficult\u00e9s d'acc\u00e8s \u00e0 certaines applications indispensables pour mon travail. Pourriez-vous v\u00e9rifier et ajuster mes droits d'acc\u00e8s ? Numero employ\u00e9: 549876. Domaine: Comptabilit\u00e9 Merci d'avance pour votre aide. Cordialement, Marc Durand"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Airtable",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8mes de synchronisation avec Airtable",
+    "text": "Bonjour, j'utilise Airtable pour g\u00e9rer plusieurs projets mais j'ai des probl\u00e8mes de synchronisation entre mes tableaux. Y a-t-il une solution rapide pour r\u00e9soudre ce probl\u00e8me? Merci d'avance."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Cancellations",
+    "language": "en",
+    "subject": "Cancellation Request for Subscription #48216",
+    "text": "Dear Support Team,\nI hope this message finds you well. I would like to cancel my subscription associated with the number 48216 at your earliest convenience. Please confirm once the cancellation is processed.\nBest regards,\nMichael Clark"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "ESET NOD32 Antivirus 14",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with ESET NOD32 Antivirus 14 - Restart issue",
+    "text": "Dear Support Team, Since upgrading to ESET NOD32 Antivirus 14, my computer restarts randomly without warning. I have not installed any new software and this was not happening before the upgrade. Could you suggest any steps to diagnose or fix this issue? Your help will be greatly appreciated. Best regards, John Doe"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart Doorbell",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con el timbre inteligente",
+    "text": "Hola soporte t\u00e9cnico, he estado experimentando problemas con mi timbre inteligente recientemente. No puedo conectarlo a la WiFi y la c\u00e1mara se desconecta cada pocos minutos. Necesito una soluci\u00f3n r\u00e1pida ya que depende de mi seguridad. \u00a1Gracias!"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Antivirus",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Antivirus Software funktioniert nach Update nicht",
+    "text": "Hallo Support-Team,\nnach dem letzten Update funktioniert meine Antivirus-Software nicht mehr. Sie schlie\u00dft sofort nach dem \u00d6ffnen. Was kann ich tun?\nGru\u00df, \nMichaela"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Accounting Policies",
+    "language": "de",
+    "subject": "Frage zur Reisekostenrichtlinie",
+    "text": "Sehr geehrte Damen und Herren,\nk\u00f6nnen Sie mir bitte erkl\u00e4ren, welche Ausgaben im Rahmen unserer Reisekostenrichtlinie erstattungsf\u00e4hig sind? Ich m\u00f6chte sicherstellen, dass ich bei der Einreichung korrekt vorgehe.\nVielen Dank im Voraus!\nBeste Gr\u00fc\u00dfe,\nJens Schr\u00f6der"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Duda",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Duda zeigt Fehler 404 nach dem Login",
+    "text": "Hallo Support-Team,\n\nich habe ein ernsthaftes Problem mit der Duda Software. Direkt nach dem Login erhalte ich st\u00e4ndig einen Fehler 404, der Zugriff ist damit komplett blockiert. Ich bin dringend auf diesen Zugang angewiesen, vor allem um Kunden-Websites zu aktualisieren. Bitte um schnellstm\u00f6gliche Hilfe! \n\nVielen Dank,\nPeter M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries::Contract Law",
+    "language": "es",
+    "subject": "Cambio de direcci\u00f3n en el contrato",
+    "text": "Hola equipo de contabilidad, quisiera realizar un cambio en mi contrato actual en cuanto a la direcci\u00f3n corporativa. Ahora operamos desde la calle Gran V\u00eda, 52, 28013 Madrid. \u00bfPodr\u00edan generar un nuevo contrato con esta direcci\u00f3n? No hay urgencia pero apreciar\u00eda la confirmaci\u00f3n. Gracias de antemano."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "iPad",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas con el iPad",
+    "text": "Hola soporte, mi iPad no toma suficiente carga. \u00bfPueden arreglarlo? He intentado todo sin \u00e9xito. Gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Enterprise Risk Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "\u00a1URGENTE! - Sistema de Gesti\u00f3n de Riesgos Empresariales no responde",
+    "text": "Hola, nuestro software de Gesti\u00f3n de Riesgos Empresariales ha dejado de funcionar de repente y no podemos acceder a los datos cr\u00edticos que necesitamos para nuestras operaciones diarias. Esto est\u00e1 afectando enormemente nuestra productividad. Por favor, necesitamos atenci\u00f3n inmediata."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Telemedicine",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Telemedicine - Feature Request",
+    "text": "Hello support team,\n\nI\u2019ve been using your Telemedicine software and it\u2019s working remarkably well. I was wondering if you could add a feature to export patient data in CSV format? It would immensely help with our backend processing of patient records.\n\nThanks and regards,\nNina"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "SAP Commerce Cloud",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with SAP Commerce Cloud v3.4.5",
+    "text": "Dear Support Team, we are facing intermittent crashes with SAP Commerce Cloud v3.4.5. Has this issue been reported by other users as well? Best, Tim"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Das Keyboard 4 Professional",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Das Keyboard 4 Professional funktioniert nach Update nicht mehr",
+    "text": "Hello Support Team, I updated the firmware on my Das Keyboard 4 Professional, and now some keys are unresponsive and RGB lights are malfunctioning. I'm relying on this keyboard daily. Can you help out? Thanks, Jake Carter."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Amazon Advertising",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Amazon Advertising st\u00fcrzt beim Start ab",
+    "text": "Hallo, die Software startet und st\u00fcrzt sofort ab."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "D-Link DIR-895L",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con D-Link DIR-895L",
+    "text": "Hola equipo de soporte, tengo un problema con mi D-Link DIR-895L. Aunque todos los indicadores parecen normales, la conexi\u00f3n a internet se interrumpe cada pocos minutos. \u00bfPueden ayudarme?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Uninterruptible Power Supply (UPS)",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "UPS Stromausf\u00e4lle bei Belastung \u00fcber 80%",
+    "text": "Sehr geehrtes Support-Team, meine vor vier Monaten bei Ihnen gekaufte USV manifestiert seit kurzem wiederholte Ausf\u00e4lle sobald die Auslastung 80% \u00fcberschreitet. Ich habe mehrfach die Steckdosenleiste \u00fcberpr\u00fcft sowie den zugeh\u00f6rigen Akku getestet. Selbst ein Firmwarerollback brachte keinen Erfolg. Erbitte dringend L\u00f6sungen. LG, Anne Massing"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Google Workspace",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Emergency: Google Workspace not syncing!",
+    "text": "Dear Support Team, our Google Workspace is not syncing emails. This issue is halting our business operations entirely. Urgent assistance is required! User: alice@widgetco.com"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "CNC Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "CNC Software se bloque apr\u00e8s mise \u00e0 jour",
+    "text": "Bonjour, apr\u00e8s avoir mis \u00e0 jour CNC Software, le logiciel se bloque \u00e0 chaque  d\u00e9marrage. Je ne peux plus travailler. Pouvez-vous r\u00e9soudre ce probl\u00e8me urgent?"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Performance Monitoring",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Problem with Performance Monitoring tool",
+    "text": "Dear Support Team,I am facing issues with the Performance Monitoring software. The CPU stats are not updating in real-time since the last update. Could you please fix this bug or guide me on how to resolve it?Regards, Samuel Clayton"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Grafana",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Dringend: Grafana-Datenquellen landen im Timeout",
+    "text": "Sehr geehrte Damen und Herren, bei Einsatz in Grafana gibt es Zeit\u00fcberschreitungen beim Abrufen der Datenquellen. Please help ASAP!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support",
+    "language": "en",
+    "subject": "Urgent: Incorrect Invoice Details - Immediate Correction Needed",
+    "text": "Dear Accounting Team, our latest invoice for employee IT support services contains incorrect details. This needs immediate correction for compliance. Invoice No: INV-3345982. Thanks, Brian Matthews"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General",
+    "language": "fr",
+    "subject": "Urgent: Courriel du service comptable requis",
+    "text": "Bonjour, Veuillez envoyer les d\u00e9tails de paiement concernant la facture #56734 \u00e0 notre nouveau courriel: comptes@entreprise.fr. Merci!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Sound Card",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Query regarding Sound Card functionality",
+    "text": "Dear Support Team,\n\nI recently installed a new sound card in my desktop, and everything seems to be working fine. However, there is a minor issue with the bass output. Can you guide me on possible settings or updates?\n\nBest regards,\nChris Moore"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Gateway",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Mouse funktioniert nicht an meinem Gateway Laptop",
+    "text": "Meine Maus reagiert pl\u00f6tzlich nicht mehr am Gateway. Hilfe?"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Adobe Audition",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Adobe Audition plugin not loading",
+    "text": "Hi support, my Adobe Audition fails to load a crucial audio plugin. Help?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "NAS-Geh\u00e4use",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with NAS enclosure temperature",
+    "text": "Hello Support, my NAS enclosure is overheating often. Could it be the fan malfunctioning? Need assistance."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Smartphone",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "iPhone 13 schaltet sich nicht ein",
+    "text": "Guten Tag, mein iPhone 13 l\u00e4sst sich pl\u00f6tzlich nicht mehr einschalten. Brauche dringend Hilfe!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Gyroscope",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Gyroscope - Device Auto-Shutoff Issue",
+    "text": "Dear support team, my Gyroscope device keeps shutting off automatically after a few minutes of use. I updated the firmware but the issue persists. Could you advise on any solutions to fix this problem?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Complaints",
+    "language": "fr",
+    "subject": "Probl\u00e8me urgent de facturation",
+    "text": "Bonjour Service Client, je remarque des erreurs graves sur ma facture r\u00e9cente N\u00b056489. Plusieurs montants semblent incorrects et des frais non autoris\u00e9s ont \u00e9t\u00e9 ajout\u00e9s. C'est inacceptable et je demande une correction imm\u00e9diate. Merci de m'informer au plus vite - Client N\u00b0 827313."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Recruiting Software",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Suggestion for Future Update in Recruiting Software",
+    "text": "Hi there, it would be really beneficial if the TXT file import function could support more than 1,000 entries per batch. Thanks!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development",
+    "language": "en",
+    "subject": "Payroll Query",
+    "text": "Dear HR Team, I've noticed discrepancies in my recent payroll statement and would like to schedule a meeting to clarify. Additionally, I'd like information on upcoming development opportunities. Thank you! Best regards, Jane Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Travel Expenses",
+    "language": "en",
+    "subject": "Inquiry on Reimbursing Travel Expenses",
+    "text": "Dear Accounting Team,\n\nI recently traveled for work from March 20th-23rd and have submitted my expenses via the company portal. However, I haven't yet received any confirmation regarding my reimbursement process and timeline. Could you please check the status for me? All required receipts were uploaded as requested.\n\nThank you and best regards,\nSam Thompson"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Web Browser",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Small bug found in Web Browser",
+    "text": "Dear support team, I wanted to report a small issue I encountered with the Web Browser software. Occasionally, the browser freezes for a few seconds when multiple tabs are open. It\u2019s not a critical issue but can be a bit annoying. Could you please look into it when time permits? Thanks and regards, Sarah Lind."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Zapier",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical Issue: Zapier workflows not running",
+    "text": "Dear Support, I urgently need your help. My Zapier workflows have stopped running suddenly, preventing critical automation from completing. Deadlines are being missed. Please assist as soon as possible, need immediate resolution."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries",
+    "language": "en",
+    "subject": "Invoice Request for Order 3424BXT - Customer ID 762119",
+    "text": "Dear Support Team, I need an invoice copy for order 3424BXT (Customer ID 762119) as the original was lost. Could you please assist me by emailing a new copy? It's quite important for my records and accounting. Best regards, Kay Robinson"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Aspire Laptop",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Probleme mit Aspire Laptop-Bildschirm flackert",
+    "text": "Guten Tag,\nder Bildschirm meines Aspire Laptops flackert oft. Hilfe?"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Pinterest Analytics",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Mittelschwerer Fehler in Pinterest Analytics",
+    "text": "Hallo Kundensupport, bei meinem Pinterest Analytics-Konto (Kunden-ID: 70259183) zeigt die Statistikseite immer wieder Ladefehler an und aktualisiert sich nicht. Ich bin unsicher, ob es an meinem Konto oder einem generellen Systemproblem liegt. Mit freundlichen Gr\u00fc\u00dfen, Katja Henning."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Security Inquiries",
+    "language": "de",
+    "subject": "Sicherheitswarnung - Verd\u00e4chtige Aktivit\u00e4t auf meinem Konto",
+    "text": "Sehr geehrte Damen und Herren, in letzter Zeit habe ich verd\u00e4chtige Aktivit\u00e4ten auf meinem Konto bemerkt. K\u00f6nnten Sie bitte pr\u00fcfen, ob ein unbefugter Zugriff stattgefunden hat und mein Konto \u00fcberpr\u00fcfen? Vielen Dank f\u00fcr Ihre Hilfe!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Accounting Policies",
+    "language": "fr",
+    "subject": "Question sur les politiques comptables",
+    "text": "Bonjour,\n\nJ'ai une question concernant les nouvelles politiques comptables r\u00e9cemment mises en place. Pourriez-vous me fournir des \u00e9claircissements sur certains points sp\u00e9cifiques? En particulier, je suis int\u00e9ress\u00e9 par les changements en mati\u00e8re de report des d\u00e9penses. Merci d'avance pour votre aide.\n\nCordialement,\nAlex Dupont"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Confluence",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Small UI error in Confluence",
+    "text": "Hi Support Team, I've noticed a small UI bug in Confluence when navigating through the sidebar. Some entries overlap and it's hard to read. There\u2019s no rush, but could you check?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "MidPhase",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: MidPhase software issue \u2013 immediate help needed",
+    "text": "Dear Support Team, I am using MidPhase and the software crashes every time I try to access the analytics section. I urgently need this to work for a client presentation tomorrow. I have already tried reinstalling it and restarting my system, but the problem persists. Your immediate assistance would be highly appreciated. Thank you in advance, Tom Hayes"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "FreeHosting",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "FreeHosting - Security Breach Identified",
+    "text": "Dear Support Team,\n\nI urgently need your assistance. I've identified a security breach in FreeHosting, which potentially exposes sensitive user data. This requires immediate attention before it causes significant harm. Please respond promptly.\n\nKind regards,\nAlex Becker"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Google Cloud Platform",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas con Google Cloud Platform despu\u00e9s de la actualizaci\u00f3n",
+    "text": "Hola equipo de soporte, desde la \u00faltima actualizaci\u00f3n de Google Cloud Platform encuentro problemas al acceder a algunos recursos en la nube. Fallan y muestran errores HTTP 500. He intentado reiniciarlo varias veces sin \u00e9xito. \u00bfPodr\u00edan ayudarme a solucionar esto lo antes posible? Saludos, Juan S\u00e1nchez"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General::Administrative Inquiries",
+    "language": "es",
+    "subject": "Cambiar el nombre en la factura pr\u00f3xima",
+    "text": "Estimado equipo de contabilidad, Espero se encuentren bien. Podr\u00edan cambiar el nombre de mi empresa en la pr\u00f3xima factura a 'Consultora Innovatriz S.L.'? No es urgente, pero agradecer\u00eda que lo hicieran antes del pr\u00f3ximo ciclo de facturaci\u00f3n. Atentamente, Marc G\u00f3mez"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Board Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Board Management Software: Nutzerrechte verwalten",
+    "text": "Hallo Team,\n\nich habe eine kleine Frage zur Verwaltung von Nutzerrechten in der Board Management Software. Ich bin mir nicht sicher, wie ich einem neuen Benutzer Administratorrechte geben kann. Gibt es daf\u00fcr eine Anleitung oder k\u00f6nnten Sie mir dies kurz erkl\u00e4ren?\n\nGr\u00fc\u00dfe, Laura G\u00fcnther"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Smart-Haustierkamera",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical: Smart Pet Camera Complete Failure",
+    "text": "Hello Support,\nMy Smart Pet Camera suddenly stopped working; it won't power on. I've tried multiple power sources. I urgently need assistance.\nBest,\nAlice James"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart-Tracker",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Le Smart-Tracker ne s'allume plus",
+    "text": "Bonsoir support technique,\nJ\u2019ai un souci avec mon Smart-Tracker. Depuis hier, il ne s'allume plus et je n'arrive pas \u00e0 le charger. J'ai suivi toutes les instructions du manuel, mais rien n'y fait. Pouvez-vous m'indiquer comment r\u00e9soudre ce probl\u00e8me?\nMerci d'avance,\nMathieu Dupont"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Smart-Energiez\u00e4hler",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issues with Smart Energy Meter Readings",
+    "text": "Dear Support Team,\nI recently installed the new Smart Energy Meter but I have been facing inconsistencies in the readings. It often displays erroneous data and does not sync correctly. Any assistance on this matter would be highly appreciated.\nBest Regards,\nMichael Herzog"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Penetration Testing",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: Penetration Testing failure after update",
+    "text": "Hi Support Team, \u043f\u043e\u0441\u043b\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430\u0448\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0434\u043b\u044f \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043d\u0430 \u043f\u0440\u043e\u043d\u0438\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0441\u0442\u0430\u043b\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c. \u041a\u0430\u043a \u043c\u043e\u0436\u043d\u043e \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u043f\u043e\u0441\u0442\u0430\u0440\u0430\u0439\u0442\u0435\u0441\u044c \u043f\u043e\u043c\u043e\u0447\u044c: \u0443 \u043d\u0430\u0448\u0438\u0445 \u0434\u0432\u043e\u0438\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u0438\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u0441\u0435\u0440\u044c\u0451\u0437\u043d\u0430\u044f \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c. \u041c\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u043e\u0432\u0435\u0441\u0442\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 \u0441\u0440\u0430\u0437\u0443 \u043f\u043e\u0441\u043b\u0435 \u0432\u0430\u0448\u0435\u0439 \u043f\u043e\u043c\u043e\u0449\u0438. Best regards, \u0410\u043d\u0434\u0440\u0435\u0439 \u0421\u043c\u0438\u0440\u043d\u043e\u0432"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Smart-Reiskocher",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Smart-Reiskocher heizt nicht mehr",
+    "text": "Sehr geehrtes Support-Team, mein Smart-Reiskocher heizt seit gestern nicht mehr. Ich habe ihn an verschiedenen Steckdosen getestet, aber ohne Erfolg. Bitte um schnelle Hilfe!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Payroll",
+    "language": "en",
+    "subject": "Request to Update Payroll Information",
+    "text": "Could you update my payroll details for the March 2024 cycle? My employee ID is EMP123456. Thank you!"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Magnetometer",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me mineur avec le Magn\u00e9tom\u00e8tre",
+    "text": "Cher support technique,\nJ'ai r\u00e9cemment remarqu\u00e9 un petit probl\u00e8me avec mon magn\u00e9tom\u00e8tre. Il semble que les mesures prennent parfois un peu plus de temps que d'habitude \u00e0 s'afficher. Ce n'est pas urgent mais j'aimerais v\u00e9rifier si tout fonctionne correctement.\nMerci d'avance,\nAntoine Dupont"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Cancellations",
+    "language": "es",
+    "subject": "Consulta sobre la cancelaci\u00f3n de mi suscripci\u00f3n",
+    "text": "Hola equipo de soporte,\nMe gustar\u00eda solicitar la cancelaci\u00f3n de mi suscripci\u00f3n a su servicio. Ya no necesito utilizarla y preferir\u00eda cancelar antes del pr\u00f3ximo ciclo de facturaci\u00f3n. \u00bfPodr\u00edan indicarme los pasos para concluir este proceso?\nAgradezco su pronta respuesta a este asunto.\nSaludos cordiales,\nLaura Flores"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::General",
+    "language": "en",
+    "subject": "Request for Monthly Invoice Summary",
+    "text": "Hello Accounting Team,\nOur department would appreciate it if you could provide us with a detailed summary of all the invoices issued over the past month. This summary is for our internal record-keeping and planning purposes. Moreover, could you also include any discrepancies or pending payments? Your swift cooperation in this matter would be highly appreciated.\nBest regards,\nThomas Lehner, Finance Department"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "OLED-Monitor",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: OLED Monitor verbindet sich nicht korrekt",
+    "text": "Hello, This is Emil Krause. My OLED monitor suddenly stopped connecting to any of my devices via HDMI or DisplayPort. I've tried different cables and reset the settings, but it still doesn't work. This is really impacting my work schedule. Can you please assist me in resolving this issue urgently? Thanks a lot!"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Pinterest Ads",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Publicidad en Pinterest Ads no se publica",
+    "text": "Hola soporte, he notado que mis anuncios en Pinterest Ads no se est\u00e1n publicando correctamente. \u00bfQu\u00e9 puedo hacer?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "SEO Tools",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "SEO Tools crash repeatedly - Immediate action required",
+    "text": "Hi team,\nMy SEO Tools software crashes constantly after login. I have tried reinstalling it but nothing works. This is affecting my workflow immensely. Need urgent support!\n\nBest,\nTom Turner"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Accelerometer",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Dysfonctionnement de l'acc\u00e9l\u00e9rom\u00e8tre",
+    "text": "Bonjour le support technique,\nj'ai r\u00e9cemment remarqu\u00e9 que l'acc\u00e9l\u00e9rom\u00e8tre de mon appareil ne fonctionne plus correctement. Les mesures sont souvent incorrectes, ce qui affecte mes applications. Pouvez-vous m'aider \u00e0 diagnostiquer et r\u00e9soudre ce probl\u00e8me au plus vite ? Merci.\nCordialement,\nAlex Dupuis"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "VR Headset",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "VR Headset l\u00e4dt nicht richtig",
+    "text": "Sehr geehrte Damen und Herren, mein VR Headset, das ich letzten Monat bei Ihnen gekauft habe (Bestellnr. 10024567), zeigt beim Laden st\u00e4ndig Fehlermeldungen und l\u00e4dt teilweise gar nicht. Ich habe bereits verschiedene Ladeger\u00e4te ausprobiert, aber es hat nichts geholfen. Was kann ich tun? Freundliche Gr\u00fc\u00dfe, Patrick M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Technical",
+    "language": "es",
+    "subject": "Pregunta sobre bonificaci\u00f3n laboral",
+    "text": "Estimado equipo de contabilidad, querr\u00eda saber si la empresa va a aplicar %nalmente la bonificaci\u00f3n adicional prometida para este trimestre en mi pr\u00f3ximo salario. Agradecer\u00eda obtener respuesta. Gracias, Marta Hidalgo"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development::Career Counseling",
+    "language": "en",
+    "subject": "Anfrage zur Personalentwicklung und Karriereberatung",
+    "text": "Hallo Personalabteilung, ich w\u00fcrde gerne \u00fcber M\u00f6glichkeiten zur Personalentwicklung und Karriereberatung sprechen. K\u00f6nnen wir vielleicht einen Termin f\u00fcr ein Gespr\u00e4ch vereinbaren? Vielen Dank im Voraus und freundliche Gr\u00fc\u00dfe, Max Mustermann"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Heart Rate Monitor",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Heart Rate Monitor l\u00e4sst sich nicht mehr einschalten",
+    "text": "Hello Support Team, My discounted order from Todd HBX19036 isn't turning on, it was working fine till last night. Charged it fully but still no response. Please resolve it urgently as I truly require daily health checkups. Regards, Julian Ryder"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Technical Support",
+    "language": "de",
+    "subject": "Dringende Rechnungsangelegenheit - Wichtige Kl\u00e4rung ben\u00f6tigt",
+    "text": "Sehr geehrte Damen und Herren,\n\nich ben\u00f6tige unbedingt eine Kopie meiner letzten Rechnung f\u00fcr die interne Buchhaltung. \nUnsere Abschl\u00fcsse stehen bevor und ohne diese Information k\u00f6nnen wir die Steuererkl\u00e4rung nicht vollst\u00e4ndig einreichen. \nBitte um schnelle R\u00fcckmeldung.\n\nVielen Dank und viele Gr\u00fc\u00dfe,\nPaul Neumann"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Power BI",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas con la importaci\u00f3n de datos en Power BI",
+    "text": "Hola equipo de soporte, estoy teniendo dificultades al importar datos en Power BI. Me aparece un error que dice 'Formato de archivo no compatible'. \u00bfPodr\u00edan ayudarme a resolver este problema? \u00a1Gracias de antemano! Saludos."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "AMD Radeon RX 6800 XT",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: AMD Radeon RX 6800 XT not powering on",
+    "text": "Dear support team, Last night, my AMD Radeon RX 6800 XT suddenly stopped working and won't power on. I'm in the middle of a project and desperately need this resolved. I've checked all connections and tried different slots but no luck. Please assist ASAP.Regards,Jamie Doe"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Converter",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Question about Converter hardware settings",
+    "text": "Hello Support Team,\n\nI recently purchased the Converter hardware for my home setup, and I have a small question about adjusting the settings for optimal performance. Can you please guide me through the process or provide any documentation that might help?\n\nThanks in advance,\nMatt Bernsen"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "GPU",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas menores con la GPU",
+    "text": "Hola soporte, tengo una tarjeta gr\u00e1fica GPU que en ocasiones muestra artefactos visuales durante el uso. No es un problema constante, pero es molesto. \u00bfPodr\u00edan ayudarme a resolverlo? Gracias."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Spiegellose Kamera",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Urgent: Spiegellose Kamera f\u00e4llt nach kurzer Nutzung aus",
+    "text": "Dear Support Team, my mirrorless camera refuses to power on after brief periods of use. It's crucial for my professional work, and I have tried multiple factories resets without success. The issue persists regardless of power source. Please provide immediate assistance as this is very urgent. Regards, Sarah Mueller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Portable Console",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with Portable Console - Screen flickering",
+    "text": "The screen flickers randomly during use."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Sector Antenna",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Sector Antenna Not Powering On",
+    "text": "Hello Support Team,\nI recently purchased a Sector Antenna from your store. Unfortunately, it seems like it isn't powering on. I've tried different cables and outlets without success, and my project deadlines are approaching, so I urgently need assistance to resolve this issue. Could this be a defect? Please advise on the next steps. My Order Number is 12345678. Thank you in advance!\nSincerely,\nJohn Doe"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries",
+    "language": "en",
+    "subject": "Urgent: Frage zu steuerlichen Auswirkungen der Ausgaben",
+    "text": "Sehr geehrtes Buchhaltungsteam, ich ben\u00f6tige dringend Informationen \u00fcber die steuerlichen Auswirkungen bestimmter Gesch\u00e4ftsausgaben f\u00fcr unser Unternehmen. Bitte um schnellstm\u00f6gliche Kl\u00e4rung!"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Adobe Premiere Pro 2021",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Dringendes Problem mit Adobe Premiere Pro 2021",
+    "text": "Hallo Team,Adobe Premiere Pro 2021 st\u00fcrzt st\u00e4ndig ab. Ich habe ein dringendes Projekt und kann auf keine Dateien zugreifen. Das Programm startet, friert kurz danach aber immer ein. Habe alles probiert und brauche dringend Hilfe. Mit freundlichen Gr\u00fc\u00dfen, Kai M\u00fcller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "NAS-Geh\u00e4use",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema con el funcionamiento del NAS-Geh\u00e4use",
+    "text": "Hola, el NAS-Geh\u00e4use que compr\u00e9 no se enciende adecuadamente con los discos duros instalados. \u00bfAlguna soluci\u00f3n?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "MF Antenna",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Probleme mit der MF Antenna",
+    "text": "Hallo Support-Team,\nmein MF Antenna Ger\u00e4t funktioniert nicht richtig. Das Signal ist oft sehr schlecht oder verschwindet komplett. Der Reset und \u00dcberpr\u00fcfungen der Verbindungen haben nicht geholfen. Was kann ich tun?\nGr\u00fc\u00dfe,\nMarkus Lehmann"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Cassandra 4.0",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Cassandra 4.0 - Telekom Dienste lahmgelegt",
+    "text": "Sehr geehrte Damen und Herren,\nnach dem j\u00fcngsten Update auf Cassandra 4.0 funktionieren unsere internen Telekom-Dienste nicht mehr. Der gesamte Service ist nicht mehr erreichbar und unser Gesch\u00e4ftsbetrieb ist massiv beeintr\u00e4chtigt. Ich bitte dringend um sofortige Hilfe um den Service wiederherzustellen!\n\nMit freundlichen Gr\u00fc\u00dfen,\nChristian M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Security Inquiries",
+    "language": "de",
+    "subject": "Sicherheitsabfrage zu Transaktion 89547QW117",
+    "text": "Sehr geehrte Damen und Herren,\n\nich habe k\u00fcrzlich eine Benachrichtigung \u00fcber eine Transaktion mit der Nummer 89547QW117 auf meinem Konto erhalten, die mir verd\u00e4chtig erscheint. K\u00f6nnten Sie dies bitte \u00fcberpr\u00fcfen und mir weitere Informationen zukommen lassen? Es scheint sich um einen m\u00f6glichen Sicherheitsvorfall zu handeln.\n\nDanke und Gr\u00fc\u00dfe,\nSilvio Klein"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "LoRa Module",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problema al conectarme con los m\u00f3dulos LoRa",
+    "text": "Estimado soporte, recientemente adquirimos varios m\u00f3dulos LoRa y estamos experimentando problemas con la conectividad entre ellos. Hemos seguido todas las instrucciones del manual, pero no logramos establecer una conexi\u00f3n estable. \u00bfPodr\u00edan ayudarnos a solucionar esto? Saludos, Hans M\u00fcller"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Travel Expenses",
+    "language": "en",
+    "subject": "Reimbursement for Travel Expenses",
+    "text": "Dear Accounting Team, I am writing to request information regarding the reimbursement process for my recent business trip to Berlin. Despite submitting all required receipts 10 days ago, I have yet to receive the reimbursement. Could you please update me on the status of my request? I also have questions about my daily allowances. Thank you. Best regards, Anna Schultz"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "BlueJeans",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "BlueJeans - Erreur critique lors du d\u00e9marrage",
+    "text": "Bonjour \u00e9quipe de support, lorsque je tente de d\u00e9marrer BlueJeans, je rencontre constamment une erreur critique qui m'emp\u00eache d'utiliser le programme pour mes r\u00e9unions professionnelles. Veuillez m'aider rapidement, svp. Merci. Client #48632"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "SAP Business Suite",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Peque\u00f1o error en SAP Business Suite",
+    "text": "Hola equipo de soporte, he notado un peque\u00f1o error en la interfaz de usuario de SAP Business Suite. A veces, algunos botones no reaccionan al primer clic y tengo que intentarlo de nuevo. No es urgente, pero ser\u00eda genial si pudieran solucionarlo en una futura actualizaci\u00f3n. Gracias."
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Photoshop CC 2022",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Photoshop CC 2022 - Pl\u00f6tzlich-Abst\u00fcrze bei Filter",
+    "text": "Dear Support Team, Photoshop CC 2022 crashes unexpectedly whenever I apply certain filters. My project deadlines are at risk. Could you urgently help me fix this?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Gaming-Monitor",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Minor flickering issue with Gaming Monitor",
+    "text": "Dear Support Team, I recently purchased a gaming monitor from your store. Occasionally, I notice minor flickering across the screen. It's not a major issue but somewhat annoying during long gaming sessions. I've tried updating the drivers and adjusting the resolution but it's still there. Could you provide any suggestions on how to resolve this? Thank you in advance! Best, Robert Marsh"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Smart-Wasserz\u00e4hler",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me mineur avec Smart-Wasserz\u00e4hler",
+    "text": "Bonjour, j\u2019ai remarqu\u00e9 une l\u00e9g\u00e8re irr\u00e9gularit\u00e9 dans les relev\u00e9s du Smart-Wasserz\u00e4hler. Pouvez-vous aider?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Smart-K\u00fchlschrank",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Smart-K\u00fchlschrank zeigt keine K\u00fchlung an",
+    "text": "Hello Customer Support Team,\nI noticed that my Smart-K\u00fchlschrank, which I purchased from your store last month (Order Number #54321), isn't cooling anymore. The display panel isn't showing the temperature, and there seems to be no refrigeration happening inside. This is quite urgent as I am losing perishable items. Could you please assist?\nThanks, Mathias Brandt"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "Cellular Antenna",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Cellular Antenna experiencing intermittent signal loss",
+    "text": "Dear Support Team, I am facing an issue with the Cellular Antenna I received last week. There is constant intermittent signal loss affecting connectivity. Tried power cycles with no improvement. Could you assist?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::IT Support::Access Rights",
+    "language": "es",
+    "subject": "Problemas con los derechos de acceso",
+    "text": "Estimado soporte t\u00e9cnico, necesito su ayuda urgente. Mi nombre es Julia Ruiz, empleado n\u00ba 87349, y no puedo acceder a los documentos de contabilidad hoy. Esto me est\u00e1 causando serios retrasos en mi trabajo y podr\u00eda afectar las operaciones diarias. Por favor, resu\u00e9lvanlo lo antes posible. Gracias de antemano, Julia."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "XSplit Broadcaster",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Peque\u00f1o bug en XSplit Broadcaster",
+    "text": "Hola soporte de XSplit, Espero que est\u00e9n bien. He notado un peque\u00f1o problema en su software XSplit Broadcaster. Cada vez que intento cambiar el perfil de audio, la aplicaci\u00f3n tarda mucho en responder y a veces se congela. \u00bfPodr\u00edan investigar esto, aunque no es urgente? Un saludo, Juan Rodr\u00edguez"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "WeChat",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Mise \u00e0 jour WeChat demand\u00e9e",
+    "text": "Bonjour support, je voudrais savoir s'il est possible d'obtenir une mise \u00e0 jour pour ma version de WeChat. L'application semble un peu lente ces derniers temps et j'\u00e9tais curieux de savoir s'il existe une nouvelle version qui pourrait r\u00e9soudre ce probl\u00e8me. Merci!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Accounting::Year-End Closing",
+    "language": "de",
+    "subject": "Klarstellung zur Jahresendabrechnung",
+    "text": "Sehr geehrtes Team, ich ben\u00f6tige Unterst\u00fctzung bei meiner letzten Jahresendabrechnung. Vielen Dank!"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "Redis 6.2",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Critical Issue - Redis 6.2 Not Starting",
+    "text": "Hello Team,\nOur Redis 6.2 instance has suddenly stopped working and won't restart. This is affecting our primary database. Immediate assistance needed.\nThanks,\nMichael Brown"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "DEXs",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me avec la derni\u00e8re mise \u00e0 jour de DEXs",
+    "text": "Bonjour \u00e9quipe de support, \nDepuis la derni\u00e8re mise \u00e0 jour de votre application DEXs, j'ai remarqu\u00e9 de nombreux bugs. Par exemple, l'application se fige r\u00e9guli\u00e8rement lorsque j'essaie de sauvegarder mon travail. De plus, certaines fonctionnalit\u00e9s comme l'int\u00e9gration de l'API ne fonctionnent plus correctement. Pourriez-vous m'aider \u00e0 r\u00e9soudre ces probl\u00e8mes ? \nMerci d'avance et cordialement, \nCharlotte Dubois"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Competitive Analysis",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Erreur mineure dans Competitive Analysis",
+    "text": "Bonjour Support, J'ai remarqu\u00e9 une petite erreur dans Competitive Analysis. Une ic\u00f4ne semble ne pas s'afficher correctement sans raison. Merci de regarder cela."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Epson WorkForce ES-500W Scanner",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Adaptador de corriente para Epson WorkForce ES-500W defectuoso",
+    "text": "Not\u00e9 que el adaptador de corriente de mi Epson WorkForce ES-500W est\u00e1 funcionando intermitentemente. \u00bfQu\u00e9 debo hacer?"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "IP PBX",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me de connexions IP PBX",
+    "text": "Bonjour, nous rencontrons un probl\u00e8me avec notre mat\u00e9riel IP PBX. Les connexions sont instables et nous observons des interruptions fr\u00e9quentes. Cela affecte fortement notre communication interne. Votre assistance serait tr\u00e8s appr\u00e9ci\u00e9e pour r\u00e9gler ce probl\u00e8me rapidement."
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "GIMP 2.10.24",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Feature request - GIMP 2.10.24",
+    "text": "Would it be possible to add more blend modes in a future GIMP 2.10.24 update? Thanks!"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Complaints",
+    "language": "en",
+    "subject": "Complaint about inaccurate billing",
+    "text": "Dear Support, I noticed a discrepancy in my recent bill. Certain items were wrongly charged. Kindly review and correct it at the earliest convenience. Regards, Jamie."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "VGA Cable",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Probleme mit VGA-Kabel - Bildschirm bleibt schwarz",
+    "text": "Sehr geehrtes Support-Team, ich verwende ein VGA-Kabel, das ich bei Ihnen gekauft habe, und habe seit kurzem das Problem, dass mein Bildschirm beim Anschlie\u00dfen schwarz bleibt. Ich habe das Kabel und den Monitor mit anderen Ger\u00e4ten getestet, und da funktioniert alles einwandfrei. K\u00f6nnte es ein Problem mit der Signal\u00fcbertragung sein? Viele Gr\u00fc\u00dfe, Patrick Sauer"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "iOS 15",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Falla cr\u00edtico en iOS 15 - Aplicaciones no responden",
+    "text": "Estimado equipo de soporte, desde que actualic\u00e9 a iOS 15 varias aplicaciones cr\u00edticas dejan de responder y cierran autom\u00e1ticamente. Esto me impide realizar tareas diarias esenciales y genera estr\u00e9s. Reiniciar el dispositivo y reinstalar apps no ha resuelto el problema. Urge su asistencia inmediata."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Security Inquiries",
+    "language": "en",
+    "subject": "Inquiry regarding billing security protocols",
+    "text": "Hello Support Team,\nI would like to inquire about the security protocols you have in place regarding our billing and account information security. Can you provide details on how my financial data is protected? Ensuring safety and compliance is crucial for us.\nThank you,\nAlex Brunner"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Bluetooth Antenna",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Notfall! Bluetooth-Antenne funktioniert nicht mehr",
+    "text": "Sehr geehrte Damen und Herren, meine Bluetooth-Antenne (Bestellnummer: 4765298) hat pl\u00f6tzlich den Geist aufgegeben und ich bin stark auf sie angewiesen, um verschiedene Ger\u00e4te zu verbinden. Bitte helfen Sie mir so schnell wie m\u00f6glich, da ich viele wichtige Aufgaben dadurch nicht erledigen kann."
+  },
+  {
+    "queue": "Hardware",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "VR Treadmill",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Issue with VR Treadmill losing calibration",
+    "text": "Hi Support Team, I\u2019m experiencing a calibration issue with my VR Treadmill. After using it for about 25-30 minutes, the tracking seems to go off, which impacts my VR experience. I\u2019ve tried to recalibrate, but the issue persists. Can you help me diagnose and resolve this problem? Thanks in advance! Best regards, Alex Turner"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Margin Trading",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Problemas menores con Margin Trading",
+    "text": "Estimado equipo de soporte: He notado un peque\u00f1o error en la interfaz de Margin Trading. La aplicaci\u00f3n muestra datos incorrectos cuando agrego \u00edndices personalizados en el dashboard."
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Legal Inquiries::Contract Law",
+    "language": "es",
+    "subject": "Urgente: Dudas legales sobre el contrato en curso",
+    "text": "Estimado equipo de soporte, Mi nombre es Ignacio Fern\u00e1ndez, empleado n\u00famero 10923. Tengo serias dudas sobre algunas clausulas presentes en mi contrato actual, particularmente los t\u00e9rminos relacionados con la cl\u00e1usula de no competencia y mi tiempo de aviso de renuncia. Agradezco una respuesta r\u00e1pida. Muchas gracias de antemano. Atentamente, Ignacio Fern\u00e1ndez"
+  },
+  {
+    "queue": "Software",
+    "priority": 2,
+    "software_used": "Compliance Risk Management",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Software Compliance Risk Management - Bug Detected",
+    "text": "Hello Support Team, Our Compliance Risk Management software seems to have a recurring bug. Specifically, every time we try to generate the quarterly compliance report, the program freezes and doesn't complete the process. Could you please look into this issue and provide a fix? Best regards, Alex Mercer"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Externe Festplatte",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "External Hard Drive Data Inaccessible",
+    "text": "Dear Support Team, \nI urgently need assistance. My external hard drive (Model: XHD-5000) has suddenly become inaccessible. I have tried connecting it to multiple devices, but it is not being recognized. My work files are on it, and I need them for an ongoing project. Can you please help restore access immediately? \nThank you in advance, \nBest regards, \nMichael Fischer"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Smart Plug",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Smart Plug l\u00e4sst sich nicht mehr einschalten",
+    "text": "Guten Tag, mein Smart Plug (Kundennummer 7894561) l\u00e4sst sich seit dem letzten Firmware-Update nicht mehr einschalten. Ich ben\u00f6tige dringend eine L\u00f6sung, da er f\u00fcr mein Homeoffice essenziell ist. Mit freundlichen Gr\u00fc\u00dfen, Max M\u00fcller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Zigbee Antenna",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Zigbee Antenna - Recepci\u00f3n de se\u00f1al intermitente",
+    "text": "Hola equipo de soporte,\n\nTengo un problema con la antena Zigbee que adquir\u00ed recientemente. La se\u00f1al que recibe es intermitente y esto afecta el rendimiento de mi red dom\u00e9stica inteligente. He intentado reposicionar la antena y verificar las conexiones, pero no mejor\u00f3 la situaci\u00f3n. \u00bfPodr\u00edan ayudarme a resolverlo?\n\nGracias y saludos,\nCarlos Santiago"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Health and Safety::Health Checks",
+    "language": "en",
+    "subject": "Question Regarding Annual Health Checks Policy",
+    "text": "Good morning HR team, I hope this message finds you well. I'm writing to ask about the company's policy on annual health checks. Can you confirm if they are mandatory for all employees this year, and if so, what the schedule and procedure will be like? Best regards, Sam Oliver"
+  },
+  {
+    "queue": "Software",
+    "priority": 1,
+    "software_used": "Solana Program Library",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Request for Assistance with Updating Solana Program Library",
+    "text": "Hi Support Team, I need some guidance on updating the Solana Program Library to the latest version. There are a few minor bugs that I would like to address with the new features. It's not urgent, but I'd appreciate any instructions or documentation you can share. Thanks! John Miller"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Spectre x360",
+    "accounting_category": "",
+    "language": "en",
+    "subject": "Spectre x360 - Screen bleibt schwarz nach Update",
+    "text": "Hallo Support, nach dem neuesten Update bleibt der Bildschirm meines Spectre x360 schwarz beim Hochfahren. Ich ben\u00f6tige das Ger\u00e4t dringend f\u00fcr wichtige Arbeiten. Habe bereits den Akku entfernt und neu gestartet, aber es hilft nichts. K\u00f6nnent ihr mir bitte schnellstm\u00f6glich weiterhelfen? Vielen Dank, Max Bauer"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "Lenovo ThinkPad X1 Carbon",
+    "accounting_category": "",
+    "language": "de",
+    "subject": "Lenovo ThinkPad X1 Carbon f\u00e4hrt nicht hoch",
+    "text": "Sehr geehrter Kundensupport, mein Lenovo ThinkPad X1 Carbon f\u00e4hrt nicht mehr hoch. Der Bildschirm bleibt schwarz, obwohl die Stromversorgung anliegt. Hilfe?"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 2,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Employee Inquiries::Staff Development",
+    "language": "en",
+    "subject": "Inquiry on Staff Development Plans",
+    "text": "Dear Accounting Team, I would like to inquire about the budget allocated for staff development for this fiscal year. Additionally, could you provide details on available training programs and their schedules? Looking forward to your response. Regards, Thomas Shaw"
+  },
+  {
+    "queue": "Accounting",
+    "priority": 3,
+    "software_used": "",
+    "hardware_used": "",
+    "accounting_category": "Customer Inquiries::Contract Questions",
+    "language": "de",
+    "subject": "Dringende Vertragsfrage - Kl\u00e4rung erforderlich",
+    "text": "Sehr geehrte Damen und Herren, bitte erl\u00e4utern Sie den aktuellen Stand meines Vertrages Nr. 123456. Es gibt Unklarheiten bez\u00fcglich der Laufzeit und der Geb\u00fchrenstruktur. Dies ist \u00e4u\u00dferst dringend, da n\u00e4chste Woche eine Frist endet. Vielen Dank und beste Gr\u00fc\u00dfe, Martin Keller"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "macOS Monterey",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "fr",
+    "subject": "Probl\u00e8me urgent avec macOS Monterey",
+    "text": "Bonjour, Depuis la mise \u00e0 jour vers macOS Monterey, mon MacBook Pro ne d\u00e9marre plus. J'ai besoin du logiciel pour des t\u00e2ches critiques et j'ai tout essay\u00e9: red\u00e9marrage, mode sans \u00e9chec, rien ne fonctionne. Pouvez-vous m'aider d\u00e8s que possible? C'est vraiment urgent! Merci d'avance.Pierre Durand"
+  },
+  {
+    "queue": "Hardware",
+    "priority": 1,
+    "software_used": "",
+    "hardware_used": "Swift Laptop",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "Pantalla parpadea en Swift Laptop",
+    "text": "La pantalla de mi port\u00e1til Swift parpadea de vez en cuando. \u00bfEs posible revisar esto o sugerirme una soluci\u00f3n r\u00e1pida?"
+  },
+  {
+    "queue": "Software",
+    "priority": 3,
+    "software_used": "FISMA Compliance",
+    "hardware_used": "",
+    "accounting_category": "",
+    "language": "es",
+    "subject": "FISMA Compliance - Error critico despu\u00e9s de la actualizaci\u00f3n 4.2",
+    "text": "Estimado equipo de soporte,\nDespu\u00e9s de actualizar a la versi\u00f3n 4.2, nuestra herramienta FISMA Compliance ha dejado de funcionar por completo. Esto est\u00e1 afectando seriamente nuestras operaciones diarias. Solicitamos asistencia urgente por favor.\nAtentamente, Manuel L\u00f3pez"
+  }
+]
