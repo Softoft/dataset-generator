@@ -1,0 +1,89 @@
+Aufgabenstellung für die Generierung eines realistischen Ticket-Systems Datensatzes
+Ziel: Generiere eine Sammlung von Email-Kundenanfragen für ein Support-Ticketsystem.
+Diese Anfragen sollen realistisch sein und unterschiedliche Kundenprobleme
+oder Fragen zu Produkten und Dienstleistungen abdecken.
+
+Sprache: Deutsch
+
+Formatierung der E-Mails:
+Antworte im JSON Format mit den Attributen subject, text, priority, queue. Alle Attribute müssen immer enthalten sein.
+
+subject: Ist der Betreff der Email
+Bsp:
+Hilfe!1! – Python 3.12 crasht ständig,
+"Windows 11" startet nicht nach Update,
+Rechnungsfrage zur letzten Transaktion,
+Zugriff verweigert auf OTOBO 10.1.19 – Klärung benötigt,
+Anfrage@Softoft: Produkt Github 13.1 defekt,
+[Fehler] – Ihre App "VueTracker" ist langsam,
+Bestellprobleme bei der Muhlten AG
+
+E-Mails können Anreden verwenden, wie bspw.
+Prio: Jedes Ticket hat eine Priorität von 1 - 3,  1 niedrig, 2 normal, 3 kritisch
+Die Prio wird nicht vom Kunden, sondern vom System oder vom Support-Mitarbeiter festgelegt.
+
+Prio 3 - Kritisch:
+Wenn jemand gehackt wurde, sein Gerät sich nicht mehr einschalten lässt, er das Gerät/Software aber braucht.
+Wenn er das Gerät/Software nicht verwenden kann, aus unterschiedlichen Gründen, er es aber braucht.
+Wenn jemand unbedingt eine Rechnung benötigt, aus verschiedenen Gründen,
+Falls ein Kunde ein Security Update, gegen eine ernstzunehmende Sicherheitslücke gefunden hat.
+
+
+Priorität 2 - Normal: sind normale Standard Probleme, die nicht direkt erledigt werden müssen und keinen starken Effekt haben.
+Kunde braucht Update auf neue Software Version. Dem Kunden ist ein kleiner Bug aufgefallen. Sein Gerät hat einen kleinen Fehler.
+Braucht eine Rechnung. Neuer Kunde will ein Angebot für eine Software Entwicklung haben.
+Ein bestehender Kunde hat sich beschwert, dass seine Emails nicht beantwortet wurde.
+Kunde hat sich beschwert.
+
+Priorität 1 - Niedrig: Das Ticket ist unwichtig, es besteht wenig Zeitdruck:
+Es ist ein kleiner Fehler in der verwendeten Software oder Hardware aufgefallen.
+Frage ob seine nächste Rechnung, einen anderen Unternehmensname angeben kann.
+Frage ob er ein Angebot haben kann, aber er hat es nicht eilig oder braucht es nicht wirklich.
+Ein Kunde gibt positives Feedback, ohne konkreten Handlungsbedarf
+Kunde schreibt, dass er für sein System vielleicht ein Update gebrauchen könnte.
+Kunde fragt, ob er für eine Rechnung eine kleine Änderung bekommen kann
+
+Queue: Jedes Ticket hat eine dieser Queues:
+"Software"
+"Hardware"
+"Buchhaltung"
+
+Anforderungen an die Realitätsnähe:
+Kundendaten: Verwende realistische Kundenummern und Bestellnummern und Webseiten.
+
+Beispiel klassifizierte E-Mails
+
+{"subject": "Google Pixel 5 WLAN funktioniert nicht",
+"text": "ich habe mir letztens bei Ihnen ein Google Pixel 5 gekauft und jetzt funktioniert das W-Lan nicht mehr. Ich hab schon alles probiert, was in Foren stand, aber nichts hilft. Könnten Sie mir weiterhelfen?
+", "priority": 3, "queue": "Hardware"}
+
+{"subject": "Problem Canon EOS R6",
+"text": "Ich habe ein Problem mit meinem neuen Canon EOS R6. Die Bilder sind alle verschwommen und ich habe nichts an den Einstellungen verändert, was könnte das sein? Anbei die letzten Fehlermeldungen, die ich bekommen habe.
+Hoffe auf schnelle Hilfe!",
+ "priority": 2,
+  "queue": "Hardware"}
+
+{"subject": "Angebotsnachfrage Adobe Illustrator 2022",
+"text": "ich habe eine frage bezüglich des Preises für ein Upgrade von Adobe Illustrator 2021 auf die neueste Version. Könntet Ihr mir bitte ein Angebot machen? Ich bräuchte das für mein ganzes Design-Team (5 Personen).
+", "priority": 2, "queue": "Buchhaltung"}
+
+{
+"subject": "OTOBO 10.1.7 - Abgestürzt, Startet nicht mehr",
+text:"
+Hallo,
+ich habe ein Problem mit OTOBO 10.1.7. Ich habe es gestern installiert und heute startet es nicht mehr. Ich habe es schon neu installiert, aber es funktioniert immer noch nicht. Könnt Ihr mir bitte helfen?",
+"priority": 2,
+queue: "Software"
+}
+
+{
+"subject": "OTOBO 10.1.7 - Abgestürzt, Startet nicht mehr",
+text:"
+Hallo,
+ich habe ein Problem mit OTOBO 10.1.7. Unser produktiv Server startet nicht mehr. Unser Kundensupport hat große Probleme. Könnt Ihr mir bitte helfen?",
+"priority": 3,
+queue: "Software"
+}
+
+
+{"subject": "Rechnungsadresse Änderung", "text": "In Zukunft bitte folgende Rechnungsadresse verwenden: Wiesbadener Straße 187, 50667 Köln.", "priority": 1, "queue": "Buchhaltung"}

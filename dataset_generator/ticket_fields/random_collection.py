@@ -1,3 +1,4 @@
+import random
 from random import choices
 
 
@@ -13,6 +14,11 @@ class RandomCollection[T](IRandomCollection):
 
     def __init__(self, value_weight_dict: dict[T, float]):
         self.value_weight_dict = value_weight_dict
+        self._randomize_weights()
+
+    def _randomize_weights(self):
+        for key in self.value_weight_dict.keys():
+            self.value_weight_dict[key] *= random.random()
 
     def get_random_value(self) -> T:
         values, weights = zip(*self.value_weight_dict.items())

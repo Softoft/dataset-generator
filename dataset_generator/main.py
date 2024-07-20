@@ -1,9 +1,13 @@
 import asyncio
 
-from dataset_generator.color_logging import init_logging
-from dataset_generator.dataset_generation import DatasetGenerator
+from dataset_generator.dataset_generation import DatasetGeneratorBuilder
+from util.color_logging import init_logging
 
 if __name__ == '__main__':
     init_logging()
-    asyncio.run(DatasetGenerator(8_400, "../data/training/gpt-4-multi-lang-big-8k-15-07.json",
-                                 text_length_mean=251, batch_size=100).generate_dataset())
+    dataset_generator_builder = DatasetGeneratorBuilder(400, "../data/training/gpt-4-multi-lang-big-1k-randomized.json",
+                                                        100)
+    dataset_generator_builder.text_length_mean = 250
+    dataset_generator_builder.text_length_stddev_factor = 2
+
+    asyncio.run(dataset_generator_builder.build().generate_dataset())

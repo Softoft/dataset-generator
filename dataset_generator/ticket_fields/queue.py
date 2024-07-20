@@ -1,4 +1,5 @@
 import enum
+import random
 
 from dataset_generator.ticket_fields.random_collection import IRandomCollection, RandomCollection
 
@@ -9,4 +10,4 @@ class Queue(enum.Enum):
     ACCOUNTING = "Accounting"
 
 
-random_queue_collection: IRandomCollection = RandomCollection.from_value_list(list(Queue))
+random_queue_collection: IRandomCollection = RandomCollection({ Queue.SOFTWARE: 2, Queue.HARDWARE: 1, Queue.ACCOUNTING: 1})

@@ -2,28 +2,45 @@ import asyncio
 import json
 import logging
 import time
+import random
 
 from dataset_generator.ticket import get_random_ticket
-from prompt_generator import PromptGenerator, TextLengthGenerator
+from prompt_generation.prompt_generator import PromptGenerator, TextLengthGenerator
 from util.chat_assistant import ChatAssistant
 
 ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 GPT_TEMPERATURE = 1.25
 
 
+class DatasetGeneratorBuilder:
+    def __init__(self, dataset_size, output_file, batch_size):
+        self.dataset_size = dataset_size
+        self.output_file = output_file
+        self.batch_size = batch_size
+        self.text_length_mean = 300
+        self.text_length_stddev_factor = 1.5
+        self.text_length_stddev = None
+        self.text_length_min = 20
+        self.text_length_max = 10 ** 5
+        self.text_length_diff = 30
+
+    def build(self):
+        if self.text_length_stddev is None:
+            self.text_length_stddev = self.text_length_mean * self.text_length_stddev_factor
+        self.text_length_mean += random.uniform(-self.text_length_mean / 10, self.text_length_mean / 10)
+        text_length_generator = TextLengthGenerator(self.text_length_mean, self.text_length_stddev,
+                                                    self.text_length_min, self.text_length_max, self.text_length_diff)
+        prompt_generator = PromptGenerator(text_length_generator)
+        return DatasetGenerator(self.dataset_size, self.output_file, self.batch_size, prompt_generator)
+
+
 class DatasetGenerator:
-    def __init__(self, dataset_size, output_file, batch_size, text_length_mean=300, text_length_stddev=150,
-                 text_length_min=20, text_length_max=400,
-                 text_length_diff=30):
-        self.prompt_generator = PromptGenerator(
-            TextLengthGenerator(mean=text_length_mean, std_dev=text_length_stddev, lower_bound=text_length_min,
-                                upper_bound=text_length_max, upper_text_length_diff=text_length_diff))
+    def __init__(self, dataset_size, output_file, batch_size, prompt_generator: PromptGenerator):
+        self.prompt_generator = prompt_generator
         self.dataset_size = dataset_size
         self.output_file = output_file
         self.amount_batches = dataset_size // batch_size
         self.batch_size = batch_size
-        self.text_length_mean = text_length_mean
-        self.text_length_stddev = text_length_stddev
         self.assistant = ChatAssistant(ASSISTANT_ID, temperature=GPT_TEMPERATURE)
 
     async def get_ticket_as_dict(self) -> dict:

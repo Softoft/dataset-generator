@@ -25,6 +25,6 @@ def csv_to_json(csv_file_path, json_file_path):
 
 
 if __name__ == '__main__':
-    json_to_csv("../../dataset-generator/data/training/gpt-4-big-14-06.json",
-                "../../dataset-generator/data/ticket_helpdesk_labeled_multi_languages_english_spain_french_german.csv",
-                True, 200)
+    json_to_csv("../data/training/gpt-4-multi-lang-big-1k-randomized.json",
+                "../data/clean_production_data/ticket-helpdesk-multi-lang.csv",
+                True, 400)
