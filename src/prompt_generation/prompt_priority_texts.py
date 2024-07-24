@@ -1,4 +1,4 @@
-from dataset_generator.ticket_fields.priority import Priority
+from src.ticket_fields.priority import Priority
 
 
 def get_priorities_prompt(priority: Priority)-> str:

@@ -4,7 +4,7 @@ import logging
 import time
 import random
 
-from dataset_generator.ticket import get_random_ticket
+from src.ticket import get_random_ticket
 from prompt_generation.prompt_generator import PromptGenerator, TextLengthGenerator
 from util.chat_assistant import ChatAssistant
 

@@ -1,6 +1,6 @@
 import enum
 
-from dataset_generator.ticket_fields.random_collection import IRandomCollection, RandomCollection
+from src.ticket_fields.random_collection import IRandomCollection, RandomCollection
 
 
 class Language(enum.Enum):

@@ -1,10 +1,10 @@
 import dataclasses
 from enum import Enum
 
-from dataset_generator.ticket_fields.language import Language, random_language_collection
-from dataset_generator.ticket_fields.priority import Priority, random_priority_collection
-from dataset_generator.ticket_fields.queue import Queue, random_queue_collection
-from dataset_generator.ticket_fields.subcategory import SubCategoryRandomCollection
+from src.ticket_fields.language import Language, random_language_collection
+from src.ticket_fields.priority import Priority, random_priority_collection
+from src.ticket_fields.queue import Queue, random_queue_collection
+from src.ticket_fields.subcategory import SubCategoryRandomCollection
 
 
 def get_random_ticket():

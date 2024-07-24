@@ -1,7 +1,7 @@
 import json
 
-from dataset_generator.ticket_fields.queue import Queue
-from dataset_generator.ticket_fields.random_collection import IRandomCollection, RandomCollection
+from src.ticket_fields.queue import Queue
+from src.ticket_fields.random_collection import IRandomCollection, RandomCollection
 
 
 def get_hardware_products():

@@ -1,0 +1,84 @@
+@startuml
+interface JSONSerializable{
+    + {abstract} serialize()
+}
+
+class Storage{
+    - data: Map<string, Object>
+    + {abstract} save(data)
+    + {abstract} load(): Object
+}
+
+class Node{
+    - parents: List<INode>
+    - was_executed: bool
+    + {async} execute()
+}
+
+
+class TicketBuilder{
+ - graph: Graph
+}
+
+
+class Graph{
+    - endNodes: List<INode>
+}
+
+class PromptBuilder{
+    - prompt: str
+    - add_data(data)
+    + build_prompt()
+}
+
+class ConcretePromptBuilder extends PromptBuilder{
+    + ConcretePromptBuilder(base_prompt)
+}
+
+class AINode extends Node{
+    - chat_assistant: ChatAssistant
+    - prompt_builder: PromptBuilder
+    + {async} execute(inputs)
+}
+
+class ChatAssistant{
+    - assistant_id: str
+}
+
+package random{
+
+class RandomNode{
+  - random: IRandom
+}
+interface IRandom<V>{
+    + {abstract} get_random(): V
+}
+
+class RandomTable<K, V> implements IRandom{
+    - rows:Map<K, List<RandomSet<V>>>
+    + {abstract} get_random(K): V
+}
+
+
+class RandomSet<V> implements IRandom{
+    - items: List<V>
+    - weights: List<float>
+    + {abstract} get_random(): V
+}
+
+}
+
+Graph o-- Node
+AINode o-- ChatAssistant
+AINode o-- PromptBuilder
+
+
+Node o-- Storage
+Node o-- Node
+
+RandomNode o-- IRandom
+RandomNode --|> Node
+
+TicketBuilder o-- Graph
+
+@enduml

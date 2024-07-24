@@ -1,7 +1,7 @@
 import enum
 import random
 
-from dataset_generator.ticket_fields.random_collection import IRandomCollection, RandomCollection
+from src.ticket_fields.random_collection import IRandomCollection, RandomCollection
 
 
 class Queue(enum.Enum):

@@ -13,7 +13,7 @@ def json_to_csv(json_file_path, csv_file_path, shuffle=False, max_size=10 ** 6):
         if shuffle:
             random.shuffle(data)
         for row in data[:max_size]:
-            csv_writer.writerow(row.values())
+            csv_writer.writerow(row._values())
 
 
 def csv_to_json(csv_file_path, json_file_path):

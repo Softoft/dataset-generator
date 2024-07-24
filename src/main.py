@@ -1,6 +1,6 @@
 import asyncio
 
-from dataset_generator.dataset_generation import DatasetGeneratorBuilder
+from src.dataset_generation import DatasetGeneratorBuilder
 from util.color_logging import init_logging
 
 if __name__ == '__main__':
