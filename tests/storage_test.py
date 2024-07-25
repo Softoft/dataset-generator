@@ -3,24 +3,23 @@ from tests.conftest import KeyEnum, ValueEnum
 
 
 def test_enum_name():
-	assert ValueEnum.__name__ == "ValueEnum"
+    assert ValueEnum.__name__ == "ValueEnum"
 
 
 def test_save_storage():
-	storage = KeyValueStorage()
-	storage.save(ValueEnum.V1)
+    storage = KeyValueStorage()
+    storage.save(ValueEnum.V1)
 
-	assert storage.load(ValueEnum) == ValueEnum.V1
-
+    assert storage.load(ValueEnum) == ValueEnum.V1
 
 
 def test_storage_contains():
-	storage = KeyValueStorage()
-	storage.save(ValueEnum.V1)
+    storage = KeyValueStorage()
+    storage.save(ValueEnum.V1)
 
-	assert ValueEnum in storage
-	assert KeyEnum not in storage
+    assert ValueEnum in storage
+    assert KeyEnum not in storage
 
-	storage.save(KeyEnum.K1)
+    storage.save(KeyEnum.K1)
 
-	assert KeyEnum in storage
+    assert KeyEnum in storage

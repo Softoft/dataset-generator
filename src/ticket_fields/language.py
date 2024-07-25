@@ -1,5 +1,6 @@
 from enum import Enum
 
+from graph.random_table_node import RandomTableNode
 from src.random_collections.random_collection import RandomCollectionBuilder
 from src.random_collections.random_collection_interface import IRandom
 
@@ -14,3 +15,6 @@ class Language(Enum):
 
 random_language_collection: IRandom = RandomCollectionBuilder.build_from_value_weight_dict(
     {Language.DE: 2, Language.EN: 4, Language.FR: 1, Language.ES: 2})
+
+
+language_node = RandomTableNode(Language, Language, [], random_language_collection)

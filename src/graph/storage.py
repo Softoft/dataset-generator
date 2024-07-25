@@ -7,12 +7,12 @@ class KeyValueStorage:
         self.storage: dict[str, object] = {}
 
     def __contains__(self, key: type) -> bool:
+        if not isinstance(key, type):
+            raise ValueError(f"Key must be a type, not {type(key)}")
         return key.__name__ in self.storage
 
     def save(self, value: any) -> None:
         key = type(value).__name__
-        if key in self.storage:
-            raise KeyError(f"Key {key} already exists in storage)")
         self.storage[key] = value
 
     def load(self, value_type: type) -> any:
