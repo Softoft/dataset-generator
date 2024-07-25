@@ -2,13 +2,13 @@ import logging
 
 import pytest
 
-from graph.executable_node import ExecutableNode
-from graph.random_collection_node import RandomCollectionNode
-from graph.random_table_node import RandomTableNode
-from graph.storage import KeyValueStorage
+from graph.core.executable_node import ExecutableNode
+from graph.core.random_collection_node import RandomCollectionNode
+from graph.core.random_table_node import RandomTableNode
+from storage.key_value_storage import KeyValueStorage
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
-from ticket_fields.category_ticket_field import ComparableEnum
+from graph.data.category_ticket_field import ComparableEnum
 
 
 class KeyEnum(ComparableEnum):
@@ -27,7 +27,7 @@ class ConfigurableEnumSaveNode(ExecutableNode):
         self.key_enum_value = key_enum_value
         super().__init__([])
 
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
         if KeyEnum in shared_storage:
             return shared_storage
         shared_storage.save(self.key_enum_value)

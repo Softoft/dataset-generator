@@ -1,5 +1,5 @@
 from src.random_collections.random_collection import RandomCollectionBuilder
-from src.ticket_fields.category_ticket_field import CategoricalTicketField
+from graph.data.category_ticket_field import CategoricalTicketField
 
 
 class MyTicketField(CategoricalTicketField):

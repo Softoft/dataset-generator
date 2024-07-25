@@ -1,4 +1,4 @@
-from src.ticket_fields.priority import Priority
+from graph.data.priority import Priority
 
 
 def get_priorities_prompt(priority: Priority)-> str:

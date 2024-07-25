@@ -11,7 +11,7 @@ def test_execute_random_value(create_random_table_node):
         KeyEnum.K2: { ValueEnum.V1: 1, ValueEnum.V2: 1, ValueEnum.V3: 1 },
     }
     random_table_node = create_random_table_node(KeyEnum.K1, key_value_weight_dict)
-    storage = asyncio.run(random_table_node.execute())
+    storage = random_table_node.execute()
     random_value = storage.load(ValueEnum)
     assert random_value in [ValueEnum.V1, ValueEnum.V2, ValueEnum.V3]
 
@@ -22,11 +22,11 @@ def test_execute_random_value_multiple_times(create_random_table_node):
         KeyEnum.K2: { ValueEnum.V1: 1, ValueEnum.V2: 1, ValueEnum.V3: 1 },
     }
     random_table_node = create_random_table_node(KeyEnum.K1, key_value_weight_dict)
-    storage = asyncio.run(random_table_node.execute())
+    storage = random_table_node.execute()
     random_value = storage.load(ValueEnum)
     assert random_value in [ValueEnum.V1, ValueEnum.V2, ValueEnum.V3]
     for _ in range(10):
-        storage = asyncio.run(random_table_node.execute())
+        storage = random_table_node.execute()
         random_value_2 = storage.load(ValueEnum)
         assert random_value_2 == random_value
 
@@ -44,7 +44,7 @@ def test_random_node_values_are_random(create_random_table_node, key, weights):
         KeyEnum.K2: dict(zip(ValueEnum, k2_weights)),
     }
     random_values = [
-        asyncio.run(create_random_table_node(key, key_value_weight_dict).execute()).load(ValueEnum)
+        create_random_table_node(key, key_value_weight_dict).execute().load(ValueEnum)
         for _ in range(1_000)
     ]
 

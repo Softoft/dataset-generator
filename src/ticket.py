@@ -1,9 +1,9 @@
 import dataclasses
 from enum import Enum
 
-from src.ticket_fields.language import Language, random_language_collection
-from src.ticket_fields.priority import Priority, random_priority_collection
-from src.ticket_fields.queue import Queue, random_queue_collection
+from graph.data.language import Language, random_language_collection
+from graph.data.priority import Priority, random_priority_collection
+from graph.data.queue import Queue, random_queue_collection
 from src.ticket_fields.subcategory import SubCategoryRandomCollection
 
 
