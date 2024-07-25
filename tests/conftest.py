@@ -1,19 +1,12 @@
-import pytest
-
-from src.text_length_generator import TextLengthGenerator
-from src.ticket_fields.random_collection import RandomCollectionBuilder, RandomTableBuilder
+from enum import Enum
 
 
-@pytest.fixture
-def text_length_generator():
-    return TextLengthGenerator(1000, 100)
+class KeyEnum(Enum):
+    K1 = 1
+    K2 = 2
 
 
-@pytest.fixture
-def random_collection_builder():
-    return RandomCollectionBuilder()
-
-
-@pytest.fixture
-def random_table_builder():
-    return RandomTableBuilder()
+class ValueEnum(Enum):
+    V1 = 1
+    V2 = 2
+    V3 = 3
