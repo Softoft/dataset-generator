@@ -19,10 +19,6 @@ class ExecutableNode(INode, abc.ABC):
         self._parents = parents
         self._was_executed = False
 
-    @abc.abstractmethod
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
-        pass
-
     async def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
         if shared_storage is None:
             shared_storage = KeyValueStorage()
@@ -37,3 +33,7 @@ class ExecutableNode(INode, abc.ABC):
         updated_shared_storage = await self._execute_node(merged_storage)
         self._was_executed = True
         return updated_shared_storage
+
+    @abc.abstractmethod
+    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+        pass

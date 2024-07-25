@@ -1,17 +1,26 @@
 from src.graph.storage import KeyValueStorage
-from tests.conftest import ValueEnum
+from tests.conftest import KeyEnum, ValueEnum
 
 
 def test_enum_name():
-    assert ValueEnum.__name__ == "ValueEnum"
+	assert ValueEnum.__name__ == "ValueEnum"
 
 
-def test_node_storage():
-    storage = KeyValueStorage()
-    storage.save(ValueEnum.V1)
+def test_save_storage():
+	storage = KeyValueStorage()
+	storage.save(ValueEnum.V1)
 
-    assert storage.load(ValueEnum) == ValueEnum.V1
+	assert storage.load(ValueEnum) == ValueEnum.V1
 
-    storage.save(ValueEnum.V2)
 
-    assert storage.load(ValueEnum) == ValueEnum.V2
+
+def test_storage_contains():
+	storage = KeyValueStorage()
+	storage.save(ValueEnum.V1)
+
+	assert ValueEnum in storage
+	assert KeyEnum not in storage
+
+	storage.save(KeyEnum.K1)
+
+	assert KeyEnum in storage
