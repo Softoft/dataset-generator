@@ -2,7 +2,7 @@ import asyncio
 
 from graph.graph import Graph
 from graph.data.priority import Priority
-from graph.data.queue import TicketQueue
+from graph.data.ticket_queue import TicketQueue
 from graph.data.ticket_type import TicketType
 
 

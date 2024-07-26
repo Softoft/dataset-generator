@@ -1,6 +1,7 @@
 from enum import Enum
 
 from graph.core.executable_node import ExecutableNode
+from graph.core.state_full_node import save_state
 from storage.key_value_storage import KeyValueStorage
 from src.random_collections.random_collection_table import RandomTable
 
@@ -13,11 +14,8 @@ class RandomTableNode[K: Enum, V: Enum](ExecutableNode):
         self.random_value = None
         super().__init__(parents)
 
+    @save_state(lambda self: self.random_value)
     def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
-        shared_storage = shared_storage or KeyValueStorage()
-        if self.random_value:
-            shared_storage.save(self.random_value)
-            return shared_storage
         return super().execute(shared_storage)
 
     def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:

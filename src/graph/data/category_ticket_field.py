@@ -1,3 +1,4 @@
+import abc
 from enum import Enum
 
 
@@ -15,9 +16,18 @@ class ComparableEnum(Enum):
         return hash(self.value)
 
 
-class CategoricalTicketField(ComparableEnum):
+class InputTicketField:
+    @abc.abstractmethod
+    def get_description(self):
+        pass
+
+
+class CategoricalTicketField(InputTicketField, ComparableEnum):
     def __new__(cls, value, description):
         obj = object.__new__(cls)
         obj._value_ = value
         obj.description = description
         return obj
+
+    def get_description(self):
+        return self.description

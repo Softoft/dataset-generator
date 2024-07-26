@@ -3,7 +3,7 @@ from enum import Enum
 
 from graph.data.language import Language, random_language_collection
 from graph.data.priority import Priority, random_priority_collection
-from graph.data.queue import Queue, random_queue_collection
+from graph.data.ticket_queue import Queue, random_queue_collection
 from src.ticket_fields.subcategory import SubCategoryRandomCollection
 
 

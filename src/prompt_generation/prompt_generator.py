@@ -3,7 +3,7 @@ import numpy as np
 from src.prompt_generation.prompt_priority_texts import get_priorities_prompt
 from src.ticket import Ticket
 from graph.data.priority import Priority
-from graph.data.queue import Queue
+from graph.data.ticket_queue import Queue
 
 rng = np.random.default_rng(seed=42)
 
