@@ -1,5 +1,5 @@
-from graph.core.executable_node import ExecutableNode
-from graph.core.state_full_node import save_state
+from graph.nodes.executable_node import ExecutableNode
+from graph.nodes.state_full_node import save_state
 from storage.key_value_storage import KeyValueStorage
 from text_length_generator import TextLengthGenerator
 
@@ -15,6 +15,8 @@ class TextLengthNode(ExecutableNode):
         return super().execute(shared_storage)
 
     def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
-        pass
+        self.text_length = self.text_length_generator.generate_text_length_bounds()
+        shared_storage.save(self.text_length)
+        return shared_storage
 
 

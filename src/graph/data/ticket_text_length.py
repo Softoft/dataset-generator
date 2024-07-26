@@ -10,3 +10,9 @@ class TicketTextLength(InputTicketField):
 
     def get_description(self):
         return f"Die Länge des Textes liegt zwischen {self.lower_bound} und {self.upper_bound} Zeichen."
+
+    def __eq__(self, other):
+        return self.lower_bound == other.lower_bound and self.upper_bound == other.upper_bound
+
+    def __hash__(self):
+        return hash((self.lower_bound, self.upper_bound))

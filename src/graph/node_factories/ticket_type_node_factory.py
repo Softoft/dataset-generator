@@ -1,4 +1,4 @@
-from graph.core.random_collection_node import RandomCollectionNode
+from graph.nodes.random_collection_node import RandomCollectionNode
 from graph.data.ticket_type import TicketType
 from random_collections.random_collection import RandomCollectionBuilder
 

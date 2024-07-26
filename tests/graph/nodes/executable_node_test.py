@@ -1,6 +1,6 @@
 import asyncio
 
-from graph.core.executable_node import ExecutableNode
+from graph.nodes.executable_node import ExecutableNode
 from storage.key_value_storage import KeyValueStorage
 from tests.conftest import KeyEnum, ValueEnum
 

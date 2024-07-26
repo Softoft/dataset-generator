@@ -1,4 +1,4 @@
-from graph.core.random_collection_node import RandomCollectionNode
+from graph.nodes.random_collection_node import RandomCollectionNode
 from graph.data.language import Language
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_interface import IRandom

@@ -1,38 +1,14 @@
-import numpy as np
-
-from src.prompt_generation.prompt_priority_texts import get_priorities_prompt
-from src.ticket import Ticket
 from graph.data.priority import Priority
-from graph.data.ticket_queue import Queue
-
-rng = np.random.default_rng(seed=42)
-
+from graph.data.ticket_queue import TicketQueue
+from graph.data.ticket_text_length import TicketTextLength
+from graph.data.ticket_type import TicketType
 
 
 class PromptGenerator:
-    def __init__(self, text_length_generator: TextLengthGenerator):
-        self.text_length_generator = text_length_generator
-
-    def create_prompt(self, ticket: Ticket):
-        text_length_min, text_length_max = self.text_length_generator.generate_text_length_bounds()
-
+    def create_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, priority: Priority,
+                      ticket_text_length: TicketTextLength):
         return (
-            f"Generiere ein Ticket; Für die Queue: {ticket.queue}; "
-            f"{self.generate_priority_extra_information(ticket.priority)};"
-            f"{self.generate_subcategory_extra_information(ticket.queue, ticket.subcategory)};"
-            f" Der Ticket Text muss eine Länge zwischen {text_length_min} und {text_length_max} Zeichen haben."
-            f" Die Sprache des Tickets ist {ticket.language.value};")
-
-    def generate_subcategory_extra_information(self, queue: Queue, subcategory: str):
-        match queue:
-            case Queue.SOFTWARE:
-                return f"Der Kunde verwendet die Software {subcategory};"
-            case Queue.HARDWARE:
-                return f"Der Kunde verwendet die Hardware {subcategory};"
-            case Queue.ACCOUNTING:
-                return f"Es geht um {subcategory};"
-            case _:
-                raise ValueError("Invalid Queue")
-
-    def generate_priority_extra_information(self, priority: Priority):
-        return get_priorities_prompt(priority)
+            f"Generate email text and subject. For a ticket, with type {ticket_type.value}: {ticket_type.description},"
+            f"for the queue {ticket_queue.value}: {ticket_queue.description},"
+            f"for the priority {priority.value}: {priority.description},"
+            f"The text needs to have between  {ticket_text_length.lower_bound} and {ticket_text_length.upper_bound} characters")

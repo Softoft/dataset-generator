@@ -9,6 +9,11 @@ class Storage{
     + {abstract} load(): Object
 }
 
+class NodeFactory{
+    + {abstract} create_node(data): Node
+}
+
+
 class Node{
     - parents: List<INode>
     - was_executed: bool
@@ -69,6 +74,7 @@ class RandomSet<V> implements IRandom{
 }
 
 Graph o-- Node
+NodeFactory ..> Node: "create"
 AINode o-- ChatAssistant
 AINode o-- PromptBuilder
 

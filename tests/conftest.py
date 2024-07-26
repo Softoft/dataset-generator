@@ -2,9 +2,9 @@ import logging
 
 import pytest
 
-from graph.core.executable_node import ExecutableNode
-from graph.core.random_collection_node import RandomCollectionNode
-from graph.core.random_table_node import RandomTableNode
+from graph.nodes.executable_node import ExecutableNode
+from graph.nodes.random_collection_node import RandomCollectionNode
+from graph.nodes.random_table_node import RandomTableNode
 from storage.key_value_storage import KeyValueStorage
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
