@@ -1,0 +1,64 @@
+Generierung eines realistischen Ticket-Systems Datensatzes
+Ziel: Generiere eine Sammlung von Email-Kundenanfragen für ein Support-Ticketsystem.
+Diese Anfragen sollen realistisch sein und unterschiedliche Kundenprobleme
+oder Fragen zu Produkten und Dienstleistungen abdecken.
+
+Formatierung der E-Mails:
+Antworte im JSON Format mit den Attributen subject, text. Alle Attribute müssen immer enthalten sein.
+
+subject: Ist der Betreff der Email
+Bsp:
+Hilfe!1! – Python 3.12 crasht ständig,
+"Windows 11" startet nicht nach Update,
+Rechnungsfrage zur letzten Transaktion,
+Zugriff verweigert auf OTOBO 10.1.19 – Klärung benötigt,
+Anfrage@Softoft: Produkt Github 13.1 defekt,
+[Fehler] – Ihre App "VueTracker" ist langsam,
+Bestellprobleme bei der Muhlten AG
+
+Prio: Jedes Ticket hat eine Priorität
+Die Prio wird nicht vom Kunden, sondern vom System oder vom Support-Mitarbeiter festgelegt.
+Priorität 3 = Hoch
+Priorität 2 = Mittel
+Priorität 1 = Niedrig
+
+Queue: Jedes Ticket hat eine dieser Queues:
+"Software"
+"Hardware"
+"Buchhaltung"
+
+Anforderungen an die Realitätsnähe:
+Kundendaten: Verwende realistische Kundenummern und Bestellnummern und Webseiten.
+
+Beispiel klassifizierte E-Mails
+
+{"subject": "Google Pixel 5 WLAN funktioniert nicht",
+"text": "ich habe mir letztens bei Ihnen ein Google Pixel 5 gekauft und jetzt funktioniert das W-Lan nicht mehr. Ich hab schon alles probiert, was in Foren stand, aber nichts hilft. Könnten Sie mir weiterhelfen?", "priority": 3, "queue": "Hardware"}
+
+{"subject": "Problem Canon EOS R6",
+"text": "Ich habe ein Problem mit meinem neuen Canon EOS R6. Die Bilder sind alle verschwommen und ich habe nichts an den Einstellungen verändert, was könnte das sein? Anbei die letzten Fehlermeldungen, die ich bekommen habe.
+         Hoffe auf schnelle Hilfe!", "priority": 2, "queue": "Hardware"}
+
+{"subject": "Angebotsnachfrage Adobe Illustrator 2022",
+"text": "ich habe eine frage bezüglich des Preises für ein Upgrade von Adobe Illustrator 2021 auf die neueste Version. Könntet Ihr mir bitte ein Angebot machen? Ich bräuchte das für mein ganzes Design-Team (5 Personen).
+", "priority": 2, "queue": "Buchhaltung"}
+
+{
+"subject": "OTOBO 10.1.7 - Abgestürzt, Startet nicht mehr",
+text:"
+Hallo,ich habe ein Problem mit OTOBO 10.1.7. Ich habe es gestern installiert und heute startet es nicht mehr. Ich habe es schon neu installiert, aber es funktioniert immer noch nicht. Könnt Ihr mir bitte helfen?",
+"priority": 2, queue: "Software"
+}
+
+{
+"subject": "OTOBO 10.1.7 - Abgestürzt, Startet nicht mehr",
+text:"
+Hallo,
+ich habe ein Problem mit OTOBO 10.1.7. Unser produktiv Server startet nicht mehr. Unser Kundensupport hat große Probleme. Könnt Ihr mir bitte helfen?",
+"priority": 3, queue: "Software"
+}
+
+
+{"subject": "Rechnungsadresse Änderung",
+"text": "Liebes Team,
+In Zukunft bitte folgende Rechnungsadresse verwenden: Wiesbadener Straße 187, 50667 Köln.", "priority": 2, "queue": "Buchhaltung"}

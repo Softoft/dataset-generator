@@ -6,7 +6,7 @@ import random
 
 from src.ticket import get_random_ticket
 from prompt_generation.prompt_generator import PromptGenerator, TextLengthGenerator
-from util.chat_assistant import ChatAssistant
+from ai.chat_assistant import ChatAssistant
 
 ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 GPT_TEMPERATURE = 1.25

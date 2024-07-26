@@ -47,3 +47,4 @@ def test_text_length_upper_bound():
         assert random_text_length.upper_bound - random_text_length.lower_bound >= 10
         if random_text_length.lower_bound >= 200:
             assert random_text_length.upper_bound - random_text_length.lower_bound >= 20
+            assert random_text_length.upper_bound - random_text_length.lower_bound <= 200

@@ -70,12 +70,14 @@ class ChatAssistant:
             logging.info(f"Run Usage: {run.usage}")
 
     @retry(wait=wait_random_exponential(min=1, max=120), stop=stop_after_attempt(10))
-    async def create_run_with_retry(self, thread_id, assistant_id):
-        return await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
-                                                                   assistant_id=assistant_id,
-                                                                   temperature=self.temperature,
-                                                                   response_format=self.response_format,
-                                                                   tool_choice=self.tool_choice)
+    async def _create_run_with_retry(self, thread_id, assistant_id):
+        run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
+                                                                  assistant_id=assistant_id,
+                                                                  temperature=self.temperature,
+                                                                  response_format=self.response_format,
+                                                                  tool_choice=self.tool_choice)
+        self.assistant_analysis.append_run(run)
+        return run
 
     @retry(wait=wait_random_exponential(min=1, max=120), stop=stop_after_attempt(10))
     async def chat_assistant(self, prompt) -> str:
@@ -83,7 +85,7 @@ class ChatAssistant:
         thread = await self.client.beta.threads.create()
 
         await self.client.beta.threads.messages.create(thread_id=thread.id, role="user", content=prompt)
-        run = await self.create_run_with_retry(thread.id, my_updated_assistant.id)
+        run = await self._create_run_with_retry(thread.id, my_updated_assistant.id)
         self.log_run_status(run)
         self.assistant_analysis.append_run(run)
         messages = await self.client.beta.threads.messages.list(thread_id=thread.id)

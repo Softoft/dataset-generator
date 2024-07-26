@@ -13,8 +13,7 @@ class TextLengthGenerator:
     mean: int
     standard_deviation: int
     _lower_text_length_min_value: int = 30
-    _min_upper_bound_difference: int = 10
-    _upper_bound_difference_factor: float = 1.2
+    _min_upper_bound_difference: int = 20
 
     def __post_init__(self):
         assert self._is_in_bound(self.mean), "Mean is out of bounds"
@@ -34,7 +33,7 @@ class TextLengthGenerator:
         return text_length
 
     def _generate_upper_text_length(self, text_length: int) -> int:
-        return text_length + max(self._min_upper_bound_difference, math.ceil(text_length * self._upper_bound_difference_factor))
+        return int(text_length + self._min_upper_bound_difference * math.log(text_length, 10))
 
     def generate_text_length_bounds(self) -> TicketTextLength:
         text_length = self._generate_bounded_text_length()
