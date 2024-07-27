@@ -3,7 +3,7 @@ import logging
 import pytest
 
 from graph.data.category_ticket_field import ComparableEnum
-from graph.graph import Graph
+from graph.graph_ticket_generator import GraphTicketGenerator
 from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
@@ -31,7 +31,7 @@ class ConfigurableEnumSaveNode(ExecutableNode):
         self.key_enum_value = key_enum_value
         super().__init__([])
 
-    def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
         if KeyEnum in shared_storage:
             return shared_storage
         shared_storage.save(self.key_enum_value)
@@ -76,7 +76,7 @@ def create_text_length_node():
 @pytest.fixture
 def create_extra_ticket_information_node():
     def _create_extra_ticket_information_node():
-        graph = Graph()
+        graph = GraphTicketGenerator()
         return TicketExtraInformationNode([graph.ticket_queue_node, graph.ticket_type_node])
 
     return _create_extra_ticket_information_node
@@ -85,10 +85,19 @@ def create_extra_ticket_information_node():
 @pytest.fixture
 def create_answer_ticket_node():
     def _create_answer_ticket_node():
-        graph = Graph()
+        graph = GraphTicketGenerator()
         return graph.ticket_answer_node
 
     return _create_answer_ticket_node
+
+
+@pytest.fixture
+def create_ticket_translation_node():
+    def _create_ticket_translation_node():
+        graph = GraphTicketGenerator()
+        return graph.ticket_translation_node
+
+    return _create_ticket_translation_node
 
 
 @pytest.fixture(autouse=True)

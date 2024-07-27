@@ -1,3 +1,4 @@
+import asyncio
 import statistics
 
 from graph.data.models import TicketTextLength
@@ -5,7 +6,7 @@ from graph.data.models import TicketTextLength
 
 def test_text_length_node(create_text_length_node):
     text_length_node = create_text_length_node(400, 400)
-    shared_storage = text_length_node.execute()
+    shared_storage = asyncio.run(text_length_node.execute())
     assert shared_storage.load(TicketTextLength) is not None
 
 
@@ -21,10 +22,10 @@ def test_ticket_text_length_equal_method():
 
 def test_text_length_node_results_are_saved(create_text_length_node):
     text_length_node = create_text_length_node(400, 400)
-    shared_storage = text_length_node.execute()
+    shared_storage = asyncio.run(text_length_node.execute())
     text_length_1 = shared_storage.load(TicketTextLength)
     assert text_length_1 is not None
-    shared_storage = text_length_node.execute()
+    shared_storage = asyncio.run(text_length_node.execute())
     text_length_2 = shared_storage.load(TicketTextLength)
     assert text_length_2 is not None
     assert text_length_1 == text_length_2
@@ -36,7 +37,7 @@ def test_ticket_text_lengths_are_random(create_text_length_node):
     standard_deviation = 200
     for _ in range(1_000):
         text_length_node = create_text_length_node(mean, standard_deviation)
-        shared_storage = text_length_node.execute()
+        shared_storage = asyncio.run(text_length_node.execute())
         random_ticket_text_lengths.append(shared_storage.load(TicketTextLength))
 
     lower_bounds = [text_length.lower_bound for text_length in random_ticket_text_lengths]

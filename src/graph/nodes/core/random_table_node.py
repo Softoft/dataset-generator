@@ -12,7 +12,7 @@ class RandomTableNode[K: Enum, V: Enum](ExecutableNode):
         self.random_generator = random_generator
         super().__init__(parents)
 
-    def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
         key_value = shared_storage.load(self.key_type)
         shared_storage.save(self.random_generator.get_random_value(key_value))
         return shared_storage

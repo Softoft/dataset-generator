@@ -5,18 +5,17 @@ from graph.data.category_ticket_field import CategoricalTicketField, InputTicket
 
 
 class Language(CategoricalTicketField):
-    DE = "Deutsch", "Schreibe auf deutsch"
-    EN = "Englisch", "Schreibe in englisch."
-    FR = "Französisch", "Schreibe in französisch."
-    ES = "Spanisch", "Schreibe in spanisch."
-    PT = "Portugiesisch", "Schreibe in portugiesisch."
+    DE = "German", ""
+    EN = "English", ""
+    FR = "French", ""
+    ES = "Spanish", ""
+    PT = "Portuguese", ""
 
 
 class Priority(CategoricalTicketField):
     LOW = 1, "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
     MEDIUM = 2, "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
     HIGH = 3, "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
-
 
 
 @dataclass
@@ -75,4 +74,31 @@ class Ticket:
     type: TicketType
     queue: TicketQueue
     priority: Priority
-    language: Optional[Language] = None
+
+    def __repr__(self):
+        return f"Ticket(subject={self.subject},\nbody={self.body},\nanswer={self.answer},\ntype={self.type},\nqueue={self.queue},\npriority={self.priority})"
+
+
+@dataclass
+class TranslatedTicket:
+    subject: str
+    body: str
+    answer: str
+    type: TicketType
+    queue: TicketQueue
+    priority: Priority
+    language: Language = None
+
+    def __repr__(self):
+        return f"TranslatedTicket(subject={self.subject},\nbody={self.body},\nanswer={self.answer},\ntype={self.type},\nqueue={self.queue},\npriority={self.priority},\nlanguage={self.language})"
+
+    def to_dict(self):
+        return {
+            "subject": self.subject,
+            "body": self.body,
+            "answer": self.answer,
+            "type": self.type.value,
+            "queue": self.queue.value,
+            "priority": self.priority.value,
+            "language": self.language.value
+        }

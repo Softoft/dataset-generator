@@ -11,6 +11,6 @@ class RandomCollectionNode[V: Enum](ExecutableNode):
         self.random_generator = random_generator
         super().__init__(parents)
 
-    def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
         shared_storage.save(self.random_generator.get_random_value())
         return shared_storage

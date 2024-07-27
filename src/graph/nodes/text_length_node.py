@@ -8,6 +8,6 @@ class TextLengthNode(ExecutableNode):
         self.text_length_generator = text_length_generator
         super().__init__([])
 
-    def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
         shared_storage.save(self.text_length_generator.generate_text_length_bounds())
         return shared_storage

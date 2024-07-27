@@ -26,14 +26,14 @@ class TicketExtraInformationNode(ExecutableNode):
         )
 
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(TypeError))
-    def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue):
+    async def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue):
         prompt = self.generate_topic_prompt(ticket_type, ticket_queue)
-        email_json_string = asyncio.run(self.chat_assistant.chat_assistant(prompt))
+        email_json_string = await self.chat_assistant.chat_assistant(prompt)
         email_dict = json.loads(email_json_string)
         return TicketExtraInformation(**email_dict)
 
     @inject_storage_objects(TicketType, TicketQueue)
-    def _execute_node(self, shared_storage: KeyValueStorage, ticket_type: TicketType, ticket_queue: TicketQueue) -> KeyValueStorage:
-        ticket_extra_information = self.generate_topic(ticket_type, ticket_queue)
+    async def _execute_node(self, shared_storage: KeyValueStorage, ticket_type: TicketType, ticket_queue: TicketQueue) -> KeyValueStorage:
+        ticket_extra_information = await self.generate_topic(ticket_type, ticket_queue)
         shared_storage.save(ticket_extra_information)
         return shared_storage

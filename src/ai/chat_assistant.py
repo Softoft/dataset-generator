@@ -59,7 +59,7 @@ class ChatAssistant:
         self.model: str = model
         self.assistant_analysis = AssistantAnalysis()
 
-    @retry(wait=wait_random_exponential(min=1, max=4), stop=stop_after_attempt(2))
+    @retry(wait=wait_random_exponential(min=1, max=10), stop=stop_after_attempt(4))
     async def _create_run_with_retry(self, thread_id, assistant_id) -> Run:
         run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
                                                                   assistant_id=assistant_id,
@@ -69,7 +69,7 @@ class ChatAssistant:
         self.assistant_analysis.append_run(run)
         return run
 
-    @retry(wait=wait_random_exponential(min=1, max=4), stop=stop_after_attempt(2))
+    @retry(wait=wait_random_exponential(min=1, max=10), stop=stop_after_attempt(4))
     async def chat_assistant(self, prompt: str) -> str:
         open_ai_assistant = await self.client.beta.assistants.retrieve(self.assistant_id)
         thread = await self.client.beta.threads.create()
