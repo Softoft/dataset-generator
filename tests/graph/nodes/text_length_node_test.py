@@ -1,6 +1,6 @@
 import statistics
 
-from graph.data.ticket_text_length import TicketTextLength
+from graph.data.models import TicketTextLength
 
 
 def test_text_length_node(create_text_length_node):

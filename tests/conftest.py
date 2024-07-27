@@ -3,13 +3,15 @@ import logging
 import pytest
 
 from graph.data.category_ticket_field import ComparableEnum
+from graph.graph import Graph
+from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
 from graph.nodes.text_length_node import TextLengthNode
+from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
-from storage.key_value_storage import KeyValueStorage
 from text_length_generator import TextLengthGenerator
 
 
@@ -69,6 +71,24 @@ def create_text_length_node():
         return TextLengthNode(text_length_generator)
 
     return _create_text_length_node
+
+
+@pytest.fixture
+def create_extra_ticket_information_node():
+    def _create_extra_ticket_information_node():
+        graph = Graph()
+        return TicketExtraInformationNode([graph.ticket_queue_node, graph.ticket_type_node])
+
+    return _create_extra_ticket_information_node
+
+
+@pytest.fixture
+def create_answer_ticket_node():
+    def _create_answer_ticket_node():
+        graph = Graph()
+        return graph.ticket_answer_node
+
+    return _create_answer_ticket_node
 
 
 @pytest.fixture(autouse=True)

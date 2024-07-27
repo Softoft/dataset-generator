@@ -1,10 +1,10 @@
+from graph.nodes.core.executable_node import INode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.data.priority import Priority
-from graph.data.ticket_queue import TicketQueue
+from graph.data.models import Priority, TicketQueue
 from random_collections.random_collection_table import RandomTable, RandomTableBuilder
 
 
-def create_queue_priority_node(ticket_type_queue_node):
+def create_queue_priority_node(ticket_type_queue_node: INode):
     random_priority_collection: RandomTable = RandomTableBuilder.build_from_dict(
         TicketQueue, Priority, {
             TicketQueue.TECHNICAL_SUPPORT: {

@@ -1,7 +1,7 @@
 import asyncio
 
 from graph.graph import Graph
-from graph.data.ticket_type import TicketType
+from graph.data.models import TicketType
 
 
 def test_random_ticket_type():

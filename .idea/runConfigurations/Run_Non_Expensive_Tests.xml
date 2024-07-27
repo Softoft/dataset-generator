@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run All Tests" type="tests" factoryName="py.test">
+  <configuration default="false" name="Run Non Expensive Tests" type="tests" factoryName="py.test">
     <module name="dataset-generator" />
     <option name="ENV_FILES" value="" />
     <option name="INTERPRETER_OPTIONS" value="" />
@@ -13,7 +13,7 @@
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
     <option name="_new_keywords" value="&quot;&quot;" />
     <option name="_new_parameters" value="&quot;&quot;" />
-    <option name="_new_additionalArguments" value="&quot;&quot;" />
+    <option name="_new_additionalArguments" value="&quot;-n 4 -m \&quot;not expensive\&quot;&quot;" />
     <option name="_new_target" value="&quot;C:\\Users\\bueck\\PycharmProjects\\dataset-generator\\tests&quot;" />
     <option name="_new_targetType" value="&quot;PATH&quot;" />
     <method v="2" />

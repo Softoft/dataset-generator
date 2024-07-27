@@ -1,10 +1,10 @@
+from graph.nodes.core.executable_node import INode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.data.ticket_queue import TicketQueue
-from graph.data.ticket_type import TicketType
+from graph.data.models import TicketQueue, TicketType
 from random_collections.random_collection_table import RandomTable, RandomTableBuilder
 
 
-def create_ticket_type_queue_node(ticket_type_node) -> RandomTableNode:
+def create_ticket_type_queue_node(ticket_type_node: INode) -> RandomTableNode:
     random_queue_collection: RandomTable = RandomTableBuilder.build_from_dict(
         TicketType, TicketQueue, {
             TicketType.INCIDENT: {

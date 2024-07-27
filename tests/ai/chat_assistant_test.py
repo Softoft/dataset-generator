@@ -4,17 +4,15 @@ import json
 import pytest
 
 from ai.chat_assistant import ChatAssistant
-from graph.data.ticket_email import TicketEmail
+from graph.data.models import TicketEmail
 
 EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 
 
-@pytest.mark.expensive
 def test_chat_assistant():
-    chat_assistant = ChatAssistant(assistant_id=EMAIL_GENERATION_ASSISTANT_ID)
+    chat_assistant = ChatAssistant(assistant_id=EMAIL_GENERATION_ASSISTANT_ID, model="gpt-4o-mini")
     response = asyncio.run(chat_assistant.chat_assistant("New Email!"))
     email_response = json.loads(response)
-
     TicketEmail(**email_response)
 
 

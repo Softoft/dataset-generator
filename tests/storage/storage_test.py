@@ -1,4 +1,4 @@
-from storage.key_value_storage import KeyValueStorage
+from graph.key_value_storage import KeyValueStorage
 from tests.conftest import KeyEnum, ValueEnum
 
 

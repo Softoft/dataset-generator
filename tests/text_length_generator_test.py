@@ -2,7 +2,7 @@ import statistics
 
 import pytest
 
-from graph.data.ticket_text_length import TicketTextLength
+from graph.data.models import TicketTextLength
 from src.text_length_generator import TextLengthGenerator
 
 

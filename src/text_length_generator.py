@@ -3,7 +3,7 @@ import math
 
 import numpy as np
 
-from graph.data.ticket_text_length import TicketTextLength
+from graph.data.models import TicketTextLength
 
 rng = np.random.default_rng(seed=42)
 
@@ -28,8 +28,9 @@ class TextLengthGenerator:
         return int(np.random.lognormal(mu, sigma))
 
     def _generate_bounded_text_length(self) -> int:
-        while not self._is_in_bound(text_length := self._generate_text_length_with_log_normal_distribution()):
-            pass
+        text_length = self._generate_text_length_with_log_normal_distribution()
+        while not self._is_in_bound(text_length):
+            text_length = self._generate_text_length_with_log_normal_distribution()
         return text_length
 
     def _generate_upper_text_length(self, text_length: int) -> int:
