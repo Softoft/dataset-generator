@@ -1,8 +1,5 @@
-import asyncio
-import logging
-
 from openai import AsyncOpenAI
-from openai.types.beta import AssistantToolChoiceOptionParam
+from openai.types.beta import AssistantResponseFormatParam, AssistantToolChoiceOptionParam
 from openai.types.beta.threads import Run
 from tenacity import (
     retry,
@@ -54,22 +51,17 @@ class AssistantAnalysis:
 
 
 class ChatAssistant:
-    def __init__(self, assistant_id, response_format=None, tool_choice=None, temperature=1):
+    def __init__(self, assistant_id, response_format: AssistantResponseFormatParam = "json_object",
+                 tool_choice: AssistantToolChoiceOptionParam = "auto", temperature=1):
         self.client = AsyncOpenAI()
         self.assistant_id = assistant_id
         self.response_format = response_format
-        self.tool_choice: AssistantToolChoiceOptionParam = tool_choice if tool_choice else "auto"
+        self.tool_choice: AssistantToolChoiceOptionParam = tool_choice
         self.temperature = temperature
         self.assistant_analysis = AssistantAnalysis()
 
-    def log_run_status(self, run: Run):
-        if run.status != "completed":
-            logging.error(f"Run failed with status {run.status} and run {run}")
-        if run.usage:
-            logging.info(f"Run Usage: {run.usage}")
-
     @retry(wait=wait_random_exponential(min=1, max=120), stop=stop_after_attempt(10))
-    async def _create_run_with_retry(self, thread_id, assistant_id):
+    async def _create_run_with_retry(self, thread_id, assistant_id) -> Run:
         run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
                                                                   assistant_id=assistant_id,
                                                                   temperature=self.temperature,
@@ -79,13 +71,11 @@ class ChatAssistant:
         return run
 
     @retry(wait=wait_random_exponential(min=1, max=120), stop=stop_after_attempt(10))
-    async def chat_assistant(self, prompt) -> str:
+    async def chat_assistant(self, prompt: str) -> str:
         my_updated_assistant = await self.client.beta.assistants.retrieve(self.assistant_id)
         thread = await self.client.beta.threads.create()
-
         await self.client.beta.threads.messages.create(thread_id=thread.id, role="user", content=prompt)
         run = await self._create_run_with_retry(thread.id, my_updated_assistant.id)
-        self.log_run_status(run)
         self.assistant_analysis.append_run(run)
         messages = await self.client.beta.threads.messages.list(thread_id=thread.id)
         return messages.data[0].content[0].text.value

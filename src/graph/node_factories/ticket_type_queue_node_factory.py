@@ -1,4 +1,4 @@
-from graph.nodes.random_table_node import RandomTableNode
+from graph.nodes.core.random_table_node import RandomTableNode
 from graph.data.ticket_queue import TicketQueue
 from graph.data.ticket_type import TicketType
 from random_collections.random_collection_table import RandomTable, RandomTableBuilder

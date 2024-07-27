@@ -1,5 +1,4 @@
 import abc
-import asyncio
 import logging
 
 from storage.key_value_storage import KeyValueStorage

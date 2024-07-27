@@ -3,9 +3,9 @@ import logging
 import pytest
 
 from graph.data.category_ticket_field import ComparableEnum
-from graph.nodes.executable_node import ExecutableNode
-from graph.nodes.random_collection_node import RandomCollectionNode
-from graph.nodes.random_table_node import RandomTableNode
+from graph.nodes.core.executable_node import ExecutableNode
+from graph.nodes.core.random_collection_node import RandomCollectionNode
+from graph.nodes.core.random_table_node import RandomTableNode
 from graph.nodes.text_length_node import TextLengthNode
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
