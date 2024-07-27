@@ -9,7 +9,7 @@ from graph.data.ticket_queue import TicketQueue
 from graph.data.ticket_text_length import TicketTextLength
 from graph.data.ticket_type import TicketType
 from graph.nodes.executable_node import ExecutableNode, INode
-from graph.nodes.state_full_node import save_state
+from graph.nodes.state_full_node import save_execute_state
 from storage.key_value_storage import KeyValueStorage
 
 EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
@@ -21,7 +21,7 @@ class TicketEmailNode(ExecutableNode):
         self.chat_assistant = ChatAssistant(EMAIL_GENERATION_ASSISTANT_ID)
         super().__init__(parents)
 
-    @save_state(lambda self: self.ticket_email)
+    @save_execute_state(lambda self: self.ticket_email)
     def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
         return super().execute(shared_storage)
 

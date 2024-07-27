@@ -1,11 +1,10 @@
 import statistics
 
 from graph.data.ticket_text_length import TicketTextLength
-from graph.graph import Graph
 
 
-def test_text_length_node():
-    text_length_node = Graph().text_length_node
+def test_text_length_node(create_text_length_node):
+    text_length_node = create_text_length_node(400, 400)
     shared_storage = text_length_node.execute()
     assert shared_storage.load(TicketTextLength) is not None
 
@@ -20,8 +19,8 @@ def test_ticket_text_length_equal_method():
     assert ticket_text_length_3 != ticket_text_length_4
 
 
-def test_text_length_node_results_are_saved():
-    text_length_node = Graph().text_length_node
+def test_text_length_node_results_are_saved(create_text_length_node):
+    text_length_node = create_text_length_node(400, 400)
     shared_storage = text_length_node.execute()
     text_length_1 = shared_storage.load(TicketTextLength)
     assert text_length_1 is not None
@@ -31,12 +30,12 @@ def test_text_length_node_results_are_saved():
     assert text_length_1 == text_length_2
 
 
-def test_ticket_text_lengths_are_random():
+def test_ticket_text_lengths_are_random(create_text_length_node):
     random_ticket_text_lengths = []
     mean = 400
     standard_deviation = 200
     for _ in range(1_000):
-        text_length_node = Graph(mean, standard_deviation).text_length_node
+        text_length_node = create_text_length_node(mean, standard_deviation)
         shared_storage = text_length_node.execute()
         random_ticket_text_lengths.append(shared_storage.load(TicketTextLength))
 
@@ -50,4 +49,3 @@ def test_ticket_text_lengths_are_random():
 
     assert abs(statistics.mean(lower_bounds) - mean) < mean / 2
     assert abs(statistics.stdev(lower_bounds) - standard_deviation) < standard_deviation / 2
-

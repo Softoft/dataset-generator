@@ -1,5 +1,6 @@
 import abc
 import asyncio
+import logging
 
 from storage.key_value_storage import KeyValueStorage
 
@@ -17,12 +18,14 @@ class INode(abc.ABC):
 class ExecutableNode(INode, abc.ABC):
     def __init__(self, parents: list[INode]):
         self._parents = parents
+        self.permanently_saved = None
         self._was_executed = False
 
     def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
-        if shared_storage is None:
-            shared_storage = KeyValueStorage()
+        logging.info("Executing")
+        shared_storage = shared_storage or KeyValueStorage()
         if self._was_executed:
+            logging.info("Already executed")
             return shared_storage
 
         parent_storages = [parent.execute(shared_storage.deepcopy()) for parent in self._parents]

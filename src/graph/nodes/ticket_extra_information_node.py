@@ -6,7 +6,7 @@ from graph.data.ticket_extra_information import TicketExtraInformation
 from graph.data.ticket_queue import TicketQueue
 from graph.data.ticket_type import TicketType
 from graph.nodes.executable_node import ExecutableNode, INode
-from graph.nodes.state_full_node import save_state
+from graph.nodes.state_full_node import save_execute_state
 from storage.key_value_storage import KeyValueStorage
 
 TOPIC_GENERATION_ASSISTANT = "asst_QY6nVFb9s7dGef1U4bZzh6fJ"
@@ -31,7 +31,7 @@ class TicketExtraInformationNode(ExecutableNode):
         email_dict = json.loads(email_json_string)
         return TicketExtraInformation(**email_dict)
 
-    @save_state(lambda self: self.ticket_extra_information)
+    @save_execute_state(lambda self: self.ticket_extra_information)
     def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
         return super().execute(shared_storage)
 

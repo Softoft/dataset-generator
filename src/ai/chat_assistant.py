@@ -57,7 +57,6 @@ class ChatAssistant:
     def __init__(self, assistant_id, response_format=None, tool_choice=None, temperature=1):
         self.client = AsyncOpenAI()
         self.assistant_id = assistant_id
-        self.loop = asyncio.get_event_loop()
         self.response_format = response_format
         self.tool_choice: AssistantToolChoiceOptionParam = tool_choice if tool_choice else "auto"
         self.temperature = temperature
