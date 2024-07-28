@@ -1,16 +1,9 @@
 @startuml
-interface JSONSerializable{
-    + {abstract} serialize()
-}
 
 class Storage{
     - data: Map<string, Object>
     + {abstract} save(data)
     + {abstract} load(): Object
-}
-
-class NodeFactory{
-    + {abstract} create_node(data): Node
 }
 
 
@@ -30,19 +23,8 @@ class Graph{
     - endNodes: List<INode>
 }
 
-class PromptBuilder{
-    - prompt: str
-    - add_data(data)
-    + build_prompt()
-}
-
-class ConcretePromptBuilder extends PromptBuilder{
-    + ConcretePromptBuilder(base_prompt)
-}
-
 class AINode extends Node{
     - chat_assistant: ChatAssistant
-    - prompt_builder: PromptBuilder
     + {async} execute(inputs)
 }
 
@@ -74,9 +56,7 @@ class RandomSet<V> implements IRandom{
 }
 
 Graph o-- Node
-NodeFactory ..> Node: "create"
 AINode o-- ChatAssistant
-AINode o-- PromptBuilder
 
 
 Node o-- Storage

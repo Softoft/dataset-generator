@@ -41,8 +41,8 @@ def test_shared_storage(create_enum_save_node):
     node = MyExecutableNode([create_enum_save_node(key_value)])
     storage: KeyValueStorage = asyncio.run(node.execute())
 
-    value_enum_loaded = storage.load(ValueEnum)
-    key_enum_loaded = storage.load(KeyEnum)
+    value_enum_loaded = storage.get(ValueEnum)
+    key_enum_loaded = storage.get(KeyEnum)
 
     assert value_enum_loaded == ValueEnum.V1
     assert key_enum_loaded == key_value

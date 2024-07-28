@@ -10,7 +10,7 @@ def test_save_storage():
     storage = KeyValueStorage()
     storage.save(ValueEnum.V1)
 
-    assert storage.load(ValueEnum) == ValueEnum.V1
+    assert storage.get(ValueEnum) == ValueEnum.V1
 
 
 def test_storage_contains():

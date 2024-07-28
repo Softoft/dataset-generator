@@ -28,7 +28,7 @@ class RandomTableBuilder:
     @staticmethod
     def build_from_dict[K: Enum, V: Enum](key_enum: type[K], value_enum: type[V],
                                           value_weight_dict: dict[K, dict[V, float]]):
-        # RandomTableBuilder.validate_value_weight_dict(key_enum, value_enum, value_weight_dict)
+        RandomTableBuilder.validate_value_weight_dict(key_enum, value_enum, value_weight_dict)
         return RandomTable(
             { key: RandomCollectionBuilder.build_from_value_weight_dict(value_weight_dict[key]) for key in
               list(key_enum) })

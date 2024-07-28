@@ -3,7 +3,7 @@ import enum
 from src.random_collections.random_collection import RandomCollection, RandomCollectionBuilder
 from src.random_collections.random_collection_interface import IRandom
 from src.random_collections.random_collection_table import RandomTableBuilder
-from tests.conftest import ValueEnum, KeyEnum
+from tests.conftest import BigEnum, ValueEnum, KeyEnum
 
 
 def get_random_values_distribution(values: list, weights: list, iterations: int, randomization=None) -> list[float]:
@@ -26,8 +26,8 @@ def test_random_collection():
 
 
 def test_random_collection_gets_randomized():
-    VALUES = [ValueEnum.V1, ValueEnum.V2, ValueEnum.V3]
-    WEIGHTS = [1/3, 1/3, 1/3]
+    VALUES = [BigEnum.B1, BigEnum.B2, BigEnum.B3, BigEnum.B4, BigEnum.B5, BigEnum.B6]
+    WEIGHTS = [1/6 for _ in VALUES]
 
     random_distribution = get_random_values_distribution(VALUES, WEIGHTS, 100_000, 1)
     random_distribution_randomized = get_random_values_distribution(VALUES, WEIGHTS, 100_000, 1000)

@@ -3,7 +3,7 @@ import json
 import logging
 
 from ai.chat_assistant import ChatAssistant
-from graph.data.models import Priority, Ticket, TranslatedTicket, TicketEmail, TicketExtraInformation, TicketQueue,\
+from graph.data.models import Language, Priority, Ticket, Ticket, TicketEmail, TicketExtraInformation, TicketQueue,\
     TicketTextLength,\
     TicketType
 from graph.nodes.core.executable_node import ExecutableNode, INode
@@ -39,5 +39,6 @@ class TicketAnswerNode(ExecutableNode):
             answer=answer_string,
             queue=ticket_queue,
             type=ticket_type,
-            priority=priority
+            priority=priority,
+            language=Language.EN
         )

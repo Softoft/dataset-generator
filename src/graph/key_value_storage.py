@@ -15,12 +15,22 @@ class KeyValueStorage:
         key = type(value).__name__
         self.storage[key] = value
 
-    def load(self, value_type: type) -> any:
+    def get(self, value_type: type) -> any:
         return self.storage[value_type.__name__]
+
+    def save_by_key(self, key: str, value: any) -> None:
+        self.storage[key] = value
+
+    def get_by_key(self, key: str) -> any:
+        return self.storage[key]
 
     def merge(self, storages: list[Self]) -> None:
         for storage in storages:
-            self.storage.update(storage.storage)
+            for key, value in storage.storage.items():
+                if key in self.storage and isinstance(self.storage[key], list) and isinstance(value, list):
+                    self.storage[key] += value
+                else:
+                    self.storage[key] = value
 
     def deepcopy(self) -> Self:
         new_storage = KeyValueStorage()

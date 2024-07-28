@@ -1,4 +1,3 @@
-import asyncio
 import json
 
 import pytest
@@ -9,9 +8,10 @@ from graph.data.models import TicketEmail
 EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 
 
-def test_chat_assistant():
+@pytest.mark.asyncio
+async def test_chat_assistant():
     chat_assistant = ChatAssistant(assistant_id=EMAIL_GENERATION_ASSISTANT_ID, model="gpt-4o-mini")
-    response = asyncio.run(chat_assistant.chat_assistant("New Email!"))
+    response = await chat_assistant.chat_assistant("New Email!")
     email_response = json.loads(response)
     TicketEmail(**email_response)
 

@@ -1,15 +1,14 @@
 from dataclasses import dataclass
-from typing import Optional
 
-from graph.data.category_ticket_field import CategoricalTicketField, InputTicketField
+from graph.data.category_ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField
 
 
-class Language(CategoricalTicketField):
-    DE = "German", ""
-    EN = "English", ""
-    FR = "French", ""
-    ES = "Spanish", ""
-    PT = "Portuguese", ""
+class Language(ComparableEnum):
+    DE = "German"
+    EN = "English"
+    FR = "French"
+    ES = "Spanish"
+    PT = "Portuguese"
 
 
 class Priority(CategoricalTicketField):
@@ -68,19 +67,6 @@ class TicketType(CategoricalTicketField):
 
 @dataclass
 class Ticket:
-    subject: str
-    body: str
-    answer: str
-    type: TicketType
-    queue: TicketQueue
-    priority: Priority
-
-    def __repr__(self):
-        return f"Ticket(subject={self.subject},\nbody={self.body},\nanswer={self.answer},\ntype={self.type},\nqueue={self.queue},\npriority={self.priority})"
-
-
-@dataclass
-class TranslatedTicket:
     subject: str
     body: str
     answer: str
