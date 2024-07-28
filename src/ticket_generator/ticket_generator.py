@@ -20,24 +20,22 @@ class TicketGenerator:
             results.extend(await self._generate_batch_of_tickets())
         return results
 
-    def _save_dataset(self, dataset: list[dict], file_path):
-        json.dump(dataset, open(file_path, "w", encoding="utf-8"))
-        logging.warning(f"Saved {len(dataset)} tickets to {file_path}")
+    def _save_dataset(self, dataset: list[dict]):
+        json.dump(dataset, open(self.output_file, "w", encoding="utf-8"))
+        logging.warning(f"Saved {len(dataset)} tickets to {self.output_file}")
 
     async def _generate_batch_of_tickets(self):
         results = []
         for i in range(self.batch_size):
-            try:
-                ticket_dict = await self._get_ticket_as_dict()
-                results.append(ticket_dict)
-            except Exception as e:
-                logging.error(f"Error in batch {i}: {e}")
+            tickets_list = await self._get_tickets_as_dict_list()
+            results.extend(tickets_list)
+            self._save_dataset(results)
         return results
 
-    async def _get_ticket_as_dict(self) -> dict:
+    async def _get_tickets_as_dict_list(self) -> list[dict]:
         ticket_generation_graph = GraphTicketGenerator()
-        ticket = await ticket_generation_graph.create_translated_ticket()
-        return ticket.to_dict()
+        tickets = await ticket_generation_graph.create_translated_tickets()
+        return [ticket.to_dict() for ticket in tickets]
 
     def _log_dataset_generation_status(self, current_batch_number, start_time: float):
         batches_finished = current_batch_number + 1

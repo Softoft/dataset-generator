@@ -1,8 +1,6 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from graph.data.models import Language
-
 
 def compute_text_similarity(text1, text2):
     if text1 == "" and text2 == "":

@@ -37,7 +37,7 @@ async def test_creating_ticket_works(create_ticket_translation_node):
     ticket_translation_node = create_ticket_translation_node()
     shared_storage = await ticket_translation_node.execute()
 
-    ticket = shared_storage.get("tickets")[0]
+    ticket = shared_storage.get_by_key("tickets")[0]
     assert ticket is not None
     print(ticket)
 
@@ -82,7 +82,7 @@ def check_translation_similarity(translations):
             check_similarity_for_pair(translation1.answer, translation2.answer)
 
 
-def check_similarity_for_pair(text1, text2):
+def check_similarity_for_pair(text1: str, text2: str):
     similarity = compute_text_similarity(text1, text2)
     max_similarity = get_max_similarity_threshold(min(len(text1), len(text2)))
     similarity_assertion(text1, text2, similarity, max_similarity)

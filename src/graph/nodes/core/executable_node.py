@@ -30,7 +30,7 @@ class ExecutableNode(INode, abc.ABC):
 
         parent_node_tasks = []
         for parent in self.__parents:
-            parent_node_tasks.append(parent.execute(shared_storage))
+            parent_node_tasks.append(parent.execute(shared_storage.deepcopy()))
         parent_storages = list(await asyncio.gather(*parent_node_tasks))
         shared_storage.merge(parent_storages)
 

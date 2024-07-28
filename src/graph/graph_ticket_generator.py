@@ -48,15 +48,10 @@ class GraphTicketGenerator:
         self.ticket_email_generator_node = TicketEmailNode(
             [self.ticket_extra_information_node, self.ticket_queue_priority_node, self.text_length_node])
         self.ticket_answer_node = TicketAnswerNode([self.ticket_email_generator_node])
-        self.ticket_translation_node1 = TicketTranslationNode([self.ticket_answer_node])
-        self.ticket_translation_node2 = TicketTranslationNode([self.ticket_answer_node])
-        self.ticket_translation_node3 = TicketTranslationNode([self.ticket_answer_node])
-        self.ticket_translation_node4 = TicketTranslationNode([self.ticket_answer_node])
+        self.ticket_translation_nodes = [TicketTranslationNode([self.ticket_answer_node]) for _ in range(10)]
 
-        self.end_node = EndNode(
-            [self.ticket_translation_node1, self.ticket_translation_node2, self.ticket_translation_node3,
-             self.ticket_translation_node4])
+        self.end_node = EndNode(self.ticket_translation_nodes)
 
-    async def create_translated_ticket(self):
+    async def create_translated_tickets(self) -> list[Ticket]:
         shared_storage = await self.end_node.execute()
-        return shared_storage.get(Ticket)
+        return shared_storage.get_by_key("tickets")

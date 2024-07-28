@@ -1,182 +1,276 @@
 [
   {
-    "subject": "Battery overheating and potential smoke smell on MacBook Pro 2024",
-    "body": "Dear Technical Support Team, I recently purchased a MacBook Pro 2024, and I am facing a critical issue with it. The battery is overheating, and there is a noticeable smoke smell emanating from the device. I am very concerned about the safety risks involved and request immediate assistance. This is a high priority since it poses potential hazards. Please advise on the necessary steps to address this problem or arrange a swift replacement. My account number is <account_number>. Thank you for your urgent attention to this matter. Sincerely, <name>",
-    "answer": "Dear <name>,\n\nThank you for contacting us and bringing this urgent issue to our attention.\n\nGiven the severity of the problem you described with your MacBook Pro 2024, we strongly advise that you immediately power down the device and disconnect it from any power source to prevent any potential hazards.\n\nPlease do not attempt to use it further.\n\nWe will escalate this to our specialized team right away. A representative will contact you shortly to assist with the next steps, including arranging a device inspection and discussing replacement options if necessary.\n\nYour safety and satisfaction are our highest priorities. We will ensure this matter is resolved as quickly as possible.\n\nThank you for your understanding and cooperation.\n\nBest regards,\n[Your Name]\nTechnical Support Team",
+    "subject": "Drucker hat den Druckauftrag unerwartet unterbrochen",
+    "body": "Hallo Support-Team,\n\nIch habe ein Problem mit meinem HP LaserJet Pro. Er hat abrupt mitten in einem Druckauftrag aufgeh\u00f6rt zu funktionieren. Ich habe versucht, die Maschine neu zu starten und nach Papierstaus zu suchen, aber das Problem bleibt bestehen. Dies st\u00f6rt meine Arbeit erheblich. K\u00f6nnten Sie bitte helfen, diese Situation so schnell wie m\u00f6glich zu l\u00f6sen? Meine Kontonummer ist <Konto-Nummer>.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Name>",
+    "answer": "Hallo <Name>,\n\nVielen Dank, dass Sie uns wegen des Problems mit Ihrem HP LaserJet Pro Drucker kontaktiert haben. Ich entschuldige mich f\u00fcr die dadurch verursachten Unannehmlichkeiten.\n\nBitte versuchen Sie die folgenden Schritte, um das Problem zu beheben:\n1. \u00dcberpr\u00fcfen Sie, ob der Drucker sicher mit Ihrem Computer oder Netzwerk verbunden ist.\n2. Vergewissern Sie sich, dass die Druckertreiber auf dem neuesten Stand sind.\n3. Setzen Sie den Drucker zur\u00fcck, indem Sie ihn f\u00fcr mindestens 60 Sekunden vom Stromnetz trennen, bevor Sie ihn wieder anschlie\u00dfen.\n4. Bei drahtloser Verbindung versuchen Sie, die Verbindung des Druckers zu Ihrem WLAN-Netzwerk erneut herzustellen.\n\nSollte das Problem weiterhin bestehen, geben Sie bitte alle angezeigten Fehlermeldungen und die Modellnummer des Druckers an. Wir werden weitere Schritte zur Fehlerbehebung unternehmen oder einen Techniker zur Unterst\u00fctzung bereitstellen.\n\nVielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Kooperation.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
     "type": "Incident",
-    "queue": "Technical Support",
-    "priority": 3,
-    "language": "English"
-  },
-  {
-    "subject": "Urgent: IntelliJ IDEA crashes affecting multiple users",
-    "body": "We are facing repeated crashes with IntelliJ IDEA across multiple users. Immediate assistance needed.",
-    "answer": "Subject: Re: Urgent: IntelliJ IDEA crashes affecting multiple users\n\nDear [Customer's Name],\n\nThank you for reaching out. We understand the urgency and are here to help. Could you please provide the following details to assist us in diagnosing the issue:\n- Version of IntelliJ IDEA you are using\n- Operating System details\n- Any specific actions being performed when the crashes occur\n- Error messages or logs, if available\n\nWe will prioritize your case and get back to you as soon as possible.\n\nBest regards,\n[Your Name]\n[Your Position]\n[Contact Information]",
-    "type": "Problem",
-    "queue": "IT Support",
-    "priority": 3,
-    "language": "English"
-  },
-  {
-    "subject": "JetBrains IntelliJ IDEA st\u00fcrzt w\u00e4hrend wichtiger Operationen ab",
-    "body": "Sehr geehrtes Technisches Support-Team, ich erlebe unerwartete Abst\u00fcrze mit JetBrains IntelliJ IDEA w\u00e4hrend wichtiger Operationen. Dieses Problem st\u00f6rt meinen Arbeitsablauf und beeinflusst Projektfristen. Ich habe versucht, die Software neu zu installieren, aber die Abst\u00fcrze bestehen weiterhin. K\u00f6nnten Sie bitte das Problem untersuchen und schnellstm\u00f6glich eine L\u00f6sung bieten? Meine Kontonummer ist <account_number>. Vielen Dank, <name>",
-    "answer": "Sehr geehrter <name>,\n\nvielen Dank, dass Sie uns bez\u00fcglich der Abst\u00fcrze von JetBrains IntelliJ IDEA kontaktiert haben. Wir entschuldigen uns f\u00fcr die entstandenen Unannehmlichkeiten.\n\nUm Ihnen besser helfen zu k\u00f6nnen, bitten wir Sie, uns die folgenden Informationen zukommen zu lassen:\n1. Die Version von IntelliJ IDEA, die Sie verwenden.\n2. Die Details Ihres Betriebssystems.\n3. Spezifische Aktionen, die zu den Abst\u00fcrzen f\u00fchren.\n4. Fehlerprotokolle oder Screenshots, falls vorhanden.\n\nDiese Informationen helfen uns, das Problem effektiver zu diagnostizieren.\n\nWir sch\u00e4tzen Ihre Geduld und freuen uns darauf, dieses Problem schnell zu l\u00f6sen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nIhr Technisches Support-Team",
-    "type": "Incident",
-    "queue": "Technical Support",
+    "queue": "Returns and Exchanges",
     "priority": 2,
-    "language": "German"
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Printer Issue",
+        "Hardware Failure",
+        "Troubleshooting Guide",
+        "Technical Assistance",
+        "Technical Support",
+        "Issue Resolution",
+        "Customer Inquiry",
+        "Service Request",
+        "Immediate Attention",
+        "Technical Incident",
+        "Technical Problem",
+        "Technical Resolution",
+        "Customer Notification",
+        "Customer Response"
+      ]
+    }
   },
   {
-    "subject": "Software compatibility inquiry: JetBrains IntelliJ IDEA",
-    "body": "Hello, I'm facing compatibility issues with JetBrains IntelliJ IDEA on my device. It fails to launch on Windows 11 Pro. Could you provide a solution for this? Thanks, <name>",
-    "answer": "Hello <name>,\n\nThank you for reaching out. To resolve the compatibility issue with JetBrains IntelliJ IDEA on Windows 11 Pro, please try the following steps:\n\n1. Ensure that your system meets the minimum requirements for running IntelliJ IDEA.\n2. Update your Java Development Kit (JDK) to the latest version.\n3. Run IntelliJ IDEA as an administrator.\n4. Check for any Windows updates and install the latest ones.\n5. If the problem persists, try reinstalling IntelliJ IDEA.\n\nIf these steps don't resolve the issue, feel free to contact us again with more details about the error message.\n\nBest regards,\n[Your Name]\n[Your Position]\n[Your Contact Information]",
-    "type": "Request",
+    "subject": "Recebi um Apple MacBook Pro 2024 com defeito",
+    "body": "Caro Suporte ao Cliente,\n\nEstou entrando em contato para resolver um problema cr\u00edtico com minha compra mais recente, um Apple MacBook Pro 2024 (ID do Pedido: <order_number>). O item foi entregue com defeitos, e solicito uma substitui\u00e7\u00e3o imediata ou um reembolso total. Esta quest\u00e3o requer aten\u00e7\u00e3o urgente, pois est\u00e1 relacionada ao meu problema de faturamento desta compra. Meu n\u00famero de conta \u00e9 <account_number>. Por favor, responda o mais breve poss\u00edvel.\n\nAtenciosamente,\n<name>\n<phone_number>",
+    "answer": "Caro(a) <name>,\n\nObrigado por entrar em contato sobre o Apple MacBook Pro 2024 defeituoso. Pedimos sinceras desculpas por qualquer inconveni\u00eancia causada.\n\nReconhecemos a urg\u00eancia desta situa\u00e7\u00e3o. Gentilmente forne\u00e7a-nos os seguintes detalhes para avan\u00e7armos:\n1. ID do Pedido\n2. N\u00famero de Conta\n3. Fotografias ou v\u00eddeos mostrando o defeito\n\nAo receber essas informa\u00e7\u00f5es, aceleraremos o processo para substitui\u00e7\u00e3o ou reembolso, conforme sua prefer\u00eancia.\n\nObrigado por sua paci\u00eancia e coopera\u00e7\u00e3o. Entraremos em contato prontamente ap\u00f3s recebermos os detalhes necess\u00e1rios.\n\nAtenciosamente,\nEquipe de Suporte ao Cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": 3,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Customer Support",
+        "Product Issue",
+        "Critical Issue",
+        "Product Defect",
+        "Order Issue",
+        "Refund Request",
+        "Immediate Attention",
+        "Customer Complaint",
+        "Customer Resolution",
+        "Customer Response",
+        "Technical Issue",
+        "Customer Inquiry",
+        "Customer Request",
+        "Exchange Request",
+        "Customer Follow-Up"
+      ]
+    }
+  },
+  {
+    "subject": "Problema Cr\u00edtico: Incidentes de Congelaci\u00f3n Aleatoria en MacBook Pro 2024",
+    "body": "Hola Soporte T\u00e9cnico,\n\nEstoy enfrentando problemas repetidos de congelaci\u00f3n con mi MacBook Pro 2024. El sistema se vuelve no responsivo en intervalos aleatorios, obstaculizando mi flujo de trabajo. Aunque he intentado reiniciar, actualizar el software y ejecutar diagn\u00f3sticos, el problema persiste. Este asunto requiere su pronta atenci\u00f3n ya que afecta gravemente mi productividad.\n\nCuenta Vinculada: <numero_de_cuenta>\n\nSolicitando su apoyo lo antes posible.\n\nSaludos cordiales,\n<nombre>",
+    "answer": "Hola <nombre>,\n\nGracias por contactarnos. Lamento escuchar los problemas que est\u00e1s teniendo con tu MacBook Pro 2024.\n\nPara ayudarte mejor, por favor intenta estos pasos adicionales de soluci\u00f3n de problemas:\n1. Restablecer NVRAM/PRAM: Apaga tu Mac y luego enci\u00e9ndela manteniendo presionadas las teclas Opci\u00f3n + Comando + P + R durante unos 20 segundos.\n2. Restablecer SMC: Los pasos para esto pueden variar con diferentes modelos. Instrucciones detalladas se pueden encontrar en el sitio web de soporte de Apple.\n3. Iniciar en Modo Seguro: Reinicia tu Mac manteniendo presionada la tecla Shift. El Modo Seguro ejecuta algunas verificaciones y reparaciones del sistema.\n\nSi despu\u00e9s de intentar estos pasos tu Mac sigue congel\u00e1ndose, por favor responde a este correo, y te proporcionaremos m\u00e1s asistencia. Debido a la urgencia, tambi\u00e9n podr\u00edamos programar una cita prioritaria en el centro de servicio m\u00e1s cercano si es necesario.\n\nSaludos cordiales,\n[Tu Nombre]\nEquipo de Soporte T\u00e9cnico",
+    "type": "Incident",
     "queue": "Technical Support",
     "priority": 3,
-    "language": "English"
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Critical Failure",
+        "Immediate Attention",
+        "Technical Assistance",
+        "Technical Issue",
+        "Technical Response",
+        "Technical Support",
+        "System Crash",
+        "Troubleshooting Guide",
+        "Urgent Issue",
+        "User Notification",
+        "Incident Escalation",
+        "Issue Resolution",
+        "Support Request",
+        "Support Prioritization"
+      ]
+    }
   },
   {
-    "subject": "El MacBook Pro 2024 se apaga repentinamente",
-    "body": "Hola, Recientemente compr\u00e9 el nuevo MacBook Pro 2024 y he estado experimentando un problema inesperado. La laptop se apaga repentinamente sin ning\u00fan aviso o raz\u00f3n aparente. Esto ha sucedido m\u00faltiples veces durante la \u00faltima semana, incluso cuando la bater\u00eda est\u00e1 completamente cargada y el dispositivo no est\u00e1 sobrecalent\u00e1ndose. Me asegur\u00e9 de instalar las \u00faltimas actualizaciones y no he hecho ning\u00fan cambio significativo en la configuraci\u00f3n del sistema que pudiera causar este problema. Este problema est\u00e1 afectando mi productividad y necesito asistencia inmediata para resolverlo. \u00bfPodr\u00edan por favor guiarme a trav\u00e9s de los pasos de soluci\u00f3n de problemas o informarme si es necesario una reparaci\u00f3n? Mi n\u00famero de pedido es <order_number>. Espero una respuesta urgente, gracias.",
-    "answer": "Estimado/a [Cliente],\n\nGracias por contactarnos respecto al problema con su MacBook Pro 2024. Lamento escuchar sobre los apagados inesperados que est\u00e1 experimentando.\n\nPara comenzar con la soluci\u00f3n de problemas, siga estos pasos:\n\n1. **Restablecer el Controlador de Gesti\u00f3n del Sistema (SMC):**\n   - Apague su MacBook.\n   - Mantenga presionadas las teclas Shift + Control + Option y el bot\u00f3n de encendido al mismo tiempo durante 10 segundos.\n   - Suelte todas las teclas y el bot\u00f3n de encendido, luego presione el bot\u00f3n de encendido para encender su MacBook.\n\n2. **Restablecer la NVRAM:**\n   - Apague su MacBook.\n   - Enci\u00e9ndalo de nuevo e inmediatamente presione y mantenga presionadas las teclas Option + Command + P + R durante unos 20 segundos.\n   - Suelte las teclas y deje que su MacBook se inicie normalmente.\n\n3. **Verificar si hay Malware:**\n   - Realice un escaneo completo del sistema usando su software antivirus o de detecci\u00f3n de malware preferido.\n\n4. **Ejecute una Prueba de Diagn\u00f3stico:**\n   - Reinicie su MacBook y mantenga presionada la tecla D para entrar en modo de Diagn\u00f3stico.\n   - Siga las instrucciones en pantalla para verificar si hay problemas de hardware.\n\nSi el problema persiste despu\u00e9s de intentar estos pasos, puede requerir una investigaci\u00f3n m\u00e1s detallada por un profesional. Dada su situaci\u00f3n, le recomiendo visitar un Proveedor de Servicios Autorizado por Apple o hacer una cita en el Genius Bar de su tienda Apple m\u00e1s cercana para una inspecci\u00f3n detallada.\n\nPor favor, tenga a mano su n\u00famero de pedido y cualquier informaci\u00f3n relevante sobre su problema cuando visite.\n\nSi necesita m\u00e1s asistencia o tiene alguna pregunta, no dude en contactarnos.\n\nSaludos cordiales,\n[Su Nombre]\nEquipo de Soporte al Cliente",
+    "subject": "Unerwarteter Produkt-Downgrade nach Kauf: Microsoft Office 365 Business Premium",
+    "body": "Sehr geehrtes Support-Team,\n\nIch schreibe bez\u00fcglich eines Problems mit meinem k\u00fcrzlichen Kauf von Microsoft Office 365 Business Premium. Nach der Aktivierung stellte ich fest, dass mein Konto auf eine niedrigere Version von Office 365 heruntergestuft wurde. Dieses Downgrade beeintr\u00e4chtigt erheblich meine Gesch\u00e4ftst\u00e4tigkeiten. K\u00f6nnten Sie dieses Problem bitte so schnell wie m\u00f6glich angehen? Meine Bestelldetails und Kontoinformationen sind zum Nachweis beigef\u00fcgt.\n\nVielen Dank,\n<name>\nKontonummer: <account_number>\nEmail: <email>",
+    "answer": "Sehr geehrte/r <name>,\n\nVielen Dank, dass Sie uns auf dieses Problem aufmerksam gemacht haben. Es tut mir leid f\u00fcr die Unannehmlichkeiten, die der unerwartete Downgrade Ihres Microsoft Office 365 Business Premium Kontos verursacht hat.\n\nWir untersuchen derzeit die Angelegenheit und werden sie so schnell wie m\u00f6glich kl\u00e4ren. Ich werde Ihnen in K\u00fcrze ein Update \u00fcber unseren Fortschritt geben.\n\nVielen Dank f\u00fcr Ihre Geduld und Ihr Verst\u00e4ndnis.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Ticketsystem Agent Name>\nSupport-Team",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Account Issue",
+        "Account Follow-Up",
+        "Account Assistance",
+        "Billing Issue",
+        "Service Issue",
+        "Customer Complaint",
+        "Customer Inquiry",
+        "Customer Response",
+        "Support Request",
+        "Support Resolution",
+        "Technical Issue",
+        "Error Log",
+        "Subscription Problem",
+        "Immediate Attention"
+      ]
+    }
+  },
+  {
+    "subject": "Unerwartetes Bildschirmflimmern und Abschaltungen beim MacBook Pro 2024",
+    "body": "Hallo Support-Team,\n\nIch erlebe pl\u00f6tzlich auftretendes Bildschirmflimmern und unerwartete Abschaltungen bei meinem k\u00fcrzlich gekauften MacBook Pro 2024. Dieses Problem trat vor einigen Tagen auf und hat meine Arbeitseffizienz stark beeintr\u00e4chtigt. Ich habe versucht, das Laptop neu zu starten und alle Software zu aktualisieren, aber das Problem besteht weiterhin. K\u00f6nnten Sie mir bitte Anweisungen geben, welche Schritte ich als n\u00e4chstes unternehmen soll, oder einen Service-Termin so fr\u00fch wie m\u00f6glich vereinbaren? Die Seriennummer meines MacBook lautet: <serial_number>.\n\nDanke,\n<name>\n<phone_number>",
+    "answer": "Hallo <name>,\n\nDanke, dass Sie das Problem mit Ihrem MacBook Pro 2024 unserer Aufmerksamkeit gebracht haben. Wir verstehen, wie sehr dies Ihre Arbeit st\u00f6ren kann.\n\nDa das Neustarten und die Software-Updates das Problem nicht gel\u00f6st haben, empfehlen wir, einen Servicetermin zu vereinbaren. Bitte besuchen Sie den n\u00e4chstgelegenen Apple Authorized Service Provider oder einen Apple Store und denken Sie daran, Ihr MacBook sowie einen Kaufnachweis mitzubringen.\n\nIn der Zwischenzeit stellen Sie sicher, dass Sie Ihre Daten gesichert haben, um etwaigen Datenverlust zu vermeiden.\n\nF\u00fcr weitere Fragen oder Unterst\u00fctzung bei der Terminvereinbarung z\u00f6gern Sie nicht, uns jederzeit zu kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
     "type": "Incident",
     "queue": "Product Support",
     "priority": 2,
-    "language": "Spanish"
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Account Assistance",
+        "Assistance Request",
+        "Customer Complaint",
+        "Customer Inquiry",
+        "Customer Issue",
+        "Customer Response",
+        "Hardware Failure",
+        "Help Request",
+        "Issue Resolution",
+        "Screen Issue",
+        "Service Scheduling",
+        "Technical Support",
+        "Troubleshooting Guide",
+        "Urgent Issue"
+      ]
+    }
   },
   {
-    "subject": "Fehlgeschlagene Zahlung f\u00fcr j\u00e4hrliche Verl\u00e4ngerung des Microsoft Office 365-Abonnements",
-    "body": "Meine j\u00e4hrliche Verl\u00e4ngerung f\u00fcr Office 365 ist fehlgeschlagen. Brauche dringend Hilfe bei der L\u00f6sung des Zahlungsproblems.",
-    "answer": "Sehr geehrter Kunde,\n\nVielen Dank f\u00fcr Ihre Kontaktaufnahme. Wir verstehen die Dringlichkeit Ihres Zahlungsproblems.\n\nBitte \u00fcberpr\u00fcfen Sie, ob Ihre Zahlungsdaten aktuell und korrekt sind. Falls alles in Ordnung zu sein scheint, kontaktieren Sie bitte Ihre Bank, um sicherzustellen, dass keine Sperrungen oder Einschr\u00e4nkungen auf Ihrer Karte vorliegen.\n\nF\u00fcr sofortige Unterst\u00fctzung besuchen Sie bitte unsere Support-Seite oder rufen Sie unseren Kundenservice direkt unter [Kundendienstnummer] an.\n\nWir entschuldigen uns f\u00fcr etwaige Unannehmlichkeiten und sind hier, um Ihnen so schnell wie m\u00f6glich zu helfen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\nKundensupport-Team",
-    "type": "Incident",
-    "queue": "Billing and Payments",
-    "priority": 3,
-    "language": "English"
-  },
-  {
-    "subject": "Problema de Inactividad del Servidor Dell PowerEdge R750",
-    "body": "Estamos experimentando inactividad del servidor en Dell PowerEdge R750. \u00a1Necesitamos ayuda lo antes posible!",
-    "answer": "Asunto: Re: Problema de Inactividad del Servidor Dell PowerEdge R750\n\nEstimado Cliente,\n\nGracias por ponerse en contacto. Entendemos la urgencia de su situaci\u00f3n. Proporci\u00f3nenos algunos detalles adicionales, como los mensajes de error que est\u00e1 viendo y cualquier cambio de configuraci\u00f3n reciente. Esta informaci\u00f3n nos ayudar\u00e1 a diagnosticar y resolver el problema de manera m\u00e1s eficiente.\n\nMientras tanto, aseg\u00farese de que todos los cables est\u00e9n bien conectados e intente reiniciar el servidor. Esperamos su respuesta.\n\nAtentamente,\n[Su Nombre]\nEquipo de Soporte",
-    "type": "Incident",
-    "queue": "IT Support",
-    "priority": 1,
-    "language": "Spanish"
-  },
-  {
-    "subject": "Urgente: Interrupci\u00f3n del servidor en la nube de AWS que afecta a m\u00faltiples usuarios",
-    "body": "Estimado equipo de soporte, estamos experimentando un problema grave de interrupci\u00f3n con nuestros servidores en la nube de AWS. M\u00faltiples usuarios se ven afectados y nuestras operaciones est\u00e1n gravemente impactadas. Se requiere asistencia inmediata para resolver este problema de manera r\u00e1pida y restaurar los servicios. Gracias. <nombre>",
-    "answer": "Estimado <nombre>,\n\nGracias por contactarnos. Entendemos la urgencia de la situaci\u00f3n y el impacto que tiene en sus operaciones. Nuestro equipo t\u00e9cnico est\u00e1 investigando el problema con sus servidores en la nube de AWS como una prioridad m\u00e1xima. Le proporcionaremos actualizaciones y trabajaremos para resolver este problema lo m\u00e1s r\u00e1pido posible.\n\nGracias por su paciencia.\n\nSaludos cordiales,\nEquipo de soporte",
-    "type": "Incident",
-    "queue": "Service Outages and Maintenance",
-    "priority": 3,
-    "language": "Spanish"
-  },
-  {
-    "subject": "Netgear Nighthawk X6 AC3200 Router - Instabilit\u00e9 du r\u00e9seau",
-    "body": "Je rencontre une instabilit\u00e9 du r\u00e9seau et des probl\u00e8mes de connectivit\u00e9 intermittente avec mon routeur Netgear Nighthawk X6 AC3200. Pouvez-vous m'aider \u00e0 r\u00e9soudre ce probl\u00e8me ?",
-    "answer": "Cher client,\n\nMerci de nous avoir contact\u00e9s. Nous sommes d\u00e9sol\u00e9s d'apprendre que vous rencontrez des probl\u00e8mes avec votre routeur Netgear Nighthawk X6 AC3200.\n\nPour r\u00e9soudre ce probl\u00e8me, veuillez essayer les \u00e9tapes suivantes :\n1. **Red\u00e9marrez votre routeur** : D\u00e9branchez le cordon d'alimentation, attendez 10 secondes, puis rebranchez-le.\n2. **Assurez-vous que le firmware est \u00e0 jour** : Connectez-vous au panneau d'administration de votre routeur et v\u00e9rifiez s'il y a des mises \u00e0 jour de firmware disponibles.\n3. **V\u00e9rifiez les interf\u00e9rences** : Assurez-vous que votre routeur est plac\u00e9 loin des appareils susceptibles de causer des interf\u00e9rences (par exemple, les micro-ondes, les t\u00e9l\u00e9phones sans fil).\n4. **R\u00e9initialisation d'usine** : Si toutes ces \u00e9tapes \u00e9chouent, envisagez de faire une r\u00e9initialisation d'usine en maintenant le bouton de r\u00e9initialisation enfonc\u00e9 pendant 30 secondes. Notez que cela effacera tous les param\u00e8tres et configurations.\n\nSi ces \u00e9tapes ne r\u00e9solvent pas le probl\u00e8me, veuillez nous en informer afin que nous puissions vous fournir une assistance suppl\u00e9mentaire.\n\nCordialement,\n[Votre Nom]\n\u00c9quipe de Support",
-    "type": "Problem",
-    "queue": "Technical Support",
-    "priority": 2,
-    "language": "French"
-  },
-  {
-    "subject": "Demande de d\u00e9tails et de sp\u00e9cifications du produit",
-    "body": "Pourriez-vous fournir les d\u00e9tails et les sp\u00e9cifications du MacBook Pro 2024 ?",
-    "answer": "Cher client,\n\nMerci pour votre demande.\n\nLe MacBook Pro 2024 est dot\u00e9 du tout dernier processeur M3 d'Apple, offrant des performances et une efficacit\u00e9 exceptionnelles. Il est disponible en mod\u00e8les de 14 pouces et 16 pouces avec des \u00e9crans Liquid Retina XDR, offrant des couleurs vives et des noirs profonds. Il comprend jusqu'\u00e0 64 Go de m\u00e9moire unifi\u00e9e et jusqu'\u00e0 8 To de stockage. La dur\u00e9e de vie de la batterie varie de 17 \u00e0 21 heures, selon le mod\u00e8le.\n\nPour une liste compl\u00e8te des sp\u00e9cifications, y compris des indicateurs de performance d\u00e9taill\u00e9s et des options de connectivit\u00e9, veuillez visiter notre site officiel Apple ou contacter directement notre \u00e9quipe de support.\n\nCordialement,\n[Votre Nom]\n[Votre Poste]",
-    "type": "Request",
-    "queue": "Sales and Pre-Sales",
-    "priority": 1,
-    "language": "French"
-  },
-  {
-    "subject": "Consulta sobre la vida de la bater\u00eda del Apple iPhone 14 Pro",
-    "body": "Estimado Equipo de Atenci\u00f3n al Cliente,\n\nRecientemente compr\u00e9 un Apple iPhone 14 Pro y tengo algunas preguntas sobre la vida de su bater\u00eda. \u00bfPodr\u00edan por favor proporcionar informaci\u00f3n detallada sobre los tiempos de uso promedio que puedo esperar, incluyendo el tiempo en espera y el tiempo de conversaci\u00f3n? Adem\u00e1s, \u00bfhay alg\u00fan consejo o mejores pr\u00e1cticas que recomiende para optimizar la vida de la bater\u00eda de mi nuevo tel\u00e9fono? Espero su respuesta.\n\nGracias,\n<nombre>",
-    "answer": "Estimado <nombre>,\n\nGracias por ponerse en contacto. Para el Apple iPhone 14 Pro, los tiempos de uso promedio son los siguientes:\n\n- Tiempo de conversaci\u00f3n: Hasta 25 horas\n- Uso de Internet: Hasta 15 horas\n- Reproducci\u00f3n de video: Hasta 20 horas\n- Reproducci\u00f3n de audio: Hasta 75 horas\n- Tiempo en espera: Aproximadamente 20 d\u00edas\n\nPara optimizar la vida de la bater\u00eda, considere estos consejos:\n1. Habilite el Modo de Bajo Consumo cuando la bater\u00eda est\u00e9 baja.\n2. Reduzca el brillo de la pantalla o habilite el Brillo Autom\u00e1tico.\n3. Use Wi-Fi en lugar de datos celulares cuando sea posible.\n4. Desactive la Actualizaci\u00f3n en Segundo Plano para aplicaciones no esenciales.\n5. Apague los Servicios de Ubicaci\u00f3n cuando no sean necesarios.\n6. Mantenga su software actualizado para beneficiarse de las \u00faltimas mejoras en la gesti\u00f3n de energ\u00eda.\n\nSi necesita m\u00e1s asistencia, por favor h\u00e1ganoslo saber.\n\nSaludos cordiales,\nEquipo de Atenci\u00f3n al Cliente",
-    "type": "Request",
-    "queue": "Customer Service",
-    "priority": 1,
-    "language": "Spanish"
-  },
-  {
-    "subject": "Hilfe ben\u00f6tigt bei der Installation von Microsoft Office 365",
-    "body": "Hallo Support, ich habe einen neuen Computer und ben\u00f6tige Hilfe bei der Installation von Microsoft Office 365. Ich habe Probleme mit der Einrichtung. K\u00f6nnen Sie mir bitte weiterhelfen? Danke, <name>",
-    "answer": "Betreff: Re: Hilfe ben\u00f6tigt bei der Installation von Microsoft Office 365\n\nHallo <name>,\n\nVielen Dank f\u00fcr Ihre Nachricht.\n\nUm Ihnen bei der Installation von Microsoft Office 365 auf Ihrem neuen Computer zu helfen, folgen Sie bitte diesen Schritten:\n\n1. Gehen Sie auf die Microsoft Office-Website: https://www.office.com/\n2. Melden Sie sich mit Ihrem Microsoft-Konto an.\n3. Nach dem Anmelden klicken Sie auf \"Office installieren\" und w\u00e4hlen \"Office 365-Apps\".\n4. F\u00fchren Sie die heruntergeladene Datei aus und folgen Sie den Anweisungen auf dem Bildschirm, um die Installation abzuschlie\u00dfen.\n\nWenn Sie w\u00e4hrend der Installation auf bestimmte Fehlermeldungen oder Probleme sto\u00dfen, teilen Sie uns bitte die Einzelheiten mit, damit wir Ihnen weiterhelfen k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Your Name]\nSupport-Team",
-    "type": "Request",
-    "queue": "Technical Support",
-    "priority": 2,
-    "language": "German"
-  },
-  {
-    "subject": "Inquiry on Detailed Invoice Breakdown for Microsoft Office 365",
-    "body": "Can I get a detailed breakdown of my recent invoice for Microsoft Office 365? Thank you, <name>.",
-    "answer": "Dear <name>,\n\nThank you for your email. I will provide you with a detailed breakdown of your recent invoice for Microsoft Office 365 shortly.\n\nBest regards,\n[Your Name]",
-    "type": "Request",
-    "queue": "Billing and Payments",
-    "priority": 1,
-    "language": "English"
-  },
-  {
-    "subject": "Dell UltraSharp 27 - Loud Noise Issue when Powered On",
-    "body": "Dear Customer Support Team,\n\nI am experiencing an issue with my Dell UltraSharp 27 monitor. Each time I power it on, it makes a loud, unsettling noise. I have tried different power outlets and even reset the monitor to its default settings but the problem persists. This is quite concerning and disruptive to my work. Could you please provide assistance or guide me through the next steps to resolve this issue?\n\nThank you,\n<name>\n<phone_number>\n<account_number>",
-    "answer": "Dear [Customer's Name],\n\nThank you for reaching out to us regarding the issue with your Dell UltraSharp 27 monitor. I understand how disruptive and concerning this loud noise can be.\n\nTo assist you further, we would require some additional information and troubleshooting:\n\n1. Could you let us know if the noise starts immediately when powered on or after some time?\n2. Have you noticed any performance issues or irregularities apart from the sound?\n3. If possible, could you record a brief video or audio of the noise for further analysis?\n\nIn the interim, we recommend checking for any loose connections and ensuring that the monitor is placed on a stable surface to rule out any external factors contributing to the noise.\n\nIf the issue persists, it may be necessary to arrange for a technician to inspect the monitor or consider a replacement if it is still under warranty. Please provide the requested information so we can expedite the resolution process.\n\nThank you for your patience and cooperation.\n\nBest regards,\n[Your Name]\nDell Customer Support Team\n[Contact Information]",
-    "type": "Incident",
-    "queue": "Customer Service",
-    "priority": 2,
-    "language": "English"
-  },
-  {
-    "subject": "Hilfe bei der Installation von Visual Studio Code erforderlich",
-    "body": "Sehr geehrtes Technisches Support-Team,\n\nIch hoffe, diese E-Mail erreicht Sie wohlbehalten. Ich schreibe, um Unterst\u00fctzung bei der Installation von Visual Studio Code auf meiner neuen Arbeitsstation zu suchen. Vor kurzem bin ich auf einen neuen Laptop umgestiegen und habe einige Schwierigkeiten, sicherzustellen, dass Visual Studio Code korrekt eingerichtet ist.\n\nInsbesondere bin ich auf Probleme w\u00e4hrend der Installationsphase gesto\u00dfen, bei der der Setup-Assistent nicht abgeschlossen werden konnte. Trotz der Befolgung der auf der offiziellen Website beschriebenen Standard-Installationsschritte erscheint immer wieder eine Fehlermeldung, die auf fehlende Abh\u00e4ngigkeiten hinweist. Ich habe einen Screenshot der Fehlermeldung zur Ihrer Erleichterung beigef\u00fcgt.\n\nIch habe sichergestellt, dass mein Betriebssystem, Windows 11, auf die neueste Version aktualisiert ist, und ich habe auch versucht, die Software mehrmals neu zu installieren. Leider haben diese Bem\u00fchungen das Problem nicht gel\u00f6st.\n\nK\u00f6nnten Sie bitte detaillierte Anweisungen oder Schritte zur Fehlerbehebung bereitstellen, um mir zu helfen, Visual Studio Code erfolgreich zu installieren? Wenn es bestimmte Systemkonfigurationen oder Voraussetzungen gibt, die erf\u00fcllt werden m\u00fcssen, teilen Sie mir diese Informationen bitte ebenfalls mit.\n\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<email_address>\n<phone_number>",
-    "answer": "Sehr geehrter <name>,\n\nVielen Dank, dass Sie uns bez\u00fcglich Ihres Problems bei der Installation von Visual Studio Code kontaktiert haben.\n\nBasierend auf den bereitgestellten Informationen scheint es, dass fehlende Abh\u00e4ngigkeiten den Setup-Assistenten zum Scheitern bringen. Hier sind einige Schritte, die Sie zur Behebung dieses Problems befolgen k\u00f6nnen:\n\n1. **Aktualisieren Sie das .NET Framework:** Stellen Sie sicher, dass die neueste Version des .NET Framework auf Ihrem System installiert ist, da Visual Studio Code m\u00f6glicherweise auf spezifische Systemkomponenten angewiesen ist, die dies erfordern.\n\n2. **\u00dcberpr\u00fcfen Sie auf fehlende Abh\u00e4ngigkeiten:**\n   - Laden Sie das Visual C++ Redistributable f\u00fcr Visual Studio 2015, 2017 und 2019 herunter und installieren Sie es.\n   - Stellen Sie sicher, dass alle notwendigen Systembibliotheken und Komponenten auf dem neuesten Stand sind.\n\n3. **F\u00fchren Sie den Installer als Administrator aus:** Klicken Sie mit der rechten Maustaste auf den Visual Studio Code Installer und w\u00e4hlen Sie \"Als Administrator ausf\u00fchren\", um etwaige Berechtigungsprobleme zu vermeiden.\n\n4. **L\u00f6schen Sie tempor\u00e4re Dateien:**\n   - \u00d6ffnen Sie den Ausf\u00fchren-Dialog (`Win + R`), geben Sie `%TEMP%` ein und dr\u00fccken Sie Enter.\n   - L\u00f6schen Sie alle Dateien im tempor\u00e4ren Ordner, um zu verhindern, dass besch\u00e4digte oder unvollst\u00e4ndige Dateien den Installationsprozess beeintr\u00e4chtigen.\n\n5. **\u00dcberpr\u00fcfen Sie auf konfliktierende Software:** Deaktivieren Sie vor\u00fcbergehend alle Antivirus- oder Sicherheitssoftware w\u00e4hrend der Installation, da diese m\u00f6glicherweise bestimmte Aktionen des Setup-Assistenten blockieren k\u00f6nnte.\n\nWenn diese Schritte das Problem nicht l\u00f6sen, befolgen Sie bitte die zus\u00e4tzlichen Schritte zur Fehlerbehebung unten:\n- Stellen Sie sicher, dass Ihr Windows durch Ausf\u00fchren von \"Windows Update\" vollst\u00e4ndig aktualisiert ist.\n- Versuchen Sie erneut, Visual Studio Code von der offiziellen Website zu installieren.\n\nWenn der Fehler weiterhin besteht, geben Sie bitte die spezifische Fehlermeldung oder den Fehlercode an, der im Screenshot erw\u00e4hnt ist, da dies uns helfen kann, das Problem genauer zu diagnostizieren.\n\nWir sind hier, um Ihnen weiter zu helfen, falls n\u00f6tig. Bitte z\u00f6gern Sie nicht, uns erneut zu kontaktieren, wenn Sie weiterhin Probleme haben.\n\nVielen Dank f\u00fcr Ihre Geduld und Ihr Verst\u00e4ndnis.\n\nMit freundlichen Gr\u00fc\u00dfen,\nTechnisches Support-Team",
-    "type": "Request",
-    "queue": "Technical Support",
-    "priority": 1,
-    "language": "German"
-  },
-  {
-    "subject": "Immediate Attention: Primary Server Down \u2013 Network Setup",
-    "body": "Die prim\u00e4re Server f\u00fcr unser Netzwerk-Setup ist ausgefallen und betrifft mehrere Benutzer. Dieses Ereignis erfordert sofortige Aufmerksamkeit. Bitte l\u00f6sen Sie es so schnell wie m\u00f6glich.",
-    "answer": "Betreff: Re: Immediate Attention: Primary Server Down \u2013 Network Setup\n\nSehr geehrter [Kunde],\n\nVielen Dank, dass Sie uns darauf aufmerksam gemacht haben. Wir verstehen die Dringlichkeit und haben dieses Problem an unser technisches Team weitergegeben. Sie arbeiten daran, es so schnell wie m\u00f6glich zu l\u00f6sen. Wir werden Sie \u00fcber den Fortschritt auf dem Laufenden halten und Sie benachrichtigen, sobald der Server wieder online ist.\n\nWir entschuldigen uns f\u00fcr die Unannehmlichkeiten und danken Ihnen f\u00fcr Ihre Geduld.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\n[Ihre Kontaktinformationen]",
-    "type": "Incident",
-    "queue": "Service Outages and Maintenance",
-    "priority": 3,
-    "language": "English"
-  },
-  {
-    "subject": "IntelliJ IDEA crashes on startup after recent update",
-    "body": "Hello Team,\n\nI recently updated JetBrains IntelliJ IDEA to the latest version, and since then, the application crashes on startup every time I try to open it. This issue is critical as it\u2019s affecting my work. I've attempted to reinstall, but the problem persists. Can you please provide immediate assistance to resolve this? Your prompt help would be much appreciated.\n\nBest regards,\n<name>",
-    "answer": "Hello <name>,\n\nThank you for contacting us.\n\nWe apologize for the inconvenience caused by the recent update. To help resolve this issue, please try the following steps:\n\n1. Delete the cache and logs:\n   - Navigate to the IDE's configuration directory.\n   - Delete the \"caches\" and \"logs\" directories.\n\n2. Start IntelliJ IDEA in Safe Mode:\n   - Hold down the Shift key while starting the application. This will disable all third-party plugins temporarily.\n\n3. Check and update your graphics card drivers.\n\nIf the problem persists, please send us the logs located in the \"logs\" directory so we can further investigate.\n\nWe appreciate your patience and understanding.\n\nBest regards,\n<Your Team>",
+    "subject": "Microsoft Office 365 \u2013 La aplicaci\u00f3n no se inicia consistentemente",
+    "body": "Estimado Soporte T\u00e9cnico,\n\nEstoy encontrando un problema grave con mi aplicaci\u00f3n Microsoft Office 365; se cierra cada vez que la inicio. Este asunto es extremadamente urgente ya que interrumpe mis actividades diarias. Ya he intentado pasos b\u00e1sicos de soluci\u00f3n de problemas como reinstalaci\u00f3n y actualizaci\u00f3n de mi sistema operativo, pero el problema persiste. \u00bfPodr\u00eda ayudarme de inmediato a resolver esto? Mi n\u00famero de cuenta es <account_number>.\n\nGracias,\n<name>",
+    "answer": "Estimado/a <name>,\n\nGracias por contactarnos para recibir asistencia. Lamento saber sobre las dificultades que est\u00e1 experimentando con Microsoft Office 365.\n\nPara proporcionar una soluci\u00f3n m\u00e1s efectiva, \u00bfpodr\u00eda proporcionar la siguiente informaci\u00f3n?\n1. \u00bfQu\u00e9 aplicaci\u00f3n exacta de Office (por ejemplo, Word, Excel) est\u00e1 fallando?\n2. \u00bfSe muestran mensajes de error cuando la aplicaci\u00f3n se cierra?\n3. \u00bfCu\u00e1l es el sistema operativo y su versi\u00f3n que est\u00e1 utilizando actualmente?\n4. \u00bfHubo alg\u00fan cambio reciente en su sistema antes de que comenzara el problema?\n\nMientras tanto, por favor intente lo siguiente:\n1. Inicie Office en Modo Seguro manteniendo presionada la tecla Ctrl y haciendo clic en la aplicaci\u00f3n para ver si se inicia correctamente.\n2. Desactive cualquier complemento navegando a Archivo > Opciones > Complementos, y administrando los complementos para verificar si alguno de ellos est\u00e1 causando el problema.\n3. Aseg\u00farese de que todos los controladores de su sistema est\u00e9n actualizados.\n\nEsperamos su respuesta con los detalles solicitados para ayudarnos a diagnosticar el problema con mayor precisi\u00f3n.\n\nSaludos cordiales,\n<Your Name>\nSoporte T\u00e9cnico",
     "type": "Incident",
     "queue": "Technical Support",
     "priority": 3,
-    "language": "English"
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Tech Support Request",
+        "Technical Issue",
+        "Technical Assistance",
+        "Urgent Issue",
+        "Software Bug",
+        "Application Error",
+        "Support Request",
+        "User Issue",
+        "Problem Report",
+        "Critical Incident",
+        "Incident Report",
+        "Troubleshooting Guide",
+        "Technical Inquiry",
+        "Technical Resolution",
+        "User Follow-Up"
+      ]
+    }
   },
   {
-    "subject": "Wiederholte Abst\u00fcrze mit PyCharm IDE 2024.1",
-    "body": "Meine PyCharm IDE 2024.1 st\u00fcrzt w\u00e4hrend der Nutzung st\u00e4ndig ab. Dieses Problem tritt wiederholt auf und verursacht mehrere Vorf\u00e4lle. K\u00f6nnten Sie mir helfen?",
-    "answer": "Sehr geehrter Kunde,\n\nVielen Dank, dass Sie sich an uns wenden. Es tut mir leid zu h\u00f6ren, dass Ihre PyCharm IDE 2024.1 wiederholt abst\u00fcrzt. Um Ihnen besser helfen zu k\u00f6nnen, k\u00f6nnten Sie bitte die folgenden Details angeben:\n\n1. Ihr Betriebssystem und dessen Version.\n2. Spezifische Aktionen, die zu den Abst\u00fcrzen f\u00fchren.\n3. Fehlermeldungen oder Protokolle, die Sie erhalten, wenn der Absturz auftritt.\n\nIn der Zwischenzeit stellen Sie bitte sicher, dass Ihre Software auf dem neuesten Stand ist und deaktivieren Sie eventuell Drittanbieter-Plugins, die Konflikte verursachen k\u00f6nnten.\n\nIch freue mich auf Ihre Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]",
-    "type": "Problem",
-    "queue": "Customer Service",
-    "priority": 2,
-    "language": "German"
-  },
-  {
-    "subject": "Anfrage nach Installationsanweisungen f\u00fcr Microsoft Office 365",
-    "body": "K\u00f6nnten Sie mir die Installationsanweisungen f\u00fcr Microsoft Office 365 zur Verf\u00fcgung stellen? Danke, <Name>",
-    "answer": "Sehr geehrte/r <Name>,\n\nDanke, dass Sie uns kontaktiert haben. Um Microsoft Office 365 zu installieren, folgen Sie bitte diesen Schritten:\n\n1. Melden Sie sich bei Ihrem Microsoft-Konto auf www.office.com an.\n2. Klicken Sie auf \"Office installieren\".\n3. W\u00e4hlen Sie \"Office 365-Apps\" aus, um den Download zu starten.\n4. \u00d6ffnen Sie die heruntergeladene Datei und folgen Sie den Anweisungen auf dem Bildschirm, um die Installation abzuschlie\u00dfen.\n\nWenn Sie auf Probleme sto\u00dfen oder weitere Unterst\u00fctzung ben\u00f6tigen, k\u00f6nnen Sie sich gerne an uns wenden.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\n[Ihre Kontaktdaten]",
-    "type": "Request",
-    "queue": "Technical Support",
-    "priority": 2,
-    "language": "German"
-  },
-  {
-    "subject": "Server Down in Data Center A54 - Immediate Attention Needed",
-    "body": "Our Dell PowerEdge R740 server in Data Center A54 is down unexpectedly. This is an urgent issue requiring immediate attention. Please expedite support to resolve this quickly.",
-    "answer": "Dear [Customer],\n\nThank you for bringing this urgent issue to our attention. We have escalated this to our technical support team and they are now prioritizing the situation with the Dell PowerEdge R740 server in Data Center A54. We will provide you with updates as soon as we have more information.\n\nYour patience is greatly appreciated while we resolve this matter swiftly.\n\nBest regards,\n[Your Name]\n[Your Position]\n[Contact Information]",
+    "subject": "Probl\u00e8me de surchauffe et de coupure soudaine du MacBook Pro 2024",
+    "body": "Bonjour \u00e9quipe de support,\n\nJ'ai r\u00e9cemment achet\u00e9 un MacBook Pro 2024, qui a \u00e9t\u00e9 victime de surchauffe et d'arr\u00eat abrupt, provoquant des perturbations de travail importantes. J'ai essay\u00e9 un d\u00e9pannage basique, mais le probl\u00e8me persiste. Je demande une assistance urgente car cela affecte grandement ma productivit\u00e9.\n\nMon num\u00e9ro de compte est <account_number> et mon num\u00e9ro de contact est <phone_number>.\n\nMerci,\n<name>",
+    "answer": "Cher <name>,\n\nMerci de nous avoir contact\u00e9. Je suis d\u00e9sol\u00e9 d'apprendre les difficult\u00e9s que vous rencontrez avec votre MacBook Pro 2024.\n\nVeuillez essayer les \u00e9tapes suivantes pour diagnostiquer le probl\u00e8me :\n1. Assurez-vous que le logiciel de votre MacBook est \u00e0 jour.\n2. V\u00e9rifiez les applications en arri\u00e8re-plan qui utilisent beaucoup de ressources.\n3. Utilisez le Moniteur d'activit\u00e9 pour identifier les processus consommant une quantit\u00e9 excessive de CPU.\n\nSi le probl\u00e8me persiste, nous vous recommandons de visiter un Apple Store ou un fournisseur de services agr\u00e9\u00e9 pour une inspection d\u00e9taill\u00e9e. Vous pouvez prendre rendez-vous sur notre site de support.\n\nNous nous engageons \u00e0 r\u00e9soudre votre probl\u00e8me rapidement pour r\u00e9duire tout impact suppl\u00e9mentaire sur votre travail.\n\nMerci pour votre patience et votre coop\u00e9ration.\n\nCordialement,\n[Votre Nom]\n\u00c9quipe de Support Apple",
     "type": "Incident",
-    "queue": "IT Support",
+    "queue": "Technical Support",
     "priority": 3,
-    "language": "English"
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Hardware Failure",
+        "Immediate Attention",
+        "Tech Support Request",
+        "Technical Issue",
+        "Technical Resolution",
+        "Technical Response",
+        "Urgent Issue",
+        "Troubleshooting Guide",
+        "Service Request",
+        "Support Request",
+        "Support Resolution",
+        "Client Issue",
+        "Assistance Request",
+        "Customer Help",
+        "Client Notification"
+      ]
+    }
+  },
+  {
+    "subject": "Intellij IDEA startet nicht nach dem neuesten Update",
+    "body": "Liebes Team,\n\nIch habe ein Problem mit JetBrains IntelliJ IDEA. Nach dem Update auf die neueste Version st\u00fcrzt die Anwendung sofort ab und startet nicht mehr. Ich habe verschiedene L\u00f6sungen versucht, einschlie\u00dflich Neuinstallation, Cache-Leerung und Neustart, aber das Problem besteht weiterhin. Dies beeintr\u00e4chtigt meine Arbeit erheblich und erfordert dringende Aufmerksamkeit.\n\nDanke,\n<name>\nKontonummer: <account_number>\nTelefonnummer: <phone_number>",
+    "answer": "Hallo <name>,\n\nDanke, dass Sie uns das Problem gemeldet haben.\n\nEs tut uns leid zu h\u00f6ren, dass IntelliJ IDEA nach dem neuesten Update abst\u00fcrzt. Bitte versuchen Sie die folgenden Schritte, um das Problem zu beheben:\n1. Starten Sie IntelliJ IDEA im abgesicherten Modus, indem Sie w\u00e4hrend des Starts die Umschalttaste gedr\u00fcckt halten.\n2. Stellen Sie sicher, dass Ihre Grafiktreiber auf dem neuesten Stand sind, da veraltete Treiber Probleme verursachen k\u00f6nnen.\n3. \u00dcberpr\u00fcfen Sie, ob Ihr System eine unterst\u00fctzte und aktuelle Version von Java ausf\u00fchrt.\n\nSollte das Problem weiterhin bestehen, geben Sie uns bitte die folgenden Details zur weiteren Untersuchung:\n\n - Alle Fehlermeldungen oder Protokolle, die w\u00e4hrend des Absturzes angezeigt werden.\n - Informationen \u00fcber Ihr Betriebssystem und dessen Version.\n\nSie k\u00f6nnen die Protokolldateien an den folgenden Pfaden finden:\n\n - Windows: `C:\\Users\\<username>\\.IntelliJIdea<version>\\system\\log`\n - macOS: `~/Library/Logs/IntelliJIdea<version>`\n - Linux: `~/.IntelliJIdea<version>/system/log`\n\nDanke f\u00fcr Ihre Geduld, w\u00e4hrend wir daran arbeiten, dieses Problem zu l\u00f6sen und Sie wieder an Ihre Aufgaben zur\u00fcckkehren k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\nTechnischer Support\nJetBrains",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Bug Fix",
+        "Crash Report",
+        "Critical Failure",
+        "Critical Incident",
+        "Immediate Attention",
+        "Incident Escalation",
+        "Incident Report",
+        "Issue Resolution",
+        "Problem Report",
+        "Service Disruption",
+        "Software Bug",
+        "Support Response",
+        "Technical Issue",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Solicitud de reemplazo para Lenovo ThinkPad X1 Carbon",
+    "body": "Hola equipo de soporte, Recientemente compr\u00e9 un Lenovo ThinkPad X1 Carbon (n\u00famero de pedido: <order_number>), y parece estar fallando. El port\u00e1til se apaga repentinamente y muestra una bater\u00eda de baja duraci\u00f3n. He intentado m\u00faltiples m\u00e9todos de soluci\u00f3n de problemas, pero ninguno ha funcionado. \u00bfPodr\u00edan ayudarme a organizar un reemplazo? Gracias por su asistencia. Atentamente, <nombre> <n\u00famero_de_tel\u00e9fono>",
+    "answer": "Estimado/a <nombre>,\n\nAgradecemos que se haya puesto en contacto con nosotros y nos haya compartido los detalles del problema. Lamentamos los problemas que ha tenido con su Lenovo ThinkPad X1 Carbon.\n\nEstamos listos para ayudarle a obtener un reemplazo. Para agilizar el proceso, \u00bfpodr\u00eda enviarnos la siguiente informaci\u00f3n:\n1. Una copia de su recibo de compra o la prueba de compra.\n2. Su direcci\u00f3n de env\u00edo actual.\n\nUna vez que tengamos estos datos, iniciaremos el proceso de reemplazo y le mantendremos informado sobre el progreso.\n\nGracias por su comprensi\u00f3n y cooperaci\u00f3n.\n\nSaludos cordiales,\n[Su equipo de soporte]",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 1,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Product Issue",
+        "Product Support",
+        "Replacement Request",
+        "Order Issue",
+        "Support Request",
+        "Customer Assistance",
+        "Customer Complaint",
+        "Customer Inquiry",
+        "Customer Resolution",
+        "Technical Issue",
+        "Technical Request",
+        "Assistance Coordination",
+        "Service Request",
+        "Service Response",
+        "Service Notification"
+      ]
+    }
+  },
+  {
+    "subject": "Dringend: Problem mit der Autovervollst\u00e4ndigungsfunktion in Visual Studio Code",
+    "body": "Hallo Support-Team, ich habe Probleme mit einer wesentlichen Funktion in Visual Studio Code. Die Autovervollst\u00e4ndigung funktioniert nicht mehr, was meine Arbeitseffizienz erheblich beeintr\u00e4chtigt. Diese Funktion ist f\u00fcr meine Programmieraktivit\u00e4ten von entscheidender Bedeutung, und ich ben\u00f6tige umgehend eine L\u00f6sung. Meine Kontonummer lautet <account_number>. Ich w\u00e4re dankbar, wenn Sie sich dieser Angelegenheit dringend annehmen und eine schnelle L\u00f6sung bereitstellen k\u00f6nnten. Vielen Dank, <name> Kontakt: <phone_number>",
+    "answer": "Hallo <name>, Vielen Dank, dass Sie uns wegen des Autovervollst\u00e4ndigungsproblems in Visual Studio Code kontaktiert haben. Um dieses Problem schnell zu l\u00f6sen, gehen Sie bitte wie folgt vor: 1. Stellen Sie sicher, dass Sie die neueste Version von Visual Studio Code installiert haben. 2. Aktualisieren Sie alle Ihre Erweiterungen. 3. Starten Sie Visual Studio Code und Ihren Computer neu. 4. Leeren Sie den Cache und setzen Sie die Einstellungen im Editor zur\u00fcck. Wenn das Problem weiterhin besteht, geben Sie bitte zus\u00e4tzliche Details wie Fehlermeldungen oder k\u00fcrzliche \u00c4nderungen in Ihrem Setup an. Wir verstehen die Bedeutung dieser Funktion f\u00fcr Ihre Arbeit und werden uns um die L\u00f6sung k\u00fcmmern. F\u00fcr sofortige Hilfe k\u00f6nnen Sie sich an unser Support-Team unter <support_number> wenden. Mit freundlichen Gr\u00fc\u00dfen, Support-Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Bug Fix",
+        "Configuration Error",
+        "General Inquiry",
+        "Immediate Attention",
+        "Issue Resolution",
+        "Problem Solving",
+        "Support Request",
+        "Technical Assistance",
+        "Technical Issue",
+        "Technical Resolution",
+        "Technical Support",
+        "Urgent Issue"
+      ]
+    }
   }
 ]

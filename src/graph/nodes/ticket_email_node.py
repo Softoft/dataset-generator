@@ -1,4 +1,3 @@
-import asyncio
 import json
 import logging
 
@@ -22,7 +21,7 @@ class TicketEmailNode(ExecutableNode):
                             ticket_text_length,
                             ticket_extra_information) -> KeyValueStorage:
         ticket_email = await self._generate_email(ticket_type, ticket_queue, ticket_priority, ticket_text_length,
-                                            ticket_extra_information)
+                                                  ticket_extra_information)
         shared_storage.save(ticket_email)
         return shared_storage
 
@@ -36,7 +35,7 @@ class TicketEmailNode(ExecutableNode):
             f"The text needs to have between '{ticket_text_length.lower_bound}' and '{ticket_text_length.upper_bound}' characters")
 
     async def _generate_email(self, ticket_type: TicketType, ticket_queue: TicketQueue, priority: Priority,
-                        ticket_text_length: TicketTextLength, ticket_extra_information: TicketExtraInformation):
+                              ticket_text_length: TicketTextLength, ticket_extra_information: TicketExtraInformation):
         prompt = self._generate_email_prompt(ticket_type, ticket_queue, priority, ticket_text_length,
                                              ticket_extra_information)
         logging.warning(f"PROMPT: {prompt}")
