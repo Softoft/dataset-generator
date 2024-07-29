@@ -6,7 +6,7 @@ from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
 from ai.chat_assistant import ChatAssistantFactory
 from graph.data.models import Language, Ticket
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from random_collections.random_collection import RandomCollectionBuilder
@@ -23,8 +23,12 @@ class TicketTranslationValidation:
         self.translated_ticket = translated_ticket
 
     def _is_text_pair_valid(self, text1: str, text2: str) -> bool:
-        similar_threshold = 0.6 if len(text1) > 100 else 0.7 if len(text1) > 30 else 1
-        return compute_text_similarity(text1, text2) <= similar_threshold
+        try:
+            similar_threshold = 0.75 if len(text1) > 100 else 0.85 if len(text1) > 30 else 1
+            return compute_text_similarity(text1, text2) <= similar_threshold
+        except AttributeError as e:
+            logging.error(f"Error while comparing texts: {e}")
+            return False
 
     def _is_translated_ticket_valid(self, ticket: Ticket, translated_ticket: Ticket):
         return (self._is_text_pair_valid(ticket.subject, translated_ticket.subject)
@@ -38,8 +42,8 @@ class TicketTranslationValidation:
 class TicketTranslationNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_email = None
-        self.rewriting_assistant = ChatAssistantFactory.get_instance().create_rewriting_assistant(temperature=1.1)
-        self.translation_assistant = ChatAssistantFactory.get_instance().create_translation_assistant(temperature=1.1)
+        self.rewriting_assistant = ChatAssistantFactory.get_instance().create_rewriting_assistant(temperature=1.2)
+        self.translation_assistant = ChatAssistantFactory.get_instance().create_translation_assistant(temperature=1.2)
         self.tag_generation_assistant = ChatAssistantFactory.get_instance().create_tag_generation_assistant()
         self.language_generator = RandomCollectionBuilder.build_from_value_weight_dict(
             { Language.DE: 2, Language.EN: 4, Language.FR: 1, Language.ES: 2, Language.PT: 1 })
@@ -78,7 +82,7 @@ class TicketTranslationNode(ExecutableNode):
             f"with answer '{ticket.answer}',"
         )
 
-    async def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=5):
+    async def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=3):
         if repeats_left == 0:
             logging.warning(
                 "Could not generate valid translation; Tickets are too similar, but still returning new ticket")
@@ -108,6 +112,8 @@ class TicketTranslationNode(ExecutableNode):
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
     async def _generate_translated_ticket(self, ticket: Ticket):
         language = self.language_generator.get_random_value()
+        while language == ticket.language:
+            language = self.language_generator.get_random_value()
         prompt = self._generate_translation_prompt(ticket, language)
         ticket_json_string = await self.translation_assistant.chat_assistant(prompt)
         translated_ticket_dict = json.loads(ticket_json_string)

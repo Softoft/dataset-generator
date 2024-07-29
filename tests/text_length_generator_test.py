@@ -3,7 +3,7 @@ import statistics
 import pytest
 
 from graph.data.models import TicketTextLength
-from graph.nodes.text_length_generator import NumberIntervalGenerator
+from util.number_interval_generator import NumberIntervalGenerator
 
 
 def get_random_text_length(mean: int, standard_deviation: int, _lower_text_length_min_value: int = 30) -> list[TicketTextLength]:

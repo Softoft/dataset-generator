@@ -1,5 +1,5 @@
 from graph.data.models import Ticket, TicketType
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 from graph.node_factories.ticket_queue_priority_node import create_queue_priority_node
 from graph.node_factories.ticket_type_queue_node_factory import create_ticket_type_queue_node
 from graph.nodes.core.executable_node import ExecutableNode
@@ -36,7 +36,7 @@ class GraphTicketGenerator:
         self.ticket_type_node = create_ticket_type_node()
         self.ticket_queue_node = create_ticket_type_queue_node(self.ticket_type_node)
         self.ticket_queue_priority_node = create_queue_priority_node(self.ticket_queue_node)
-        self.ticket_extra_information_node = TicketExtraInformationNode([self.ticket_type_node, self.ticket_queue_node])
+        self.ticket_extra_information_node = TicketExtraInformationNode([self.ticket_type_node, self.ticket_queue_node, self.ticket_queue_priority_node])
         self.ticket_email_generator_node = TicketEmailNode(
             [self.ticket_extra_information_node, self.ticket_queue_priority_node], text_length_mean,
             text_length_standard_deviation)

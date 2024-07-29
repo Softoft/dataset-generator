@@ -3,7 +3,7 @@ import asyncio
 import logging
 from typing import Optional
 
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 
 
 class INode(abc.ABC):

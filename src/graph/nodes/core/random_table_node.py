@@ -2,7 +2,7 @@ from enum import Enum
 
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from src.random_collections.random_collection_table import RandomTable
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 
 
 class RandomTableNode[K: Enum, V: Enum](ExecutableNode):

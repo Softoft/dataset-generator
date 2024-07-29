@@ -29,7 +29,9 @@ class TicketExtraInformation:
     ticket_categories: list[str]
     business_type: str
     product_category: str
+    product_sub_category: str
     product: str
+    version: str
     extra_info: str
 
 
@@ -77,6 +79,12 @@ class Ticket:
     queue: TicketQueue
     priority: Priority
     language: Language
+    business_type: str
+    product_category: str
+    product_sub_category: str
+    product: str
+    version: str
+
     tags: Optional[list[str]] = None
 
     def __repr__(self):
@@ -96,5 +104,10 @@ class Ticket:
             "queue": self.queue.value,
             "priority": self.priority.value,
             "language": self.language.value,
+            "business_type": self.business_type,
+            "product_category": self.product_category,
+            "product_sub_category": self.product_sub_category,
+            "product": self.product,
+            "version": self.version,
             "tags": self.tags or []
         }

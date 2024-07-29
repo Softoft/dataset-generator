@@ -4,13 +4,13 @@ import logging
 import pytest
 
 from graph.data.category_ticket_field import ComparableEnum
-from graph.data.models import Language, Ticket
+from graph.data.models import Ticket
 from graph.graph_ticket_generator import GraphTicketGenerator
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.nodes.text_length_generator import NumberIntervalGenerator, TextLengthNode
+from util.number_interval_generator import NumberIntervalGenerator, TextLengthNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder

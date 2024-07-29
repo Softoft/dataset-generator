@@ -5,10 +5,10 @@ from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_afte
 
 from ai.chat_assistant import ChatAssistantFactory
 from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
-from graph.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from graph.nodes.text_length_generator import NumberIntervalGenerator
+from util.number_interval_generator import NumberIntervalGenerator
 
 
 class TicketEmailNode(ExecutableNode):
@@ -35,6 +35,7 @@ class TicketEmailNode(ExecutableNode):
         return (
             f"Generate/Write an email with a body and subject. Answer json formatted with a subject and body. For the customer support of a {ticket_extra_information.business_type} company,"
             f"About the tags: '{",".join(ticket_extra_information.ticket_categories)}'; the product '{ticket_extra_information.product}',"
+            f"about {ticket_extra_information.extra_info},"
             f"With ticket type '{ticket_type.value}': '{ticket_type.description}',"
             f"the queue '{ticket_queue.value}': '{ticket_queue.description}',"
             f"the priority '{priority.value}': '{priority.description}',"
