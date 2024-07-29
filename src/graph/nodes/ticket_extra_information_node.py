@@ -12,7 +12,7 @@ from graph.nodes.core.inject_storage_objects import inject_storage_objects
 class TicketExtraInformationNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_extra_information = None
-        self.chat_assistant = ChatAssistantFactory.get_instance().create_topic_generation_assistant(temperature=1.1)
+        self.topic_generation_assistant = ChatAssistantFactory.get_instance().create_topic_generation_assistant(temperature=1.1)
         super().__init__(parents)
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue):
@@ -25,7 +25,7 @@ class TicketExtraInformationNode(ExecutableNode):
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(TypeError))
     async def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue):
         prompt = self.generate_topic_prompt(ticket_type, ticket_queue)
-        ticket_extra_info_str = await self.chat_assistant.chat_assistant(prompt)
+        ticket_extra_info_str = await self.topic_generation_assistant.chat_assistant(prompt)
         ticket_extra_info_email_dict = json.loads(ticket_extra_info_str)
         return TicketExtraInformation(**ticket_extra_info_email_dict)
 

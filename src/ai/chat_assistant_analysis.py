@@ -58,16 +58,18 @@ class AssistantAnalyzer:
         return sum([run.calculate_cost() for run in self.runs])
 
     def generate_cost_summary(self):
-        assistant_name_runs = {}
+        assistant_name_runs = { }
         for run in self.runs:
             if run.assistant_name not in assistant_name_runs:
                 assistant_name_runs[run.assistant_name] = []
             assistant_name_runs[run.assistant_name].append(run)
 
+        summary_string = ""
         for assistant_name, runs in assistant_name_runs.items():
-            logging.warning(f"Assistant: {assistant_name}")
-            logging.warning(f"Total Cost: {sum([run.calculate_cost() for run in runs])}")
-            logging.warning(f"Total Tokens: {sum([run.run.usage.prompt_tokens + run.run.usage.completion_tokens for run in runs])}")
+            summary_string += f"Assistant: {assistant_name}\n Total Cost: {sum([run.calculate_cost() for run in runs])}" +\
+                              f" Prompt Tokens: {sum([run.run.usage.prompt_tokens for run in runs]):,}" + \
+                              f" Completion Tokens: {sum([run.run.usage.completion_tokens for run in runs]):,}\n"
+        logging.warning(summary_string)
 
     def _log_run_status(self, run: Run):
         if run.status != "completed":

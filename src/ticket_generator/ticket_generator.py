@@ -14,6 +14,15 @@ class TicketGenerator:
         self.output_file = output_file
         self.batch_size_in_graph_runs = 10
         self.amount_batches = total_number_of_tickets // self.batch_size_in_graph_runs // number_translation_nodes
+        self.__check_output_file_doesnt_exist()
+
+    def __check_output_file_doesnt_exist(self):
+        try:
+            open(self.output_file)
+            logging.error(f"File {self.output_file} already exists. Please delete it first.")
+            exit(1)
+        except FileNotFoundError:
+            pass
 
     async def generate_dataset(self):
         results = []
@@ -21,7 +30,7 @@ class TicketGenerator:
         for i in range(self.amount_batches):
             results.extend(await self._generate_batch_of_tickets())
             self._save_dataset(results)
-            self._log_dataset_generation_status(i, start_time,  len(results))
+            self._log_dataset_generation_status(i, start_time, len(results))
         return results
 
     def _save_dataset(self, dataset: list[dict]):
@@ -36,7 +45,7 @@ class TicketGenerator:
         return results
 
     async def _get_tickets_as_dict_list(self) -> list[dict]:
-        ticket_generation_graph = GraphTicketGenerator(self.number_translation_nodes)
+        ticket_generation_graph = GraphTicketGenerator(self.number_translation_nodes, 150)
         tickets = await ticket_generation_graph.create_translated_tickets()
         return [ticket.to_dict() for ticket in tickets]
 

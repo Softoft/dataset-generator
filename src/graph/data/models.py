@@ -13,9 +13,9 @@ class Language(ComparableEnum):
 
 
 class Priority(CategoricalTicketField):
-    LOW = 1, "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
-    MEDIUM = 2, "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
-    HIGH = 3, "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
+    LOW = "low", "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
+    MEDIUM = "medium", "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
+    HIGH = "high", "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
 
 
 @dataclass

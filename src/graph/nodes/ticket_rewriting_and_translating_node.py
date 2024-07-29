@@ -4,14 +4,13 @@ import logging
 
 from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
-from ai.chat_assistant import ChatAssistant, ChatAssistantFactory
+from ai.chat_assistant import ChatAssistantFactory
 from graph.data.models import Language, Ticket
 from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from random_collections.random_collection import RandomCollectionBuilder
 from util.text_similarity_calculator import compute_text_similarity
-
 
 
 class InvalidTranslationException(Exception):

@@ -32,15 +32,14 @@ class EndNode(ExecutableNode):
 
 
 class GraphTicketGenerator:
-    def __init__(self, number_translation_nodes=10, ticket_text_length_mean=250,
-                 ticket_text_length_standard_deviation=200):
+    def __init__(self, number_translation_nodes=10, text_length_mean=250, text_length_standard_deviation=200):
         self.ticket_type_node = create_ticket_type_node()
         self.ticket_queue_node = create_ticket_type_queue_node(self.ticket_type_node)
         self.ticket_queue_priority_node = create_queue_priority_node(self.ticket_queue_node)
         self.ticket_extra_information_node = TicketExtraInformationNode([self.ticket_type_node, self.ticket_queue_node])
         self.ticket_email_generator_node = TicketEmailNode(
-            [self.ticket_extra_information_node, self.ticket_queue_priority_node], ticket_text_length_mean,
-            ticket_text_length_standard_deviation)
+            [self.ticket_extra_information_node, self.ticket_queue_priority_node], text_length_mean,
+            text_length_standard_deviation)
         self.ticket_answer_node = TicketAnswerNode([self.ticket_email_generator_node])
         self.ticket_translation_nodes = [TicketTranslationNode([self.ticket_answer_node]) for _ in
                                          range(number_translation_nodes)]

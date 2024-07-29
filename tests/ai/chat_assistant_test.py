@@ -9,8 +9,9 @@ EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 
 
 @pytest.mark.asyncio
+@pytest.mark.expensive
 async def test_chat_assistant():
-    chat_assistant = ChatAssistant(assistant_id=EMAIL_GENERATION_ASSISTANT_ID, model="gpt-4o-mini")
+    chat_assistant = ChatAssistant(assistant_name="Test", assistant_id=EMAIL_GENERATION_ASSISTANT_ID)
     response = await chat_assistant.chat_assistant("New Email!")
     email_response = json.loads(response)
     TicketEmail(**email_response)

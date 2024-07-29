@@ -10,7 +10,7 @@ from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.nodes.text_length_generator import TextLengthGenerator, TextLengthNode
+from graph.nodes.text_length_generator import NumberIntervalGenerator, TextLengthNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
@@ -78,7 +78,7 @@ def create_random_collection_node():
 @pytest.fixture
 def create_text_length_node():
     def _create_text_length_node(mean, standard_deviation):
-        text_length_generator = TextLengthGenerator(mean=mean, standard_deviation=standard_deviation)
+        text_length_generator = NumberIntervalGenerator(mean=mean, standard_deviation=standard_deviation)
         return TextLengthNode(text_length_generator)
 
     return _create_text_length_node
