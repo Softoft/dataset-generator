@@ -1,20 +1,20 @@
 import json
 import logging
 
-from ai.chat_assistant import ChatAssistant
-from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketTextLength, TicketType
+from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_after_attempt
+
+from ai.chat_assistant import ChatAssistantFactory
+from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
 from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from graph.nodes.text_length_node import TextLengthGenerator
-
-EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
+from graph.nodes.text_length_generator import TextLengthGenerator
 
 
 class TicketEmailNode(ExecutableNode):
     def __init__(self, parents: list[INode], text_length_mean: int, text_length_standard_deviation: int):
         self.ticket_email = None
-        self.chat_assistant = ChatAssistant(EMAIL_GENERATION_ASSISTANT_ID, temperature=1.2)
+        self.chat_assistant = ChatAssistantFactory.get_instance().create_email_generation_assistant(temperature=1.1)
         self.text_length_mean = text_length_mean
         self.text_length_standard_deviation = text_length_standard_deviation
         super().__init__(parents)
@@ -31,17 +31,20 @@ class TicketEmailNode(ExecutableNode):
         ticket_text_length = TextLengthGenerator(self.text_length_mean,
                                                  self.text_length_standard_deviation).generate_text_length_bounds()
         return (
-            f"Generate email text and subject. For the customer support of a  {ticket_extra_information.business_type} company,"
+            f"Generate/Write an email with a body and subject.Answer json formatted with a subject and body. For the customer support of a {ticket_extra_information.business_type} company,"
             f"About the tags: '{",".join(ticket_extra_information.ticket_categories)}'; the product '{ticket_extra_information.product}',"
-            f" With ticket type '{ticket_type.value}': '{ticket_type.description}',"
+            f"With ticket type '{ticket_type.value}': '{ticket_type.description}',"
             f"the queue '{ticket_queue.value}': '{ticket_queue.description}',"
             f"the priority '{priority.value}': '{priority.description}',"
             f"The text needs to have between '{ticket_text_length.lower_bound}' and '{ticket_text_length.upper_bound}' characters")
 
-    async def _generate_email(self, ticket_type: TicketType, ticket_queue: TicketQueue, priority: Priority, ticket_extra_information: TicketExtraInformation):
+    @retry(stop=stop_after_attempt(2), retry=retry_if_exception_type(TypeError),
+           before_sleep=before_sleep_log(logging.getLogger(), logging.WARNING))
+    async def _generate_email(self, ticket_type: TicketType, ticket_queue: TicketQueue, priority: Priority,
+                              ticket_extra_information: TicketExtraInformation):
         prompt = self._generate_email_prompt(ticket_type, ticket_queue, priority,
                                              ticket_extra_information)
-        logging.warning(f"PROMPT: {prompt}")
+        logging.info(f"PROMPT: {prompt}")
         email_json_string = await self.chat_assistant.chat_assistant(prompt)
         email_dict = json.loads(email_json_string)
         return TicketEmail(**email_dict)

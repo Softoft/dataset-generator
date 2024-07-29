@@ -10,7 +10,7 @@ from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.nodes.text_length_node import TextLengthGenerator, TextLengthNode
+from graph.nodes.text_length_generator import TextLengthGenerator, TextLengthNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder

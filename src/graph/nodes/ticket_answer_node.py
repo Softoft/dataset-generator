@@ -1,19 +1,17 @@
 import logging
 
-from ai.chat_assistant import ChatAssistant
+from ai.chat_assistant import ChatAssistantFactory
 from graph.data.models import Language, Priority, Ticket, TicketEmail, TicketQueue,\
     TicketType
 from graph.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 
-EMAIL_ANSER_ASSISTANT_ID = "asst_OLhh0xGEY7Tu8x0dm8TOtxKu"
-
 
 class TicketAnswerNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_email = None
-        self.chat_assistant = ChatAssistant(EMAIL_ANSER_ASSISTANT_ID)
+        self.chat_assistant = ChatAssistantFactory.get_instance().create_email_answer_assistant(temperature=1.1)
         super().__init__(parents)
 
     @inject_storage_objects(TicketEmail, TicketQueue, Priority, TicketType)
@@ -31,7 +29,7 @@ class TicketAnswerNode(ExecutableNode):
     async def _generate_ticket(self, ticket_email: TicketEmail, ticket_queue: TicketQueue, priority: Priority,
                                ticket_type: TicketType):
         prompt = self._generate_email_prompt(ticket_email)
-        logging.warning(f"PROMPT: {prompt}")
+        logging.info(f"PROMPT: {prompt}")
         answer_string = await self.chat_assistant.chat_assistant(prompt)
         return Ticket(
             subject=ticket_email.subject,

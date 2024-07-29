@@ -4,7 +4,7 @@ import random
 
 
 def json_to_csv(json_file_path, csv_file_path, shuffle=False, max_size=10 ** 6):
-    with open(json_file_path, 'r', encoding='utf-8') as json_file:
+    with open(json_file_path, encoding='utf-8') as json_file:
         data = json.load(json_file)
     with open(csv_file_path, 'w', newline='', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file)
@@ -17,7 +17,7 @@ def json_to_csv(json_file_path, csv_file_path, shuffle=False, max_size=10 ** 6):
 
 
 def csv_to_json(csv_file_path, json_file_path):
-    with open(csv_file_path, 'r', encoding='utf-8') as csv_file:
+    with open(csv_file_path, encoding='utf-8') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         data = list(csv_reader)
     with open(json_file_path, 'w', encoding='utf-8') as json_file:

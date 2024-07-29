@@ -54,3 +54,4 @@ class TicketGenerator:
         cost_per_ticket = costs / created_tickets
         logging.warning(f"Costs per Ticket: {round(cost_per_ticket, 4)}€")
         logging.warning(f"Total Costs: {round(costs, 2)}€")
+        AssistantAnalyzer.get_instance().generate_cost_summary()

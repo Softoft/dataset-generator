@@ -82,6 +82,11 @@ class Ticket:
     def __repr__(self):
         return f"TranslatedTicket(subject={self.subject},\nbody={self.body},\nanswer={self.answer},\ntype={self.type},\nqueue={self.queue},\npriority={self.priority},\nlanguage={self.language})"
 
+    def update(self, **kwargs):
+        for key, value in kwargs.items():
+            setattr(self, key, value)
+        return self
+
     def to_dict(self):
         return {
             "subject": self.subject,

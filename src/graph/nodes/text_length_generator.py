@@ -4,8 +4,6 @@ import math
 import numpy as np
 
 from graph.data.models import TicketTextLength
-from graph.key_value_storage import KeyValueStorage
-from graph.nodes.core.executable_node import ExecutableNode
 
 
 @dataclasses.dataclass
@@ -23,15 +21,13 @@ class TextLengthGenerator:
     def _is_in_bound(self, number: float | int) -> bool:
         return self._lower_text_length_min_value < number < self._lower_text_length_max_value
 
-    def _generate_text_length_with_log_normal_distribution(self) -> int:
-        mu = np.log(self.mean ** 2 / np.sqrt(self.standard_deviation ** 2 + self.mean ** 2))
-        sigma = np.sqrt(np.log(1 + (self.standard_deviation ** 2 / self.mean ** 2)))
-        return int(np.random.lognormal(mu, sigma))
+    def _generate_random_normal_distribution_text_length(self) -> int:
+        return int(np.random.normal(self.mean, self.standard_deviation))
 
     def _generate_bounded_text_length(self) -> int:
-        text_length = self._generate_text_length_with_log_normal_distribution()
+        text_length = self._generate_random_normal_distribution_text_length()
         while not self._is_in_bound(text_length):
-            text_length = self._generate_text_length_with_log_normal_distribution()
+            text_length = self._generate_random_normal_distribution_text_length()
         return text_length
 
     def _generate_upper_text_length(self, text_length: int) -> int:
