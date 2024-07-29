@@ -66,7 +66,7 @@ class AssistantAnalyzer:
 
         summary_string = ""
         for assistant_name, runs in assistant_name_runs.items():
-            summary_string += f"Assistant: {assistant_name}\n Total Cost: {round(sum([run.calculate_cost() for run in runs]), 3)}€" +\
+            summary_string += f"Assistant: {assistant_name}\n Total Cost: {round(sum([run.calculate_cost() for run in runs]), 3)}€ " +\
                               f"Prompt Tokens: {sum([run.run.usage.prompt_tokens for run in runs]):,}" + \
                               f"Completion Tokens: {sum([run.run.usage.completion_tokens for run in runs]):,}\n"
         logging.warning(summary_string)

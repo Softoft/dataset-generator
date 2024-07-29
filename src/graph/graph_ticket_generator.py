@@ -8,7 +8,7 @@ from graph.nodes.ticket_email_node import TicketEmailNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
-from ticket_generator.ticket_generator import TicketGenerationConfig
+from ticket_generator.config import TicketGenerationConfig
 from util.key_value_storage import KeyValueStorage
 
 

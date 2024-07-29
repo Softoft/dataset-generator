@@ -1,22 +1,11 @@
+import asyncio
 import json
 import logging
 import time
-from dataclasses import dataclass
 
 from ai.chat_assistant_analysis import AssistantAnalyzer
 from graph.graph_ticket_generator import GraphTicketGenerator
-from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThresholds
-
-
-@dataclass
-class TicketGenerationConfig:
-    number_of_tickets: int
-    output_file: str
-    number_translation_nodes: int
-    mean_text_length: int
-    text_length_standard_deviation: int
-    batch_size: int
-    text_similarity_thresholds: TextSimilarityThresholds
+from ticket_generator.config import TicketGenerationConfig
 
 
 class TicketGenerator:
@@ -27,7 +16,7 @@ class TicketGenerator:
         self.graph_ticket_runs = self.number_of_tickets // self.number_translation_nodes
         self.output_file = ticket_generation_config.output_file
         self.batch_size_in_graph_runs = ticket_generation_config.batch_size
-        self.amount_batches = self.number_of_tickets // self.batch_size_in_graph_runs // self.number_translation_nodes
+        self.amount_batches = int((self.number_of_tickets / self.batch_size_in_graph_runs) / self.number_translation_nodes)
         self.__check_output_file_doesnt_exist()
 
     def __check_output_file_doesnt_exist(self):
@@ -52,10 +41,14 @@ class TicketGenerator:
         logging.warning(f"Saved {len(dataset)} tickets to {self.output_file}")
 
     async def _generate_batch_of_tickets(self):
-        results = []
+        ticket_list_tasks = []
         for i in range(self.batch_size_in_graph_runs):
-            tickets_list = await self._get_tickets_as_dict_list()
-            results.extend(tickets_list)
+            ticket_list_tasks.append(self._get_tickets_as_dict_list())
+
+        ticket_list_of_lists = await asyncio.gather(*ticket_list_tasks)
+        results = []
+        for result in ticket_list_of_lists:
+            results.extend(result)
         return results
 
     async def _get_tickets_as_dict_list(self) -> list[dict]:

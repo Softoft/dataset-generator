@@ -26,12 +26,10 @@ class TicketEmail:
 
 @dataclass
 class TicketExtraInformation:
-    ticket_categories: list[str]
     business_type: str
     product_category: str
     product_sub_category: str
     product: str
-    version: str
     extra_info: str
 
 
@@ -83,7 +81,6 @@ class Ticket:
     product_category: str
     product_sub_category: str
     product: str
-    version: str
 
     tags: Optional[list[str]] = None
 
@@ -108,6 +105,5 @@ class Ticket:
             "product_category": self.product_category,
             "product_sub_category": self.product_sub_category,
             "product": self.product,
-            "version": self.version,
             "tags": self.tags or []
         }

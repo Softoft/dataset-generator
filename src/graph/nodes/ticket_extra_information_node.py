@@ -2,22 +2,22 @@ import json
 
 from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
-from ai.chat_assistant import ChatAssistantFactory
+from ai.chat_assistant import AssistantId, ChatAssistantFactory
 from graph.data.models import Priority, TicketExtraInformation, TicketQueue, TicketType
-from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
+from util.key_value_storage import KeyValueStorage
 
 
 class TicketExtraInformationNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_extra_information = None
-        self.topic_generation_assistant = ChatAssistantFactory.get_instance().create_assistant(temperature=1.1)
+        self.topic_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TOPIC_GENERATION, 1.1)
         super().__init__(parents)
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         return (
-            f"Generate ticket_categories, business_type, product_category, product_sub_category, product, version, extra_info for a ticket"
+            f"Generate business_type, product_category, product_sub_category, product, extra_info for a ticket"
             f"with type {ticket_type.value}: {ticket_type.description};"
             f"and queue {ticket_queue.value}: {ticket_queue.description};"
             f"and priority {ticket_priority.value}: {ticket_priority.description}"

@@ -1,0 +1,172 @@
+{
+  "Vehicles": {
+    "Cars": [
+      "Toyota Corolla",
+      "Honda Civic",
+      "BMW 3 Series"
+    ],
+    "Motorcycles": [
+      "Yamaha MT-07",
+      "Kawasaki Ninja 400",
+      "Harley-Davidson Iron 883"
+    ],
+    "Trucks": [
+      "Ford F-150",
+      "Chevrolet Silverado",
+      "Ram 1500"
+    ]
+  },
+  "Computers": {
+    "Laptops": [
+      "Lenovo IdeaPad",
+      "Dell XPS 13",
+      "MacBook Air"
+    ],
+    "Desktops": [
+      "HP Pavilion",
+      "iMac",
+      "Acer Aspire"
+    ],
+    "Tablets": [
+      "iPad Pro",
+      "Samsung Galaxy Tab",
+      "Microsoft Surface Pro"
+    ]
+  },
+  "Printers": {
+    "Inkjet Printers": [
+      "HP DeskJet",
+      "Canon PIXMA",
+      "Epson EcoTank"
+    ],
+    "Laser Printers": [
+      "Brother HL-L2350DW",
+      "Samsung Xpress",
+      "HP LaserJet Pro"
+    ],
+    "3D Printers": [
+      "Creality Ender 3",
+      "Anycubic i3 Mega",
+      "Prusa i3 MK3"
+    ]
+  },
+  "Software": {
+    "Operating Systems": [
+      "Windows 11",
+      "macOS Monterey",
+      "Ubuntu Linux"
+    ],
+    "Office Suites": [
+      "Microsoft Office",
+      "Google Workspace",
+      "LibreOffice"
+    ],
+    "Security Software": [
+      "Norton Antivirus",
+      "Kaspersky Internet Security",
+      "McAfee Total Protection"
+    ]
+  },
+  "Electronics": {
+    "Smartphones": [
+      "iPhone 13",
+      "Samsung Galaxy S21",
+      "Google Pixel 6"
+    ],
+    "Smartwatches": [
+      "Apple Watch Series 7",
+      "Samsung Galaxy Watch",
+      "Fitbit Versa"
+    ],
+    "Televisions": [
+      "Sony Bravia",
+      "Samsung QLED",
+      "LG OLED"
+    ]
+  },
+  "Home Appliances": {
+    "Refrigerators": [
+      "Whirlpool WRF535SWHZ",
+      "Samsung RF28R7351SR",
+      "LG LFXS26596S"
+    ],
+    "Washing Machines": [
+      "Bosch WAJ28008GB",
+      "Samsung WW80J5555MW",
+      "LG WM3488HW"
+    ],
+    "Microwaves": [
+      "Panasonic NN-SN966S",
+      "Toshiba EM925A5A-SS",
+      "Breville Quick Touch"
+    ]
+  },
+  "Furniture": {
+    "Living Room": [
+      "Ikea Ektorp Sofa",
+      "Ashley Furniture Recliner",
+      "Wayfair Coffee Table"
+    ],
+    "Bedroom": [
+      "Sleep Number Bed",
+      "Ikea Malm Dresser",
+      "Zinus Green Tea Mattress"
+    ],
+    "Office": [
+      "Herman Miller Aeron Chair",
+      "Ikea Bekant Desk",
+      "Staples Hyken Chair"
+    ]
+  },
+  "Clothing": {
+    "Men": [
+      "Levi's 501 Jeans",
+      "Nike Air Max Shoes",
+      "Ralph Lauren Polo Shirt"
+    ],
+    "Women": [
+      "Zara Dress",
+      "Gucci Handbag",
+      "Prada Sunglasses"
+    ],
+    "Kids": [
+      "Gap Kids T-Shirt",
+      "Carter's Pajamas",
+      "Nike Kids Sneakers"
+    ]
+  },
+  "Services": {
+    "Web Development": [
+      "JavaScript React App Development",
+      "Python Flask Web Development",
+      "Ruby on Rails Development"
+    ],
+    "Graphic Design": [
+      "Logo Design",
+      "Brochure Design",
+      "Web Design"
+    ],
+    "Consulting": [
+      "IT Consulting",
+      "Business Consulting",
+      "Marketing Consulting"
+    ]
+  },
+  "Books": {
+    "Fiction": [
+      "To Kill a Mockingbird",
+      "1984 by George Orwell",
+      "The Great Gatsby"
+    ],
+    "Non-Fiction": [
+      "Sapiens by Yuval Noah Harari",
+      "Educated by Tara Westover",
+      "The Immortal Life of Henrietta Lacks"
+    ],
+    "Children": [
+      "Harry Potter Series",
+      "The Very Hungry Caterpillar",
+      "Where the Wild Things Are"
+    ]
+  }
+}

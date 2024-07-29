@@ -33,9 +33,8 @@ class TicketEmailNode(ExecutableNode):
         is_ticket_subject_empty = ticket_subject_text_length.lower_bound < 0
         subject_text_prompt = f"The subject must have between {ticket_subject_text_length.lower_bound} and {ticket_subject_text_length.upper_bound} characters" if not is_ticket_subject_empty else "The subject is empty"
         return (
-            f"Write an email with a subject and body in JSON Format. For the customer support of a {ticket_extra_information.business_type} company,"
-            f"About the tags: '{",".join(ticket_extra_information.ticket_categories)[:2]}'; the product '{ticket_extra_information.product}',"
-            f"about {ticket_extra_information.extra_info[:40]},"
+            f"Write an email with a subject and body in JSON Format. For the customer support of a '{ticket_extra_information.business_type}' company"
+            f"about '{ticket_extra_information.extra_info[:40]}',"
             f"With ticket type '{ticket_type.value}': '{ticket_type.description}',"
             f"the queue '{ticket_queue.value}': '{ticket_queue.description}',"
             f"the priority '{priority.value}': '{priority.description}',"

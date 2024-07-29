@@ -38,7 +38,6 @@ class TicketAnswerNode(ExecutableNode):
             body=ticket_email.body,
             business_type=ticket_extra_information.business_type,
             product=ticket_extra_information.product,
-            version=ticket_extra_information.version,
             product_category=ticket_extra_information.product_category,
             product_sub_category=ticket_extra_information.product_sub_category,
             answer=answer_string,
