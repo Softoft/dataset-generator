@@ -13,6 +13,7 @@ class TextLengthGenerator:
     mean: int
     standard_deviation: int
     _lower_text_length_min_value: int = 30
+    _lower_text_length_max_value: int = 1000
     _min_upper_bound_difference: int = 20
 
     def __post_init__(self):
@@ -20,7 +21,7 @@ class TextLengthGenerator:
         assert self._lower_text_length_min_value >= 0, "Lower bound is negative"
 
     def _is_in_bound(self, number: float | int) -> bool:
-        return self._lower_text_length_min_value < number
+        return self._lower_text_length_min_value < number < self._lower_text_length_max_value
 
     def _generate_text_length_with_log_normal_distribution(self) -> int:
         mu = np.log(self.mean ** 2 / np.sqrt(self.standard_deviation ** 2 + self.mean ** 2))
@@ -39,13 +40,3 @@ class TextLengthGenerator:
     def generate_text_length_bounds(self) -> TicketTextLength:
         text_length = self._generate_bounded_text_length()
         return TicketTextLength(lower_bound=text_length, upper_bound=self._generate_upper_text_length(text_length))
-
-
-class TextLengthNode(ExecutableNode):
-    def __init__(self, text_length_generator: TextLengthGenerator):
-        self.text_length_generator = text_length_generator
-        super().__init__([])
-
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
-        shared_storage.save(self.text_length_generator.generate_text_length_bounds())
-        return shared_storage

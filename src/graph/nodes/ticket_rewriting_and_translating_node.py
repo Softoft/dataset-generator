@@ -2,6 +2,8 @@ import copy
 import json
 import logging
 
+from tenacity import retry, retry_if_exception_type, stop_after_attempt
+
 from ai.chat_assistant import ChatAssistant
 from graph.data.models import Language, Ticket
 from graph.key_value_storage import KeyValueStorage
@@ -99,15 +101,14 @@ class TicketTranslationNode(ExecutableNode):
 
     async def _generate_ticket_tags(self, ticket: Ticket):
         prompt = self.generate_ticket_tags_prompt(ticket)
-        logging.warning(f"PROMPT: {prompt}")
         ticket_json_string = await self.tag_generation_assistant.chat_assistant(prompt)
         ticket_tags = json.loads(ticket_json_string)
         ticket.tags = ticket_tags
         return ticket
 
+    @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
     async def _generate_rewritten_ticket(self, ticket: Ticket):
         prompt = self._generate_rewriting_prompt(ticket)
-        logging.warning(f"PROMPT: {prompt}")
         ticket_json_string = await self.rewriting_assistant.chat_assistant(prompt)
         rewritten_ticket_dict = json.loads(ticket_json_string)
         rewritten_ticket = copy.deepcopy(ticket)
@@ -118,10 +119,10 @@ class TicketTranslationNode(ExecutableNode):
 
         return rewritten_ticket
 
+    @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
     async def _generate_translated_ticket(self, ticket: Ticket):
         language = self.language_generator.get_random_value()
         prompt = self._generate_translation_prompt(ticket, language)
-        logging.warning(f"PROMPT: {prompt}")
         ticket_json_string = await self.translation_assistant.chat_assistant(prompt)
         translated_ticket_dict = json.loads(ticket_json_string)
         translated_ticket = copy.deepcopy(ticket)

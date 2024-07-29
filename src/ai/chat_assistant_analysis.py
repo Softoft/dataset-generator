@@ -40,14 +40,14 @@ class AssistantRun:
 class AssistantAnalyzer:
     _instance = None
 
-    def __new__(cls, *args, **kwargs):
+    @classmethod
+    def get_instance(cls):
         if cls._instance is None:
-            cls._instance = super(AssistantAnalyzer, cls).__new__(cls, *args, **kwargs)
+            cls._instance = AssistantAnalyzer()
         return cls._instance
 
     def __init__(self):
-        if not hasattr(self, 'runs'):
-            self.runs: list[AssistantRun] = []
+        self.runs: list[AssistantRun] = []
 
     def append_run(self, run: Run):
         self.runs.append(AssistantRun(run))
@@ -56,8 +56,6 @@ class AssistantAnalyzer:
     def calculate_total_cost(self):
         return sum([run.calculate_cost() for run in self.runs])
 
-    def calculate_average_cost(self):
-        return self.calculate_total_cost() / len(self.runs)
 
     def _log_run_status(self, run: Run):
         if run.status != "completed":

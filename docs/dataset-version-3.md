@@ -51,6 +51,8 @@ The number of queues, the number of ticket types, the number of languages should
 Easy to add ticket attributes are: company type, Ticket Tags/Categories, Timestamp information.
 
 
+## Kostenreduzierung in Bezug zu der KI
+
 
 ## Ideas
 
@@ -67,3 +69,58 @@ What company is the ticket system for??
 Or is it like from multiple companies. If its from a lot of companies then there will be so many agents,
 that the agent doesnt really make sense.
 Ot
+
+Ideas for other fields:
+
+
+**Agent**
+Agent oder in anderen Wort eine Person mit bestimmten Skill, also nicht Person X, sondern eine Person die X kann.
+Möglicherweise eine Messung in der Form. Der Agent kann X 9/10 gut, Y 4/10 gut, ... oder halt sowas wie IT-Profi Steuerberater
+
+**Verfügbare Agenten** / **Liste an Agenten mit zugeordneten Tickets** 
+In ZUsammenarbeit mit dekm Agent Feld, welche Agenten zum Zeitpunkt der Ticket Ersteööung, wie viele zugeordnete Tickets hatten
+
+**Bearbeitungszeit**
+Wie lange es ungefähr dauert das Ticket zu bearbeiten. Kann helfen damit hervorsagen darüber zu tätigen, wie lange es dauert bis ein Ticket bearbeitet wird.
+
+
+**Zeit bis zur Fertigstellung**
+Wie viele Zeit vom erstellen des Tickets bis zur Lösung vergangen ist. Ebenso:
+
+**Zeit bis zur ersten Antwort**
+**Zeit bis zu Status X** ...
+
+
+**Status** Also ob das Ticket gelöst wurde oder nicht.
+
+**Bounces** Wie oft das Ticket an jemand anderen weitergeleitet wurde.
+
+**FAQ Resource bzw. Dokumentation Seite X war relevant**
+
+**Kundenbenutzer** welcher das Ticket erstellt hat.
+Mit jetzigemr Pipeline schwierig. Da zuerst Priorität Queue und Typ festgelegt werden. Obwohl man kann es auch so machen, das ein Kundenbenutzer ausgewählt wird jenachdem welche QUeue oder Typ gewählt wurde.
+
+Es wäre nämlich sonst unlogisch, wenn es keine Korrelation zwischen dem Kundenbenutzer und den Queues geben würde.
+
+**Agent Bearbeiter ID**
+Umsetzung ist ziemlich einfach. Nachdem die Ticket Email im Ticketsystem ankommt. Entscheidet ChatGPT, welcher Agent das Ticket bearbeiten soll.
+Dann könnt es halt auch wirklich so einen gewisses Skill Level von einem Agenten geben.
+
+**Kundenzufriedenheit**
+Ob Kunde zufrieden ist mit dem Ticket. Umsetzung wäre auch ziemlich einfach. ChatGPT fragen wie gut die Antwort ist und dann vielleicht auch noch Lösungszeit mit einbeziehen.
+
+**Anzahl Kundennachrichten**
+
+**Anzahl Agenten nachrichten**
+
+**Anzahl Kundenanrufe**
+
+**Communication Channel**
+Umsetzung wäre nicht so extrem schwierig. Einach beim generieren der Nachricht den KOmmunikationskanal angeben. Bei Telefon, berichtet der Agent über einen erhaltenen Anruf.
+Oder es ist ein internes Ticket
+
+**Aufteilung des Kunden zu einen Status**
+
+****
+
+

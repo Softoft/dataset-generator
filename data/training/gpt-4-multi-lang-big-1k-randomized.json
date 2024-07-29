@@ -1,200 +1,1481 @@
 [
   {
-    "subject": "Drucker hat den Druckauftrag unerwartet unterbrochen",
-    "body": "Hallo Support-Team,\n\nIch habe ein Problem mit meinem HP LaserJet Pro. Er hat abrupt mitten in einem Druckauftrag aufgeh\u00f6rt zu funktionieren. Ich habe versucht, die Maschine neu zu starten und nach Papierstaus zu suchen, aber das Problem bleibt bestehen. Dies st\u00f6rt meine Arbeit erheblich. K\u00f6nnten Sie bitte helfen, diese Situation so schnell wie m\u00f6glich zu l\u00f6sen? Meine Kontonummer ist <Konto-Nummer>.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Name>",
-    "answer": "Hallo <Name>,\n\nVielen Dank, dass Sie uns wegen des Problems mit Ihrem HP LaserJet Pro Drucker kontaktiert haben. Ich entschuldige mich f\u00fcr die dadurch verursachten Unannehmlichkeiten.\n\nBitte versuchen Sie die folgenden Schritte, um das Problem zu beheben:\n1. \u00dcberpr\u00fcfen Sie, ob der Drucker sicher mit Ihrem Computer oder Netzwerk verbunden ist.\n2. Vergewissern Sie sich, dass die Druckertreiber auf dem neuesten Stand sind.\n3. Setzen Sie den Drucker zur\u00fcck, indem Sie ihn f\u00fcr mindestens 60 Sekunden vom Stromnetz trennen, bevor Sie ihn wieder anschlie\u00dfen.\n4. Bei drahtloser Verbindung versuchen Sie, die Verbindung des Druckers zu Ihrem WLAN-Netzwerk erneut herzustellen.\n\nSollte das Problem weiterhin bestehen, geben Sie bitte alle angezeigten Fehlermeldungen und die Modellnummer des Druckers an. Wir werden weitere Schritte zur Fehlerbehebung unternehmen oder einen Techniker zur Unterst\u00fctzung bereitstellen.\n\nVielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Kooperation.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "subject": "Recebi o Item Incorreto para Troca do Nike Air Force 1",
+    "body": "Ol\u00e1,\n\nRecentemente solicitei a troca do meu Nike Air Force 1, mas, infelizmente, recebi o item errado em vez do par correto. Voc\u00ea poderia me ajudar a resolver esta situa\u00e7\u00e3o? Minha refer\u00eancia de pedido \u00e9 <order_number>. Agradeceria muito pela sua aten\u00e7\u00e3o r\u00e1pida a este problema.\n\nObrigado,\n<name>",
+    "answer": "Ol\u00e1 [Nome],\n\nPe\u00e7o desculpas pelo erro em seu pedido. N\u00f3s vamos corrigir essa situa\u00e7\u00e3o imediatamente. Por favor, envie de volta o item incorreto usando a etiqueta de envio pr\u00e9-paga fornecida, e n\u00f3s iremos agilizar o envio do seu Nike Air Force 1.\n\nObrigado pela sua paci\u00eancia.\n\nAtenciosamente,\n[Seu Nome]",
     "type": "Incident",
-    "queue": "Returns and Exchanges",
+    "queue": "Customer Service",
     "priority": 2,
-    "language": "German",
-    "tags": {
-      "tags": [
-        "Printer Issue",
-        "Hardware Failure",
-        "Troubleshooting Guide",
-        "Technical Assistance",
-        "Technical Support",
-        "Issue Resolution",
-        "Customer Inquiry",
-        "Service Request",
-        "Immediate Attention",
-        "Technical Incident",
-        "Technical Problem",
-        "Technical Resolution",
-        "Customer Notification",
-        "Customer Response"
-      ]
-    }
-  },
-  {
-    "subject": "Recebi um Apple MacBook Pro 2024 com defeito",
-    "body": "Caro Suporte ao Cliente,\n\nEstou entrando em contato para resolver um problema cr\u00edtico com minha compra mais recente, um Apple MacBook Pro 2024 (ID do Pedido: <order_number>). O item foi entregue com defeitos, e solicito uma substitui\u00e7\u00e3o imediata ou um reembolso total. Esta quest\u00e3o requer aten\u00e7\u00e3o urgente, pois est\u00e1 relacionada ao meu problema de faturamento desta compra. Meu n\u00famero de conta \u00e9 <account_number>. Por favor, responda o mais breve poss\u00edvel.\n\nAtenciosamente,\n<name>\n<phone_number>",
-    "answer": "Caro(a) <name>,\n\nObrigado por entrar em contato sobre o Apple MacBook Pro 2024 defeituoso. Pedimos sinceras desculpas por qualquer inconveni\u00eancia causada.\n\nReconhecemos a urg\u00eancia desta situa\u00e7\u00e3o. Gentilmente forne\u00e7a-nos os seguintes detalhes para avan\u00e7armos:\n1. ID do Pedido\n2. N\u00famero de Conta\n3. Fotografias ou v\u00eddeos mostrando o defeito\n\nAo receber essas informa\u00e7\u00f5es, aceleraremos o processo para substitui\u00e7\u00e3o ou reembolso, conforme sua prefer\u00eancia.\n\nObrigado por sua paci\u00eancia e coopera\u00e7\u00e3o. Entraremos em contato prontamente ap\u00f3s recebermos os detalhes necess\u00e1rios.\n\nAtenciosamente,\nEquipe de Suporte ao Cliente",
-    "type": "Incident",
-    "queue": "Billing and Payments",
-    "priority": 3,
     "language": "Portuguese",
     "tags": {
       "tags": [
-        "Customer Support",
-        "Product Issue",
-        "Critical Issue",
-        "Product Defect",
         "Order Issue",
-        "Refund Request",
-        "Immediate Attention",
-        "Customer Complaint",
-        "Customer Resolution",
-        "Customer Response",
-        "Technical Issue",
-        "Customer Inquiry",
-        "Customer Request",
-        "Exchange Request",
-        "Customer Follow-Up"
+        "Product Support",
+        "Returns",
+        "Customer Service",
+        "Exchange Request"
       ]
     }
   },
   {
-    "subject": "Problema Cr\u00edtico: Incidentes de Congelaci\u00f3n Aleatoria en MacBook Pro 2024",
-    "body": "Hola Soporte T\u00e9cnico,\n\nEstoy enfrentando problemas repetidos de congelaci\u00f3n con mi MacBook Pro 2024. El sistema se vuelve no responsivo en intervalos aleatorios, obstaculizando mi flujo de trabajo. Aunque he intentado reiniciar, actualizar el software y ejecutar diagn\u00f3sticos, el problema persiste. Este asunto requiere su pronta atenci\u00f3n ya que afecta gravemente mi productividad.\n\nCuenta Vinculada: <numero_de_cuenta>\n\nSolicitando su apoyo lo antes posible.\n\nSaludos cordiales,\n<nombre>",
-    "answer": "Hola <nombre>,\n\nGracias por contactarnos. Lamento escuchar los problemas que est\u00e1s teniendo con tu MacBook Pro 2024.\n\nPara ayudarte mejor, por favor intenta estos pasos adicionales de soluci\u00f3n de problemas:\n1. Restablecer NVRAM/PRAM: Apaga tu Mac y luego enci\u00e9ndela manteniendo presionadas las teclas Opci\u00f3n + Comando + P + R durante unos 20 segundos.\n2. Restablecer SMC: Los pasos para esto pueden variar con diferentes modelos. Instrucciones detalladas se pueden encontrar en el sitio web de soporte de Apple.\n3. Iniciar en Modo Seguro: Reinicia tu Mac manteniendo presionada la tecla Shift. El Modo Seguro ejecuta algunas verificaciones y reparaciones del sistema.\n\nSi despu\u00e9s de intentar estos pasos tu Mac sigue congel\u00e1ndose, por favor responde a este correo, y te proporcionaremos m\u00e1s asistencia. Debido a la urgencia, tambi\u00e9n podr\u00edamos programar una cita prioritaria en el centro de servicio m\u00e1s cercano si es necesario.\n\nSaludos cordiales,\n[Tu Nombre]\nEquipo de Soporte T\u00e9cnico",
+    "subject": "Issues with Adobe Creative Cloud crashing upon launching after recent update",
+    "body": "Since the latest update, my Adobe Creative Cloud application fails to start and crashes. I require an urgent solution.",
+    "answer": "We recommend that you reinstall Adobe Creative Cloud. Should the problem continue, please reach out to support for further help.",
     "type": "Incident",
     "queue": "Technical Support",
     "priority": 3,
-    "language": "Spanish",
+    "language": "English",
     "tags": {
       "tags": [
-        "Critical Failure",
-        "Immediate Attention",
-        "Technical Assistance",
-        "Technical Issue",
-        "Technical Response",
-        "Technical Support",
-        "System Crash",
-        "Troubleshooting Guide",
+        "Application Error",
+        "Assistance Request",
         "Urgent Issue",
-        "User Notification",
-        "Incident Escalation",
-        "Issue Resolution",
-        "Support Request",
-        "Support Prioritization"
+        "Software Bug",
+        "Technical Support"
       ]
     }
   },
   {
-    "subject": "Unerwarteter Produkt-Downgrade nach Kauf: Microsoft Office 365 Business Premium",
-    "body": "Sehr geehrtes Support-Team,\n\nIch schreibe bez\u00fcglich eines Problems mit meinem k\u00fcrzlichen Kauf von Microsoft Office 365 Business Premium. Nach der Aktivierung stellte ich fest, dass mein Konto auf eine niedrigere Version von Office 365 heruntergestuft wurde. Dieses Downgrade beeintr\u00e4chtigt erheblich meine Gesch\u00e4ftst\u00e4tigkeiten. K\u00f6nnten Sie dieses Problem bitte so schnell wie m\u00f6glich angehen? Meine Bestelldetails und Kontoinformationen sind zum Nachweis beigef\u00fcgt.\n\nVielen Dank,\n<name>\nKontonummer: <account_number>\nEmail: <email>",
-    "answer": "Sehr geehrte/r <name>,\n\nVielen Dank, dass Sie uns auf dieses Problem aufmerksam gemacht haben. Es tut mir leid f\u00fcr die Unannehmlichkeiten, die der unerwartete Downgrade Ihres Microsoft Office 365 Business Premium Kontos verursacht hat.\n\nWir untersuchen derzeit die Angelegenheit und werden sie so schnell wie m\u00f6glich kl\u00e4ren. Ich werde Ihnen in K\u00fcrze ein Update \u00fcber unseren Fortschritt geben.\n\nVielen Dank f\u00fcr Ihre Geduld und Ihr Verst\u00e4ndnis.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Ticketsystem Agent Name>\nSupport-Team",
-    "type": "Incident",
-    "queue": "Service Outages and Maintenance",
-    "priority": 2,
-    "language": "German",
-    "tags": {
-      "tags": [
-        "Account Issue",
-        "Account Follow-Up",
-        "Account Assistance",
-        "Billing Issue",
-        "Service Issue",
-        "Customer Complaint",
-        "Customer Inquiry",
-        "Customer Response",
-        "Support Request",
-        "Support Resolution",
-        "Technical Issue",
-        "Error Log",
-        "Subscription Problem",
-        "Immediate Attention"
-      ]
-    }
-  },
-  {
-    "subject": "Unerwartetes Bildschirmflimmern und Abschaltungen beim MacBook Pro 2024",
-    "body": "Hallo Support-Team,\n\nIch erlebe pl\u00f6tzlich auftretendes Bildschirmflimmern und unerwartete Abschaltungen bei meinem k\u00fcrzlich gekauften MacBook Pro 2024. Dieses Problem trat vor einigen Tagen auf und hat meine Arbeitseffizienz stark beeintr\u00e4chtigt. Ich habe versucht, das Laptop neu zu starten und alle Software zu aktualisieren, aber das Problem besteht weiterhin. K\u00f6nnten Sie mir bitte Anweisungen geben, welche Schritte ich als n\u00e4chstes unternehmen soll, oder einen Service-Termin so fr\u00fch wie m\u00f6glich vereinbaren? Die Seriennummer meines MacBook lautet: <serial_number>.\n\nDanke,\n<name>\n<phone_number>",
-    "answer": "Hallo <name>,\n\nDanke, dass Sie das Problem mit Ihrem MacBook Pro 2024 unserer Aufmerksamkeit gebracht haben. Wir verstehen, wie sehr dies Ihre Arbeit st\u00f6ren kann.\n\nDa das Neustarten und die Software-Updates das Problem nicht gel\u00f6st haben, empfehlen wir, einen Servicetermin zu vereinbaren. Bitte besuchen Sie den n\u00e4chstgelegenen Apple Authorized Service Provider oder einen Apple Store und denken Sie daran, Ihr MacBook sowie einen Kaufnachweis mitzubringen.\n\nIn der Zwischenzeit stellen Sie sicher, dass Sie Ihre Daten gesichert haben, um etwaigen Datenverlust zu vermeiden.\n\nF\u00fcr weitere Fragen oder Unterst\u00fctzung bei der Terminvereinbarung z\u00f6gern Sie nicht, uns jederzeit zu kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "subject": "Adobe Creative Cloud fails to launch",
+    "body": "Since updating Adobe Creative Cloud, it consistently fails to launch on start. I require prompt help to fix this unforeseen problem. Thanks in advance.",
+    "answer": "Hello User, we recommend resetting Creative Cloud: please log out, exit the application, reboot your device, and then log back in. Inform us if the problem continues. Thank you!",
     "type": "Incident",
     "queue": "Product Support",
     "priority": 2,
-    "language": "German",
+    "language": "English",
     "tags": {
       "tags": [
-        "Account Assistance",
+        "Application Error",
         "Assistance Request",
-        "Customer Complaint",
-        "Customer Inquiry",
-        "Customer Issue",
-        "Customer Response",
-        "Hardware Failure",
-        "Help Request",
-        "Issue Resolution",
-        "Screen Issue",
-        "Service Scheduling",
-        "Technical Support",
+        "Technical Issue",
         "Troubleshooting Guide",
-        "Urgent Issue"
+        "Help Desk"
       ]
     }
   },
   {
-    "subject": "Microsoft Office 365 \u2013 La aplicaci\u00f3n no se inicia consistentemente",
-    "body": "Estimado Soporte T\u00e9cnico,\n\nEstoy encontrando un problema grave con mi aplicaci\u00f3n Microsoft Office 365; se cierra cada vez que la inicio. Este asunto es extremadamente urgente ya que interrumpe mis actividades diarias. Ya he intentado pasos b\u00e1sicos de soluci\u00f3n de problemas como reinstalaci\u00f3n y actualizaci\u00f3n de mi sistema operativo, pero el problema persiste. \u00bfPodr\u00eda ayudarme de inmediato a resolver esto? Mi n\u00famero de cuenta es <account_number>.\n\nGracias,\n<name>",
-    "answer": "Estimado/a <name>,\n\nGracias por contactarnos para recibir asistencia. Lamento saber sobre las dificultades que est\u00e1 experimentando con Microsoft Office 365.\n\nPara proporcionar una soluci\u00f3n m\u00e1s efectiva, \u00bfpodr\u00eda proporcionar la siguiente informaci\u00f3n?\n1. \u00bfQu\u00e9 aplicaci\u00f3n exacta de Office (por ejemplo, Word, Excel) est\u00e1 fallando?\n2. \u00bfSe muestran mensajes de error cuando la aplicaci\u00f3n se cierra?\n3. \u00bfCu\u00e1l es el sistema operativo y su versi\u00f3n que est\u00e1 utilizando actualmente?\n4. \u00bfHubo alg\u00fan cambio reciente en su sistema antes de que comenzara el problema?\n\nMientras tanto, por favor intente lo siguiente:\n1. Inicie Office en Modo Seguro manteniendo presionada la tecla Ctrl y haciendo clic en la aplicaci\u00f3n para ver si se inicia correctamente.\n2. Desactive cualquier complemento navegando a Archivo > Opciones > Complementos, y administrando los complementos para verificar si alguno de ellos est\u00e1 causando el problema.\n3. Aseg\u00farese de que todos los controladores de su sistema est\u00e9n actualizados.\n\nEsperamos su respuesta con los detalles solicitados para ayudarnos a diagnosticar el problema con mayor precisi\u00f3n.\n\nSaludos cordiales,\n<Your Name>\nSoporte T\u00e9cnico",
+    "subject": "Ajuda Urgente Necess\u00e1ria para Falha do Laptop HP Omen 15",
+    "body": "Estou enfrentando um problema inesperado com meu laptop HP Omen 15 e preciso de ajuda imediata. O laptop de repente parou de inicializar corretamente. Voc\u00ea poderia fornecer assist\u00eancia? Atenciosamente, <name>",
+    "answer": "Ol\u00e1 <name>, por favor, execute um rein\u00edcio for\u00e7ado pressionando e segurando o bot\u00e3o power por 15 segundos. Se isso n\u00e3o resolver o problema, entre em contato com nosso suporte t\u00e9cnico pelo telefone 1-800-123-4567. Atenciosamente, Equipe de Suporte",
     "type": "Incident",
     "queue": "Technical Support",
-    "priority": 3,
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Urgent Issue",
+        "Technical Assistance",
+        "Technical Support",
+        "Laptop Issue",
+        "HP Omen Support"
+      ]
+    }
+  },
+  {
+    "subject": "Application Adobe Creative Cloud non r\u00e9active depuis la mise \u00e0 jour",
+    "body": "Bonjour l'\u00e9quipe de support,\n\nJe me permets de vous contacter pour partager un probl\u00e8me que je rencontre avec l'application Adobe Creative Cloud. Elle commence \u00e0 se fermer de mani\u00e8re inattendue sans pr\u00e9avis, ce qui affecte consid\u00e9rablement ma productivit\u00e9. J'ai tent\u00e9 de rectifier la situation en red\u00e9marrant mon ordinateur et en r\u00e9installant le logiciel, mais le probl\u00e8me persiste. Mon identifiant de compte est <account_number>. J'appr\u00e9cierais que vous puissiez enqu\u00eater sur cette pr\u00e9occupation et me fournir des conseils sur les solutions possibles. Ce programme est essentiel pour mon travail et j'ai besoin de r\u00e9soudre cela de toute urgence.\n\nMerci pour votre soutien.\n\nCordialement,\n<name>\n<email_address>\n<phone_number>",
+    "answer": "Bonjour <name>,\n\nMerci de nous avoir contact\u00e9s. Nous sommes d\u00e9sol\u00e9s d'apprendre que vous avez rencontr\u00e9 des difficult\u00e9s avec Adobe Creative Cloud. Nous vous sugg\u00e9rons d'essayer les \u00e9tapes suivantes :\n\n1. V\u00e9rifiez que votre syst\u00e8me d'exploitation et l'application Creative Cloud sont \u00e0 jour.\n2. Effacez le cache de Creative Cloud :\n   a. Lancez l'application Creative Cloud.\n   b. Acc\u00e9dez aux Pr\u00e9f\u00e9rences > Creative Cloud > Fichiers.\n   c. Cliquez sur 'Effacer le cache.'\n3. Recherchez toute incoh\u00e9rence due \u00e0 des probl\u00e8mes logiciels ou mat\u00e9riels qui pourraient causer des conflits.\n\nSi le probl\u00e8me persiste, nous aurions besoin d'informations suppl\u00e9mentaires concernant les sp\u00e9cifications de votre syst\u00e8me et les rapports de plantage pour vous aider davantage.\n\nCordialement,\nL'\u00e9quipe de support",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 1,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Software Bug",
+        "Technical Support",
+        "Support Request",
+        "Troubleshooting Guide"
+      ]
+    }
+  },
+  {
+    "subject": "Application crashes unexpectedly during important tasks",
+    "body": "Hi there,\n\nI'm facing issues with Visual Studio Code crashing unexpectedly at crucial times while I work. This problem has a serious impact on my productivity, and I urgently require help to fix it. My account number is <account_number>.\n\nThanks,\n<name>\n<phone_number>",
+    "answer": "Hi,\n\nWe apologize for the trouble you're facing. Make sure you have the most recent version of Visual Studio Code installed. If the crashes continue, consider disabling extensions or reinstalling the application. For further help, please provide additional information regarding the error and your system specifications.\n\nBest regards,\nSupport Team",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Product Issue",
+        "Technical Assistance",
+        "Urgent Issue",
+        "Client Issue",
+        "Performance Issue",
+        "Support Request"
+      ]
+    }
+  },
+  {
+    "subject": "Problema el\u00e9ctrico que resulta en un mal funcionamiento de Lenovo ThinkPad X1 Carbon",
+    "body": "Estimado soporte al cliente,\n\nEstoy enfrentando un problema el\u00e9ctrico con mi Lenovo ThinkPad X1 Carbon. El dispositivo ha estado fallando regularmente y tengo la sensaci\u00f3n de que esto podr\u00eda deberse a una preocupaci\u00f3n el\u00e9ctrica mayor. Agradecer\u00eda su pronta ayuda para abordar este asunto. Para sus registros, mi n\u00famero de pedido es <order_number> y mi n\u00famero de cuenta es <account_number>. Solicito amablemente orientaci\u00f3n sobre qu\u00e9 pasos seguir a la brevedad posible.\n\nGracias,\n<name>",
+    "answer": "Estimado <name>,\n\nAgradecemos que se haya comunicado con nosotros. Sugerimos comenzar con un reinicio forzado y verificar si hay actualizaciones de firmware o controladores disponibles. Si estas acciones no resuelven el problema, por favor comparta informaci\u00f3n adicional y coordinaremos una evaluaci\u00f3n t\u00e9cnica para usted. Hemos anotado su n\u00famero de pedido <order_number> y su n\u00famero de cuenta <account_number>.\n\nAtentamente,\nSoporte al Cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": 2,
     "language": "Spanish",
     "tags": {
       "tags": [
-        "Tech Support Request",
-        "Technical Issue",
         "Technical Assistance",
+        "Technical Issue",
+        "Product Support",
+        "User Assistance",
+        "User Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Urgent Matter: Dell XPS 13 Failure in Essential Use Case",
+    "body": "I am facing an unforeseen malfunction with my Dell XPS 13 while engaged in a crucial activity. This problem demands prompt resolution as it jeopardizes urgent operations. Immediate assistance required!",
+    "answer": "Dear Valued Customer, \n\nWe sincerely regret the trouble this has caused you. Kindly share your contact information along with the most suitable time for our support team to get in touch with you. We are committed to resolving this matter without delay.\n\nKind regards, \nSupport Team",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
         "Urgent Issue",
-        "Software Bug",
-        "Application Error",
+        "Technical Assistance",
         "Support Request",
-        "User Issue",
-        "Problem Report",
-        "Critical Incident",
-        "Incident Report",
-        "Troubleshooting Guide",
-        "Technical Inquiry",
-        "Technical Resolution",
+        "Device Issue",
+        "Performance Issue",
+        "Incident Escalation",
+        "User Assistance",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Problem: Fehlendes Samsung Galaxy S23 erhalten",
+    "body": "Hallo Kundenserviceteam,\n\nIch habe meine Bestellung <order_number> erhalten, die ein Samsung Galaxy S23 enth\u00e4lt; jedoch scheint das Ger\u00e4t defekt zu sein. Es l\u00e4sst sich selbst nach dem Laden nicht einschalten. Ich bitte um dringende Unterst\u00fctzung zur L\u00f6sung dieses Problems. K\u00f6nnten Sie mir die notwendigen Schritte erl\u00e4utern oder einen Ersatz arrangieren?\n\nBeste Gr\u00fc\u00dfe,\n<name>",
+    "answer": "Hallo <name>,\n\nEs tut uns leid, dass Sie Schwierigkeiten haben. Bitte geben Sie uns Ihre Bestellnummer an, damit wir Ihnen bei der Fehlersuche oder der Organisation eines Ersatzger\u00e4ts f\u00fcr Ihr Samsung Galaxy S23 helfen k\u00f6nnen. Sie haben auch die M\u00f6glichkeit, Ihr n\u00e4chstgelegenes Gesch\u00e4ft f\u00fcr sofortige Unterst\u00fctzung zu besuchen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Product Issue",
+        "Customer Support",
+        "Complaint",
+        "Assistance Request",
         "User Follow-Up"
       ]
     }
   },
   {
-    "subject": "Probl\u00e8me de surchauffe et de coupure soudaine du MacBook Pro 2024",
-    "body": "Bonjour \u00e9quipe de support,\n\nJ'ai r\u00e9cemment achet\u00e9 un MacBook Pro 2024, qui a \u00e9t\u00e9 victime de surchauffe et d'arr\u00eat abrupt, provoquant des perturbations de travail importantes. J'ai essay\u00e9 un d\u00e9pannage basique, mais le probl\u00e8me persiste. Je demande une assistance urgente car cela affecte grandement ma productivit\u00e9.\n\nMon num\u00e9ro de compte est <account_number> et mon num\u00e9ro de contact est <phone_number>.\n\nMerci,\n<name>",
-    "answer": "Cher <name>,\n\nMerci de nous avoir contact\u00e9. Je suis d\u00e9sol\u00e9 d'apprendre les difficult\u00e9s que vous rencontrez avec votre MacBook Pro 2024.\n\nVeuillez essayer les \u00e9tapes suivantes pour diagnostiquer le probl\u00e8me :\n1. Assurez-vous que le logiciel de votre MacBook est \u00e0 jour.\n2. V\u00e9rifiez les applications en arri\u00e8re-plan qui utilisent beaucoup de ressources.\n3. Utilisez le Moniteur d'activit\u00e9 pour identifier les processus consommant une quantit\u00e9 excessive de CPU.\n\nSi le probl\u00e8me persiste, nous vous recommandons de visiter un Apple Store ou un fournisseur de services agr\u00e9\u00e9 pour une inspection d\u00e9taill\u00e9e. Vous pouvez prendre rendez-vous sur notre site de support.\n\nNous nous engageons \u00e0 r\u00e9soudre votre probl\u00e8me rapidement pour r\u00e9duire tout impact suppl\u00e9mentaire sur votre travail.\n\nMerci pour votre patience et votre coop\u00e9ration.\n\nCordialement,\n[Votre Nom]\n\u00c9quipe de Support Apple",
+    "subject": "Adobe Photoshop 2024 l\u00e4sst sich nicht starten",
+    "body": "Jedes Mal, wenn ich versuche, Adobe Photoshop 2024 zu starten, st\u00fcrzt es sofort ab. Dieses Problem erfordert sofortige Unterst\u00fctzung, da ich auf diese Anwendung f\u00fcr meine Arbeit angewiesen bin. Meine Kontonummer ist <account_number>. Ich w\u00fcrde jede Hilfe, die Sie mir dringend geben k\u00f6nnen, sehr sch\u00e4tzen.",
+    "answer": "Sehr geehrter Kunde,\n\nWir bedauern die Probleme, die Sie erlebt haben, aufrichtig. Bitte ziehen Sie in Betracht, Ihre Grafikkartentreiber zu aktualisieren und Photoshop neu zu installieren. Wenn das Problem weiterhin besteht, teilen Sie uns bitte die Details Ihres Betriebssystems und etwaige recent \u00c4nderungen an Ihrem System mit.\n\nBeste W\u00fcnsche,\nSupport-Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Urgent Issue",
+        "Technical Support",
+        "Support Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Kritisch: Probleme bei der Fehlklassifizierung von Mitarbeitern in BambooHR",
+    "body": "Wir haben schwerwiegende Probleme bei der Fehlklassifizierung von Mitarbeitern in BambooHR entdeckt, die zu verschiedenen Vorf\u00e4llen gef\u00fchrt haben. Ihre umgehende Unterst\u00fctzung ist erforderlich.",
+    "answer": "Vielen Dank, dass Sie uns darauf aufmerksam gemacht haben. Wir pr\u00fcfen derzeit die Bedenken bez\u00fcglich der Fehlklassifizierung von Mitarbeitern in BambooHR. Wir werden Ihnen bald ein Update zur L\u00f6sung des Problems geben.",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Assistance Problem",
+        "Customer Inquiry",
+        "User Issue",
+        "Service Issue",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Kritisch: Installationsproblem mit Microsoft Office 365 auf mehreren Ger\u00e4ten",
+    "body": "Sehr geehrtes Support-Team,\n\nich stehe vor einem dringenden Problem bez\u00fcglich der Installation von Microsoft Office 365 auf verschiedenen Ger\u00e4ten. Die Installationsversuche scheitern wiederholt, was zu erheblichen St\u00f6rungen f\u00fchrt. Dieses Problem hat gravierende Auswirkungen auf unseren Arbeitsablauf. K\u00f6nnten Sie uns bitte mit einer schnellen L\u00f6sung unterst\u00fctzen oder uns auf m\u00f6gliche Fehlersuche-Schritte hinweisen?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>, <account_number>, <phone_number>",
+    "answer": "Lieber <name>,\n\nwir entschuldigen uns aufrichtig f\u00fcr die Schwierigkeiten, die Sie erleben. Um das Installationsproblem mit Office 365 zu beheben, \u00fcberpr\u00fcfen Sie bitte, ob alle Ihre Ger\u00e4te den notwendigen Systemanforderungen entsprechen und die neuesten Software-Updates installiert haben. Bitte starten Sie Ihre Ger\u00e4te neu und versuchen Sie die Installation erneut. Sollten Sie weiterhin Probleme haben, wenden Sie sich bitte an <support_number> f\u00fcr weitere Unterst\u00fctzung.\n\nBeste Gr\u00fc\u00dfe,\nTechnischer Support",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Technical Assistance",
+        "Installation Issue",
+        "Software Installation",
+        "Urgent Issue",
+        "Service Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "Demande urgente d'assistance pour la connexion r\u00e9seau filaire",
+    "body": "Nous rencontrons des difficult\u00e9s avec notre commutateur Cisco Catalyst 2960-X car il n'est pas en mesure d'\u00e9tablir une connexion au r\u00e9seau filaire. Nous avons besoin d'une assistance urgente !",
+    "answer": "Un technicien sera envoy\u00e9 imm\u00e9diatement pour r\u00e9soudre le probl\u00e8me de connectivit\u00e9 avec votre commutateur Cisco Catalyst.",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Connectivity Issue",
+        "Urgent Issue",
+        "Technical Assistance",
+        "Technical Issue",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Connectivity Issues Impacting Several Users \u2013 Cisco Switch 3750",
+    "body": "We are facing connectivity issues that are impacting several users connected to our Cisco Switch 3750. This situation is leading to considerable interruptions. We would appreciate your quick assistance in resolving this matter.",
+    "answer": "We appreciate you bringing this to our attention. We are currently looking into the connectivity problem with your Cisco Switch 3750. Our team will work on it as a priority and ensure you receive updates on the situation. We apologize for any disruption this may have caused.",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Connectivity Issue",
+        "Urgent Issue",
+        "Service Issue",
+        "Technical Assistance",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Probleme mit Bestellbenachrichtigungen, die zu Verz\u00f6gerungen bei Versandaktualisierungen f\u00fchren",
+    "body": "Hallo Support-Team,\n\nwir stehen vor einer Herausforderung mit dem \"Bestellverfolgungssystem\". Konkret betrifft es fehlerhafte Benachrichtigungen zu Bestellungen, die zu erheblichen Verz\u00f6gerungen bei den Versandaktualisierungen f\u00fchren. Diese Situation hat mehrere Komplikationen und Folgeprobleme in unserer Logistik verursacht. K\u00f6nnten Sie uns bitte helfen, dieses Problem so schnell wie m\u00f6glich zu identifizieren und zu beheben?\n\nVielen Dank,\n<name>\n<company_name>",
+    "answer": "Hallo <name>,\n\nvielen Dank, dass Sie sich mit diesem Anliegen an uns gewandt haben. Wir entschuldigen uns aufrichtig f\u00fcr die Probleme, die durch die fehlerhaften Bestellbenachrichtigungen entstanden sind. Unser Team untersucht dieses Problem aktiv und bem\u00fcht sich, es so schnell wie m\u00f6glich zu diagnostizieren und zu beheben. Wir werden sicherstellen, dass Sie \u00fcber den Fortschritt und die voraussichtliche Dauer bis zur L\u00f6sung informiert bleiben.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\nSupport-Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Order Issue",
+        "Shipping Update",
+        "Notification Problem",
+        "Logistics Problem",
+        "Problem Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "L\u00edmite de Activaci\u00f3n Alcanzado para Adobe Creative Cloud",
+    "body": "He alcanzado el n\u00famero m\u00e1ximo de intentos para activar mi licencia de Adobe Creative Cloud. Necesito ayuda.",
+    "answer": "Restableceremos los l\u00edmites en sus activaciones. Por favor, est\u00e9 atento a un correo electr\u00f3nico de confirmaci\u00f3n pronto.",
+    "type": "Problem",
+    "queue": "Service Outages and Maintenance",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Account Assistance",
+        "Assistance Request",
+        "User Issue",
+        "Product Support",
+        "Account Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Dringende Aufmerksamkeit erforderlich: Softwareinstallationsproblem, das mehrere Benutzer betrifft",
+    "body": "Hallo Support-Team,\n\nWir haben ein ernsthaftes Problem mit der Installation von Microsoft Office 365, das den Zugriff f\u00fcr mehrere Mitarbeiter beeintr\u00e4chtigt. Diese Situation hat zu erheblichen Unterbrechungen im Arbeitsablauf gef\u00fchrt und erfordert sofortige Aufmerksamkeit. K\u00f6nnen Sie uns bitte so schnell wie m\u00f6glich helfen, dieses Problem zu l\u00f6sen?\n\nDanke, \n<name>\n<department>\n<account_number>",
+    "answer": "Hallo <name>,\n\nWir sch\u00e4tzen, dass Sie uns kontaktiert haben. Wir erkennen die Dringlichkeit dieser Angelegenheit und priorisieren sie sofort. Unser technisches Support-Team wird sich bald bei Ihnen melden, um zus\u00e4tzliche Informationen zu sammeln und eine schnelle L\u00f6sung zu erm\u00f6glichen. Vielen Dank f\u00fcr Ihre Geduld und Zusammenarbeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "type": "Problem",
+    "queue": "Human Resources",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Assistance Alert",
+        "Software Installation",
+        "Urgent Issue",
+        "Technical Assistance",
+        "Support Request",
+        "User Issue",
+        "Service Acknowledgment",
+        "Service Escalation",
+        "Installation Guide",
+        "Service Follow-Up"
+      ]
+    }
+  },
+  {
+    "subject": "Dringender Support f\u00fcr das Problem mit Microsoft Office 365 ben\u00f6tigt",
+    "body": "Hallo IT-Support-Team,\n\nIch wende mich an Sie, um Ihnen \u00fcber ein kritisches Problem bez\u00fcglich Microsoft Office 365 zu informieren. Die Software friert st\u00e4ndig ein, w\u00e4hrend sie genutzt wird, was unseren Arbeitsfluss unterbricht und zu erheblichen Verz\u00f6gerungen f\u00fchrt. Dieses Problem hat mehrere Kollegen, einschlie\u00dflich mir, betroffen und hindert unsere Effizienz. Wir haben grundlegende Probleml\u00f6sungsmethoden wie das Neustarten und Neuinstallieren der Software ausprobiert, aber das Einfrieren bleibt bestehen. K\u00f6nnten Sie bitte dieses Problem untersuchen und eine umgehende L\u00f6sung anbieten?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<account_number>\n<phone_number>",
+    "answer": "Hallo <name>,\n\nWir sch\u00e4tzen es, dass Sie uns \u00fcber diese Situation informiert haben. Es tut uns leid, von den Schwierigkeiten mit Microsoft Office 365 zu h\u00f6ren. Um Ihnen effektiver helfen zu k\u00f6nnen, k\u00f6nnten Sie uns bitte die folgenden Details zur Verf\u00fcgung stellen:\n\n1. Die speziellen Office 365-Anwendungen, die problematisch sind.\n2. Alle k\u00fcrzlichen Updates oder \u00c4nderungen, die vorgenommen wurden.\n3. Einzelheiten zu eventuellen Fehlermeldungen, die Sie m\u00f6glicherweise erhalten haben.\n\nWir werden dieses Anliegen priorisieren und uns um eine schnelle L\u00f6sung bem\u00fchen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit besten W\u00fcnschen,\nIT-Support-Team",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Customer Issue",
+        "Technical Assistance",
+        "Technical Issue",
+        "Service Escalation",
+        "Service Request",
+        "Software Bug",
+        "Urgent Issue",
+        "Technical Resolution",
+        "Assistance Problem"
+      ]
+    }
+  },
+  {
+    "subject": "Kritisch: Office 365 Fehlfunktionen bei verschiedenen Benutzerkonten",
+    "body": "Hallo Support-Team, wir haben Probleme mit Office 365, die mehrere Benutzerkonten in unserer Organisation betreffen. Dieses Problem st\u00f6rt unsere Produktivit\u00e4t erheblich. Ihre schnelle Unterst\u00fctzung w\u00e4re sehr hilfreich. Vielen Dank, <name>",
+    "answer": "Liebe/r <name>,\nWir bedauern, von dieser Situation zu erfahren. K\u00f6nnen Sie bitte spezifische Fehlermeldungen sowie die Schritte, die zu den Abst\u00fcrzen f\u00fchren, mitteilen? Versuchen Sie in der Zwischenzeit bitte, Office \u00fcber die Systemsteuerung zu reparieren. Wir sind hier, um Ihnen zu helfen.\nMit freundlichen Gr\u00fc\u00dfen, das Support-Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Office 365",
+        "User Issue",
+        "Productivity Problem",
+        "Assistance Request",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Probl\u00e8mes avec Google Workspace provoquant des pannes sur divers appareils",
+    "body": "Nous rencontrons un probl\u00e8me fondamental avec Google Workspace qui entra\u00eene des pannes sur plusieurs appareils. Cette situation nu\u00eet \u00e0 notre productivit\u00e9 et n\u00e9cessite une attention imm\u00e9diate. Veuillez nous guider sur les \u00e9tapes suivantes ou fournir de l'aide pour le d\u00e9pannage d\u00e8s que possible. Merci.",
+    "answer": "Cher client,\n\nNous nous excusons sinc\u00e8rement pour le d\u00e9sagr\u00e9ment caus\u00e9. Pour r\u00e9soudre le probl\u00e8me, veuillez essayer de mettre \u00e0 jour les applications Google Workspace, vider votre cache et vos cookies, et red\u00e9marrer vos appareils. Si le probl\u00e8me persiste, contactez notre \u00e9quipe de support avec des d\u00e9tails sur les appareils sp\u00e9cifiques pour obtenir une assistance suppl\u00e9mentaire.\n\nMerci.",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Service Issue",
+        "Technical Issue",
+        "User Experience",
+        "Technical Support",
+        "Troubleshooting Guide",
+        "Urgent Issue",
+        "Assistance Request",
+        "Assistance Follow-Up",
+        "Productivity Problem",
+        "Application Error"
+      ]
+    }
+  },
+  {
+    "subject": "Consulta Sobre Detalhes da Garantia do Produto",
+    "body": "Ol\u00e1 equipe de suporte, recentemente comprei os fones de ouvido com cancelamento de ru\u00eddo Sony WH-1000XM4. Voc\u00ea poderia gentilmente compartilhar os detalhes completos da garantia para este item? Agrade\u00e7o pela sua assist\u00eancia.",
+    "answer": "Ol\u00e1 Cliente Valorizado,\n\nAgradecemos pelo seu pedido recente. Os fones de ouvido Sony WH-1000XM4 t\u00eam uma garantia limitada de 1 ano que cobre defeitos de fabrica\u00e7\u00e3o. Para informa\u00e7\u00f5es completas, por favor acesse nossa p\u00e1gina de garantia ou entre em contato diretamente conosco.\n\nAtenciosamente,\nEquipe de Suporte",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": 3,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Product Inquiry",
+        "Warranty Claim",
+        "Customer Assistance",
+        "Assistance Request"
+      ]
+    }
+  },
+  {
+    "subject": "Fragen zum Microsoft Office 365 Installationsprozess",
+    "body": "Hallo Support,\n\nich wende mich an Sie, um Informationen zum Installationsprozess f\u00fcr Microsoft Office 365 zu erhalten. K\u00f6nnen Sie einen umfassenden Leitfaden oder eine Reihe von Anweisungen bereitstellen, um eine nahtlose Installationserfahrung zu gew\u00e4hrleisten?\n\nDanke,\n<name>",
+    "answer": "Hallo <name>,\n\num Office 365 einzurichten, befolgen Sie bitte diese Schritte: 1) Besuchen Sie office.com und melden Sie sich an 2) Klicken Sie auf die Option \u201eOffice installieren\u201c 3) Nach dem Herunterladen f\u00fchren Sie die Setup-Datei aus 4) Halten Sie sich an die Anweisungen auf dem Bildschirm.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "type": "Request",
+    "queue": "Returns and Exchanges",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "General Inquiry",
+        "Technical Support",
+        "Installation Guide",
+        "User Assistance",
+        "Office 365"
+      ]
+    }
+  },
+  {
+    "subject": "Consulta sobre la pol\u00edtica de devoluciones de Levi's 501",
+    "body": "Hola equipo de soporte,\n\nRecientemente compr\u00e9 un par de jeans Levi's 501 (N\u00famero de orden: <account_number>) y me gustar\u00eda algunas aclaraciones sobre su pol\u00edtica de devoluciones. \u00bfPodr\u00edan proporcionarme detalles sobre c\u00f3mo iniciar una devoluci\u00f3n, el plazo permitido para las devoluciones y cualquier posible condici\u00f3n o tarifa que pueda aplicarse? Este asunto es bastante urgente para m\u00ed ya que los jeans no me quedan como esperaba.\n\nAgradezco su pronta respuesta.\n\nSaludos cordiales,\n<name>\n<phone_number>",
+    "answer": "Hola <name>,\n\nGracias por tu consulta. Para devolver tus jeans Levi's 501, por favor sigue estas instrucciones:\n\n1. Visita nuestro portal de devoluciones en [website].\n2. Introduce tu n\u00famero de pedido: <account_number>.\n3. Sigue los pasos para generar una etiqueta de devoluci\u00f3n.\n\nTienes derecho a devolver los jeans dentro de los 30 d\u00edas posteriores a la fecha de compra. Deben permanecer en su estado original, con las etiquetas a\u00fan adjuntas. Si bien no hay tarifa de reposici\u00f3n, puedes incurrir en cargos por el env\u00edo de devoluci\u00f3n.\n\nAtentamente,\nEquipo de soporte",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Returns",
+        "Product Inquiry",
+        "Order Issue",
+        "Refund Request",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Hilfe ben\u00f6tigt bei der Installation von Microsoft Office 365",
+    "body": "Hallo Kundenservice, ich habe k\u00fcrzlich Microsoft Office 365 erworben und habe w\u00e4hrend der Installation Schwierigkeiten. Nachdem ich die bereitgestellten Richtlinien befolgt habe, kann ich die Einrichtung immer noch nicht abschlie\u00dfen. K\u00f6nnten Sie umfassende Schritte oder zus\u00e4tzliche Materialien bereitstellen, die mir helfen, dieses Problem zu l\u00f6sen? Meine Kontonummer ist <account_number>. Ich w\u00fcrde Ihre schnelle Hilfe sehr sch\u00e4tzen. Vielen Dank, <name>",
+    "answer": "Hallo <name>,\n\nVielen Dank, dass Sie sich an uns gewandt haben. Es tut uns leid zu erfahren, dass Sie Schwierigkeiten mit der Installation von Microsoft Office 365 haben. Bitte versuchen Sie die folgenden Schritte:\n\n1. \u00dcberpr\u00fcfen Sie, ob Ihr Ger\u00e4t die Systemanforderungen erf\u00fcllt.\n2. Melden Sie sich bei www.office.com mit Ihrem Konto an.\n3. W\u00e4hlen Sie 'Office installieren' und folgen Sie den Anweisungen auf dem Bildschirm.\n4. Deaktivieren Sie vor\u00fcbergehend alle Antivirensoftware w\u00e4hrend der Installation.\n\nF\u00fcr zus\u00e4tzliche Hilfe besuchen Sie bitte unsere Support-Seite oder kontaktieren Sie uns direkt.\n\nBeste W\u00fcnsche,\nIhr Kundenservice-Team",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Installation Guide",
+        "Technical Assistance",
+        "User Assistance",
+        "Microsoft Office",
+        "Technical Issue",
+        "Customer Inquiry",
+        "Support Request",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Fragen zur monatlichen Abrechnung des TV-Streamingdienstes",
+    "body": "Guten Tag, ich hoffe, es geht Ihnen gut. Ich wende mich an Sie, um etwas Klarheit \u00fcber meine Abrechnung f\u00fcr das monatliche TV-Streaming-Abo zu erhalten. Beim Durchgehen meiner letzten Abrechnung habe ich einige Unstimmigkeiten festgestellt, und ich w\u00e4re Ihnen dankbar f\u00fcr Ihre Hilfe. K\u00f6nnten Sie bitte eine ausf\u00fchrliche Aufschl\u00fcsselung der aufgef\u00fchrten Geb\u00fchren bereitstellen und m\u00f6glicherweise ben\u00f6tigte Fehler oder \u00c4nderungen hervorheben? Es ist mir wichtig, dass diese Angelegenheit schnell gel\u00f6st wird. Ihre schnelle Antwort auf dieses Anliegen w\u00e4re sehr gesch\u00e4tzt. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, <Name> <Kontonummer> <Telefonnummer>",
+    "answer": "Hallo [Name],\n\nvielen Dank, dass Sie uns kontaktieret haben. Wir entschuldigen uns f\u00fcr etwaige Missverst\u00e4ndnisse bez\u00fcglich Ihrer Abrechnung. Um Ihnen effektiv helfen zu k\u00f6nnen, ben\u00f6tige ich etwas Zeit, um Ihre Kontoinformationen zu \u00fcberpr\u00fcfen. Wir bem\u00fchen uns, Ihnen innerhalb der n\u00e4chsten 24 bis 48 Stunden eine umfassende Erkl\u00e4rung Ihrer Geb\u00fchren zuzusenden, einschlie\u00dflich aller Unstimmigkeiten oder Korrekturen, die notwendig sein k\u00f6nnten.\n\nVielen Dank f\u00fcr Ihre Geduld und Ihr Verst\u00e4ndnis. Sollten dringend Fragen auftauchen, z\u00f6gern Sie bitte nicht, unser Support-Team unter [Support-Telefonnummer] zu kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\nKundensupport-Team",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Billing Inquiry",
+        "Billing Issue",
+        "Customer Notification",
+        "Customer Feedback",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Requesting information on system necessities for Microsoft Office 365",
+    "body": "Hello, I am looking to learn more about Microsoft Office 365. Could you share the specific system requirements needed for installation as well as for ideal performance? Thank you!",
+    "answer": "Hello, to install Microsoft Office 365, your system should run on Windows 10 or 11, or a recent version of macOS. You will need a minimum of 2 GB of RAM (4 GB if running 64-bit) and at least 4 GB of free disk space. An internet connection is also essential.",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "General Inquiry",
+        "Technical Assistance",
+        "User Request",
+        "Technical Documentation",
+        "Office Software"
+      ]
+    }
+  },
+  {
+    "subject": "Consulta sobre las pautas de instalaci\u00f3n para Dell XPS 13",
+    "body": "\u00bfPodr\u00edas proporcionarme las pautas de instalaci\u00f3n para el Dell XPS 13? Quiero asegurarme de que lo estoy configurando correctamente y us\u00e1ndolo adecuadamente. Muchas gracias, <name>.",
+    "answer": "Hola <name>, puedes acceder a las pautas de instalaci\u00f3n para el Dell XPS 13 utilizando el siguiente enlace: [insertar enlace]. No dudes en comunicarte si necesitas ayuda adicional. Saludos cordiales.",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Installation Guide",
+        "User Request",
+        "Configuration Change",
+        "Client Assistance",
+        "Technical Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Fragen zur Garantieinformationen f\u00fcr Dell XPS 13",
+    "body": "Ich suche Informationen \u00fcber die Garantieabdeckung f\u00fcr meinen neu gekauften Dell XPS 13. K\u00f6nnten Sie mir bitte die entsprechenden Details zukommen lassen?",
+    "answer": "Vielen Dank f\u00fcr Ihre Anfrage. Der Dell XPS 13 wird mit einer standardm\u00e4\u00dfigen 1-j\u00e4hrigen Hardwaregarantie geliefert. F\u00fcr weitere Informationen besuchen Sie bitte die Garantie-Webseite von Dell.",
+    "type": "Request",
+    "queue": "Returns and Exchanges",
+    "priority": 1,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Warranty Claim",
+        "Product Inquiry",
+        "Customer Inquiry",
+        "Customer Request",
+        "Product Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Frage zum n\u00e4chsten Zahlungstermin",
+    "body": "Hallo Kundenserviceteam,\n\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir mitteilen k\u00f6nnten, wann der F\u00e4lligkeitstermin f\u00fcr meine n\u00e4chste Zahlung f\u00fcr das monatliche Software-Abonnement (XYZ Software) ist. Vielen Dank!\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Name>",
+    "answer": "Hallo [Name],\n\nWir sch\u00e4tzen Ihre Anfrage. Der n\u00e4chste Termin f\u00fcr Ihre Zahlung bez\u00fcglich des monatlichen Software-Abonnements (XYZ Software) ist am [F\u00e4lligkeitsdatum].\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 1,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Billing Inquiry",
+        "Payment Processing",
+        "Customer Inquiry",
+        "Subscription Management",
+        "User Request"
+      ]
+    }
+  },
+  {
+    "subject": "Demande de conseils pour l'installation de Microsoft Office 365",
+    "body": "Bonjour \u00c9quipe de Support,\n\nJ'appr\u00e9cierais si vous pouviez m'envoyer un guide d\u00e9taill\u00e9 sur la fa\u00e7on d'installer Microsoft Office 365. Mon num\u00e9ro de commande est <account_number>. J'appr\u00e9cie vraiment votre aide.\n\nCordialement,\n<name>",
+    "answer": "Bonjour <name>,\n\nNous vous remercions pour votre demande. Pour un guide complet sur l'installation de Microsoft Office 365, veuillez consulter le lien suivant : https://support.microsoft.com/install-office.\n\nMeilleures salutations,\n\u00c9quipe de Support",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Installation Guide",
+        "Technical Assistance",
+        "User Assistance",
+        "Support Request",
+        "Product Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Connectivity problems impacting several users",
+    "body": "Currently, we are facing a network connectivity problem within our 'Network Configuration' that is affecting numerous users. This has led to multiple incidents. Could you assist us in addressing this matter swiftly? Thank you.",
+    "answer": "Dear Customer, We acknowledge the ongoing network problem and our team is addressing it with urgency. We are committed to resolving this situation at the earliest possible time. We appreciate your patience and understanding. Best regards, Support Team",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Connectivity Issue",
+        "Network Issue",
+        "Multiple Incidents",
+        "Assistance Request",
+        "Service Escalation"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Creative Cloud reagiert nach Updates nicht mehr",
+    "body": "Ich habe Probleme mit Adobe Creative Cloud, die nach mehreren Updates unresponsive wird. Dies hat zu verschiedenen Komplikationen gef\u00fchrt. K\u00f6nnten Sie mir helfen, dieses Problem zu beheben?",
+    "answer": "Vielen Dank f\u00fcr Ihre Nachricht. Wir empfehlen, dass Sie versuchen, Adobe Creative Cloud neu zu installieren und sicherzustellen, dass Sie die neuesten Updates ausf\u00fchren. Sollte das Problem weiterhin bestehen, wenden Sie sich bitte direkt an den Adobe-Support.",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Software Bug",
+        "Technical Support",
+        "Troubleshooting Guide"
+      ]
+    }
+  },
+  {
+    "subject": "Urgente: Problema de Exibi\u00e7\u00e3o de Cores no Monitor Dell UltraSharp 27",
+    "body": "Ol\u00e1, equipe de suporte t\u00e9cnico,\n\nEstou enfrentando um problema recorrente com a exibi\u00e7\u00e3o de cores no meu monitor Dell UltraSharp 27. As cores est\u00e3o aparecendo distorcidas e inconsistentes, o que interrompe meu fluxo de trabalho significativamente. Eu apreciaria sua assist\u00eancia urgente para corrigir este problema.\n\nObrigado,\n<nome>\n<endere\u00e7o_de_email>\n<n\u00famero_de_telefone>\n<n\u00famero_da_conta>",
+    "answer": "Ol\u00e1 [Nome],\n\nPedimos desculpas pelo transtorno que voc\u00ea est\u00e1 enfrentando. Por favor, tente os seguintes passos:\n1. Certifique-se de que todos os cabos estejam conectados corretamente.\n2. Atualize seus drivers de v\u00eddeo para a vers\u00e3o mais recente.\n3. Restaure o monitor para as configura\u00e7\u00f5es de f\u00e1brica usando o menu na tela.\n\nCaso o problema persista, entre em contato conosco com suas informa\u00e7\u00f5es de conta em [email_de_suporte_direto] ou [n\u00famero_de_telefone]. N\u00f3s nos esfor\u00e7aremos para resolver isso o mais r\u00e1pido poss\u00edvel.\n\nAtenciosamente,\nEquipe de Suporte T\u00e9cnico",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Monitor Issue",
+        "Technical Assistance",
+        "Urgent Issue",
+        "Technical Support",
+        "Support Request"
+      ]
+    }
+  },
+  {
+    "subject": "Wiederholte Netzwerkunterbrechungen mit Cisco Catalyst 9300 Switch",
+    "body": "Ich habe wiederkehrende Probleme mit Netzwerkunterbrechungen an meinem Cisco Catalyst 9300 Switch. Dieses Problem f\u00fchrt zu mehreren Vorf\u00e4llen, und ich ben\u00f6tige Hilfe.",
+    "answer": "Sehr geehrter gesch\u00e4tzter Kunde,\n\nWir entschuldigen uns f\u00fcr die Unannehmlichkeiten. Bitte teilen Sie uns die Firmware-Version Ihres Switches sowie etwaige aktuelle Protokolle mit, damit wir Ihnen weiterhelfen k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Network Issue",
+        "Network Support",
+        "Technical Assistance",
+        "Incident Follow-Up",
+        "Service Problem",
+        "Service Request",
+        "User Assistance",
+        "Service Notification",
+        "Support Inquiry",
+        "Technical Issue",
+        "Support Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "Ongoing Subscription Fee Not Processed Accurately",
+    "body": "Hello Support Team, I'm experiencing a problem with the recurring charge for my Adobe Creative Cloud subscription; it hasn't been processed as expected. Could you please address this as soon as possible? Thank you, <name>",
+    "answer": "Hello [Name],\n\nWe are sorry for any trouble caused. Kindly verify that your payment information is correct. Should everything be in order, please reach out to us with additional details so we can assist you efficiently.\n\nRegards,\nSupport Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Payment Processing",
+        "Assistance Request",
+        "Customer Inquiry",
+        "User Issue"
+      ]
+    }
+  },
+  {
+    "subject": "H\u00e4ufige Unterbrechungen bei CRM-Vorg\u00e4ngen",
+    "body": "<name>, wir erleben fortw\u00e4hrende Unterbrechungen mit unserem CRM-System. Bitte beheben Sie dieses Problem so schnell wie m\u00f6glich, <account_number>.",
+    "answer": "Hallo <name>, wir untersuchen derzeit die CRM-Unterbrechungen als Priorit\u00e4t und werden diese umgehend angehen. Vielen Dank, Ihr Support-Team.",
+    "type": "Problem",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Service Disruption",
+        "Customer Issue",
+        "Support Request",
+        "Technical Support",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Fehler bei der Authentifizierung in Office 365, der den Zugriff einschr\u00e4nkt",
+    "body": "Ich habe ein Authentifizierungsproblem, das mich daran hindert, auf Microsoft Office 365 zuzugreifen. Dieses Problem ist mehrfach aufgetreten. K\u00f6nnten Sie mir bitte helfen, es zu l\u00f6sen?",
+    "answer": "Wir danken Ihnen, dass Sie uns kontaktiert haben. Bitte l\u00f6schen Sie den Cache und die Cookies Ihres Browsers, bevor Sie es erneut versuchen, sich anzumelden. Sollte das Problem weiterhin bestehen, setzen Sie Ihr Passwort zur\u00fcck oder wenden Sie sich an unser IT-Support-Team f\u00fcr weitere Hilfe.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Login Issue",
+        "Authentication Problem",
+        "Office 365 Access",
+        "User Assistance",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Nest Learning Thermostat kann nicht mit Wi-Fi verbunden werden",
+    "body": "Mein Nest Learning Thermostat kann sich nicht mit meinem Wi-Fi-Netzwerk verbinden. Trotz verschiedener Fehlerbehebungsma\u00dfnahmen hatte ich keinen Erfolg. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der zeitnahen L\u00f6sung dieses Problems zu sch\u00e4tzen wissen. Vielen Dank!",
+    "answer": "Wir sch\u00e4tzen es, dass Sie uns kontaktiert haben. Bitte vergewissern Sie sich, dass Ihr Wi-Fi-Netzwerk auf 2,4 GHz arbeitet, starten Sie Ihren Router sowie das Thermostat neu und stellen Sie sicher, dass die Software des Thermostats auf dem neuesten Stand ist. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Connectivity Issue",
+        "Technical Support",
+        "User Assistance",
+        "Troubleshooting Guide",
+        "System Update"
+      ]
+    }
+  },
+  {
+    "subject": "H\u00e4ufige Abst\u00fcrze in Adobe Creative Suite 2024",
+    "body": "Sehr geehrtes Adobe Support-Team,\n\nich hoffe, dass Sie diese Nachricht wohlbehalten erreicht. Ich schreibe Ihnen, um Sie \u00fcber ein Problem zu informieren, das ich mit Adobe Creative Suite 2024 habe, die st\u00e4ndig auf meinem Computer abst\u00fcrzt. Dieses anhaltende Problem hat mehrere Unterbrechungen in meiner Arbeit verursacht, was es mir erschwert, produktiv zu bleiben. Die Anwendung st\u00fcrzt in unregelm\u00e4\u00dfigen Abst\u00e4nden ab, oft mehrmals innerhalb einer Stunde, was meinen Arbeitsfluss erheblich st\u00f6rt.\n\nIch habe mehrere Fehlersuche-Schritte unternommen, darunter die Aktualisierung meines Betriebssystems, die Neueinrichtung der Software und die \u00dcberpr\u00fcfung, ob die Hardware meines Computers die erforderlichen Spezifikationen erf\u00fcllt. Trotz dieser Bem\u00fchungen bleibt das Problem bestehen. Dar\u00fcber hinaus habe ich die Leistung des Systems gepr\u00fcft, w\u00e4hrend ich die Software ausf\u00fchre, und habe keine nennenswerten Probleme mit dem Speicher oder der CPU-Auslastung festgestellt.\n\nDa ich stark auf Adobe Creative Suite 2024 f\u00fcr meine t\u00e4glichen Aufgaben angewiesen bin, ist dieses Problem besonders frustrierend. Ich habe auch bemerkt, dass die Abst\u00fcrze h\u00e4ufig auftreten, w\u00e4hrend ich anspruchsvollere Anwendungen wie Adobe Photoshop und Adobe Illustrator verwende.\n\nIch w\u00e4re Ihnen sehr dankbar, wenn Sie mir bei der L\u00f6sung dieses Anliegens behilflich sein k\u00f6nnten. Es w\u00e4re vorteilhaft, wenn Sie sich so schnell wie m\u00f6glich darum k\u00fcmmern k\u00f6nnten, da es meine Arbeitseffizienz stark beeintr\u00e4chtigt. Wenn Sie zus\u00e4tzliche Details oder Zugriff auf Fehlermeldungen ben\u00f6tigen, z\u00f6gern Sie bitte nicht, sich zu melden.\n\nVielen Dank f\u00fcr Ihre schnelles Bearbeitung dieses Anliegens.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<phone_number>\n<account_number>",
+    "answer": "Hallo <name>,\n\nvielen Dank, dass Sie uns bez\u00fcglich der Herausforderungen, die Sie mit Adobe Creative Suite 2024 haben, kontaktiert haben. Wir entschuldigen uns f\u00fcr die Schwierigkeiten, die Ihnen dadurch entstanden sind.\n\nUm Ihnen effizienter zu helfen, k\u00f6nnten Sie bitte die folgenden Informationen bereitstellen?\n1. Die Version des Betriebssystems, das Sie verwenden.\n2. Alle spezifischen Fehlermeldungen, die w\u00e4hrend der Abst\u00fcrze angezeigt wurden.\n3. Alle Plugins oder Anwendungen von Drittanbietern, die mit Adobe-Produkten interagieren k\u00f6nnten.\n\nIn der Zwischenzeit empfehlen wir Ihnen, die folgenden Ma\u00dfnahmen zu versuchen:\n1. Den Cache und die Einstellungen von Photoshop und Illustrator zu leeren.\n2. Alle Erweiterungen von Drittanbietern vor\u00fcbergehend zu deaktivieren.\n3. Das Adobe Creative Cloud Cleaner Tool f\u00fcr eine saubere Installation zu verwenden.\n\nWenn das Problem weiterhin besteht, senden Sie bitte die Fehlermeldungen an [support_email@example.com], damit wir weiter untersuchen k\u00f6nnen.\n\nWir verstehen die Dringlichkeit Ihrer Situation und werden sie priorit\u00e4r behandeln, um eine schnelle L\u00f6sung zu erreichen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nAdobe Support-Team",
+    "type": "Problem",
+    "queue": "Billing and Payments",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Issue",
+        "User Support",
+        "Software Bug",
+        "Performance Issue",
+        "Troubleshooting Guide",
+        "Technical Assistance",
+        "Adobe Support",
+        "User Inquiry",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Probleme mit einer Funktion, die zu Ausf\u00e4llen in Microsoft Office 365 f\u00fchrt",
+    "body": "Liebes Support-Team,\n\nich hoffe, diese Nachricht erreicht Sie wohlbehalten. Ich kontaktiere Sie, um ein anhaltendes Problem mit Microsoft Office 365 hervorzuheben, das mehrere Benutzer in unserer Organisation betrifft. Die fehlerhafte Funktion scheint Ausf\u00e4lle auszul\u00f6sen, was unsere Arbeitseffizienz erheblich beeintr\u00e4chtigt. Insbesondere gibt es ein Problem mit der Interoperabilit\u00e4t zwischen Outlook und Teams, was zu regelm\u00e4\u00dfigen Abbr\u00fcchen und Fehlermeldungen f\u00fcr unsere Mitarbeiter f\u00fchrt.\n\nWir haben zahlreiche Fehlersuche-Optionen verfolgt, wie beispielsweise die Neuinstallation der Software, die Aktualisierung auf die neuesten Versionen und die \u00dcberpr\u00fcfung unserer Internetverbindung, jedoch bleibt das Problem ungel\u00f6st. Obwohl dieses Thema wichtig ist und einer zeitnahen Bearbeitung bedarf, ist es in diesem Moment nicht als dringend eingestuft. Wir w\u00fcrden Ihre Untersuchung dieser Situation und eine L\u00f6sung so schnell wie m\u00f6glich sehr sch\u00e4tzen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit zu diesem Thema, und bitte z\u00f6gern Sie nicht, sich zu melden, wenn weitere Details erforderlich sind.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<account_number>\n<phone_number>",
+    "answer": "Liebe(r) <name>,\n\nvielen Dank, dass Sie uns auf das anhaltende Problem mit Microsoft Office 365 aufmerksam gemacht haben. Wir erkennen die Bedeutung dieses Problems f\u00fcr Ihre Organisation an und sch\u00e4tzen die Ma\u00dfnahmen, die Sie zur Fehlersuche unternommen haben.\n\nWir leiten diese Situation an unser Expertenteam weiter, damit eine detaillierte Untersuchung durchgef\u00fchrt werden kann. Sie werden sich mit den Integrationsproblemen zwischen Outlook und Teams befassen und versprechen, eine schnelle L\u00f6sung zu finden. In der Zwischenzeit bitten wir Sie, alle Fehlercodes oder Protokolle zusammenzustellen, die uns bei unserer Analyse helfen k\u00f6nnten.\n\nWir halten Sie \u00fcber unsere Fortschritte informiert und werden uns melden, sollten wir weitere Informationen ben\u00f6tigen.\n\nWir sch\u00e4tzen Ihr Verst\u00e4ndnis und Ihre Zusammenarbeit.\n\nMit besten W\u00fcnschen,\nTechnischer Support Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Customer Issue",
+        "Technical Assistance",
+        "Technical Problem",
+        "Software Bug",
+        "Interoperability Issue",
+        "Performance Issue",
+        "Service Escalation",
+        "Support Request",
+        "User Complaint"
+      ]
+    }
+  },
+  {
+    "subject": "Repeated Charges on Multiple Invoices",
+    "body": "Hello QuickBooks Online Support Team,\n\nI have observed that several invoices in my account are being charged the same amount, leading to some confusion and the need for manual corrections. Could you please investigate the reason behind this occurrence and suggest a resolution?\n\nThank you,\n\n<name>",
+    "answer": "Dear [Name],\n\nWe appreciate your message. We apologize for the trouble you've experienced. This situation could be caused by duplicated recurring invoices or a potential system glitch. We suggest reviewing your settings for recurring invoices. We will look into the matter further and keep you updated.\n\nBest regards,\nQuickBooks Online Support Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 1,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Invoice Query",
+        "Assistance Request",
+        "Assistance Resolution",
+        "Client Inquiry"
+      ]
+    }
+  },
+  {
+    "subject": "H\u00e4ufige Softwareausf\u00e4lle auf Windows 10-Ger\u00e4ten",
+    "body": "Hallo <name>,\n\nich habe h\u00e4ufige Softwareausf\u00e4lle auf meinem Computer mit Windows 10. Dieses Problem hat zu mehreren Unterbrechungen in meiner Arbeit gef\u00fchrt. Ich habe grundlegende Fehlerbehebungen durchgef\u00fchrt, einschlie\u00dflich des Neustarts meines Systems und der Aktualisierung der notwendigen Treiber, aber das Problem besteht weiterhin. K\u00f6nnten Sie mir bitte bei der L\u00f6sung helfen?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+    "answer": "Hallo [Kunde],\n\nwir bedauern zu h\u00f6ren, dass Sie Schwierigkeiten haben. Bitte versuchen Sie die folgenden Vorschl\u00e4ge: F\u00fchren Sie eine \u00dcberpr\u00fcfung der Systemdateien durch (geben Sie sfc /scannow in die Eingabeaufforderung ein), \u00fcberpr\u00fcfen Sie, ob Ihr Windows vollst\u00e4ndig aktualisiert ist, und suchen Sie nach m\u00f6glichen Softwarekonflikten, indem Sie im abgesicherten Modus starten. Sollte das Problem weiterhin bestehen, teilen Sie uns bitte den Namen der Software und alle Fehlermeldungen mit, die Sie antreffen.\n\nMit besten Gr\u00fc\u00dfen,\n[Ihr Name]",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Software Bug",
+        "System Crash",
+        "Troubleshooting Guide",
+        "Technical Support",
+        "Technical Assistance",
+        "User Issue",
+        "Performance Issue",
+        "Error Log",
+        "Configuration Error",
+        "Urgent Issue",
+        "Technical Inquiry"
+      ]
+    }
+  },
+  {
+    "subject": "Problemas con los Servicios de Ubicaci\u00f3n en el Sitio de Salesforce",
+    "body": "Estoy encontrando dificultades con los servicios de ubicaci\u00f3n en el sitio web de Salesforce. La funcionalidad parece estar fallando y est\u00e1 causando varios problemas.",
+    "answer": "Agradecemos que nos haya informado sobre este problema. Nuestro equipo est\u00e1 investigando activamente los problemas con los servicios de ubicaci\u00f3n en el sitio web de Salesforce y los abordaremos a la mayor brevedad posible.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Service Issue",
+        "Assistance Request",
+        "Service Notification",
+        "Technical Issue",
+        "User Complaint",
+        "Support Issue",
+        "Troubleshooting Guide",
+        "Service Escalation"
+      ]
+    }
+  },
+  {
+    "subject": "\u00c9chec de l'installation de Microsoft Office 365 Support",
+    "body": "Bonjour \u00c9quipe de Support, J'ai des difficult\u00e9s \u00e0 tenter de configurer Microsoft Office 365 sur mon ordinateur. Bien que j'aie respect\u00e9 les directives fournies, l'installation \u00e9choue syst\u00e9matiquement. Pourriez-vous m'aider \u00e0 rectifier ce probl\u00e8me d\u00e8s que possible? Merci, <name>",
+    "answer": "Bonjour <name>, Je suis d\u00e9sol\u00e9 d'apprendre que vous avez des probl\u00e8mes pour installer Microsoft Office 365. Veuillez v\u00e9rifier que votre appareil remplit les exigences essentielles et assurez-vous que toutes les versions ant\u00e9rieures d'Office sont supprim\u00e9es. Si le probl\u00e8me persiste, veuillez partager les messages d'erreur pour un soutien suppl\u00e9mentaire. Cordialement, \u00c9quipe de Support",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": 1,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Technical Support",
+        "Software Installation",
+        "Customer Inquiry",
+        "Support Request",
+        "Technical Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Problemas com Pagamentos Recorrentes da Assinatura da Netflix",
+    "body": "Estou enfrentando problemas com minha assinatura da Netflix porque meu pagamento recorrente n\u00e3o est\u00e1 sendo processado corretamente. Isso levou a v\u00e1rias interrup\u00e7\u00f5es. Eu apreciaria sua ajuda.",
+    "answer": "Caro Cliente Valioso,\n\nPedimos desculpas pelo transtorno que voc\u00ea est\u00e1 enfrentando. Por favor, atualize suas informa\u00e7\u00f5es de pagamento ou entre em contato com seu banco. Caso o problema persista, entre em contato com nossa equipe de suporte para ajuda adicional.\n\nObrigado,\nEquipe de Suporte ao Cliente",
+    "type": "Problem",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Payment Processing",
+        "Customer Request",
+        "Service Issue",
+        "Assistance Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "Desaf\u00edos con el Pago Recurrente Debido a Informaci\u00f3n de Facturaci\u00f3n Incorrecta",
+    "body": "Estimado equipo de soporte, he estado experimentando problemas con mi servicio de streaming de suscripci\u00f3n debido a detalles de facturaci\u00f3n incorrectos. Esto ha resultado en m\u00faltiples interrupciones del servicio. Agradecer\u00eda mucho su asistencia oportuna con respecto a este problema. Gracias, <name>",
+    "answer": "Estimado <name>,\n\nPedimos disculpas por los inconvenientes que ha encontrado. Por favor, verifique que sus detalles de facturaci\u00f3n en la configuraci\u00f3n de su cuenta est\u00e9n actualizados y coincidan con la informaci\u00f3n de su m\u00e9todo de pago. Si el problema persiste, no dude en ponerse en contacto con nosotros y proporcionar el mensaje de error que recibi\u00f3.\n\nGracias,\nEquipo de Soporte",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Payment Processing",
+        "Service Interruption",
+        "User Assistance",
+        "User Inquiry"
+      ]
+    }
+  },
+  {
+    "subject": "Probleme beim Speichern der Benutzereinstellungen in der Anwendung",
+    "body": "Liebes technisches Supportteam,\n\nich habe ein Problem mit Google Workspace, bei dem die Anwendung h\u00e4ufig nicht in der Lage ist, die Benutzerkonfigurationen beizubehalten. Dieses Problem wird zunehmend problematisch, da es zu mehreren Vorf\u00e4llen in unserem Team f\u00fchrt. H\u00e4ufig nachdem ich die Einstellungen angepasst habe, bleiben sie unspeichert, und wenn wir die Anwendung erneut besuchen, kehren die Konfigurationen zu ihren fr\u00fcheren Versionen zur\u00fcck. Dieser Mangel an Konsistenz st\u00f6rt unseren Arbeitsablauf und hat bei den Teammitgliedern zu Frustration gef\u00fchrt. K\u00f6nnten Sie bitte dieses Problem untersuchen und uns so schnell wie m\u00f6glich eine L\u00f6sung anbieten? Wir haben grundlegende Fehlersuche durchgef\u00fchrt, wie das L\u00f6schen des Cache, das Neuinstallieren der Anwendung und das Best\u00e4tigen, dass die App auf dem neuesten Stand ist, aber leider besteht das Problem weiterhin. Wenn Sie weitere Informationen von unserer Seite ben\u00f6tigen,Um bei der Diagnose zu helfen, lassen Sie es mich bitte wissen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+    "answer": "Liebe [Name],\n\nvielen Dank, dass Sie sich an das technische Supportteam gewandt haben. Wir erkennen die Bedeutung an, dass die Einstellungen in Google Workspace konsistent gespeichert werden.\n\nUm Ihnen bei der L\u00f6sung dieses Problems zu helfen, k\u00f6nnten Sie bitte die folgenden Details mitteilen:\n1. Das Ger\u00e4t und das Betriebssystem, das Sie verwenden.\n2. Die Version des Browsers (falls Sie \u00fcber das Web darauf zugreifen).\n3. Die spezifischen Einstellungen, die nicht gespeichert werden.\n4. Alle Fehlermeldungen, die Ihnen m\u00f6glicherweise angezeigt wurden.\n\nDar\u00fcber hinaus bitten wir Sie, die folgenden Schritte zu ber\u00fccksichtigen, falls diese noch nicht versucht wurden:\n1. Stellen Sie sicher, dass alle Teammitglieder die aktuellste Version ihres Browsers oder ihrer Anwendung verwenden.\n2. Deaktivieren Sie alle installierten Browsererweiterungen, da diese m\u00f6glicherweise st\u00f6ren k\u00f6nnten.\n\nWir sch\u00e4tzen Ihre Geduld und sind sehr daran interessiert, dieses Problem schnell zu l\u00f6sen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr technisches Supportteam]",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Technical Support",
+        "User Issue",
+        "Problem Report",
+        "User Feedback",
+        "Assistance Resolution",
+        "Troubleshooting Guide",
+        "Technical Inquiry",
+        "Service Incident",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Dringend: Problem mit der Zahlung des Spotify Premium-Abonnements",
+    "body": "Liebes Spotify Support-Team,\n\nIch hoffe, diese E-Mail erreicht Sie wohlbehalten. Ich wende mich an Sie wegen eines bemerkenswerten Problems, das Ihre sofortige Intervention erfordert. In den letzten Abrechnungszeitr\u00e4umen wurde meine wiederkehrende Zahlung f\u00fcr Spotify Premium nicht korrekt verarbeitet. Selbst nachdem ich \u00fcberpr\u00fcft habe, dass meine Zahlungsmethoden aktualisiert sind und gen\u00fcgend Guthaben vorhanden ist, wird mein Konto st\u00e4ndig auf die kostenlose Version zur\u00fcckgesetzt, was zu Unterbrechungen meines Services f\u00fchrt.\n\nEs gab zahlreiche Gelegenheiten, bei denen ich unerwartet von den Premium-Funktionen abgemeldet wurde, ohne irgendeine vorherige Warnung. Diese Situation beeintr\u00e4chtigt meine Nutzung und mein Vergn\u00fcgen an Spotify Premium, auf das ich sowohl f\u00fcr pers\u00f6nliche als auch berufliche Aufgaben angewiesen bin.\n\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dieses Problem umgehend ansprechen und eine L\u00f6sung anbieten k\u00f6nnten. Hier sind meine Kontodaten: Kontonummer: <account_number>. Au\u00dferdem kann ich best\u00e4tigt werden, dass meine Zahlungsmethode in den Kontoeinstellungen korrekt eingerichtet ist.\n\nBitte z\u00f6gern Sie nicht, mich unter <phone_number> oder per E-Mail zu kontaktieren, wenn Sie weitere Informationen ben\u00f6tigen. Ich freue mich auf eine schnelle L\u00f6sung f\u00fcr dieses Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+    "answer": "Liebe(r) <name>,\n\nVielen Dank, dass Sie sich an den Spotify Support gewandt haben. Es tut uns leid zu h\u00f6ren, dass Sie Schwierigkeiten mit Ihren wiederkehrenden Zahlungen haben.\n\nIch habe Ihre Anliegen an unser Technikteam zur sofortigen Untersuchung weitergeleitet. Bitte \u00fcberpr\u00fcfen Sie in der Zwischenzeit, ob Ihre Zahlungsmethodendaten korrekt sind und ob Sie gen\u00fcgend Guthaben auf Ihrem Konto haben. Wir halten Sie \u00fcber jegliche Fortschritte informiert oder lassen es Sie wissen, falls wir weitere Informationen ben\u00f6tigen.\n\nEine L\u00f6sung ist bereits in Arbeit, und wir danken Ihnen f\u00fcr Ihr Verst\u00e4ndnis in dieser Zeit. Sollten Sie dringend Hilfe ben\u00f6tigen, z\u00f6gern Sie nicht, auf diese E-Mail zu antworten oder uns direkt unter <support_number> anzurufen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSpotify Support-Team",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Payment Processing",
+        "Billing Issue",
+        "Service Resolution",
+        "Customer Inquiry",
+        "Subscription Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Attention imm\u00e9diate requise : Erreur de facturation pour l'abonnement Adobe Creative Cloud",
+    "body": "Bonjour Support, J'ai trouv\u00e9 une erreur de facturation li\u00e9e \u00e0 mon abonnement Adobe Creative Cloud associ\u00e9 \u00e0 mon compte <account_number>. Cette affaire est urgente et n\u00e9cessite une attention rapide. Merci, <name>",
+    "answer": "Bonjour <name>,\n\nNous regrettons l\u2019inconv\u00e9nient caus\u00e9 par l\u2019erreur de facturation concernant votre abonnement Adobe Creative Cloud. Nous examinons actuellement votre compte <account_number> et nous traiterons ce probl\u00e8me d\u00e8s que possible.\n\nCordialement,\nL\u2019\u00e9quipe d\u2019assistance",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Urgent Issue",
+        "Customer Inquiry",
+        "Account Assistance",
+        "Service Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "Problema de facturaci\u00f3n que causa el fallo en la renovaci\u00f3n de la suscripci\u00f3n",
+    "body": "Hola, encontr\u00e9 un problema de facturaci\u00f3n que impidi\u00f3 que mi suscripci\u00f3n a Adobe Creative Cloud se renovara. Mi n\u00famero de cuenta es <account_number>. Agradecer\u00eda su ayuda para resolver este asunto lo antes posible.",
+    "answer": "Hola, agradecemos que se haya puesto en contacto con nosotros. Para resolver esto, por favor modifique sus detalles de facturaci\u00f3n en la configuraci\u00f3n de su cuenta de Adobe, o comun\u00edquese con nuestro equipo de soporte de facturaci\u00f3n para obtener ayuda adicional.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Payment Processing",
+        "Account Issue",
+        "Subscription Problem",
+        "Assistance Request"
+      ]
+    }
+  },
+  {
+    "subject": "Questions Regarding Warranty Information for Sony WH-1000XM4 Headphones",
+    "body": "Hello Support Team, I have recently bought the Sony WH-1000XM4 Noise Cancelling Headphones. Could you kindly share the specific warranty details for this item? It is important for me to comprehend the warranty conditions and coverage. Thank you. Best, <name>",
+    "answer": "Hello [Customer],\n\nWe appreciate your recent purchase. The Sony WH-1000XM4 headphones are accompanied by a one-year limited warranty that addresses any manufacturing defects. Please retain your receipt for any warranty submissions. For further information, please refer to Sony's official site or reach out to us directly.\n\nBest wishes,\nSupport Team",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Warranty Claim",
+        "Product Inquiry",
+        "Customer Support",
+        "User Assistance",
+        "Service Response"
+      ]
+    }
+  },
+  {
+    "subject": "Ajuda Necess\u00e1ria para Instala\u00e7\u00e3o do Microsoft Office 365",
+    "body": "Ol\u00e1 Equipe de Suporte de TI,\n\nEu preciso de ajuda para configurar o Microsoft Office 365 no meu computador. Voc\u00ea poderia fornecer um manual de instru\u00e7\u00f5es detalhado ou oferecer assist\u00eancia remota? Muito obrigado.\n\nAtenciosamente,\n<name>",
+    "answer": "Ol\u00e1 <name>,\n\nPor favor, utilize este link para orienta\u00e7\u00e3o: https://support.microsoft.com/office/install-office-on-a-pc-29da95ed-191a-47ea-aebc-334d79f36325. Se voc\u00ea precisar de assist\u00eancia remota, por favor, entre em contato conosco.\n\nAtenciosamente,\nSuporte de TI",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Technical Assistance",
+        "Software Installation",
+        "Remote Assistance",
+        "User Inquiry",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Solicitud de Pr\u00f3rroga del Per\u00edodo de Prueba de Microsoft Office 365",
+    "body": "Saludos equipo de atenci\u00f3n al cliente,\n\nEspero que se encuentren bien. Estoy escribiendo para solicitar formalmente una pr\u00f3rroga para la prueba de Microsoft Office 365 asociada a mi cuenta <account_number>. Mi equipo ha estado evaluando cuidadosamente las caracter\u00edsticas de la aplicaci\u00f3n y c\u00f3mo se adapta a nuestros sistemas actuales. Agradecer\u00edamos mucho tiempo adicional para llegar a una conclusi\u00f3n completa. Una extensi\u00f3n de dos semanas ser\u00eda extremadamente beneficiosa. \u00bfPodr\u00edan confirmarme si podr\u00edan acomodar esta solicitud? Gracias por su atenci\u00f3n y ayuda.\n\nAtentamente,\n<name> (<phone_number>)",
+    "answer": "Hola <name>,\n\nGracias por ponerte en contacto con nosotros. Entendemos tu necesidad de m\u00e1s tiempo para evaluar Microsoft Office 365. Nos complace informarte que podemos extender tu per\u00edodo de prueba por dos semanas. La nueva fecha de expiraci\u00f3n de tu prueba ser\u00e1 ahora <new_end_date>. Si tienes m\u00e1s preguntas o necesitas asistencia adicional, no dudes en contactarnos.\n\nSaludos cordiales,\nEquipo de atenci\u00f3n al cliente",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Client Assistance",
+        "Client Request",
+        "User Feedback",
+        "User Ticket",
+        "Product Support",
+        "Assistance Request",
+        "Service Update"
+      ]
+    }
+  },
+  {
+    "subject": "Frage zur R\u00fcckgaberechts f\u00fcr IKEA Kallax",
+    "body": "K\u00f6nnten Sie die Einzelheiten des R\u00fcckgaberechts bez\u00fcglich des IKEA Kallax-Produkts mitteilen?",
+    "answer": "Absolut! Sie k\u00f6nnen den IKEA Kallax innerhalb eines Jahres (365 Tage) mit Ihrem Kassenbeleg zur\u00fcckgeben, um eine vollst\u00e4ndige R\u00fcckerstattung oder einen Umtausch zu erhalten.",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Customer Feedback",
+        "Product Inquiry",
+        "Return Request",
+        "Refund Processing"
+      ]
+    }
+  },
+  {
+    "subject": "Pergunta Sobre a Pol\u00edtica de Devolu\u00e7\u00e3o para Nike Air Force 1",
+    "body": "Ol\u00e1, eu fiz uma compra de Nike Air Force 1 na sua loja e gostaria de obter os detalhes sobre a sua pol\u00edtica de devolu\u00e7\u00e3o. Voc\u00ea poderia esclarecer o procedimento e quaisquer termos aplic\u00e1veis? Muito obrigado, <name>",
+    "answer": "Ol\u00e1 <name>,\n\nAgradecemos sua pergunta. Voc\u00ea pode devolver itens dentro de 30 dias a partir da data da compra, contanto que estejam em suas condi\u00e7\u00f5es e embalagens originais. Lembre-se de apresentar seu recibo para receber um reembolso total ou iniciar uma troca.\n\nAtenciosamente,\n[Your Company]",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Returns",
+        "Refund Request",
+        "Product Inquiry",
+        "Customer Support",
+        "Order Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Consulta sobre gu\u00eda operativa para impresora Canon PIXMA",
+    "body": "Hola equipo de soporte,\n\nRecientemente adquir\u00ed una impresora Canon PIXMA y estoy encontrando algunos desaf\u00edos en su configuraci\u00f3n y uso de sus funciones. \u00bfPodr\u00edan proporcionarme pautas detalladas de uso o indicarme recursos, como manuales de usuario o videos instructivos? Mi informaci\u00f3n de cuenta es la siguiente:\n\nN\u00famero de cuenta: <account_number>\n\nEs crucial que resuelva este problema r\u00e1pidamente ya que est\u00e1 afectando mi trabajo. Agradecer\u00eda mucho su apoyo y atenci\u00f3n inmediata respecto a este asunto. No duden en comunicarse conmigo al <phone_number> para cualquier consulta adicional.\n\nAtentamente,\n<name>",
+    "answer": "Hola <name>,\n\nAgradecemos tu mensaje. Para acceder a gu\u00edas de configuraci\u00f3n y operaci\u00f3n detalladas para tu impresora Canon PIXMA, por favor visita el sitio oficial de soporte de Canon en [support.usa.canon.com](https://support.usa.canon.com). All\u00ed encontrar\u00e1s una gran cantidad de recursos, incluidos archivos PDF y tutoriales en video.\n\nSi necesitas ayuda adicional, no dudes en ponerte en contacto con nosotros al <phone_number>. Te agradecemos por tu paciencia y esperamos poder asistirte prontamente.\n\nAtentamente,\n[Su nombre del equipo de soporte]",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Printer Issue",
+        "User Assistance",
+        "User Inquiry",
+        "Support Request",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Inquiry About Using Microsoft Office 365 Effectively",
+    "body": "Hello Support Team,\n\nI am in urgent need of clear instructions regarding the efficient utilization of Microsoft Office 365. Although many features are intuitive, some aspects remain unclear and are hindering my productivity. Could you please share detailed documentation or direct me to relevant tutorials? Your prompt help would be greatly appreciated.\n\nSincerely,\n<name>",
+    "answer": "Hello [Name],\n\nThank you for your inquiry. For in-depth information on how to make the most of Microsoft Office 365, please check the official Microsoft support website at https://support.microsoft.com/office. There you will find extensive documentation and tutorials covering a range of features. Should you have any specific inquiries, feel free to reach out to us.\n\nBest regards,\n[Your Name]\nSupport Team",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "General Inquiry",
+        "Technical Assistance",
+        "User Assistance",
+        "Support Notification",
+        "User Feedback"
+      ]
+    }
+  },
+  {
+    "subject": "Fragen zur Dell XPS 13 Garantie",
+    "body": "Hallo Kundenservice, ich habe k\u00fcrzlich einen Dell XPS 13 erworben und m\u00f6chte mehr \u00fcber den Garantieumfang dieses Produkts erfahren. K\u00f6nnen Sie mir die Einzelheiten sowie alle relevanten Dokumente zukommen lassen? Danke. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Hallo <name>,\n\nwir danken Ihnen f\u00fcr Ihre Anfrage. Der Dell XPS 13 beinhaltet eine standardm\u00e4\u00dfige, 1-j\u00e4hrige eingeschr\u00e4nkte Hardwaregarantie. F\u00fcr weitere Informationen und notwendige Dokumente besuchen Sie bitte die offizielle Garantiesupport-Seite auf der Dell-Website.\n\nMit besten W\u00fcnschen,\nKundenservice",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Warranty Claim",
+        "Product Inquiry",
+        "Customer Inquiry",
+        "Customer Support",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Immediate Attention Needed: Request for Comprehensive Billing Overview \u2013 Adobe Creative Cloud Subscription",
+    "body": "Greetings, I would appreciate it if you could provide me with a comprehensive billing overview for my Adobe Creative Cloud Subscription (account <account_number>). I kindly ask that this request be expedited. Thank you!",
+    "answer": "Dear Valued Customer,\n\nThank you for your inquiry. We are currently working on your request for a comprehensive billing overview of your Adobe Creative Cloud subscription. You will receive a reply soon.\n\nSincerely,\n[Your Company]",
+    "type": "Request",
+    "queue": "Service Outages and Maintenance",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Billing Inquiry",
+        "Billing Overview",
+        "Customer Request",
+        "Urgent Issue",
+        "Account Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Questions concernant les mises \u00e0 jour du logiciel interne",
+    "body": "Bonjour Support, je vous \u00e9cris pour poser des questions sur les mises \u00e0 jour logicielles actuelles de notre application CRM interne sur mesure. Pourriez-vous partager les d\u00e9tails concernant les mises \u00e0 jour les plus r\u00e9centes et les \u00e9ventuels co\u00fbts associ\u00e9s ? Merci. Cordialement, <name>",
+    "answer": "Bonjour <name>,\n\nNous vous remercions pour votre message. Les mises \u00e0 jour les plus r\u00e9centes pour votre application CRM sur mesure comprennent des mesures de s\u00e9curit\u00e9 renforc\u00e9es et une interface utilisateur am\u00e9lior\u00e9e. Il n'y a aucun frais suppl\u00e9mentaire pour cette mise \u00e0 jour.\n\nCordialement,\n\u00c9quipe de support",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Software Update",
+        "Technical Inquiry",
+        "Customer Inquiry",
+        "Support Request",
+        "Customer Feedback"
+      ]
+    }
+  },
+  {
+    "subject": "Dringend: Salesforce CRM kann nach dem Login nicht geladen werden",
+    "body": "Hallo Technischer Support,\n\nIch habe ein unerwartetes Problem mit der Salesforce CRM-Anwendung. Sie st\u00fcrzt ab, wenn ich versuche, mich anzumelden, was meinen Zugang verhindert. Dies erfordert Ihre dringende Aufmerksamkeit. Ich w\u00fcrde Ihre Hilfe bei diesem Problem sehr sch\u00e4tzen.\n\nVielen Dank,\n<name>",
+    "answer": "Hallo <name>,\n\nWir entschuldigen uns aufrichtig f\u00fcr die Probleme, die Sie haben. Bitte versuchen Sie, sowohl Ihren Cache als auch Ihre Cookies zu l\u00f6schen, und \u00fcberpr\u00fcfen Sie, ob Ihr Browser auf die neueste Version aktualisiert ist. Wenn das Problem weiterhin besteht, geben Sie uns bitte Details zu Ihrem Betriebssystem und der Browser-Version, damit wir Ihnen weiterhelfen k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nTechnischer Support",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Login Issue",
+        "Urgent Issue",
+        "Technical Support",
+        "Assistance Request"
+      ]
+    }
+  },
+  {
+    "subject": "Solicitud de Cancelaci\u00f3n de Pedido Debido a Problema de Producto - Samsung Galaxy S23 Ultra",
+    "body": "Hola Equipo de Soporte,\n\nRecientemente adquir\u00ed un Samsung Galaxy S23 Ultra, pero, desafortunadamente, tiene un defecto. Me gustar\u00eda solicitar la cancelaci\u00f3n de este pedido as\u00ed como un reembolso completo. Agradecer\u00eda si pudieran manejar este asunto con urgencia, ya que requiere atenci\u00f3n inmediata.\n\nSaludos cordiales,\n<nombre>",
+    "answer": "Estimado/a [Cliente],\n\nLamentamos escuchar sobre el problema con su Samsung Galaxy S23 Ultra. Hemos procesado su solicitud de cancelaci\u00f3n e iniciado su reembolso completo. Recibir\u00e1 una confirmaci\u00f3n pronto.\n\nAtentamente,\n[Equipo de Soporte]",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Order Cancellation",
+        "Order Issue",
+        "Product Defect",
+        "Refund Processing",
+        "Urgent Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Problem with HP LaserJet Pro Wi-Fi Connectivity",
+    "body": "Hello support team,\n\nI am encountering difficulties with my HP LaserJet Pro printer as it is unable to connect to the Wi-Fi network. Could you please assist me in troubleshooting this issue?\n\nThank you,\n<name>",
+    "answer": "Hello <name>,\n\nKindly restart your printer, router, and computer. Make sure the printer's Wi-Fi function is active and it is within the range of the router. Navigate to the printer's control panel and initiate the Wireless Setup Wizard. If the issue persists, please reach out again for further assistance.\n\nBest regards,\nSupport Team",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": 1,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Connectivity Issue",
+        "Printer Issue",
+        "Technical Assistance",
+        "Troubleshooting Guide",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Photoshop 2024 fails to launch",
+    "body": "Each time I attempt to open Adobe Photoshop 2024, it crashes. I need prompt help with this issue.",
+    "answer": "We suggest that you try reinstalling Photoshop 2024 and ensure your graphics driver is up to date. Please reach out to support if the problem continues.",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Technical Assistance",
+        "Troubleshooting Guide",
+        "Software Bug"
+      ]
+    }
+  },
+  {
+    "subject": "Immediate Assistance Required: QuickBooks Application Error Resulting in Data Loss",
+    "body": "An unforeseen error occurred within the QuickBooks application, resulting in the loss of data. Prompt assistance is required.",
+    "answer": "We acknowledge the critical nature of this issue. Our team is addressing it and will reach out to you soon to provide a solution.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 1,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Alert",
+        "Assistance Escalation",
+        "Incident Follow-Up",
+        "Urgent Issue",
+        "User Assistance",
+        "Support Request",
+        "Data Breach",
+        "Service Incident"
+      ]
+    }
+  },
+  {
+    "subject": "Discrepancies in Recent Adobe Creative Cloud Invoice Charges",
+    "body": "Hi Support Team,\n\nI have observed some erroneous charges on my most recent invoice for Adobe Creative Cloud associated with account number <account_number>. Could you kindly look into this matter and make the necessary corrections? Let me know if you require any more details.\n\nThanks,\n<name>",
+    "answer": "Hello <name>,\n\nWe appreciate your message. We will assess the discrepancies in the charges on your Adobe Creative Cloud invoice for account number <account_number>. Please give us a little time to conduct our investigation. Should we need any additional information, we will reach out to you.\n\nBest regards,\nSupport Team",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": 1,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Billing Issue",
+        "Invoice Query",
+        "Account Assistance",
+        "Customer Inquiry",
+        "Customer Resolution"
+      ]
+    }
+  },
+  {
+    "subject": "Flimmerproblem am Monitor beim Starten",
+    "body": "Ich erlebe Flimmern mit meinem Samsung Odyssey G9-Monitor, wenn ich ihn einschalte. Diese Situation erfordert sofortige Aufmerksamkeit. Bitte helfen Sie mir.",
+    "answer": "Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten. Bitte \u00fcberpr\u00fcfen Sie, ob alle Kabel fest verbunden sind, und stellen Sie sicher, dass Ihre Anzeige Treiber auf dem neuesten Stand sind.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 3,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Monitor Issue",
+        "Technical Assistance",
+        "Urgent Issue",
+        "Service Request",
+        "Technical Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Zoom Video Conferencing Fails to Launch",
+    "body": "<name> from the <department> department has reported that our Zoom Video Conferencing application crashes at startup. Urgent assistance required!",
+    "answer": "Hello <name>,\n\nWe recognize that this issue exists. Kindly reinstall Zoom and verify that you have all relevant software updates. Should the issue continue, please reach out to IT support.\n\nBest regards, [Your Name]",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Assistance",
+        "Urgent Issue",
+        "Support Request",
+        "Service Incident"
+      ]
+    }
+  },
+  {
+    "subject": "Probl\u00e8me d'installation \u2013 Adobe Creative Cloud 2024",
+    "body": "Bonjour \u00c9quipe de Support Technique,\n\nJe fais face \u00e0 un d\u00e9fi lors de l'installation d'Adobe Creative Cloud 2024. Malgr\u00e9 plusieurs tentatives, l'installation \u00e9choue \u00e0 chaque fois, accompagn\u00e9e de notifications d'erreur. Cette situation a perturb\u00e9 mon flux de travail, et j'ai besoin d'aide pour r\u00e9soudre ce probl\u00e8me rapidement. Pourriez-vous s'il vous pla\u00eet me guider sur la fa\u00e7on de r\u00e9soudre cela ? Merci.\n\nCordialement,\n<nom>",
+    "answer": "Bonjour <nom>,\n\nMerci pour votre message. Voici quelques \u00e9tapes que vous pouvez suivre pour r\u00e9soudre le probl\u00e8me :\n1. Confirmez que votre syst\u00e8me remplit les sp\u00e9cifications n\u00e9cessaires pour Adobe Creative Cloud 2024.\n2. D\u00e9sactivez temporairement tout logiciel antivirus pendant que vous proc\u00e9dez \u00e0 l'installation.\n3. T\u00e9l\u00e9chargez le programme d'installation directement depuis le site officiel d'Adobe.\n4. Utilisez l'outil Adobe Creative Cloud Cleaner pour \u00e9liminer tous les fichiers restants des installations pr\u00e9c\u00e9dentes.\n\nSi le probl\u00e8me persiste, veuillez partager tout message d'erreur sp\u00e9cifique qui appara\u00eet.\n\nCordialement,\n[Votre Nom]\nSupport Technique",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Installation Guide",
+        "Application Error",
+        "Technical Assistance",
+        "Troubleshooting Guide",
+        "Software Installation"
+      ]
+    }
+  },
+  {
+    "subject": "Dell XPS 13 No Funciona al Llegar",
+    "body": "Hola equipo de soporte,\n\nRecientemente adquir\u00ed un Dell XPS 13, pero no est\u00e1 funcionando correctamente. Cuando intento encenderlo, no hay indicadores como luces o sonidos que signifiquen que se est\u00e1 iniciando. Ya he intentado cargarlo y utilizar fuentes de alimentaci\u00f3n alternas, pero no ha tenido \u00e9xito. Urgentemente necesito ayuda para abordar este problema. Mi n\u00famero de pedido es <order_number>.\n\nAtentamente,\n<name>\n<email>",
+    "answer": "Hola <name>,\n\nLamento saber sobre las dificultades que est\u00e1s experimentando. Por favor intenta las siguientes acciones de soluci\u00f3n de problemas:\n1. Verifica que el cargador est\u00e9 firmemente enchufado.\n2. Mant\u00e9n presionado el bot\u00f3n de encendido durante 15 segundos.\n3. Si es posible, prueba con un adaptador de corriente diferente.\n\nSi el problema persiste, por favor comparte tu n\u00famero de pedido para que podamos facilitar un reemplazo u ofrecer m\u00e1s asistencia.\n\nSaludos cordiales,\n[Tu Nombre]\nEquipo de Soporte",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Customer Complaint",
+        "Technical Assistance",
+        "Technical Problem",
+        "Urgent Issue",
+        "Laptop Issue",
+        "Support Request",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Probl\u00e8mes avec Adobe Photoshop lors de l'ouverture de fichiers .PSD",
+    "body": "Bonjour \u00e9quipe de support d'Adobe Photoshop,\n\nJ'ai des probl\u00e8mes avec Adobe Photoshop qui se produisent uniquement lorsque j'essaie d'ouvrir des fichiers au format .PSD. Chaque fois que j'essaie d'acc\u00e9der \u00e0 un document .PSD, l'application s'arr\u00eate imm\u00e9diatement sans aucune notification d'erreur. Ce probl\u00e8me a commenc\u00e9 brusquement et perturbe consid\u00e9rablement mon flux de travail, car je d\u00e9pends de Photoshop pour mes obligations professionnelles.\n\nJ'appr\u00e9cierais grandement votre assistance rapide concernant cette affaire urgente. Mon num\u00e9ro de compte est <account_number>, et vous pouvez me contacter au <phone_number>.\n\nSinc\u00e8rement,\n<name>",
+    "answer": "Bonjour <name>,\n\nNous vous remercions de contacter le support d'Adobe Photoshop. Nous sommes d\u00e9sol\u00e9s d'apprendre les d\u00e9fis que vous rencontrez avec les fichiers .PSD. Pour r\u00e9soudre la situation, nous vous recommandons les actions suivantes :\n1. Assurez-vous que Photoshop est \u00e0 jour avec la derni\u00e8re version.\n2. Pour r\u00e9initialiser les pr\u00e9f\u00e9rences de Photoshop, appuyez et maintenez Ctrl+Alt+Shift (Windows) ou Cmd+Option+Shift (Mac) tout en ouvrant Photoshop.\n3. V\u00e9rifiez que vos pilotes graphiques sont \u00e0 jour.\n\nSi le probl\u00e8me persiste, n'h\u00e9sitez pas \u00e0 nous appeler au <phone_number>, et nous serons heureux de vous aider davantage.\n\nCordiales salutations,\nL'\u00e9quipe de support d'Adobe Photoshop",
     "type": "Incident",
     "queue": "Technical Support",
     "priority": 3,
     "language": "French",
     "tags": {
       "tags": [
-        "Hardware Failure",
-        "Immediate Attention",
-        "Tech Support Request",
-        "Technical Issue",
-        "Technical Resolution",
-        "Technical Response",
+        "Application Error",
+        "Software Bug",
+        "Technical Assistance",
+        "User Issue",
         "Urgent Issue",
-        "Troubleshooting Guide",
-        "Service Request",
+        "Product Support",
         "Support Request",
-        "Support Resolution",
-        "Client Issue",
-        "Assistance Request",
-        "Customer Help",
-        "Client Notification"
+        "Technical Issue",
+        "Troubleshooting Guide",
+        "Client Assistance"
       ]
     }
   },
   {
-    "subject": "Intellij IDEA startet nicht nach dem neuesten Update",
-    "body": "Liebes Team,\n\nIch habe ein Problem mit JetBrains IntelliJ IDEA. Nach dem Update auf die neueste Version st\u00fcrzt die Anwendung sofort ab und startet nicht mehr. Ich habe verschiedene L\u00f6sungen versucht, einschlie\u00dflich Neuinstallation, Cache-Leerung und Neustart, aber das Problem besteht weiterhin. Dies beeintr\u00e4chtigt meine Arbeit erheblich und erfordert dringende Aufmerksamkeit.\n\nDanke,\n<name>\nKontonummer: <account_number>\nTelefonnummer: <phone_number>",
-    "answer": "Hallo <name>,\n\nDanke, dass Sie uns das Problem gemeldet haben.\n\nEs tut uns leid zu h\u00f6ren, dass IntelliJ IDEA nach dem neuesten Update abst\u00fcrzt. Bitte versuchen Sie die folgenden Schritte, um das Problem zu beheben:\n1. Starten Sie IntelliJ IDEA im abgesicherten Modus, indem Sie w\u00e4hrend des Starts die Umschalttaste gedr\u00fcckt halten.\n2. Stellen Sie sicher, dass Ihre Grafiktreiber auf dem neuesten Stand sind, da veraltete Treiber Probleme verursachen k\u00f6nnen.\n3. \u00dcberpr\u00fcfen Sie, ob Ihr System eine unterst\u00fctzte und aktuelle Version von Java ausf\u00fchrt.\n\nSollte das Problem weiterhin bestehen, geben Sie uns bitte die folgenden Details zur weiteren Untersuchung:\n\n - Alle Fehlermeldungen oder Protokolle, die w\u00e4hrend des Absturzes angezeigt werden.\n - Informationen \u00fcber Ihr Betriebssystem und dessen Version.\n\nSie k\u00f6nnen die Protokolldateien an den folgenden Pfaden finden:\n\n - Windows: `C:\\Users\\<username>\\.IntelliJIdea<version>\\system\\log`\n - macOS: `~/Library/Logs/IntelliJIdea<version>`\n - Linux: `~/.IntelliJIdea<version>/system/log`\n\nDanke f\u00fcr Ihre Geduld, w\u00e4hrend wir daran arbeiten, dieses Problem zu l\u00f6sen und Sie wieder an Ihre Aufgaben zur\u00fcckkehren k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\nTechnischer Support\nJetBrains",
+    "subject": "Adobe Creative Cloud 2024 falha ao iniciar ap\u00f3s a \u00faltima atualiza\u00e7\u00e3o",
+    "body": "Ol\u00e1, estou tendo problemas com o Adobe Creative Cloud 2024 travando na inicializa\u00e7\u00e3o ap\u00f3s a atualiza\u00e7\u00e3o recente. Preciso de ajuda urgente para resolver esse problema, pois n\u00e3o consigo acessar nenhum aplicativo.",
+    "answer": "Ol\u00e1,\n\nPe\u00e7o desculpas pelo inconveniente. Por favor, tente reinstalar a vers\u00e3o mais recente ou verifique se seus drivers gr\u00e1ficos est\u00e3o atualizados. Se o problema continuar, entre em contato com o suporte da Adobe para obter ajuda adicional.\n\nAtenciosamente,\n[Seu Nome]",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Issue",
+        "Urgent Issue",
+        "Customer Support",
+        "Assistance Request"
+      ]
+    }
+  },
+  {
+    "subject": "L'application Microsoft Office 365 \u00e9choue lors de la connexion de l'utilisateur",
+    "body": "Je rencontre un probl\u00e8me o\u00f9 l'application Microsoft Office 365 se ferme de mani\u00e8re inattendue chaque fois que j'essaie de me connecter. Cela affecte ma productivit\u00e9. Pourriez-vous enqu\u00eater sur ce probl\u00e8me et proposer une solution d\u00e8s que possible ? Merci.",
+    "answer": "Cher client, \n\nNous nous excusons pour le d\u00e9sagr\u00e9ment que vous rencontrez. Nous vous recommandons de v\u00e9rifier les mises \u00e0 jour de Office 365 ainsi que de votre syst\u00e8me d'exploitation. Si le probl\u00e8me persiste, veuillez proc\u00e9der \u00e0 la r\u00e9installation de Office 365. Si vous avez besoin d'aide suppl\u00e9mentaire, n'h\u00e9sitez pas \u00e0 contacter notre \u00e9quipe d'assistance.\n\nMeilleures salutations, \n[Nom de votre entreprise]",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Query",
+        "User Issue",
+        "Technical Support",
+        "Troubleshooting Guide"
+      ]
+    }
+  },
+  {
+    "subject": "Atenci\u00f3n Inmediata Requerida: Adobe Photoshop CC 2024 No Se Inicia",
+    "body": "Siempre que intento iniciar Adobe Photoshop CC 2024, se cierra de inmediato. Requiero asistencia inmediata para resolver este problema ya que afecta mi trabajo. Gracias por su apoyo.",
+    "answer": "Hola, recomendamos desinstalar y luego reinstalar Adobe Photoshop CC 2024, y tambi\u00e9n verificar si hay actualizaciones disponibles para sus controladores gr\u00e1ficos. Si el problema persiste, comun\u00edquese con el soporte de Adobe para obtener m\u00e1s ayuda. Gracias.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Urgent Issue",
+        "Technical Support",
+        "Software Bug"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Photoshop 2024 is freezing while executing vital tasks",
+    "body": "Hi, I am encountering consistent freezes in Adobe Photoshop 2024 during significant operations. This problem requires immediate attention. Thank you, <name>",
+    "answer": "Hi <name>, we are sorry for the trouble you are facing. Kindly update Photoshop to its latest version and check if your system specifications are adequate. If the problem continues, please reach out to support.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Issue",
+        "Urgent Issue",
+        "Support Request",
+        "Troubleshooting Guide"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Photoshop 2024 ne s'ouvre pas",
+    "body": "Chaque fois que j'essaie de d\u00e9marrer Adobe Photoshop 2024, il plante tout de suite. Pourriez-vous m'aider \u00e0 r\u00e9soudre ce probl\u00e8me ? Merci, <name>.",
+    "answer": "Bonjour <name>, je vous recommande de mettre \u00e0 jour les pilotes de votre carte graphique et d'envisager de r\u00e9installer Photoshop. Si le probl\u00e8me persiste, veuillez contacter le support Adobe. Meilleures salutations.",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Software Bug",
+        "Technical Issue",
+        "Technical Assistance",
+        "Troubleshooting Guide"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Creative Cloud is crashing during peak usage",
+    "body": "Hello Support Team,\n\nWe are experiencing frequent crashes with our Adobe Creative Cloud application whenever it is under substantial load. This situation is greatly disrupting our workflow. We would appreciate your prompt assistance to rectify this matter as soon as possible.\n\nBest regards,\n<name>",
+    "answer": "Hello <name>,\n\nWe apologize for the trouble you've encountered. Please verify that your software is current and try clearing your cache. Should the problem continue, kindly share your system details and any error notifications you come across. Our team will make this an urgent issue to address.\n\nBest regards,\nSupport Team",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Service Incident",
+        "Urgent Issue",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Microsoft Office 365: La aplicaci\u00f3n no guarda documentos y se cierra",
+    "body": "Estimado equipo de soporte,\n\nEstoy teniendo un problema con Microsoft Office 365 donde el programa se cierra inesperadamente cada vez que intento guardar un documento. \u00bfPodr\u00edan ofrecerme asistencia sobre c\u00f3mo solucionar este problema?\n\nGracias,\n<nombre>",
+    "answer": "Hola <nombre>,\n\nLamentamos los inconvenientes. Le recomiendo intentar reparar Office yendo a Panel de Control > Programas > Microsoft Office > Cambiar > Reparaci\u00f3n r\u00e1pida. Si el problema persiste, aseg\u00farese de que Office est\u00e9 actualizado, desactive cualquier complemento y reinicie su computadora.\n\nCordialmente,\nEquipo de soporte",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 1,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Assistance",
+        "Software Bug",
+        "User Issue",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Anwendung st\u00fcrzt ab, wenn versucht wird, Projektdateien zu \u00f6ffnen",
+    "body": "Hallo JetBrains Support Team, ich hoffe, es geht Ihnen gut. Ich kontaktiere Sie, um ein dringendes Anliegen hinsichtlich JetBrains IntelliJ IDEA auszudr\u00fccken. Jedes Mal, wenn ich versuche, irgendwelche Projektdateien zu \u00f6ffnen, st\u00fcrzt die Anwendung ab und ist nicht mehr funktionsf\u00e4hig. Trotz eines Neustarts der Anwendung und meines Computers bleibt dieses Problem bestehen. Ich arbeite derzeit mit der Version 2022.2.1 auf einem Windows 10-Betriebssystem. Diese Situation st\u00f6rt meines Arbeitsablauf erheblich und verursacht R\u00fcckschl\u00e4ge in der Entwicklung meines Projekts. Ich habe bereits mehrere Probleml\u00f6sungsans\u00e4tze ausprobiert, darunter das L\u00f6schen der Cache-Dateien, das Zur\u00fccksetzen der Einstellungen auf die Standardwerte und die \u00dcberpr\u00fcfung, dass alle Plugins aktualisiert sind, aber das Problem bleibt ungel\u00f6st. Angesichts der Ernsthaftigkeit dieses Problems und seiner Auswirkungen auf meine Arbeit bitte ich um Ihre sofortige Unterst\u00fctzung, um dieses Problem zu beheben. Wenn Sie weitere Einzelheiten ben\u00f6tigen, z\u00f6gern Sie bitte nicht zu fragen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihr Verst\u00e4ndnis. Mit freundlichen Gr\u00fc\u00dfen, <Name> <Telefonnummer> <Kontonummer>",
+    "answer": "Hallo <Name>,\n\nVielen Dank, dass Sie uns auf dieses Problem aufmerksam gemacht haben. Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten, die Sie mit IntelliJ IDEA erleben. Bitte befolgen Sie diese empfohlenen Schritte:\n1. Stellen Sie sicher, dass IntelliJ IDEA auf die aktuellste Version aktualisiert wird.\n2. Bearbeiten Sie die Datei `idea64.exe.vmoptions`, um die Speicherheapgr\u00f6\u00dfe zu erh\u00f6hen.\n3. Deaktivieren Sie alle Drittanbieter-Plugins, um zu \u00fcberpr\u00fcfen, ob das Problem weiterhin besteht.\n4. Achten Sie auf ausstehende Windows-Updates, die Sie m\u00f6glicherweise installieren m\u00fcssen.\n\nSollten diese Ma\u00dfnahmen nicht helfen, senden Sie uns bitte Ihre Protokolldateien (zu finden im Ordner `logs` innerhalb Ihres IntelliJ IDEA-Konfigurationsverzeichnisses), damit wir diese weiter analysieren k\u00f6nnen.\n\nWir sch\u00e4tzen Ihr Verst\u00e4ndnis und setzen uns daf\u00fcr ein, bald eine L\u00f6sung zu finden.\n\nMit freundlichen Gr\u00fc\u00dfen,\nJetBrains Support Team",
     "type": "Incident",
     "queue": "Product Support",
     "priority": 2,
@@ -202,74 +1483,416 @@
     "tags": {
       "tags": [
         "Application Error",
-        "Bug Fix",
-        "Crash Report",
-        "Critical Failure",
-        "Critical Incident",
-        "Immediate Attention",
-        "Incident Escalation",
-        "Incident Report",
-        "Issue Resolution",
-        "Problem Report",
-        "Service Disruption",
-        "Software Bug",
-        "Support Response",
+        "Assistance Request",
         "Technical Issue",
-        "Urgent Issue"
+        "Troubleshooting Guide",
+        "User Complaint",
+        "User Issue",
+        "Support Resolution",
+        "Bug Fix",
+        "Performance Issue",
+        "Software Bug"
       ]
     }
   },
   {
-    "subject": "Solicitud de reemplazo para Lenovo ThinkPad X1 Carbon",
-    "body": "Hola equipo de soporte, Recientemente compr\u00e9 un Lenovo ThinkPad X1 Carbon (n\u00famero de pedido: <order_number>), y parece estar fallando. El port\u00e1til se apaga repentinamente y muestra una bater\u00eda de baja duraci\u00f3n. He intentado m\u00faltiples m\u00e9todos de soluci\u00f3n de problemas, pero ninguno ha funcionado. \u00bfPodr\u00edan ayudarme a organizar un reemplazo? Gracias por su asistencia. Atentamente, <nombre> <n\u00famero_de_tel\u00e9fono>",
-    "answer": "Estimado/a <nombre>,\n\nAgradecemos que se haya puesto en contacto con nosotros y nos haya compartido los detalles del problema. Lamentamos los problemas que ha tenido con su Lenovo ThinkPad X1 Carbon.\n\nEstamos listos para ayudarle a obtener un reemplazo. Para agilizar el proceso, \u00bfpodr\u00eda enviarnos la siguiente informaci\u00f3n:\n1. Una copia de su recibo de compra o la prueba de compra.\n2. Su direcci\u00f3n de env\u00edo actual.\n\nUna vez que tengamos estos datos, iniciaremos el proceso de reemplazo y le mantendremos informado sobre el progreso.\n\nGracias por su comprensi\u00f3n y cooperaci\u00f3n.\n\nSaludos cordiales,\n[Su equipo de soporte]",
+    "subject": "Probl\u00e8mes avec la vid\u00e9oconf\u00e9rence Zoom - L'application plante pendant le d\u00e9pannage",
+    "body": "Notre application rencontre des pannes pendant que nous essayons de r\u00e9soudre des probl\u00e8mes avec Zoom. Nous avons un besoin urgent d'aide pour r\u00e9soudre ce probl\u00e8me. Votre aide serait grandement appr\u00e9ci\u00e9e.",
+    "answer": "Bonjour,  \n\nNous sommes d\u00e9sol\u00e9s d'apprendre les difficult\u00e9s que vous rencontrez. Pour s'assurer que nous pouvons vous aider efficacement, pouvez-vous partager plus de d\u00e9tails (comme votre syst\u00e8me d'exploitation et les messages d'erreur sp\u00e9cifiques) ?  \n\nCordialement, [Votre entreprise]",
     "type": "Incident",
-    "queue": "Product Support",
+    "queue": "IT Support",
     "priority": 1,
-    "language": "Spanish",
+    "language": "French",
     "tags": {
       "tags": [
-        "Product Issue",
-        "Product Support",
-        "Replacement Request",
-        "Order Issue",
-        "Support Request",
-        "Customer Assistance",
-        "Customer Complaint",
-        "Customer Inquiry",
-        "Customer Resolution",
-        "Technical Issue",
-        "Technical Request",
-        "Assistance Coordination",
-        "Service Request",
-        "Service Response",
-        "Service Notification"
+        "Application Error",
+        "Assistance Request",
+        "Technical Support",
+        "Urgent Issue",
+        "Troubleshooting Guide"
       ]
     }
   },
   {
-    "subject": "Dringend: Problem mit der Autovervollst\u00e4ndigungsfunktion in Visual Studio Code",
-    "body": "Hallo Support-Team, ich habe Probleme mit einer wesentlichen Funktion in Visual Studio Code. Die Autovervollst\u00e4ndigung funktioniert nicht mehr, was meine Arbeitseffizienz erheblich beeintr\u00e4chtigt. Diese Funktion ist f\u00fcr meine Programmieraktivit\u00e4ten von entscheidender Bedeutung, und ich ben\u00f6tige umgehend eine L\u00f6sung. Meine Kontonummer lautet <account_number>. Ich w\u00e4re dankbar, wenn Sie sich dieser Angelegenheit dringend annehmen und eine schnelle L\u00f6sung bereitstellen k\u00f6nnten. Vielen Dank, <name> Kontakt: <phone_number>",
-    "answer": "Hallo <name>, Vielen Dank, dass Sie uns wegen des Autovervollst\u00e4ndigungsproblems in Visual Studio Code kontaktiert haben. Um dieses Problem schnell zu l\u00f6sen, gehen Sie bitte wie folgt vor: 1. Stellen Sie sicher, dass Sie die neueste Version von Visual Studio Code installiert haben. 2. Aktualisieren Sie alle Ihre Erweiterungen. 3. Starten Sie Visual Studio Code und Ihren Computer neu. 4. Leeren Sie den Cache und setzen Sie die Einstellungen im Editor zur\u00fcck. Wenn das Problem weiterhin besteht, geben Sie bitte zus\u00e4tzliche Details wie Fehlermeldungen oder k\u00fcrzliche \u00c4nderungen in Ihrem Setup an. Wir verstehen die Bedeutung dieser Funktion f\u00fcr Ihre Arbeit und werden uns um die L\u00f6sung k\u00fcmmern. F\u00fcr sofortige Hilfe k\u00f6nnen Sie sich an unser Support-Team unter <support_number> wenden. Mit freundlichen Gr\u00fc\u00dfen, Support-Team",
-    "type": "Incident",
+    "subject": "Inquiry for invoice details regarding Microsoft Office 365",
+    "body": "Greetings Support Team,\n\nI would like to request a detailed itemization of my recent invoice pertaining to Microsoft Office 365. It would be greatly appreciated if you could include a list of all charges along with any relevant discounts or taxes. My account number is <account_number>. Thank you in advance for your prompt attention to this matter.\n\nSincerely,\n<name>",
+    "answer": "Hello <name>,\n\nWe appreciate your message. We have received your inquiry for a detailed breakdown related to your latest Microsoft Office 365 invoice. You will receive an email shortly with the itemized charges, along with any applicable discounts and taxes.\n\nWarm regards,\nSupport Team",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Billing Inquiry",
+        "Invoice Query",
+        "Microsoft Office 365",
+        "Assistance Request",
+        "Customer Inquiry"
+      ]
+    }
+  },
+  {
+    "subject": "Inquiry Regarding Employee Benefits",
+    "body": "Hello Support Team,\n\nI seek additional information regarding the Employee Benefits Overview product. Could you please explain how I can obtain detailed summaries of the benefits? Your help would be immensely valued.\n\nSincerely,\n<name>",
+    "answer": "Hello <name>,\n\nTo view detailed summaries of the benefits, please visit our Employee Portal. After logging in, go to the \"Benefits\" section to find the overview you need. Should you require any more assistance, feel free to reach out to us.\n\nSincerely,\nSupport Team",
+    "type": "Request",
     "queue": "Product Support",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Employee Benefits",
+        "HR Inquiry",
+        "General Inquiry",
+        "Customer Assistance",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Frage zur monatlichen Geb\u00fchr f\u00fcr Adobe Creative Cloud",
+    "body": "Hallo, \n\nich habe eine Anfrage zur monatlichen Geb\u00fchr, die mit meinem Adobe Creative Cloud-Abonnement verbunden ist. Mir ist k\u00fcrzlich eine Unstimmigkeit in den auf meinem Kontoauszug aufgef\u00fchrten Geb\u00fchren aufgefallen. K\u00f6nnten Sie mir bitte den aktuellen Rechnungsbetrag erl\u00e4utern und mich informieren, ob es \u00c4nderungen der Abonnementbedingungen gegeben hat? Ich w\u00fcrde Ihre Hilfe in dieser Angelegenheit sehr sch\u00e4tzen.\n\nVielen Dank,\n<name>\nKunden-ID: <account_number>\nKontakttelefonnummer: <phone_number>",
+    "answer": "Hallo <name>,\n\nwir sch\u00e4tzen Ihre Nachricht. Die monatliche Geb\u00fchr f\u00fcr Adobe Creative Cloud h\u00e4ngt von dem spezifischen Plan ab, f\u00fcr den Sie sich angemeldet haben, und es ist m\u00f6glich, dass es Aktualisierungen oder Sonderangebote gab, die die Preisgestaltung beeinflussen k\u00f6nnten. Um Ihre aktuelle Geb\u00fchr und etwaige \u00c4nderungen besser zu verstehen, empfehle ich, Ihr Konto im offiziellen Abrechnungsportal von Adobe zu \u00fcberpr\u00fcfen oder sich direkt an das Support-Team zu wenden.\n\nWenn Sie weitere Fragen haben, z\u00f6gern Sie bitte nicht zu fragen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]\n[Ihre Kontaktdaten]",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Billing Inquiry",
+        "Billing Issue",
+        "Account Assistance",
+        "Customer Inquiry",
+        "Customer Feedback",
+        "Service Update",
+        "Assistance Request"
+      ]
+    }
+  },
+  {
+    "subject": "Suggestions d'am\u00e9liorations pour Microsoft Office 365",
+    "body": "Bonjour l'\u00e9quipe de support client, je souhaite sugg\u00e9rer quelques am\u00e9liorations pour Microsoft Office 365. L'introduction d'outils avanc\u00e9s de visualisation des donn\u00e9es dans Excel, ainsi que l'am\u00e9lioration de la v\u00e9rification grammaticale aliment\u00e9e par l'IA dans Word, seraient tr\u00e8s b\u00e9n\u00e9fiques. Merci de prendre en compte mes suggestions. Cordialement, <name>",
+    "answer": "Bonjour [Nom],\n\nMerci pour vos pr\u00e9cieuses id\u00e9es concernant Microsoft Office 365. Vos suggestions concernant l'inclusion de fonctionnalit\u00e9s am\u00e9lior\u00e9es de visualisation des donn\u00e9es dans Excel et l'am\u00e9lioration de la correction grammaticale par IA dans Word sont grandement appr\u00e9ci\u00e9es. Nous transmettrons vos retours \u00e0 notre \u00e9quipe de d\u00e9veloppement pour \u00e9valuation.\n\nCordialement,\nL'\u00e9quipe de support client",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 1,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Customer Feedback",
+        "Product Assistance",
+        "Feature Request",
+        "General Inquiry",
+        "Support Response"
+      ]
+    }
+  },
+  {
+    "subject": "Immediate Question: Warranty Details for Whirlpool Washer/Dryer Combo",
+    "body": "Hi, I would like to ask about the warranty options applicable to my Whirlpool Washer and Dryer Combo. Could you please share specifics regarding the coverage duration and conditions? Thanks, <name>.",
+    "answer": "Hello <name>,\n\nThe standard warranty for the Whirlpool Washer and Dryer Combo is usually 1 year for both parts and labor, with certain components insured for as long as 10 years. For comprehensive details, please refer to your manual.\n\nKind regards,\n[Your Name]",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Warranty Claim",
+        "Customer Inquiry",
+        "Product Inquiry",
+        "User Question",
+        "User Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "Demande d'informations sur les fonctionnalit\u00e9s suppl\u00e9mentaires pour Microsoft Office 365",
+    "body": "Seriez-vous en mesure de partager des informations concernant les fonctionnalit\u00e9s suppl\u00e9mentaires et les co\u00fbts associ\u00e9s pour Microsoft Office 365 ? Merci, <name>.",
+    "answer": "Bonjour <name>, pour des informations sur les fonctionnalit\u00e9s suppl\u00e9mentaires et les prix pour Office 365, veuillez visiter notre site web ou contacter notre \u00e9quipe de vente.",
+    "type": "Request",
+    "queue": "Sales and Pre-Sales",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Product Inquiry",
+        "Customer Inquiry",
+        "Sales Inquiry",
+        "Microsoft Office 365",
+        "Information Request"
+      ]
+    }
+  },
+  {
+    "subject": "Demande d'informations sur le produit \u2013 SmartDesk autonome",
+    "body": "Bonjour \u00e9quipe de support informatique,\n\nJe vous contacte pour obtenir des informations d\u00e9taill\u00e9es concernant le SmartDesk autonome. Nous envisageons la possibilit\u00e9 d'int\u00e9grer ces bureaux dans notre am\u00e9nagement de bureau et avons besoin de d\u00e9tails complets sur les dimensions, la capacit\u00e9 de charge, les sp\u00e9cifications \u00e9lectriques et toutes caract\u00e9ristiques uniques. Il serait \u00e9galement utile d'inclure tout manuel d'utilisation ou instructions d'installation disponibles. Ces donn\u00e9es sont essentielles pour nous permettre de prendre une d\u00e9cision \u00e9clair\u00e9e.\n\nMerci pour votre r\u00e9ponse rapide.\n\nCordialement,\n<nom>\n<num\u00e9ro_de_compte>\n<num\u00e9ro_de_t\u00e9l\u00e9phone>",
+    "answer": "Bonjour <nom>,\n\nMerci pour votre demande concernant le SmartDesk autonome. Voici les principales sp\u00e9cifications :\n\n- Dimensions : 53\" x 29\" (Standard) ou 70,5\" x 30\" (XL)\n- Capacit\u00e9 de charge : 300 lbs\n- Sp\u00e9cifications \u00e9lectriques : 110-240V, 50/60Hz\n- Caract\u00e9ristiques uniques : R\u00e9glage de la hauteur, options programmables et ports USB int\u00e9gr\u00e9s\n\nVous trouverez ci-joint le manuel d'utilisation et le guide d'installation. Si vous avez besoin de plus d'assistance, n'h\u00e9sitez pas \u00e0 nous contacter.\n\nCordialement,\n\u00c9quipe de support informatique",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": 2,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Product Inquiry",
+        "User Inquiry",
+        "Technical Assistance",
+        "User Feedback",
+        "Support Request",
+        "Product Assistance",
+        "Service Response",
+        "Information Request"
+      ]
+    }
+  },
+  {
+    "subject": "Anfrage zur Verf\u00fcgbarkeit des IKEA Kallax Produkts",
+    "body": "Hallo Kundenservice,\n\nich m\u00f6chte mich nach der Verf\u00fcgbarkeit der SUV Kallax Einheit erkundigen. K\u00f6nnten Sie Informationen zum Lagerstatus, den Farboptionen und den geplanten Nachlieferungen f\u00fcr Artikel, die m\u00f6glicherweise derzeit nicht auf Lager sind, bereitstellen? Dar\u00fcber hinaus w\u00e4re ich dankbar f\u00fcr Details zu den Abmessungen und zur Kompatibilit\u00e4t von Zubeh\u00f6r.\n\nVielen Dank,\n<name>",
+    "answer": "Hallo <name>,\n\nwir sch\u00e4tzen Ihre Anfrage. Das IKEA Kallax Produkt ist derzeit in mehreren Farbvarianten auf Lager. F\u00fcr aktuelle Lagerbestandsupdates und Informationen zu bevorstehenden Nachlieferungen besuchen Sie bitte unsere Webseite oder wenden Sie sich an das n\u00e4chstgelegene Gesch\u00e4ft. Informationen zu Abmessungen und zur Kompatibilit\u00e4t mit Zubeh\u00f6r finden Sie ebenfalls auf unserer Seite.\n\nMit freundlichen Gr\u00fc\u00dfen,\nIhr Kundenserviceteam",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Product Availability",
+        "Customer Inquiry",
+        "Customer Feedback",
+        "Service Response",
+        "Support Request"
+      ]
+    }
+  },
+  {
+    "subject": "Inquiry About Payment Records - Subscription Management Service",
+    "body": "Hello Customer Service Team,\n\nI hope you are doing well. I am reaching out to obtain a comprehensive payment record for my Subscription Management Service account. I would appreciate it if you could provide details of all transactions, encompassing bills, payments, and any pertinent fees, covering the last year. This data is essential for my financial tracking and budgeting.\n\nAccount Details:\n- Name: <name>\n- Account Number: <account_number>\n\nThank you for your help. I look forward to your swift reply.\n\nBest regards,\n<name>\n<phone_number>",
+    "answer": "Dear <name>,\n\nWe appreciate you getting in touch. Your request for a comprehensive payment history regarding your Subscription Management Service account has been received. Our team is currently gathering your transactions, including all relevant bills, payments, and any associated fees from the last 12 months. You can expect to receive this information within five business days.\n\nShould you require any additional support or have any questions, don't hesitate to reach out to us.\n\nBest regards,\nCustomer Service Team",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Payment Inquiry",
+        "Subscription Management",
+        "Account Inquiry",
+        "Billing Records",
+        "Customer Request"
+      ]
+    }
+  },
+  {
+    "subject": "Hilfe bei der Konfiguration von Microsoft Office 365 gesucht",
+    "body": "Liebes Support-Team,\n\nIch wende mich an Sie, um Ihre Hilfe bei der Einrichtung der Konfigurationen f\u00fcr Microsoft Office 365 zu erbitten. Ich hatte Schwierigkeiten, bestimmte Funktionen zu aktivieren, und w\u00fcrde Ihre Anleitung sch\u00e4tzen, wie ich weiter verfahren kann. Dies ist eine kritische Situation f\u00fcr uns, da es unsere t\u00e4glichen Arbeitsabl\u00e4ufe erheblich beeintr\u00e4chtigt. K\u00f6nnten Sie entweder ausf\u00fchrliche Anweisungen bereitstellen oder eine Fernsupport-Sitzung organisieren, um dieses Problem so schnell wie m\u00f6glich zu kl\u00e4ren?\n\nVielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<phone_number>",
+    "answer": "Hallo <name>,\n\nWir bedanken uns f\u00fcr Ihre Kontaktaufnahme bez\u00fcglich der Konfigurationsprobleme mit Ihrem Microsoft Office 365. Wir erkennen die Dringlichkeit, dieses Problem schnell zu l\u00f6sen. Um Ihnen effektiv helfen zu k\u00f6nnen, k\u00f6nnten Sie bitte kl\u00e4ren, welche spezifischen Funktionen Probleme bereiten? Dies wird uns erm\u00f6glichen, die genauen Anweisungen zu geben, die Sie ben\u00f6tigen. Alternativ sind wir auch bereit, eine Fernsupport-Sitzung einzurichten, wenn das Ihre Pr\u00e4ferenz ist.\n\nWir warten auf Ihr Feedback.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport-Team",
+    "type": "Request",
+    "queue": "Billing and Payments",
     "priority": 3,
     "language": "German",
     "tags": {
       "tags": [
+        "Configuration Change",
+        "Technical Assistance",
+        "Technical Support",
+        "User Assistance",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Article d\u00e9fectueux re\u00e7u - Casque anti-bruit Sony WH-1000XM4",
+    "body": "Cher \u00e9quipe de support client,\n\nJ'esp\u00e8re que vous allez bien. R\u00e9cemment, j'ai achet\u00e9 le casque anti-bruit Sony WH-1000XM4 dans votre magasin, mais je regrette de vous informer que l'article est d\u00e9fectueux. Les \u00e9couteurs ne s'allument pas malgr\u00e9 plusieurs essais de chargement et le suivi du guide de d\u00e9pannage fourni. Je vous serais reconnaissant de votre aide pour r\u00e9soudre ce probl\u00e8me. Pourriez-vous me donner des instructions sur la fa\u00e7on de proc\u00e9der \u00e0 un retour ou d'obtenir un remplacement ?\n\nMerci pour votre assistance rapide.\n\nCordialement,\n<nom>\n<email>\n<numero_de_telephone>",
+    "answer": "Cher <nom>,\n\nMerci de nous avoir contact\u00e9s. Nous nous excusons sinc\u00e8rement pour le d\u00e9sagr\u00e9ment caus\u00e9 par les casques Sony WH-1000XM4 d\u00e9fectueux. Veuillez retourner l'article en utilisant l'\u00e9tiquette d'exp\u00e9dition pr\u00e9pay\u00e9e incluse dans cet email. Une fois que nous aurons re\u00e7u le produit, nous proc\u00e8derons selon votre choix : un remplacement ou un remboursement.\n\nNous vous remercions de votre compr\u00e9hension et de votre patience.\n\nCordialement,\nL'\u00e9quipe de support client",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 1,
+    "language": "French",
+    "tags": {
+      "tags": [
+        "Product Issue",
+        "Product Defect",
+        "Return Request",
+        "Customer Assistance",
+        "Support Request"
+      ]
+    }
+  },
+  {
+    "subject": "Issues with Microsoft Office 365 Application Crashing",
+    "body": "Hello Customer Support,\n\nI am encountering a persistent problem with Microsoft Office 365. Each time I try to create a new Word document, the application crashes. This issue is greatly impacting my productivity. I would appreciate your assistance in resolving this matter as soon as possible.\n\nThank you,\n<name>",
+    "answer": "Hello <Name>,\n\nWe are sorry to hear about the trouble you're facing. Please start by updating Office 365 along with your operating system. If the problem continues, please utilize the Office Repair tool by navigating through Control Panel -> Programs -> Microsoft Office -> Change -> Quick Repair.\n\nFeel free to reach out if you require more assistance.\n\nRegards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 2,
+    "language": "English",
+    "tags": {
+      "tags": [
         "Application Error",
-        "Bug Fix",
-        "Configuration Error",
-        "General Inquiry",
-        "Immediate Attention",
-        "Issue Resolution",
-        "Problem Solving",
+        "Assistance Request",
+        "Support Issue",
+        "User Issue",
+        "Urgent Issue",
+        "Technical Support",
+        "Troubleshooting Guide",
+        "Client Assistance",
+        "Software Bug",
+        "Performance Issue",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Photoshop 2024 se cierra durante una operaci\u00f3n espec\u00edfica",
+    "body": "Hola equipo de soporte, me pongo en contacto debido a un problema recurrente donde Adobe Photoshop 2024 se apaga cada vez que intento utilizar la herramienta de Relleno seg\u00fan el Contenido. Este cierre inesperado est\u00e1 obstaculizando mi productividad. Agradecer\u00eda su pronta asistencia para resolver este asunto. Gracias. Mi n\u00famero de cuenta es <account_number>.",
+    "answer": "Estimado cliente valioso, \n\nGracias por ponerte en contacto con nosotros. Lamentamos escuchar las dificultades que est\u00e1s enfrentando con Adobe Photoshop 2024. Te recomendamos actualizar el software a la \u00faltima versi\u00f3n, reiniciar tus preferencias y verificar que tus controladores gr\u00e1ficos est\u00e9n actualizados. Si sigues teniendo problemas, por favor comp\u00e1rtenos m\u00e1s detalles. \n\nAtentamente, \nEquipo de soporte",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Technical Issue",
+        "User Assistance",
+        "Software Bug",
+        "Service Escalation",
+        "Follow-Up Request"
+      ]
+    }
+  },
+  {
+    "subject": "Problema de Pagamento Encontrado com Pedido Recentemente",
+    "body": "Ol\u00e1, Equipe de Suporte,<br><br>Recentemente, pedi um Starbucks Cold Brew, mas parece que houve uma complica\u00e7\u00e3o com o processamento do pagamento, apesar de o checkout parecer estar funcionando bem. Minha conta n\u00e3o mostra nenhum rastro dessa transa\u00e7\u00e3o e ainda n\u00e3o recebi um e-mail de confirma\u00e7\u00e3o. Agradeceria muito sua r\u00e1pida ajuda para resolver essa quest\u00e3o, pois este pedido \u00e9 de consider\u00e1vel import\u00e2ncia para mim.<br><br>Meu n\u00famero de conta para sua refer\u00eancia \u00e9 <account_number>.<br><br>Obrigado sinceramente por tratar desse problema prontamente.<br><br>Atenciosamente,<br><name>",
+    "answer": "Caro [Nome do Cliente],<br><br>Agradecemos por entrar em contato. Lamento saber sobre os problemas que voc\u00ea encontrou. Parece que pode ter houve uma falha tempor\u00e1ria com o processamento do pagamento do seu pedido. Estamos atualmente investigando essa situa\u00e7\u00e3o e o informaremos assim que tivermos mais detalhes.<br><br>Por favor, verifique se h\u00e1 cobran\u00e7as em sua conta. Se n\u00e3o houver, voc\u00ea pode considerar tentar fazer o pedido novamente. Se voc\u00ea ver uma cobran\u00e7a, fique tranquilo que estamos dedicados a resolver isso rapidamente.<br><br>Obrigado pela sua compreens\u00e3o e paci\u00eancia.<br><br>Atenciosamente,<br>[Seu Nome]<br>Equipe de Suporte ao Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 2,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Payment Processing",
+        "Payment Issue",
+        "Order Issue",
+        "User Inquiry",
+        "Customer Assistance"
+      ]
+    }
+  },
+  {
+    "subject": "O aplicativo do Google Workspace falha inesperadamente durante a intera\u00e7\u00e3o do usu\u00e1rio",
+    "body": "Ol\u00e1, equipe,\n\nEstou entrando em contato para destacar uma preocupa\u00e7\u00e3o em rela\u00e7\u00e3o ao aplicativo do Google Workspace. O app fecha inesperadamente sempre que um usu\u00e1rio tenta inserir qualquer entrada. Esse problema come\u00e7ou hoje e afetou consideravelmente nossa produtividade. J\u00e1 tentamos reiniciar o aplicativo e reinstal\u00e1-lo, mas o problema permanece n\u00e3o resolvido. Devido \u00e0 natureza vital de nossas opera\u00e7\u00f5es, precisamos urgentemente de uma solu\u00e7\u00e3o para esse problema. Voc\u00ea poderia, por favor, investigar isso e oferecer uma solu\u00e7\u00e3o o mais r\u00e1pido poss\u00edvel?\n\nAgrade\u00e7o sua aten\u00e7\u00e3o r\u00e1pida a este assunto.\n\nAtenciosamente,\n<nome>\nContato: <n\u00famero_de_telefone>\nN\u00famero da conta: <n\u00famero_da_conta>",
+    "answer": "Ol\u00e1 [Nome],\n\nObrigado por trazer isso \u00e0 nossa aten\u00e7\u00e3o. Pedimos sinceras desculpas por qualquer interrup\u00e7\u00e3o causada pelo fechamento do aplicativo Google Workspace. Nossa equipe t\u00e9cnica est\u00e1 analisando o assunto ativamente. Enquanto isso, por favor, confirme se seu sistema est\u00e1 totalmente atualizado e considere limpar o cache e os cookies como um passo inicial para solu\u00e7\u00e3o de problemas. Manteremos voc\u00ea informado com atualiza\u00e7\u00f5es assim que as tivermos.\n\nObrigado pela sua paci\u00eancia e coopera\u00e7\u00e3o.\n\nAtenciosamente,\n[Seu Nome]\nEquipe de Suporte T\u00e9cnico\nContato: [N\u00famero de Telefone de Suporte]",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 3,
+    "language": "Portuguese",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Issue",
+        "User Complaint",
+        "Urgent Issue",
+        "Support Request"
+      ]
+    }
+  },
+  {
+    "subject": "Error de aplicaci\u00f3n en Microsoft Excel 2024 durante la importaci\u00f3n de datos",
+    "body": "Hola,\n\nEstoy enfrentando un problema con Microsoft Excel 2024 donde la aplicaci\u00f3n se cierra inesperadamente cada vez que intento importar datos. Esta funci\u00f3n es vital para mis tareas diarias, y agradecer\u00eda una pronta soluci\u00f3n. Aqu\u00ed est\u00e1n los detalles:\n\n- Software: Microsoft Excel 2024\n- Problema: La aplicaci\u00f3n falla durante el proceso de importaci\u00f3n de datos\n- Prioridad: Media\n\nYa he intentado reinstalar la aplicaci\u00f3n y verificar actualizaciones, pero el problema sigue sin resolverse. Su asistencia o una soluci\u00f3n a la brevedad posible ser\u00eda muy apreciada.\n\nGracias,\n<nombre>\n<n\u00famero_de_tel>\n<n\u00famero_de_cuenta>",
+    "answer": "Estimado/a <nombre>,\n\nGracias por contactar con nosotros sobre las dificultades que est\u00e1 experimentando con Microsoft Excel 2024. Lamentamos sinceramente los inconvenientes que esto ha causado.\n\nPara ayudar a resolver el bloqueo durante la importaci\u00f3n de datos, por favor intente las siguientes sugerencias:\n1. Desactive todos los complementos para determinar si contribuyen al bloqueo.\n2. Inicie Excel en Modo Seguro para verificar posibles conflictos.\n3. Aseg\u00farese de que su sistema cumpla con los requisitos m\u00ednimos para el software.\n\nSi el problema persiste, inf\u00f3rmenos sobre cualquier mensaje de error que observe. Priorizaremos su problema y trabajaremos diligentemente para encontrar una soluci\u00f3n r\u00e1pida.\n\nAtentamente,\nEquipo de Soporte de <Su Empresa>",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": 2,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Technical Issue",
+        "Software Bug",
+        "User Assistance",
+        "Technical Support"
+      ]
+    }
+  },
+  {
+    "subject": "Probleme mit Microsoft Office 365, das nach dem letzten Update abst\u00fcrzt",
+    "body": "Hallo Team,\n\nIch habe gerade mein Microsoft Office 365 aktualisiert, und jetzt st\u00fcrzen die Anwendungen ziemlich oft ab. Dieses Problem beeintr\u00e4chtigt meine Produktivit\u00e4t. K\u00f6nnten Sie bitte so schnell wie m\u00f6glich helfen, dies zu beheben?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+    "answer": "Hallo <name>,\n\nWir entschuldigen uns f\u00fcr die Unannehmlichkeiten, die Sie erleben. Bitte versuchen Sie, Ihre Office-Installation \u00fcber die Systemsteuerung zu reparieren. Wenn das Problem weiterhin besteht, ziehen Sie in Betracht, Office 365 neu zu installieren. Z\u00f6gern Sie nicht, sich zu melden, wenn Sie weitere Hilfe ben\u00f6tigen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<Ihr Unterst\u00fctzungsteam>",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": 1,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Assistance Request",
+        "Assistance Resolution",
+        "Technical Support",
+        "Software Bug",
+        "User Issue",
+        "Urgent Issue",
+        "Troubleshooting Guide",
+        "User Feedback",
+        "Technical Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Adobe Creative Cloud - Anwendung St\u00fcrzt H\u00e4ufig Ab",
+    "body": "Sehr geehrtes Kundenserviceteam,\n\nich habe h\u00e4ufige Abst\u00fcrze bei der Verwendung von Adobe Creative Cloud. Dieses Problem beeinflusst meine Arbeitseffizienz erheblich. K\u00f6nnten Sie sich bitte so schnell wie m\u00f6glich um dieses Anliegen k\u00fcmmern?\n\nDanke,\n<name>\n<account_number>",
+    "answer": "Sehr geehrte/r <name>,\n\nvielen Dank, dass Sie sich an uns gewandt haben. Es tut uns leid zu erfahren, dass Sie auf Abst\u00fcrze gesto\u00dfen sind. Bitte stellen Sie sicher, dass sowohl Adobe Creative Cloud als auch Ihr Betriebssystem auf dem neuesten Stand sind. Wenn das Problem weiterhin besteht, teilen Sie uns bitte weitere Informationen mit, einschlie\u00dflich aller Fehlermeldungen, die Sie erhalten haben, damit wir Ihnen besser helfen k\u00f6nnen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Human Resources",
+    "priority": 2,
+    "language": "German",
+    "tags": {
+      "tags": [
+        "Application Error",
+        "Customer Complaint",
+        "Technical Issue",
         "Support Request",
+        "User Issue"
+      ]
+    }
+  },
+  {
+    "subject": "Asistencia Urgente Requerida: Problemas Encontrados con la Instalaci\u00f3n de Microsoft Office 365 en M\u00faltiples Dispositivos",
+    "body": "Estamos enfrentando un serio desaf\u00edo ya que Microsoft Office 365 no se instala correctamente en m\u00faltiples dispositivos. Se requiere asistencia inmediata para abordar este asunto.",
+    "answer": "Estimado Cliente Apreciado,\n\nLamentamos saber acerca de las dificultades que est\u00e1 enfrentando. Nuestro personal de soporte se pondr\u00e1 en contacto con usted en breve para ayudar a resolver el problema de la instalaci\u00f3n de Microsoft Office 365.\n\nSaludos cordiales,\nEquipo de Soporte",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": 3,
+    "language": "Spanish",
+    "tags": {
+      "tags": [
+        "Assistance Alert",
+        "Assistance Request",
         "Technical Assistance",
         "Technical Issue",
-        "Technical Resolution",
-        "Technical Support",
-        "Urgent Issue"
+        "Software Installation",
+        "Urgent Issue",
+        "User Assistance",
+        "Customer Follow-Up",
+        "Support Resolution",
+        "Service Request"
+      ]
+    }
+  },
+  {
+    "subject": "Lenovo ThinkPad X1 Carbon - Incomplete Items",
+    "body": "Hello, I have received my Lenovo ThinkPad X1 Carbon, but it arrived without some components. Could you assist me with a solution or a replacement for the items that are missing? I appreciate your help.",
+    "answer": "Hello, I apologize for the inconvenience regarding the missing items. Could you please share your order number and specify which components are not included, so we can help you more effectively? Thank you.",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": 1,
+    "language": "English",
+    "tags": {
+      "tags": [
+        "Customer Inquiry",
+        "Product Issue",
+        "Order Issue",
+        "Assistance Request",
+        "Support Resolution"
       ]
     }
   }

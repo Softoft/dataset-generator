@@ -20,7 +20,7 @@ class TicketExtraInformationNode(ExecutableNode):
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue):
         return (
-            f"Generate topic, product_category and product for a ticket,"
+            f"Generate ticket_categories, business_type, product_category, product,extra_info for a ticket"
             f"with type {ticket_type.value}: {ticket_type.description};"
             f"and queue {ticket_queue.value}: {ticket_queue.description}"
         )
@@ -28,9 +28,9 @@ class TicketExtraInformationNode(ExecutableNode):
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(TypeError))
     async def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue):
         prompt = self.generate_topic_prompt(ticket_type, ticket_queue)
-        email_json_string = await self.chat_assistant.chat_assistant(prompt)
-        email_dict = json.loads(email_json_string)
-        return TicketExtraInformation(**email_dict)
+        ticket_extra_info_str = await self.chat_assistant.chat_assistant(prompt)
+        ticket_extra_info_email_dict = json.loads(ticket_extra_info_str)
+        return TicketExtraInformation(**ticket_extra_info_email_dict)
 
     @inject_storage_objects(TicketType, TicketQueue)
     async def _execute_node(self, shared_storage: KeyValueStorage, ticket_type: TicketType, ticket_queue: TicketQueue) -> KeyValueStorage:

@@ -26,9 +26,11 @@ class TicketEmail:
 
 @dataclass
 class TicketExtraInformation:
-    topic: str
+    ticket_categories: list[str]
+    business_type: str
     product_category: str
     product: str
+    extra_info: str
 
 
 class TicketQueue(CategoricalTicketField):

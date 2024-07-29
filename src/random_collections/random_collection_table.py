@@ -23,7 +23,8 @@ class RandomTableBuilder:
                                                      value_weight_dict: dict[K, dict[V, float]]):
         assert set(key_enum) == set(value_weight_dict.keys()), "Keys in value_weight_dict must match key_enum"
         for key in list(key_enum):
-            assert set(value_enum) == set(value_weight_dict[key].keys()), "Values in value_weight_dict must match value_enum"
+            assert set(value_enum) == set(
+                value_weight_dict[key].keys()), "Values in value_weight_dict must match value_enum"
 
     @staticmethod
     def build_from_dict[K: Enum, V: Enum](key_enum: type[K], value_enum: type[V],

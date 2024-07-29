@@ -7,21 +7,18 @@ from ai.chat_assistant_analysis import AssistantAnalyzer
 
 
 class ChatAssistant:
-    def __init__(self, assistant_id, tool_choice: AssistantToolChoiceOptionParam = "auto", temperature=1,
-                 model="gpt-4o"):
+    def __init__(self, assistant_id, tool_choice: AssistantToolChoiceOptionParam = "auto", temperature=1):
         self.client = AsyncOpenAI()
         self.assistant_id = assistant_id
         self.tool_choice: AssistantToolChoiceOptionParam = tool_choice
         self.temperature = temperature
-        self.model: str = model
-        self.usage_analyzer = AssistantAnalyzer()
+        self.usage_analyzer = AssistantAnalyzer.get_instance()
 
     async def _create_run_with_retry(self, thread_id, assistant_id):
         run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
                                                                   assistant_id=assistant_id,
                                                                   temperature=self.temperature,
-                                                                  tool_choice=self.tool_choice,
-                                                                  model=self.model)
+                                                                  tool_choice=self.tool_choice,)
         self.usage_analyzer.append_run(run)
 
     @retry(wait=wait_random_exponential(min=1, max=120), stop=stop_after_attempt(10),
