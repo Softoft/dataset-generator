@@ -3,7 +3,7 @@ import logging
 
 import pytest
 
-from graph.data.category_ticket_field import ComparableEnum
+from graph.data.ticket_field import ComparableEnum
 from graph.data.models import Ticket
 from graph.graph_ticket_generator import GraphTicketGenerator
 from util.key_value_storage import KeyValueStorage

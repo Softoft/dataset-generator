@@ -1,19 +1,33 @@
 import json
 import logging
 import time
+from dataclasses import dataclass
 
 from ai.chat_assistant_analysis import AssistantAnalyzer
 from graph.graph_ticket_generator import GraphTicketGenerator
+from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThresholds
+
+
+@dataclass
+class TicketGenerationConfig:
+    number_of_tickets: int
+    output_file: str
+    number_translation_nodes: int
+    mean_text_length: int
+    text_length_standard_deviation: int
+    batch_size: int
+    text_similarity_thresholds: TextSimilarityThresholds
 
 
 class TicketGenerator:
-    def __init__(self, total_number_of_tickets, output_file, number_translation_nodes):
-        self.number_translation_nodes = number_translation_nodes
-        self.dataset_size = total_number_of_tickets
-        self.graph_ticket_runs = total_number_of_tickets // number_translation_nodes
-        self.output_file = output_file
-        self.batch_size_in_graph_runs = 10
-        self.amount_batches = total_number_of_tickets // self.batch_size_in_graph_runs // number_translation_nodes
+    def __init__(self, ticket_generation_config: TicketGenerationConfig):
+        self.ticket_generation_config = ticket_generation_config
+        self.number_translation_nodes = ticket_generation_config.number_translation_nodes
+        self.number_of_tickets = ticket_generation_config.number_of_tickets
+        self.graph_ticket_runs = self.number_of_tickets // self.number_translation_nodes
+        self.output_file = ticket_generation_config.output_file
+        self.batch_size_in_graph_runs = ticket_generation_config.batch_size
+        self.amount_batches = self.number_of_tickets // self.batch_size_in_graph_runs // self.number_translation_nodes
         self.__check_output_file_doesnt_exist()
 
     def __check_output_file_doesnt_exist(self):
@@ -45,9 +59,13 @@ class TicketGenerator:
         return results
 
     async def _get_tickets_as_dict_list(self) -> list[dict]:
-        ticket_generation_graph = GraphTicketGenerator(self.number_translation_nodes, 150)
-        tickets = await ticket_generation_graph.create_translated_tickets()
-        return [ticket.to_dict() for ticket in tickets]
+        ticket_generation_graph = GraphTicketGenerator(self.ticket_generation_config)
+        try:
+            tickets = await ticket_generation_graph.create_translated_tickets()
+            return [ticket.to_dict() for ticket in tickets]
+        except Exception as e:
+            logging.error(f"Error while generating tickets: {e}")
+            return []
 
     def _log_dataset_generation_status(self, current_batch_number, start_time: float, created_tickets: int):
         batches_finished = current_batch_number + 1

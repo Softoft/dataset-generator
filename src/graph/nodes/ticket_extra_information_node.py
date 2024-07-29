@@ -12,7 +12,7 @@ from graph.nodes.core.inject_storage_objects import inject_storage_objects
 class TicketExtraInformationNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_extra_information = None
-        self.topic_generation_assistant = ChatAssistantFactory.get_instance().create_topic_generation_assistant(temperature=1.1)
+        self.topic_generation_assistant = ChatAssistantFactory.get_instance().create_assistant(temperature=1.1)
         super().__init__(parents)
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):

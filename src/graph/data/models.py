@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from graph.data.category_ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField
+from graph.data.ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField
 
 
 class Language(ComparableEnum):

@@ -1,6 +1,6 @@
 import logging
 
-from ai.chat_assistant import ChatAssistantFactory
+from ai.chat_assistant import AssistantId, ChatAssistantFactory
 from graph.data.models import Language, Priority, Ticket, TicketEmail, TicketExtraInformation, TicketQueue,\
     TicketType
 from util.key_value_storage import KeyValueStorage
@@ -11,7 +11,7 @@ from graph.nodes.core.inject_storage_objects import inject_storage_objects
 class TicketAnswerNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_email = None
-        self.chat_assistant = ChatAssistantFactory.get_instance().create_email_answer_assistant(temperature=1.1)
+        self.chat_assistant = ChatAssistantFactory().create_assistant(AssistantId.EMAIL_ANSWER, temperature=1.1)
         super().__init__(parents)
 
     @inject_storage_objects(TicketEmail, TicketExtraInformation, TicketQueue, Priority, TicketType)

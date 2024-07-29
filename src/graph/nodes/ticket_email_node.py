@@ -3,7 +3,7 @@ import logging
 
 from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_after_attempt
 
-from ai.chat_assistant import ChatAssistantFactory
+from ai.chat_assistant import AssistantId, ChatAssistantFactory
 from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
 from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode, INode
@@ -14,7 +14,7 @@ from util.number_interval_generator import NumberIntervalGenerator
 class TicketEmailNode(ExecutableNode):
     def __init__(self, parents: list[INode], text_length_mean: int, text_length_standard_deviation: int):
         self.ticket_email = None
-        self.email_generation_assistant = ChatAssistantFactory.get_instance().create_email_generation_assistant(temperature=1.1)
+        self.email_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.EMAIL_GENERATION, temperature=1.1)
         self.text_length_mean = text_length_mean
         self.text_length_standard_deviation = text_length_standard_deviation
         super().__init__(parents)
@@ -31,15 +31,15 @@ class TicketEmailNode(ExecutableNode):
         ticket_body_text_length = NumberIntervalGenerator(self.text_length_mean, self.text_length_standard_deviation).generate_text_length_bounds()
         ticket_subject_text_length = NumberIntervalGenerator(int(ticket_body_text_length.lower_bound / 10), 30, lower_number_min_value=-1000).generate_text_length_bounds()
         is_ticket_subject_empty = ticket_subject_text_length.lower_bound < 0
-        subject_text_prompt = f"The subject text needs to have between '{ticket_subject_text_length.lower_bound}' and '{ticket_subject_text_length.upper_bound}' characters" if not is_ticket_subject_empty else "The subject text is empty"
+        subject_text_prompt = f"The subject must have between {ticket_subject_text_length.lower_bound} and {ticket_subject_text_length.upper_bound} characters" if not is_ticket_subject_empty else "The subject is empty"
         return (
-            f"Generate/Write an email with a body and subject. Answer json formatted with a subject and body. For the customer support of a {ticket_extra_information.business_type} company,"
-            f"About the tags: '{",".join(ticket_extra_information.ticket_categories)}'; the product '{ticket_extra_information.product}',"
-            f"about {ticket_extra_information.extra_info},"
+            f"Write an email with a subject and body in JSON Format. For the customer support of a {ticket_extra_information.business_type} company,"
+            f"About the tags: '{",".join(ticket_extra_information.ticket_categories)[:2]}'; the product '{ticket_extra_information.product}',"
+            f"about {ticket_extra_information.extra_info[:40]},"
             f"With ticket type '{ticket_type.value}': '{ticket_type.description}',"
             f"the queue '{ticket_queue.value}': '{ticket_queue.description}',"
             f"the priority '{priority.value}': '{priority.description}',"
-            f"The body text needs to have between '{ticket_body_text_length.lower_bound}' and '{ticket_body_text_length.upper_bound}' characters"
+            f"The body must have between '{ticket_body_text_length.lower_bound}' and '{ticket_body_text_length.upper_bound}' characters"
             f"{subject_text_prompt}")
 
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(TypeError),
