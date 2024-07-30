@@ -1,3 +1,4 @@
+import dataclasses
 from dataclasses import dataclass
 from typing import Optional
 
@@ -28,7 +29,6 @@ class Priority(CategoricalTicketField):
     LOW = "low", "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
     MEDIUM = "medium", "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
     HIGH = "high", "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
-    CRITICAL = "critical", "Critical priority, ticket concerns critical matters, requiring immediate attention and resolution."
 
 
 @dataclass
@@ -47,6 +47,9 @@ class TicketExtraInformation(OutputDataclassField):
     product_sub_category: str
     product: str
     extra_info: str
+
+    def to_dict(self):
+        return dataclasses.asdict(self)
 
 
 class TicketQueue(CategoricalTicketField):
@@ -103,7 +106,7 @@ class Ticket:
         return self
 
     def to_dict(self):
-        return {
+        result = {
             "subject": self.subject,
             "body": self.body,
             "answer": self.answer,
@@ -113,3 +116,8 @@ class Ticket:
             "language": self.language.value,
             "tags": self.tags or []
         }
+
+        extra_info = self.ticket_extra_information.to_dict()
+
+        result.update(extra_info)
+        return result

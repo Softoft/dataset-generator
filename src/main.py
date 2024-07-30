@@ -6,7 +6,7 @@ from injector import Injector
 
 from dependency_provider import TicketGenerationModule
 from graph.data.models import Language
-from graph.nodes.ticket_rewriting_and_translating_node import translate
+from graph.nodes.ticket_rewriting_translating_node import translate
 from ticket_generator.ticket_generator import TicketGenerator
 
 

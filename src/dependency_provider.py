@@ -4,7 +4,7 @@ from injector import Module, provider, singleton
 
 from config import TicketGenerationConfig
 from graph.graph_ticket_generator import GraphTicketGenerator
-from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThreshold, TextSimilarityThresholds
+from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThreshold, TextSimilarityThresholds
 from ticket_generator.ticket_generator import TicketGenerator
 
 
@@ -14,14 +14,14 @@ class TicketGenerationModule(Module):
     def provide_ticket_generation_config(self) -> TicketGenerationConfig:
         return TicketGenerationConfig(
             number_of_tickets=10,
-            output_file="../data/training/dataset-v3_14_0-test.json",
+            output_file="../data/training/dataset-v3_19_0.json",
             number_translation_nodes=10,
             batch_size=1,
             text_length_mean=30,
             text_length_standard_deviation=10,
             text_similarity_thresholds=TextSimilarityThresholds([
-                TextSimilarityThreshold(100, 0.7),
-                TextSimilarityThreshold(30, 0.8),
+                TextSimilarityThreshold(100, 0.9),
+                TextSimilarityThreshold(30, 0.95),
                 TextSimilarityThreshold(0, 1),
             ]))
 

@@ -3,18 +3,18 @@ import logging
 
 import pytest
 
-from graph.data.ticket_field import ComparableEnum
 from graph.data.models import Ticket
+from graph.data.ticket_field import ComparableEnum
 from graph.graph_ticket_generator import GraphTicketGenerator
-from util.key_value_storage import KeyValueStorage
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
-from util.number_interval_generator import NumberIntervalGenerator, TextLengthNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
-from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
+from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
+from util.key_value_storage import KeyValueStorage
+from util.number_interval_generator import NumberIntervalGenerator, TextLengthNode
 
 
 class KeyEnum(ComparableEnum):

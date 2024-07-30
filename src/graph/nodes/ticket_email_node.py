@@ -5,7 +5,6 @@ from injector import inject
 from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_after_attempt
 
 from ai.chat_assistant import AssistantId, ChatAssistantFactory
-from config import TicketGenerationConfig
 from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
@@ -15,12 +14,12 @@ from util.number_interval_generator import NumberIntervalGenerator
 
 class TicketEmailNode(ExecutableNode):
     @inject
-    def __init__(self, parents: list[INode], config: TicketGenerationConfig):
+    def __init__(self, parents: list[INode], text_length_mean: int, text_length_standard_deviation: int):
         self.ticket_email = None
         self.email_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.EMAIL_GENERATION,
                                                                                   temperature=1.1)
-        self.text_length_mean = config.text_length_mean
-        self.text_length_standard_deviation = config.text_length_standard_deviation
+        self.text_length_mean = text_length_mean
+        self.text_length_standard_deviation = text_length_standard_deviation
         super().__init__(parents)
 
     @inject_storage_objects(TicketType, TicketQueue, Priority, TicketExtraInformation)

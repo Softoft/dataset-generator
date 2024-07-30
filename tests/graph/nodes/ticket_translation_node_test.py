@@ -3,7 +3,7 @@ import asyncio
 import pytest
 
 from graph.data.models import Language, Priority, Ticket, TicketQueue, TicketType
-from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThresholds, TicketSimilarityValidation
+from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThresholds, TicketSimilarityValidation
 from util.text_similarity_calculator import compute_text_similarity
 
 

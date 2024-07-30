@@ -9,7 +9,7 @@ from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.ticket_answer_node import TicketAnswerNode
 from graph.nodes.ticket_email_node import TicketEmailNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
-from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationNode
+from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
 from util.key_value_storage import KeyValueStorage
 

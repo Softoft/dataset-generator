@@ -99,18 +99,18 @@ class TicketTranslationNode(ExecutableNode):
     @inject_storage_objects(Ticket)
     async def _execute_node(self, shared_storage: KeyValueStorage, ticket: Ticket) -> KeyValueStorage:
         self.first_ticket = ticket
-        translated_ticket = await self._generate_rewritten_and_translated_ticket(ticket)
+        translated_ticket = self._generate_rewritten_and_translated_ticket(ticket)
         tagged_ticket = await self._generate_ticket_tags(translated_ticket)
         shared_storage.save_by_key("tickets", [tagged_ticket])
         return shared_storage
 
     def _generate_ticket_tags_prompt(self, ticket: Ticket):
-        return (f"Generate tags for the following ticket:"
+        return (f"Generate tags for the ticket:"
                 f"subject: '{ticket.subject}', "
                 f"body: '{ticket.body}', "
-                f"answer: '{ticket.answer}', ")
+                f"answer: '{ticket.answer}';")
 
-    def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=6):
+    def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=2):
         language = self.language_generator.get_random_value(excluding=[ticket.language])
         if repeats_left == 0:
             logging.warning("Could not generate valid translation; Tickets are too similar,returning new ticket")
