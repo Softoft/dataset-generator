@@ -1,0 +1,214 @@
+[
+  {
+    "subject": "Das ist nicht der Fall.",
+    "body": "Sehr geehrter technischer Support, ich treffe auf einen unerwarteten Fehler, der den Benutzerzugriff beeintr\u00e4chtigt. Ticketdetails: Incident, Queue: Technical Support, Priority: Low.",
+    "answer": "Sehr geehrter Kunde, wir haben Ihr niedriges Priorit\u00e4tsticket bez\u00fcglich des Benutzerzugriffsfehlers erhalten. Unser technisches Support-Team wird es \u00fcberpr\u00fcfen und Sie in K\u00fcrze aktualisieren.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "German",
+    "tags": [
+      "Technical Support",
+      "Incident Report",
+      "Login Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software",
+    "product_sub_category": "Application",
+    "product": "Project Management Tool",
+    "extra_info": "Unexpected error disrupting user access, requires urgent fix."
+  },
+  {
+    "subject": "Ce n'est pas le cas.",
+    "body": "Cher \u00e9quipe de soutien des services de TI, nous avons rencontr\u00e9 une erreur de syst\u00e8me inattendue qui n\u00e9cessite une attention imm\u00e9diate. C'est un probl\u00e8me de haute priorit\u00e9 qui n\u00e9cessite une r\u00e9solution urgente. Veuillez examiner et r\u00e9soudre cette question imm\u00e9diatement. Merci.",
+    "answer": "Chers <nom>, Merci pour l'annonce que nous avons faite. Nous reconnaissons les erreurs syst\u00e8me hautement prioritaires et sommes actuellement en train d'enqu\u00eater sur le probl\u00e8me. Soyez assur\u00e9 que notre \u00e9quipe travaille rapidement pour le corriger. Nous vous mettrons \u00e0 jour d\u00e8s que nous avons plus d'informations.",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "French",
+    "tags": [
+      "IT Support",
+      "Urgent Issue",
+      "System Crash",
+      "Problem Resolution",
+      "Service Disruption",
+      "Incident Report",
+      "Technical Support"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Management",
+    "product": "Helpdesk Ticketing System",
+    "extra_info": "Unexpected system error requiring investigation."
+  },
+  {
+    "subject": "Ese no es el caso.",
+    "body": "Estimado Soporte T\u00e9cnico, mi nombre de usuario es <name> y tengo un problema t\u00e9cnico urgente que necesita atenci\u00f3n inmediata. Este incidente de prioridad media parece inesperado. Agradezco su ayuda r\u00e1pida para resolver este problema t\u00e9cnico. Si\u00e9ntase libre de llamarme <tel_num> o env\u00edeme un correo electr\u00f3nico. Gracias.",
+    "answer": "Estimado <nombre>, Gracias por su contacto. Sentimos saber que tiene problemas. Ya estamos trabajando en abordarlo con prioridad. Alguien de nuestro equipo se pondr\u00e1 en contacto con usted en breve por tel\u00e9fono o correo electr\u00f3nico para ayudarle.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Incident Report",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Management",
+    "product": "Incident Response Service",
+    "extra_info": "Urgent technical issue needing immediate resolution."
+  },
+  {
+    "subject": "La producci\u00f3n t\u00e9cnica requiere atenci\u00f3n inmediata con el incidente del ticket de prioridad media",
+    "body": "Hola, <br> <br> Tengo un problema t\u00e9cnico inesperado que requiere su atenci\u00f3n inmediata. Por favor, contacte este incidente lo antes posible. Mi n\u00famero de cuenta es <acc_num>. Gracias por su ayuda. <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> > > <br> >",
+    "answer": "Hola, Gracias por su solicitud. Confirmamos su pregunta t\u00e9cnica y la abordaremos inmediatamente. Un representante de soporte se pondr\u00e1 en contacto con usted pronto. Gracias por especificar su n\u00famero de cuenta para una referencia r\u00e1pida.",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Recovery",
+      "Incident Report"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Handling",
+    "product": "Issue Resolution",
+    "extra_info": "Unexpected technical problem requiring prompt investigation."
+  },
+  {
+    "subject": "Das ist nicht der Fall.",
+    "body": "Hallo Support Team, Ich habe eine dringende Software-Problem, das sofortige Aufmerksamkeit ben\u00f6tigt. Das Problem ist unerwartet und \u00e4rgerlich. Meine Kontonummer ist <acc_num>. Bitte kontaktieren Sie mich unter <tel_num> f\u00fcr alle Updates. Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung.",
+    "answer": "Liebe <name>, Vielen Dank f\u00fcr Ihre Anfrage. Wir verstehen die Dringlichkeit Ihrer Situation. Unser Team pr\u00fcft jetzt das Problem mit Ihrem Konto <acc_num>. Wir werden Sie mit Updates so schnell wie m\u00f6glich kontaktieren und k\u00f6nnen Sie unter <tel_num> kontaktieren, wenn n\u00f6tig.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "German",
+    "tags": [
+      "Urgent Issue",
+      "Software Bug",
+      "Technical Support",
+      "Problem Resolution",
+      "Account Assistance",
+      "General Inquiry",
+      "Service Recovery"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Support",
+    "product_sub_category": "Application Issues",
+    "product": "Custom Software Solution",
+    "extra_info": "Urgent software malfunction requiring immediate resolution."
+  },
+  {
+    "subject": "Kritischer Fehler im Hauptsystem - dringende Korrektur erforderlich",
+    "body": "Sehr geehrtes technisches Support-Team, wir haben einen schwerwiegenden Fehler in unserem Hauptsystem, das Ihre sofortige Aufmerksamkeit ben\u00f6tigt. Dies verursacht erhebliche Probleme und wir m\u00fcssen es dringend l\u00f6sen. Bitte priorisieren Sie dieses hoch-priorit\u00e4re Ereignis. F\u00fcr weitere Details kontaktieren Sie bitte <name> unter <tel_num>. Vielen Dank, <name>",
+    "answer": "Liebe [Name], Vielen Dank f\u00fcr Ihre Nachricht. Wir verstehen die Dringlichkeit und haben dieses Problem auf unsere oberste Priorit\u00e4t Warteschlange eskaliert. Unser Team arbeitet sofort daran. Wir werden [Kontaktname] unter [tel_num] f\u00fcr weitere Details kontaktieren und Sie \u00fcber den Fortschritt auf dem Laufenden halten.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "high",
+    "language": "German",
+    "tags": [
+      "Urgent Issue",
+      "Critical Failure",
+      "Technical Support",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Support",
+    "product_sub_category": "Application Errors",
+    "product": "Project Management Tool",
+    "extra_info": "Critical bug requiring urgent fix in main application."
+  },
+  {
+    "subject": "Las obras de construcci\u00f3n inmediatas requieren una soluci\u00f3n urgente",
+    "body": "Tengo problemas t\u00e9cnicos inesperados que requieren ayuda r\u00e1pida. Por favor, priorice y aborde este incidente de prioridad media tan pronto como sea posible. Su respuesta r\u00e1pida ser\u00e1 muy apreciada.",
+    "answer": "Estimado [nombre del cliente]: Gracias por su correo electr\u00f3nico. Entendemos la urgencia y priorizamos su incidente con prioridad media. Nuestro equipo est\u00e1 trabajando para resolverlo inmediatamente y lo actualizar\u00e1 pronto.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "Urgent Issue",
+      "Problem Resolution",
+      "Technical Support",
+      "Incident Report"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Management",
+    "product": "Support Ticketing System",
+    "extra_info": "Unexpected technical issues requiring prompt assistance."
+  },
+  {
+    "subject": "Dringende technische Frage",
+    "body": "Sehr geehrtes IT Support Team, ich habe ein unerwartetes technisches Problem, das sofortige Aufmerksamkeit erfordert. Meine Kontonummer ist <acc_num>. Bitte richten Sie diese mittlere Priorit\u00e4t sofort an. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Best, <name>.",
+    "answer": "Liebe <name>, Danke, dass Sie uns kontaktiert haben. Wir werden Ihr Problem im Zusammenhang mit Account <acc_num> untersuchen und so schnell wie m\u00f6glich l\u00f6sen.",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "medium",
+    "language": "German",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Urgent Issue",
+      "Account Assistance",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Management",
+    "product": "Technical Support Service",
+    "extra_info": "Address urgent technical issue requiring immediate assistance."
+  },
+  {
+    "subject": "Se necesita ayuda urgente para la salida de la aplicaci\u00f3n",
+    "body": "Estimado Soporte T\u00e9cnico, Nuestra aplicaci\u00f3n encontr\u00f3 un problema inesperado. Se requiere atenci\u00f3n inmediata para resolverlo. Por favor, priorice este incidente en consecuencia. Esperamos su ayuda urgente. Muchas gracias.",
+    "answer": "Estimado [Nombre], Gracias por su contacto. Hemos priorizado su problema y actualmente estamos investigando el asunto. Tenga la seguridad de que nuestro equipo est\u00e1 trabajando duro para resolverlo tan pronto como sea posible. Le proporcionaremos actualizaciones en breve.",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "Urgent Issue",
+      "Technical Support",
+      "Incident Report",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Support",
+    "product_sub_category": "Application Issues",
+    "product": "Custom Software Application",
+    "extra_info": "Unexpected application malfunction, urgent fix required."
+  },
+  {
+    "subject": "N\u00e3o \u00e9 o caso.",
+    "body": "Caro Suporte ao Cliente, encontrei um problema t\u00e9cnico inesperado e preciso de ajuda imediata. O assunto \u00e9 de baixa prioridade e cai sob pedidos de vendas e pr\u00e9-venda. Por favor, aborde este incidente com urg\u00eancia. Meu n\u00famero de conta \u00e9 acc_num>. Obrigado, name>",
+    "answer": "Caro name>, Obrigado por conseguir isso. Embora voc\u00ea tenha mencionado que o problema \u00e9 uma baixa prioridade, priorizamos todos os pedidos dos clientes. Nossa equipe de suporte de vendas e pr\u00e9-vendas far\u00e1 seu pedido em breve. Seu n\u00famero de conta foi anotado para refer\u00eancia.",
+    "type": "Incident",
+    "queue": "Sales and Pre-Sales",
+    "priority": "low",
+    "language": "Portuguese",
+    "tags": [
+      "Technical Support",
+      "Sales Inquiry",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Technical Support",
+    "product_sub_category": "Incident Management",
+    "product": "Help Desk Support",
+    "extra_info": "Unexpected technical issue requiring assistance."
+  }
+]

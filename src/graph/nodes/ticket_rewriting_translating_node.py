@@ -11,7 +11,6 @@ from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from random_collections.random_collection import RandomCollectionBuilder
 from util.key_value_storage import KeyValueStorage
-from util.text_manipulation import back_translate, translate
 from util.text_similarity_calculator import compute_text_similarity
 
 
@@ -29,33 +28,7 @@ class TextSimilarityThresholds:
         return sorted(self.text_lengths, key=lambda x: x.text_length, reverse=True)
 
 
-def get_translated_ticket(ticket: Ticket, target_language: Language):
-    assert ticket.language != target_language
-    translated_ticket = copy.deepcopy(ticket)
-
-    new_subject, new_body, new_answer = translate([ticket.subject, ticket.body, ticket.answer], ticket.language,
-                                                  target_language)
-    translated_ticket.update(
-        language=target_language,
-        subject=new_subject,
-        body=new_body,
-        answer=new_answer
-    )
-    return translated_ticket
-
-
-def get_augmented_ticket(ticket: Ticket) -> Ticket:
-    augmented_ticket = copy.deepcopy(ticket)
-    new_subject, new_body, new_answer = back_translate([ticket.subject, ticket.body, ticket.answer], ticket.language)
-    augmented_ticket.update(
-        subject=new_subject,
-        body=new_body,
-        answer=new_answer
-    )
-    return augmented_ticket
-
-
-class TicketSimilarityValidation:
+class TicketTranslationValidation:
     def __init__(self, ticket: Ticket, translated_ticket: Ticket, text_similarity_thresholds: TextSimilarityThresholds):
         self.ticket = ticket
         self.translated_ticket = translated_ticket
@@ -90,7 +63,9 @@ class TicketTranslationNode(ExecutableNode):
     def __init__(self, parents: list[INode], text_similarity_thresholds: TextSimilarityThresholds):
         self.text_similarity_thresholds = text_similarity_thresholds
         self.ticket_email = None
-        self.tag_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TAG_GENERATION, 1.1)
+        self.rewriting_assistant = ChatAssistantFactory().create_assistant(AssistantId.REWRITING, 1.2)
+        self.translation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TRANSLATION, 1.2)
+        self.tag_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TAG_GENERATION, 1.2)
         self.language_generator = RandomCollectionBuilder.build_from_value_weight_dict(
             { Language.DE: 2, Language.EN: 4, Language.FR: 1, Language.ES: 2, Language.PT: 1 })
         self.first_ticket = None
@@ -99,32 +74,62 @@ class TicketTranslationNode(ExecutableNode):
     @inject_storage_objects(Ticket)
     async def _execute_node(self, shared_storage: KeyValueStorage, ticket: Ticket) -> KeyValueStorage:
         self.first_ticket = ticket
-        translated_ticket = self._generate_rewritten_and_translated_ticket(ticket)
+        translated_ticket = await self._generate_rewritten_and_translated_ticket(ticket)
         tagged_ticket = await self._generate_ticket_tags(translated_ticket)
         shared_storage.save_by_key("tickets", [tagged_ticket])
         return shared_storage
 
-    def _generate_ticket_tags_prompt(self, ticket: Ticket):
-        return (f"Generate tags for the ticket:"
-                f"subject: '{ticket.subject}', "
-                f"body: '{ticket.body}', "
-                f"answer: '{ticket.answer}';")
+    def _generate_ticket_text_prompt(self, ticket: Ticket):
+        return (
+            f"Ticket:"
+            f"subject: '{ticket.subject}', "
+            f"body: '{ticket.body}', "
+            f"answer: '{ticket.answer}', "
+        )
 
-    def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=2):
-        language = self.language_generator.get_random_value(excluding=[ticket.language])
+    def _generate_translation_prompt(self, ticket: Ticket, language):
+        return f"Translate following ticket to {language.value}, {self._generate_ticket_text_prompt(ticket)}"
+
+    def _generate_rewriting_prompt(self, ticket):
+        return f"Rewrite following ticket, {self._generate_ticket_text_prompt(ticket)}"
+
+    def _generate_ticket_tags_prompt(self, ticket):
+        return f"Generate tags for the following ticket, {self._generate_ticket_text_prompt(ticket)}"
+
+    async def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=2):
         if repeats_left == 0:
-            logging.warning("Could not generate valid translation; Tickets are too similar,returning new ticket")
+            logging.warning(
+                "Could not generate valid translation; Tickets are too similar, but still returning new ticket")
             return ticket
-        rewritten_ticket = get_augmented_ticket(ticket)
-        if not TicketSimilarityValidation(self.first_ticket, rewritten_ticket,
-                                          self.text_similarity_thresholds).is_valid():
-            return self._generate_rewritten_and_translated_ticket(rewritten_ticket, repeats_left - 1)
-        translated_ticket = get_translated_ticket(rewritten_ticket, language)
+        rewritten_ticket = await self._generate_rewritten_ticket(ticket)
+        translated_ticket = await self._generate_translated_ticket(rewritten_ticket)
+        if not TicketTranslationValidation(self.first_ticket, translated_ticket,
+                                           self.text_similarity_thresholds).is_valid():
+            return await self._generate_rewritten_and_translated_ticket(translated_ticket, repeats_left - 1)
         return translated_ticket
 
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
-    async def _generate_ticket_tags(self, ticket: Ticket) -> Ticket:
+    async def _generate_ticket_tags(self, ticket: Ticket):
         prompt = self._generate_ticket_tags_prompt(ticket)
         ticket_tags = json.loads(await self.tag_generation_assistant.chat_assistant(prompt))
         ticket.tags = ticket_tags["tags"] if "tags" in ticket_tags else []
         return ticket
+
+    @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
+    async def _generate_rewritten_ticket(self, ticket: Ticket):
+        prompt = self._generate_rewriting_prompt(ticket)
+        rewritten_ticket_dict = json.loads(await self.rewriting_assistant.chat_assistant(prompt))
+        rewritten_ticket = copy.deepcopy(ticket).update(**rewritten_ticket_dict)
+        return rewritten_ticket
+
+    @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
+    async def _generate_translated_ticket(self, ticket: Ticket):
+        language = self.language_generator.get_random_value()
+        while language == ticket.language:
+            language = self.language_generator.get_random_value()
+        prompt = self._generate_translation_prompt(ticket, language)
+        translated_ticket_dict = json.loads(await self.translation_assistant.chat_assistant(prompt))
+        translated_ticket = copy.deepcopy(ticket).update(**translated_ticket_dict)
+        translated_ticket.language = language
+
+        return translated_ticket

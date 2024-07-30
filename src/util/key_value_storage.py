@@ -1,10 +1,9 @@
-import copy
 from typing import Self
 
 
 class KeyValueStorage:
     def __init__(self):
-        self.storage: dict[str, object] = {}
+        self.storage: dict[str, object] = { }
 
     def __contains__(self, key: type) -> bool:
         if not isinstance(key, type):
@@ -31,8 +30,3 @@ class KeyValueStorage:
                     self.storage[key] += value
                 else:
                     self.storage[key] = value
-
-    def deepcopy(self) -> Self:
-        new_storage = KeyValueStorage()
-        new_storage.storage = copy.deepcopy(self.storage)
-        return new_storage

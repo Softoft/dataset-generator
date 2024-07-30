@@ -7,13 +7,13 @@ from typing import Callable
 from injector import inject
 
 from ai.chat_assistant_analysis import AssistantAnalyzer
-from config import TicketGenerationConfig
+from config import Config
 from graph.graph_ticket_generator import GraphTicketGenerator
 
 
 class TicketGenerator:
     @inject
-    def __init__(self, ticket_generation_config: TicketGenerationConfig,
+    def __init__(self, ticket_generation_config: Config,
                  create_ticket_generator: Callable[[], GraphTicketGenerator]):
         self.create_ticket_generator = create_ticket_generator
         self.number_translation_nodes = ticket_generation_config.number_translation_nodes
@@ -28,8 +28,10 @@ class TicketGenerator:
     def __check_output_file_doesnt_exist(self):
         try:
             open(self.output_file)
-            logging.error(f"File {self.output_file} already exists. Please delete it first.")
-            exit(1)
+            logging.warning(f"File {self.output_file} already exists. Do you want to overwrite it?[y]/n")
+            if input() == "n":
+                raise FileExistsError(f"File {self.output_file} already exists")
+
         except FileNotFoundError:
             pass
 

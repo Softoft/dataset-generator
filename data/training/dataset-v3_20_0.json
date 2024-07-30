@@ -1,0 +1,217 @@
+[
+  {
+    "subject": "",
+    "body": "Hallo IT-Support-Team,\n\nich habe eine Frage zum Zeitplan f\u00fcr das bevorstehende Systemupgrade. Diese Anfrage betrifft eine geplante \u00c4nderung und ist als hoch priorisiert gekennzeichnet. K\u00f6nnten Sie mir bitte die Informationen so schnell wie m\u00f6glich zusenden?\n\nBeste W\u00fcnsche,\n<name>\nKontonummer: <acc_num>\nKontaktnummer: <tel_num>",
+    "answer": "Hallo <name>,\n\nwir sch\u00e4tzen Ihre Frage zum bevorstehenden Systemupgrade. Das Upgrade ist f\u00fcr [Datum und Uhrzeit einf\u00fcgen] geplant. Bitte beachten Sie, dass es w\u00e4hrend dieser Zeit zu Ausfallzeiten kommen kann. Wir danken Ihnen f\u00fcr Ihr Geduld und Ihr Verst\u00e4ndnis.\n\nHerzliche Gr\u00fc\u00dfe,\nIT-Support-Team",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "German",
+    "tags": [
+      "IT Support",
+      "Planned Change",
+      "Urgent Issue",
+      "System Maintenance",
+      "Service Notification",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Updates",
+    "product_sub_category": "System Upgrades",
+    "product": "Operating System Upgrade",
+    "extra_info": "Inquiry about planned system upgrade schedule."
+  },
+  {
+    "subject": "",
+    "body": "Ich erkundige mich nach einem geplanten Update f\u00fcr Software A, um m\u00f6gliche Unterbrechungen zu vermeiden.",
+    "answer": "Best\u00e4tigt. Wir werden die Updates f\u00fcr Software A zu Zeiten planen, die die geringstm\u00f6glichen St\u00f6rungen verursachen. Vielen Dank.",
+    "type": "Change",
+    "queue": "Service Outages and Maintenance",
+    "priority": "high",
+    "language": "German",
+    "tags": [
+      "Software Bug",
+      "Planned Change",
+      "Service Notification",
+      "System Maintenance"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software",
+    "product_sub_category": "Application Updates",
+    "product": "System Management Tool",
+    "extra_info": "Request for planned update to software application."
+  },
+  {
+    "subject": "",
+    "body": "Das bevorstehende Upgrade wird die Verf\u00fcgbarkeit der Dienste beeintr\u00e4chtigen. Diese Aufgabe hat hohe Priorit\u00e4t. Ticketkategorie: Geplantes Upgrade. Support-Queue: Interne IT-Unterst\u00fctzung.",
+    "answer": "Lieber Kunde,\n\nWir sch\u00e4tzen Ihre Kommunikation. Unser Team wird die notwendigen Ma\u00dfnahmen ergreifen, um etwaige St\u00f6rungen, die durch das geplante Upgrade verursacht werden, zu verwalten und zu reduzieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Name]",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "German",
+    "tags": [
+      "IT Support",
+      "Service Disruption",
+      "Planned Change",
+      "Urgent Issue",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Network Services",
+    "product_sub_category": "Infrastructure Maintenance",
+    "product": "Network Upgrade",
+    "extra_info": "Scheduled upgrade affecting service availability."
+  },
+  {
+    "subject": "Solicitud de actualizaci\u00f3n de software",
+    "body": "Estimado equipo de servicios de TI,\n\nMe pongo en contacto con ustedes para iniciar una actualizaci\u00f3n de software programada. Esta actualizaci\u00f3n est\u00e1 relacionada con una consulta de ventas y debe ser tratada con prioridad media. Por favor, inf\u00f3rmenme sobre las acciones posteriores que debo tomar con respecto a esta solicitud y cualquier requisito que pueda ser necesario.\n\nGracias,\n<nombre>\n<-num_acc>",
+    "answer": "Asunto: Respuesta: Solicitud de actualizaci\u00f3n de software\n\nHola,\n\nAgradecemos su solicitud. La designaci\u00f3n de prioridad media para la actualizaci\u00f3n de software relacionada con la consulta de ventas ha sido registrada. Nuestro equipo revisar\u00e1 los requisitos y le actualizar\u00e1 sobre los pr\u00f3ximos pasos en breve. Aseg\u00farese de hacer una copia de seguridad de su sistema antes de la actualizaci\u00f3n.\n\nSaludos,\nEquipo de servicios de TI",
+    "type": "Change",
+    "queue": "Sales and Pre-Sales",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Sales Inquiry",
+      "Software Bug",
+      "Problem Resolution",
+      "Planned Change",
+      "Performance Tuning"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Development",
+    "product_sub_category": "System Updates",
+    "product": "Internal Software System",
+    "extra_info": "Request for a planned software update to improve system performance."
+  },
+  {
+    "subject": "Actualizaci\u00f3n del sistema programada para mejorar el rendimiento",
+    "body": "Hola equipo de IT, se ha programado una actualizaci\u00f3n del sistema para mejorar el rendimiento. Esta actualizaci\u00f3n es cr\u00edtica y necesita una acci\u00f3n r\u00e1pida. Por favor, procedan con la implementaci\u00f3n del cambio en la cola de soporte de IT. Saludos, <nombre>",
+    "answer": "Hola <nombre>,\n\nAgradecemos su aviso. Tomaremos medidas inmediatas para priorizar y ejecutar el cambio en la cola de soporte de IT.\n\nSaludos,\nEquipo de IT",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "Spanish",
+    "tags": [
+      "IT Support",
+      "System Maintenance",
+      "Performance Tuning",
+      "Urgent Issue",
+      "Planned Change",
+      "Service Notification"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Management",
+    "product_sub_category": "Updates and Changes",
+    "product": "System Update",
+    "extra_info": "Planned update to improve system performance."
+  },
+  {
+    "subject": "Avis important : Mise \u00e0 niveau du syst\u00e8me pr\u00e9vue",
+    "body": "Bonjour <name>, nous sommes sur le point de proc\u00e9der \u00e0 une mise \u00e0 niveau du syst\u00e8me pr\u00e9vue associ\u00e9e au num\u00e9ro de ticket <acc_num>. Cette action vise \u00e0 maintenir la qualit\u00e9 de notre service. Si vous avez des questions ou des probl\u00e8mes, n'h\u00e9sitez pas \u00e0 nous contacter au <tel_num>.",
+    "answer": "Bonjour [Client],\n\nJe vous remercie pour votre notification concernant la mise \u00e0 niveau du syst\u00e8me pr\u00e9vue li\u00e9e au num\u00e9ro de ticket [acc_num]. Si vous avez des questions ou des pr\u00e9occupations, je vous contacterai au [tel_num].\n\nMeilleures salutations,\n[Votre nom]",
+    "type": "Change",
+    "queue": "Sales and Pre-Sales",
+    "priority": "medium",
+    "language": "French",
+    "tags": [
+      "System Maintenance",
+      "Service Notification",
+      "General Inquiry",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Management",
+    "product_sub_category": "System Updates",
+    "product": "Operating System Upgrade",
+    "extra_info": "Urgent planned system upgrade to address security vulnerabilities."
+  },
+  {
+    "subject": "Consulta sobre la actualizaci\u00f3n del Software P",
+    "body": "Hola equipo de Soporte de TI, \u00bfpueden compartir la informaci\u00f3n m\u00e1s reciente sobre los pr\u00f3ximos cambios para el Software P? Este es un asunto urgente que necesita atenci\u00f3n inmediata, ya que nuestras operaciones dependen de recibir actualizaciones oportunas. Gracias por su pronta respuesta.",
+    "answer": "Estimado [Nombre],\n\nAgradezco su mensaje. Las mejoras para el Software P est\u00e1n avanzando seg\u00fan lo planeado y se anticipa que se ejecuten para [fecha espec\u00edfica si se conoce]. Nuestro equipo est\u00e1 tratando este asunto con la m\u00e1xima importancia para minimizar cualquier posible interrupci\u00f3n en sus flujos de trabajo. Lo mantendremos informado sobre cualquier nueva informaci\u00f3n.\n\nSaludos cordiales,\n[Su Nombre]",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "Spanish",
+    "tags": [
+      "Software Bug",
+      "Problem Resolution",
+      "Urgent Issue",
+      "Technical Guidance",
+      "Service Notification",
+      "System Maintenance",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Development",
+    "product_sub_category": "Application Updates",
+    "product": "Custom Software Solution",
+    "extra_info": "Request for planned update on software project."
+  },
+  {
+    "subject": "Dringende Anfrage f\u00fcr geplante Softwareversionsaktualisierung",
+    "body": "Hallo <name>,\n\nIch melde mich, um eine geplante \u00c4nderung der Softwareversion einzuleiten. Dieses Anliegen hat hohe Priorit\u00e4t und geh\u00f6rt zur Kategorie '\u00c4nderung' f\u00fcr 'Produkt-Support'. Sie k\u00f6nnen mich jederzeit unter <tel_num> erreichen, wenn Sie weitere Informationen ben\u00f6tigen.\n\nHerzliche Gr\u00fc\u00dfe,\n<name>",
+    "answer": "Hallo [Name],\n\nWir danken Ihnen f\u00fcr Ihre eingereichte Anfrage. Wir sind \u00fcber das vorgeschlagene Upgrade der Softwareversion informiert und verstehen die Dringlichkeit. Unser Team wird die Situation bewerten und sich bald unter der angegebenen Nummer mit Ihnen in Verbindung setzen, um weitere Klarheit zu schaffen.\n\nMit besten W\u00fcnschen,\n[Ihr Name]",
+    "type": "Change",
+    "queue": "Product Support",
+    "priority": "high",
+    "language": "German",
+    "tags": [
+      "Product Support",
+      "Planned Change",
+      "Urgent Issue",
+      "Technical Support"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software",
+    "product_sub_category": "System Updates",
+    "product": "Software Update",
+    "extra_info": "Requesting planned change of software version."
+  },
+  {
+    "subject": "",
+    "body": "Hola, estoy buscando una actualizaci\u00f3n urgente sobre el estado de la actualizaci\u00f3n del sistema operativo programada para <date>. Nuestro n\u00famero de cuenta es <acc_num>. \u00bfPodr\u00eda compartir un cronograma actualizado o m\u00e1s informaci\u00f3n? Gracias, <name>. Informaci\u00f3n de contacto: <tel_num>.",
+    "answer": "Hola <name>,\n\nLa actualizaci\u00f3n del SO programada para <date> est\u00e1 avanzando seg\u00fan lo previsto. Si se producen modificaciones, nos comunicaremos contigo de inmediato. Si necesitas asistencia inmediata, no dudes en contactarnos al <tel_num>.\n\nSaludos cordiales,\nEquipo de Servicio al Cliente",
+    "type": "Change",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "Spanish",
+    "tags": [
+      "System Maintenance",
+      "Service Notification",
+      "Urgent Issue",
+      "Technical Support",
+      "Account Assistance",
+      "General Inquiry",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software Management",
+    "product_sub_category": "System Updates",
+    "product": "Operating System Upgrade",
+    "extra_info": "Urgent request for planned OS update change."
+  },
+  {
+    "subject": "",
+    "body": "Prezado <name>,\n\nEstou entrando em contato para perguntar sobre uma atualiza\u00e7\u00e3o de software programada. Este assunto \u00e9 de prioridade moderada em rela\u00e7\u00e3o ao suporte para nosso produto. Por favor, informa a confirma\u00e7\u00e3o do cronograma quando puder.\n\nObrigado,\n<name>\n<acc_num>",
+    "answer": "Ol\u00e1,\n\nAgradecemos sua consulta sobre a programa\u00e7\u00e3o da atualiza\u00e7\u00e3o de software. Vamos analisar o cronograma e entraremos em contato com os detalhes o mais r\u00e1pido poss\u00edvel.\n\nAtenciosamente,\n[Seu Nome]",
+    "type": "Change",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "Portuguese",
+    "tags": [
+      "Product Support",
+      "Technical Support",
+      "Software Bug",
+      "Service Notification",
+      "Routine Request"
+    ],
+    "business_type": "IT Services",
+    "product_category": "Software",
+    "product_sub_category": "Updates",
+    "product": "Application Upgrade",
+    "extra_info": "Request to schedule a planned software update."
+  }
+]

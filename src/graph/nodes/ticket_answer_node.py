@@ -18,6 +18,7 @@ class TicketAnswerNode(ExecutableNode):
     async def _execute_node(self, shared_storage: KeyValueStorage, ticket_email, ticket_extra_information, ticket_queue,
                             priority,
                             ticket_type) -> KeyValueStorage:
+        logging.info(f"TicketAnswerNode: Execute!")
         ticket = await self._generate_ticket(ticket_email, ticket_extra_information, ticket_queue, priority,
                                              ticket_type)
         shared_storage.save(ticket)
