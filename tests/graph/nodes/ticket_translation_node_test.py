@@ -3,7 +3,7 @@ import asyncio
 import pytest
 
 from graph.data.models import Language, Priority, Ticket, TicketQueue, TicketType
-from graph.nodes.ticket_rewriting_and_translating_node import TicketTranslationValidation
+from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThresholds, TicketSimilarityValidation
 from util.text_similarity_calculator import compute_text_similarity
 
 
@@ -15,7 +15,11 @@ def test_ticket_translation_validation():
         queue=TicketQueue.IT_SUPPORT,
         type=TicketType.PROBLEM,
         priority=Priority.LOW,
-        language=Language.EN
+        language=Language.EN,
+        business_type="IT",
+        product="Windows",
+        product_category="Software",
+        product_sub_category="Operating System"
     )
 
     translated_ticket = Ticket(
@@ -25,10 +29,14 @@ def test_ticket_translation_validation():
         queue=TicketQueue.IT_SUPPORT,
         type=TicketType.PROBLEM,
         priority=Priority.LOW,
-        language=Language.EN
+        language=Language.EN,
+        business_type="IT",
+        product="Windows",
+        product_category="Software",
+        product_sub_category="Operating System"
     )
 
-    assert TicketTranslationValidation(ticket, translated_ticket).is_valid()
+    assert TicketSimilarityValidation(ticket, translated_ticket, TextSimilarityThresholds([])).is_valid()
 
 
 @pytest.mark.expensive
@@ -55,6 +63,11 @@ async def test_ticket_translations_are_unique(execute_ticket_translation_node):
         queue=TicketQueue.IT_SUPPORT,
         type=TicketType.PROBLEM,
         priority=Priority.LOW,
+        language=Language.EN,
+        business_type="IT",
+        product="Windows",
+        product_category="Software",
+        product_sub_category="Operating System"
     )
 
     translation_tasks = [

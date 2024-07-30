@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from graph.data.ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField
+from graph.data.ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField, OutputDataclassField
 
 
 class Language(ComparableEnum):
@@ -11,21 +11,37 @@ class Language(ComparableEnum):
     ES = "Spanish"
     PT = "Portuguese"
 
+    @property
+    def iso_upper(self):
+        return self.name
+
+    @property
+    def iso_lower(self):
+        return self.name.lower()
+
+    @property
+    def english_name(self):
+        return self.value
+
 
 class Priority(CategoricalTicketField):
     LOW = "low", "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
     MEDIUM = "medium", "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
     HIGH = "high", "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
+    CRITICAL = "critical", "Critical priority, ticket concerns critical matters, requiring immediate attention and resolution."
 
 
 @dataclass
-class TicketEmail:
+class TicketEmail(InputTicketField):
     subject: str
     body: str
 
+    def get_description(self):
+        return f"Email: subject:'{self.subject}'; body'{self.body}'."
+
 
 @dataclass
-class TicketExtraInformation:
+class TicketExtraInformation(OutputDataclassField):
     business_type: str
     product_category: str
     product_sub_category: str
@@ -47,12 +63,9 @@ class TicketQueue(CategoricalTicketField):
 
 
 @dataclass
-class TicketTextLength(InputTicketField):
+class NumberInterval:
     lower_bound: int
     upper_bound: int
-
-    def get_description(self):
-        return f"Die Länge des Textes liegt zwischen {self.lower_bound} und {self.upper_bound} Zeichen."
 
     def __eq__(self, other):
         return self.lower_bound == other.lower_bound and self.upper_bound == other.upper_bound
@@ -77,10 +90,7 @@ class Ticket:
     queue: TicketQueue
     priority: Priority
     language: Language
-    business_type: str
-    product_category: str
-    product_sub_category: str
-    product: str
+    ticket_extra_information: TicketExtraInformation
 
     tags: Optional[list[str]] = None
 
@@ -101,9 +111,5 @@ class Ticket:
             "queue": self.queue.value,
             "priority": self.priority.value,
             "language": self.language.value,
-            "business_type": self.business_type,
-            "product_category": self.product_category,
-            "product_sub_category": self.product_sub_category,
-            "product": self.product,
             "tags": self.tags or []
         }

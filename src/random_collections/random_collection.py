@@ -12,8 +12,12 @@ class RandomCollection[V: Enum](IRandom):
         self._weights = weights
         self._randomize_weights()
 
-    def get_random_value(self) -> V:
-        return choices(self._values, weights=self._weights)[0]
+    def get_random_value(self, excluding: list = None) -> V:
+        excluding = excluding or []
+        result = choices(self._values, weights=self._weights)[0]
+        while result in excluding:
+            result = choices(self._values, weights=self._weights)[0]
+        return result
 
     def _get_random_value_between(self, min_value: float, max_value: float) -> float:
         return min_value + (max_value - min_value) * random.random()

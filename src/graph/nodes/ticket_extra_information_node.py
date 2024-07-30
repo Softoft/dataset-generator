@@ -17,7 +17,7 @@ class TicketExtraInformationNode(ExecutableNode):
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         return (
-            f"Generate business_type, product_category, product_sub_category, product, extra_info for a ticket"
+            f"Generate {TicketExtraInformation.list_attributes_and_types()} for a ticket"
             f"with type {ticket_type.value}: {ticket_type.description};"
             f"and queue {ticket_queue.value}: {ticket_queue.description};"
             f"and priority {ticket_priority.value}: {ticket_priority.description}"

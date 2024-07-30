@@ -1,32 +1,32 @@
 import asyncio
 import statistics
 
-from graph.data.models import TicketTextLength
+from graph.data.models import NumberInterval
 
 
 def test_text_length_node(create_text_length_node):
     text_length_node = create_text_length_node(400, 400)
     shared_storage = asyncio.run(text_length_node.execute())
-    assert shared_storage.get(TicketTextLength) is not None
+    assert shared_storage.get(NumberInterval) is not None
 
 
 def test_ticket_text_length_equal_method():
-    ticket_text_length_1 = TicketTextLength(10, 20)
-    ticket_text_length_2 = TicketTextLength(10, 20)
+    ticket_text_length_1 = NumberInterval(10, 20)
+    ticket_text_length_2 = NumberInterval(10, 20)
     assert ticket_text_length_1 == ticket_text_length_2
 
-    ticket_text_length_3 = TicketTextLength(10, 20)
-    ticket_text_length_4 = TicketTextLength(10, 21)
+    ticket_text_length_3 = NumberInterval(10, 20)
+    ticket_text_length_4 = NumberInterval(10, 21)
     assert ticket_text_length_3 != ticket_text_length_4
 
 
 def test_text_length_node_results_are_saved(create_text_length_node):
     text_length_node = create_text_length_node(400, 400)
     shared_storage = asyncio.run(text_length_node.execute())
-    text_length_1 = shared_storage.get(TicketTextLength)
+    text_length_1 = shared_storage.get(NumberInterval)
     assert text_length_1 is not None
     shared_storage = asyncio.run(text_length_node.execute())
-    text_length_2 = shared_storage.get(TicketTextLength)
+    text_length_2 = shared_storage.get(NumberInterval)
     assert text_length_2 is not None
     assert text_length_1 == text_length_2
 
@@ -38,7 +38,7 @@ def test_ticket_text_lengths_are_random(create_text_length_node):
     for _ in range(200):
         text_length_node = create_text_length_node(mean, standard_deviation)
         shared_storage = asyncio.run(text_length_node.execute())
-        random_ticket_text_lengths.append(shared_storage.get(TicketTextLength))
+        random_ticket_text_lengths.append(shared_storage.get(NumberInterval))
 
     lower_bounds = [text_length.lower_bound for text_length in random_ticket_text_lengths]
     upper_bounds = [text_length.upper_bound for text_length in random_ticket_text_lengths]

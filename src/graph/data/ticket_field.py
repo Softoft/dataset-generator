@@ -1,5 +1,7 @@
 import abc
+from dataclasses import dataclass, fields
 from enum import Enum
+from typing import get_type_hints
 
 
 class ComparableEnum(Enum):
@@ -20,6 +22,15 @@ class InputTicketField:
     @abc.abstractmethod
     def get_description(self):
         pass
+
+
+@dataclass
+class OutputDataclassField:
+    @classmethod
+    def list_attributes_and_types(cls):
+        type_hints = get_type_hints(cls)
+        attributes = fields(cls)
+        return ", ".join(f"{attr.name}: {type_hints[attr.name].__name__}" for attr in attributes)
 
 
 class CategoricalTicketField(InputTicketField, ComparableEnum):

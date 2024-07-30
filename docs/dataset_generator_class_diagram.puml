@@ -28,9 +28,6 @@ class AINode extends Node{
     + {async} execute(inputs)
 }
 
-class ChatAssistant{
-    - assistant_id: str
-}
 
 package random{
 
@@ -56,7 +53,6 @@ class RandomSet<V> implements IRandom{
 }
 
 Graph o-- Node
-AINode o-- ChatAssistant
 
 
 Node o-- Storage

@@ -2,12 +2,14 @@ import statistics
 
 import pytest
 
-from graph.data.models import TicketTextLength
+from graph.data.models import NumberInterval
 from util.number_interval_generator import NumberIntervalGenerator
 
 
-def get_random_text_length(mean: int, standard_deviation: int, _lower_text_length_min_value: int = 30) -> list[TicketTextLength]:
-    text_length_generator = NumberIntervalGenerator(mean, standard_deviation, lower_number_min_value=_lower_text_length_min_value)
+def get_random_text_length(mean: int, standard_deviation: int, _lower_text_length_min_value: int = 30) -> list[
+    NumberInterval]:
+    text_length_generator = NumberIntervalGenerator(mean, standard_deviation,
+                                                    lower_number_min_value=_lower_text_length_min_value)
     return [text_length_generator.generate_text_length_bounds() for _ in range(10_000)]
 
 
@@ -21,7 +23,8 @@ def get_random_numbers(*args, **kwargs) -> list[int]:
     (200, 10),
 ])
 def test_random_text_number_distribution(text_length_mean, text_length_standard_deviation):
-    random_numbers = get_random_numbers(text_length_mean, text_length_standard_deviation, _lower_text_length_min_value=0)
+    random_numbers = get_random_numbers(text_length_mean, text_length_standard_deviation,
+                                        _lower_text_length_min_value=0)
 
     actual_mean = statistics.mean(random_numbers)
     actual_standard_deviation = statistics.stdev(random_numbers)

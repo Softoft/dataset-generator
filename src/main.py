@@ -1,23 +1,32 @@
 import asyncio
+import logging
+import os
 
-from graph.nodes.ticket_rewriting_and_translating_node import TextSimilarityThreshold, TextSimilarityThresholds
+from injector import Injector
+
+from dependency_provider import TicketGenerationModule
+from graph.data.models import Language
+from graph.nodes.ticket_rewriting_and_translating_node import translate
 from ticket_generator.ticket_generator import TicketGenerator
-from ticket_generator.config import TicketGenerationConfig
+
+
+def translate_from_english_to_german():
+    return translate("Hello, how are you?", Language.EN, Language.DE)
+
+
+def create_tickets():
+    injector = Injector([TicketGenerationModule()])
+    ticket_generator = injector.get(TicketGenerator)
+    logging.basicConfig(
+        level=logging.WARNING,
+        format='%(levelname)s - %(message)s',
+        handlers=[
+            logging.StreamHandler()
+        ]
+    )
+    asyncio.run(ticket_generator.generate_dataset())
+
 
 if __name__ == '__main__':
-    ticket_generation_config = TicketGenerationConfig(
-        number_of_tickets=2_000,
-        output_file="../data/training/dataset-v3_8_0-1k.json",
-        number_translation_nodes=10,
-        batch_size=10,
-        mean_text_length=150,
-        text_length_standard_deviation=100,
-        text_similarity_thresholds=TextSimilarityThresholds([
-            TextSimilarityThreshold(100, 0.8),
-            TextSimilarityThreshold(30, 0.9),
-            TextSimilarityThreshold(0, 1),
-
-        ]))
-
-    ticket_generator = TicketGenerator(ticket_generation_config)
-    asyncio.run(ticket_generator.generate_dataset())
+    os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
+    create_tickets()
