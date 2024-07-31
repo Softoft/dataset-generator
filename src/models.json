@@ -214,5 +214,109 @@
         ]
       }
     ]
+  },
+  "randomTables": {
+    "queuePriority": {
+      "TECHNICAL_SUPPORT": {
+        "LOW": 10,
+        "MEDIUM": 30,
+        "HIGH": 60
+      },
+      "CUSTOMER_SERVICE": {
+        "LOW": 30,
+        "MEDIUM": 50,
+        "HIGH": 20
+      },
+      "BILLING_AND_PAYMENTS": {
+        "LOW": 20,
+        "MEDIUM": 50,
+        "HIGH": 30
+      },
+      "PRODUCT_SUPPORT": {
+        "LOW": 20,
+        "MEDIUM": 50,
+        "HIGH": 30
+      },
+      "IT_SUPPORT": {
+        "LOW": 10,
+        "MEDIUM": 40,
+        "HIGH": 50
+      },
+      "RETURNS_AND_EXCHANGES": {
+        "LOW": 40,
+        "MEDIUM": 40,
+        "HIGH": 20
+      },
+      "SALES_AND_PRE_SALES": {
+        "LOW": 30,
+        "MEDIUM": 50,
+        "HIGH": 20
+      },
+      "HUMAN_RESOURCES": {
+        "LOW": 50,
+        "MEDIUM": 40,
+        "HIGH": 10
+      },
+      "SERVICE_OUTAGES_AND_MAINTENANCE": {
+        "LOW": 10,
+        "MEDIUM": 20,
+        "HIGH": 70
+      },
+      "GENERAL_INQUIRY": {
+        "LOW": 60,
+        "MEDIUM": 30,
+        "HIGH": 10
+      }
+    },
+    "ticketTypeQueue": {
+      "INCIDENT": {
+        "TECHNICAL_SUPPORT": 40,
+        "CUSTOMER_SERVICE": 10,
+        "BILLING_AND_PAYMENTS": 5,
+        "PRODUCT_SUPPORT": 20,
+        "IT_SUPPORT": 10,
+        "RETURNS_AND_EXCHANGES": 5,
+        "SALES_AND_PRE_SALES": 2,
+        "HUMAN_RESOURCES": 2,
+        "SERVICE_OUTAGES_AND_MAINTENANCE": 5,
+        "GENERAL_INQUIRY": 1
+      },
+      "REQUEST": {
+        "TECHNICAL_SUPPORT": 20,
+        "CUSTOMER_SERVICE": 25,
+        "BILLING_AND_PAYMENTS": 15,
+        "PRODUCT_SUPPORT": 15,
+        "IT_SUPPORT": 10,
+        "RETURNS_AND_EXCHANGES": 5,
+        "SALES_AND_PRE_SALES": 5,
+        "HUMAN_RESOURCES": 2,
+        "SERVICE_OUTAGES_AND_MAINTENANCE": 2,
+        "GENERAL_INQUIRY": 1
+      },
+      "PROBLEM": {
+        "TECHNICAL_SUPPORT": 30,
+        "CUSTOMER_SERVICE": 15,
+        "BILLING_AND_PAYMENTS": 10,
+        "PRODUCT_SUPPORT": 20,
+        "IT_SUPPORT": 15,
+        "RETURNS_AND_EXCHANGES": 5,
+        "SALES_AND_PRE_SALES": 2,
+        "HUMAN_RESOURCES": 1,
+        "SERVICE_OUTAGES_AND_MAINTENANCE": 1,
+        "GENERAL_INQUIRY": 1
+      },
+      "CHANGE": {
+        "TECHNICAL_SUPPORT": 20,
+        "CUSTOMER_SERVICE": 10,
+        "BILLING_AND_PAYMENTS": 5,
+        "PRODUCT_SUPPORT": 20,
+        "IT_SUPPORT": 20,
+        "RETURNS_AND_EXCHANGES": 5,
+        "SALES_AND_PRE_SALES": 5,
+        "HUMAN_RESOURCES": 2,
+        "SERVICE_OUTAGES_AND_MAINTENANCE": 10,
+        "GENERAL_INQUIRY": 3
+      }
+    }
   }
 }
