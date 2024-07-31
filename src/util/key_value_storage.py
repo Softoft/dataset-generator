@@ -12,6 +12,8 @@ class KeyValueStorage:
 
     def save(self, value: any) -> None:
         key = type(value).__name__
+        if key in self.storage:
+            raise ValueError(f"Key {key} already exists in storage")
         self.storage[key] = value
 
     def get(self, value_type: type) -> any:

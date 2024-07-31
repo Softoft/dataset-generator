@@ -2,7 +2,8 @@ import dataclasses
 from dataclasses import dataclass
 from typing import Optional
 
-from graph.data.ticket_field import CategoricalTicketField, ComparableEnum, InputTicketField, OutputDataclassField
+from graph.data.ticket_field import ComparableEnum, InputTicketField, OutputDataclassField,\
+    RandomTicketField
 
 
 class Language(ComparableEnum):
@@ -25,10 +26,34 @@ class Language(ComparableEnum):
         return self.value
 
 
-class Priority(CategoricalTicketField):
-    LOW = "low", "Low priority, ticket concerns less urgent matters, not requiring immediate attention."
-    MEDIUM = "medium", "Medium priority, ticket concerns important matters, should be addressed promptly but not critical."
-    HIGH = "high", "High priority, ticket concerns urgent matters, requiring immediate attention and quick resolution."
+class Priority(RandomTicketField):
+    LOW = ("low", [
+        "Ticket concerns less urgent matters.",
+        "This ticket does not require immediate attention.",
+        "Low priority: issue is not time-sensitive.",
+        "Non-urgent ticket.",
+        "This ticket can be addressed at a later time.",
+        "The issue is of low priority.",
+        "Not requiring immediate resolution."
+    ])
+    MEDIUM = ("medium", [
+        "Medium priority: ticket concerns important matters.",
+        "Should be addressed promptly but not critical.",
+        "Ticket requires timely attention.",
+        "Important but not urgent issue.",
+        "Moderate priority: handle as soon as possible.",
+        "Ticket is of medium importance.",
+        "Needs prompt but not immediate action."
+    ])
+    HIGH = ("high", [
+        "High priority: ticket concerns urgent matters.",
+        "Requiring immediate attention and quick resolution.",
+        "Critical issue: needs immediate action.",
+        "Urgent matter: resolve as soon as possible.",
+        "Top priority: address immediately.",
+        "High importance: requires fast resolution.",
+        "Immediate attention needed for this ticket."
+    ])
 
 
 @dataclass
@@ -43,8 +68,6 @@ class TicketEmail(InputTicketField):
 @dataclass
 class TicketExtraInformation(OutputDataclassField):
     business_type: str
-    product_category: str
-    product_sub_category: str
     product: str
     extra_info: str
 
@@ -52,17 +75,97 @@ class TicketExtraInformation(OutputDataclassField):
         return dataclasses.asdict(self)
 
 
-class TicketQueue(CategoricalTicketField):
-    TECHNICAL_SUPPORT = "Technical Support", "Technical issues and support requests."
-    CUSTOMER_SERVICE = "Customer Service", "Customer inquiries and service requests."
-    BILLING_AND_PAYMENTS = "Billing and Payments", "Billing issues and payment processing."
-    PRODUCT_SUPPORT = "Product Support", "Support for product-related issues."
-    IT_SUPPORT = "IT Support", "Internal IT support and infrastructure issues."
-    RETURNS_AND_EXCHANGES = "Returns and Exchanges", "Product returns and exchanges."
-    SALES_AND_PRE_SALES = "Sales and Pre-Sales", "Sales inquiries and pre-sales questions."
-    HUMAN_RESOURCES = "Human Resources", "Employee inquiries and HR-related issues."
-    SERVICE_OUTAGES_AND_MAINTENANCE = "Service Outages and Maintenance", "Service interruptions and maintenance."
-    GENERAL_INQUIRY = "General Inquiry", "General inquiries and information requests."
+class TicketQueue(RandomTicketField):
+    TECHNICAL_SUPPORT = ("Technical Support", [
+        "Technical issues and support requests.",
+        "Help with technical problems.",
+        "Support for technical difficulties.",
+        "Assistance with technology-related issues.",
+        "Technical troubleshooting and support.",
+        "Resolving technical problems.",
+        "Handling technical queries and issues."
+    ])
+    CUSTOMER_SERVICE = ("Customer Service", [
+        "Customer inquiries and service requests.",
+        "Assistance with customer-related issues.",
+        "Handling customer service queries.",
+        "Support for customer-related matters.",
+        "Customer care and support.",
+        "Addressing customer questions.",
+        "Providing service to customers."
+    ])
+    BILLING_AND_PAYMENTS = ("Billing and Payments", [
+        "Billing issues and payment processing.",
+        "Help with billing and payments.",
+        "Resolving payment-related issues.",
+        "Support for billing queries.",
+        "Assistance with payment problems.",
+        "Handling billing concerns.",
+        "Processing payment issues."
+    ])
+    PRODUCT_SUPPORT = ("Product Support", [
+        "Support for product-related issues.",
+        "Assistance with product problems.",
+        "Resolving product-related queries.",
+        "Help with product concerns.",
+        "Support for issues related to products.",
+        "Handling product support requests.",
+        "Providing support for product issues."
+    ])
+    IT_SUPPORT = ("IT Support", [
+        "Internal IT support and infrastructure issues.",
+        "Assistance with IT-related problems.",
+        "Support for IT infrastructure.",
+        "Handling internal IT queries.",
+        "Resolving IT support requests.",
+        "Help with IT systems and infrastructure.",
+        "Providing IT support."
+    ])
+    RETURNS_AND_EXCHANGES = ("Returns and Exchanges", [
+        "Product returns and exchanges.",
+        "Assistance with returning products.",
+        "Handling product exchanges.",
+        "Support for returns and exchanges.",
+        "Help with product return issues.",
+        "Processing exchanges and returns.",
+        "Providing support for returns and exchanges."
+    ])
+    SALES_AND_PRE_SALES = ("Sales and Pre-Sales", [
+        "Sales inquiries and pre-sales questions.",
+        "Assistance with sales-related queries.",
+        "Handling pre-sales questions.",
+        "Support for sales inquiries.",
+        "Help with pre-sales information.",
+        "Providing sales support.",
+        "Addressing sales and pre-sales concerns."
+    ])
+    HUMAN_RESOURCES = ("Human Resources", [
+        "Employee inquiries and HR-related issues.",
+        "Assistance with HR matters.",
+        "Handling employee-related queries.",
+        "Support for HR issues.",
+        "Help with human resources concerns.",
+        "Addressing employee inquiries.",
+        "Providing HR support."
+    ])
+    SERVICE_OUTAGES_AND_MAINTENANCE = ("Service Outages and Maintenance", [
+        "Service interruptions and maintenance.",
+        "Assistance with service outages.",
+        "Handling maintenance-related issues.",
+        "Support for service interruptions.",
+        "Help with maintenance queries.",
+        "Resolving service outages.",
+        "Providing support for maintenance issues."
+    ])
+    GENERAL_INQUIRY = ("General Inquiry", [
+        "General inquiries and information requests.",
+        "Assistance with general questions.",
+        "Handling information requests.",
+        "Support for general queries.",
+        "Help with general information.",
+        "Addressing general inquiries.",
+        "Providing support for general questions."
+    ])
 
 
 @dataclass
@@ -77,11 +180,43 @@ class NumberInterval:
         return hash((self.lower_bound, self.upper_bound))
 
 
-class TicketType(CategoricalTicketField):
-    INCIDENT = "Incident", "Unexpected issue, immediate attention needed."
-    REQUEST = "Request", "Routine inquiry or request."
-    PROBLEM = "Problem", "Basic issue, causing multiple incidents."
-    CHANGE = "Change", "Planned change or update."
+class TicketType(RandomTicketField):
+    INCIDENT = ("Incident", [
+        "Unexpected issue, immediate attention needed.",
+        "Urgent problem requiring prompt action.",
+        "Unplanned event needing immediate resolution.",
+        "Critical issue requiring swift attention.",
+        "Unexpected problem, high urgency.",
+        "Immediate action required for incident.",
+        "Urgent incident that needs quick response."
+    ])
+    REQUEST = ("Request", [
+        "Routine inquiry or request.",
+        "Standard request needing attention.",
+        "Normal service request.",
+        "General inquiry or request.",
+        "Routine question or request for information.",
+        "Non-urgent request for service.",
+        "Regular request requiring handling."
+    ])
+    PROBLEM = ("Problem", [
+        "Basic issue, causing multiple incidents.",
+        "Underlying problem leading to other issues.",
+        "Core issue affecting multiple areas.",
+        "Problem causing several incidents.",
+        "Root cause of various incidents.",
+        "Major issue leading to other problems.",
+        "Primary issue causing multiple incidents."
+    ])
+    CHANGE = ("Change", [
+        "Planned change or update.",
+        "Scheduled change needing implementation.",
+        "Planned update or modification.",
+        "Change request for approval and action.",
+        "Planned modification requiring execution.",
+        "Scheduled update to be carried out.",
+        "Change implementation request."
+    ])
 
 
 @dataclass
@@ -113,7 +248,7 @@ class Ticket:
             "type": self.type.value,
             "queue": self.queue.value,
             "priority": self.priority.value,
-            "language": self.language.value,
+            "language": self.language.iso_lower,
             "tags": self.tags or []
         }
 

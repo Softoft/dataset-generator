@@ -24,6 +24,8 @@ class TicketGenerator:
         self.amount_batches = int(
             (self.number_of_tickets / self.batch_size_in_graph_runs) / self.number_translation_nodes)
         self.__check_output_file_doesnt_exist()
+        logging.warning(f"Ticket Geneeration Started with {self.number_of_tickets} Tickets,"
+                        f" graph ticket runs: {self.graph_ticket_runs}, batch size in graph runs: {self.batch_size_in_graph_runs}, {self.amount_batches} batches.")
 
     def __check_output_file_doesnt_exist(self):
         try:

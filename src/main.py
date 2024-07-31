@@ -11,7 +11,7 @@ def create_tickets():
     injector = Injector([TicketGenerationModule()])
     ticket_generator = injector.get(TicketGenerator)
     logging.basicConfig(
-        level=logging.INFO,
+        level=logging.WARNING,
         format='%(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler()

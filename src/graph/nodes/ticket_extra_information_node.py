@@ -17,10 +17,10 @@ class TicketExtraInformationNode(ExecutableNode):
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         return (
-            f"Generate {TicketExtraInformation.list_attributes_and_types()} for a ticket"
-            f"with type {ticket_type.value}: '{ticket_type.description}'"
-            f"and queue {ticket_queue.value}: '{ticket_queue.description}'"
-            f"and priority {ticket_priority.value}: '{ticket_priority.description}'"
+            f"Generate {TicketExtraInformation.list_attributes_and_types()} for a ticket:"
+            f"{ticket_type.get_description()}, "
+            f"{ticket_queue.get_description()}, "
+            f"'{ticket_priority.get_description()}'"
         )
 
     @retry(stop=stop_after_attempt(6), retry=retry_if_exception_type((TypeError, json.decoder.JSONDecodeError)))

@@ -15,7 +15,7 @@ class ChatAssistant:
         self.temperature = temperature
         self.usage_analyzer = AssistantAnalyzer.get_instance()
 
-    @retry(wait=wait_random_exponential(min=4, max=64), stop=stop_after_attempt(10),
+    @retry(wait=wait_random_exponential(min=4, max=128), stop=stop_after_attempt(10),
            retry=retry_if_exception_type((openai.APITimeoutError, openai.RateLimitError, openai.APIConnectionError)))
     async def _create_run_with_retry(self, thread_id, assistant_id):
         run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
@@ -23,7 +23,7 @@ class ChatAssistant:
                                                                   temperature=self.temperature)
         self.usage_analyzer.append_run(run, self.assistant_name)
 
-    @retry(wait=wait_random_exponential(min=4, max=64), stop=stop_after_attempt(10),
+    @retry(wait=wait_random_exponential(min=4, max=128), stop=stop_after_attempt(10),
            retry=retry_if_exception_type((openai.APITimeoutError, openai.RateLimitError, openai.APIConnectionError)))
     async def chat_assistant(self, prompt: str) -> str:
         open_ai_assistant = await self.client.beta.assistants.retrieve(self.assistant_id)

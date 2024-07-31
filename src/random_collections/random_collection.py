@@ -37,4 +37,6 @@ class RandomCollectionBuilder:
     def build_from_value_weight_dict[V](value_weight_dict: dict[V, float]):
         return RandomCollection[V](list(value_weight_dict.keys()), list(value_weight_dict.values()))
 
-
+    @staticmethod
+    def build_from_list_of_values[V](values: list[V]):
+        return RandomCollection[V](values, [1 for _ in range(len(values))])

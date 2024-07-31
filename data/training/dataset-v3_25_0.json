@@ -1,0 +1,746 @@
+[
+  {
+    "subject": "Need Urgent Help with Network Connection Problems",
+    "body": "Hello IT Services Support Team, I'm having trouble with the network connectivity associated with my account (<acc_num>). I would be truly grateful for your prompt assistance in addressing this issue. You can reach me at <tel_num>. Thanks, <name>.",
+    "answer": "Hello [Name],\n\nThank you for reaching out to IT Services. We have noted your concern regarding the network connectivity issue linked to your account ([acc_num]). Our team is currently looking into the matter and will keep you informed soon. If necessary, we may reach out to you at [tel_num].\n\nBest wishes,\nIT Services Support Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer is experiencing network connectivity issues and requires assistance in troubleshooting the problem."
+  },
+  {
+    "subject": "Urgent Help Needed: Network Connection Problems",
+    "body": "Hello IT Support Team,  I've been facing challenges regarding network connection on my account (<acc_num>). Your swift support in addressing this issue would be immensely appreciated. You can reach me at <tel_num>. Best, <name>.",
+    "answer": "Hello [Name],  We appreciate your reaching out to IT Services. Your notification concerning network connectivity challenges linked to your account ([acc_num]) has been received. Our team is currently looking into the issue and will provide you with updates soon. If necessary, we may reach out to you at [tel_num].  Best wishes, IT Services Customer Support",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer is experiencing network connectivity issues and requires assistance in troubleshooting the problem."
+  },
+  {
+    "subject": "Problemas de conexi\u00f3n de red - Urge asistencia",
+    "body": "Hola, equipo de soporte de servicios de TI, estoy teniendo dificultades con la conexi\u00f3n de red en mi cuenta (<acc_num>). Apreciar\u00eda mucho su ayuda para solucionar este problema lo antes posible. Mi n\u00famero de tel\u00e9fono es <tel_num>. Saludos cordiales, <name>.",
+    "answer": "Estimado [Nombre],\n\nLe agradecemos por comunicarse con los Servicios de TI. Hemos tomado nota de su inquietud respecto a los problemas de conexi\u00f3n de red vinculados a su cuenta ([acc_num]). Nuestro equipo est\u00e1 al tanto del asunto y pronto le proporcionaremos una actualizaci\u00f3n. Si lo requieren, podemos comunicarnos con usted al [tel_num].\n\nCordialmente,\nEl equipo de Soporte al Cliente de Servicios de TI",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Network Issue",
+      "Urgent Issue",
+      "IT Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer is experiencing network connectivity issues and requires assistance in troubleshooting the problem."
+  },
+  {
+    "subject": "Bericht zu Netzwerkverbindungsproblemen - Dringende Unterst\u00fctzung ben\u00f6tigt",
+    "body": "Liebes IT-Service-Support-Team, ich bin auf Schwierigkeiten mit der Netzwerkverbindung meines Kontos (<acc_num>) gesto\u00dfen. Es w\u00e4re sehr hilfreich, wenn Sie mir bei einer z\u00fcgigen L\u00f6sung dieses Problems zur Seite stehen k\u00f6nnten. Sie erreichen mich unter folgender Nummer: <tel_num>. Beste Gr\u00fc\u00dfe, <name>.",
+    "answer": "Sehr geehrte/r [Name],\n\nwir danken Ihnen herzlich f\u00fcr Ihre Kontaktaufnahme mit dem IT-Service. Ihre Anfrage hinsichtlich der Netzwerkverbindungsprobleme bei Ihrem Konto ([acc_num]) haben wir erhalten und unser Team wird sich der Angelegenheit annehmen. Sie werden bald von uns h\u00f6ren. Sollten wir weiteres aufkl\u00e4ren m\u00fcssen, k\u00f6nnen wir Sie unter [tel_num] erreichen.\n\nFreundliche Gr\u00fc\u00dfe,\nIT-Service-Support",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "IT Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer is experiencing network connectivity issues and requires assistance in troubleshooting the problem."
+  },
+  {
+    "subject": "",
+    "body": "Prezado Suporte ao Cliente,\n\nEstou lidando com quest\u00f5es t\u00e9cnicas que requerem aten\u00e7\u00e3o imediata. Os problemas come\u00e7aram ontem e est\u00e3o prejudicando meu trabalho. Pe\u00e7o assist\u00eancia t\u00e9cnica urgente para esclarecer esta quest\u00e3o. Meu n\u00famero de conta \u00e9 <acc_num>. Voc\u00ea pode me contatar pelo telefone <tel_num> para mais informa\u00e7\u00f5es. \n\nAgrade\u00e7o pela sua assist\u00eancia r\u00e1pida.\n\nCordialmente,\n<name>",
+    "answer": "Caro <name>,\n\nAgradecemos por sua mensagem. Compreendemos a gravidade da sua situa\u00e7\u00e3o e estamos \u00e0 disposi\u00e7\u00e3o para ajudar. Nossa equipe de suporte t\u00e9cnico est\u00e1 investigando o problema e deve se comunicar com voc\u00ea em breve atrav\u00e9s do <tel_num> para discutirmos mais detalhes.\n\nAgradecemos pela sua compreens\u00e3o e garantimos que resolveremos isto o mais r\u00e1pido poss\u00edvel.\n\nAtenciosamente,\nSuporte ao Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "high",
+    "language": "pt",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for technical support. No specific issues mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Sehr geehrter Kundenservice,\n\nich stehe vor technischen Schwierigkeiten, die umgehend Aufmerksamkeit ben\u00f6tigen. Diese Probleme haben gestern begonnen und beeintr\u00e4chtigen meine allt\u00e4gliche Arbeit. Ich bitte um sofortige Unterst\u00fctzung in dieser Sache. Meine Kontonummer lautet <acc_num>. Sie erreichen mich unter <tel_num>",
+    "answer": "Hallo <name>,\n\nwir bedanken uns f\u00fcr Ihre Nachricht. Wir nehmen die Dringlichkeit Ihrer Angelegenheit ernst und sind bereit zu helfen. Unser technisches Support-Team wird sich um Ihr Anliegen k\u00fcmmern und wird Sie bald unter <tel_num> kontaktieren, um weitere Informationen bereitzustellen.\n\nWir sch\u00e4tzen Ihre Geduld und setzen alles daran, das Problem schnellstm\u00f6glich zu l\u00f6sen.\n\nMit besten Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Customer Service",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for technical support. No specific issues mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Estimado/a equipo de atenci\u00f3n al cliente,\n\nMe encuentro con problemas t\u00e9cnicos que requieren atenci\u00f3n inmediata. Estos inconvenientes iniciaron ayer y est\u00e1n obstaculizando mi labor. Solicito asistencia t\u00e9cnica de manera urgente para poder resolver esta situaci\u00f3n. Mi n\u00famero de cuenta es <acc_num>. Por favor, pueden contactarme al <tel_num> para m\u00e1s informaci\u00f3n.\n\nAgradezco de antemano su r\u00e1pida respuesta.\n\nSaludos cordiales,\n<name>",
+    "answer": "Estimado/a <name>,\n\nAgradecemos su comunicaci\u00f3n con nosotros. Reconocemos la seriedad de su situaci\u00f3n y estamos aqu\u00ed para asistirle. Nuestro equipo de soporte t\u00e9cnico se encuentra analizando su inconveniente y se pondr\u00e1 en contacto pronto con usted al <tel_num> para brindar m\u00e1s informaci\u00f3n.\n\nValoramos su paciencia y nos comprometemos a solucionar esto lo m\u00e1s pronto posible.\n\nCordialmente,\nEl equipo de atenci\u00f3n al cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for technical support. No specific issues mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Bonjour \u00e9quipe de support client,\n\nJe fais face \u00e0 des probl\u00e8mes techniques qui n\u00e9cessitent une intervention rapide. Ces probl\u00e8mes ont d\u00e9but\u00e9 hier et perturbent mon activit\u00e9 professionnelle. Je demande un soutien technique sans d\u00e9lai \u00e0 ce sujet. Mon num\u00e9ro de compte est <acc_num>. Vous me joindrez au <tel_num> si vous avez besoin d'informations suppl\u00e9mentaires.\n\nJe vous remercie par avance pour votre promptitude.\n\nSinc\u00e8rement,\n<name>",
+    "answer": "Bonjour <name>,\n\nNous vous remercions de nous avoir \u00e9crit. Nous sommes conscients de l'urgence de votre situation et d\u00e9termin\u00e9s \u00e0 vous apporter l'aide requise. Notre \u00e9quipe technique est en train d'examiner votre probl\u00e8me et vous contactera sous peu au <tel_num> pour \u00e9changer davantage d'informations.\n\nNous vous remercions de votre patience et mettrons tout en \u0153uvre pour r\u00e9soudre ce probl\u00e8me rapidement.\n\nSinc\u00e8rement,\nL'\u00e9quipe du support client",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "high",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Disruption",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for technical support. No specific issues mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Hola, equipo de Atenci\u00f3n al Cliente. Estoy teniendo inconvenientes t\u00e9cnicos con uno de sus productos. Mi n\u00famero de cuenta es <acc_num>. \u00bfPodr\u00edan ayudarme a solucionar este asunto? Agradezco de antemano. Atentamente, <name>",
+    "answer": "Estimado/a <name>,\n\nAgradecemos tu contacto. Para poder asistirte de manera m\u00e1s eficaz, requerimos m\u00e1s informaci\u00f3n sobre la dificultad que est\u00e1s enfrentando. Te pedimos que nos brindes una descripci\u00f3n del inconveniente que est\u00e1s experimentando.\n\nCordialmente,\nAtenci\u00f3n al Cliente",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Customer Service",
+      "Product Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer requests support for a technical issue with no specific product mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Hola, Equipo de Atenci\u00f3n al Cliente, estoy teniendo dificultades t\u00e9cnicas con uno de sus productos. Mi n\u00famero de cuenta es <acc_num>. \u00bfPodr\u00edan ayudarme a solucionar este inconveniente? Muchas gracias. Saludos cordiales, <name>",
+    "answer": "Estimado/a <name>, \n\nAgradecemos tu mensaje. Para poder ofrecerte una asistencia adecuada, necesitamos que nos compartas m\u00e1s informaci\u00f3n sobre el inconveniente que est\u00e1s teniendo. Por favor, describe el problema que deseas resolver.\n\nCordialmente,\nEquipo de Atenci\u00f3n al Cliente",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Customer Service",
+      "Product Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer requests support for a technical issue with no specific product mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Dear Customer Support,\n\nI'm encountering some technical difficulties with one of your offerings. My account number is <acc_num>. Could you kindly help me resolve this matter? Thank you.\n\nSincerely,  <name>",
+    "answer": "Hello <name>, \n\nWe appreciate your message. To help you better, we require additional information regarding the issue you are facing. Please describe the problem in detail.\n\nBest regards,\nCustomer Support",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Account Assistance",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer requests support for a technical issue with no specific product mentioned."
+  },
+  {
+    "subject": "",
+    "body": "Dear Customer Support Team, I am having some technical difficulties with one of your products. My account number is <acc_num>. I would appreciate your help in solving this matter. Thank you. Sincerely, <name>",
+    "answer": "Hello <name>,\n\nThank you for contacting us. We would require more information regarding your issue to provide proper assistance. Could you please describe the situation you are facing?\n\nKind regards,\nCustomer Support",
+    "type": "Change",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Account Assistance",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer requests support for a technical issue with no specific product mentioned."
+  },
+  {
+    "subject": "Importante: Asistencia Urgente Necesaria - Dificultades para Ingresar al Sistema Operativo Windows - Amenaza a la Continuidad del Negocio",
+    "body": "Hola equipo de soporte t\u00e9cnico,\n\nSoy <name> y me enfrento a un inconveniente al tratar de acceder a mi sistema operativo Windows. Esta situaci\u00f3n est\u00e1 impactando severamente mi trabajo. Les pido por favor que me contacten a la brevedad posible al <tel_num> con una soluci\u00f3n. Agradezco su atenci\u00f3n.\n\nCordiales saludos,\n<name>",
+    "answer": "Hola <name>,\n\nAgradecemos que te hayas comunicado. Lamentamos saber acerca de las dificultades que enfrentas para acceder. Estamos dando prioridad a tu situaci\u00f3n y te llamaremos pronto al <tel_num> para solucionar este problema.\n\nSaludos cordiales,\nEquipo de Soporte T\u00e9cnico",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Login Issue",
+      "System Crash",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer unable to access their Windows account after recent update."
+  },
+  {
+    "subject": "Immediate Help Needed: Unable to Access Windows OS - Urgent Business Concerns",
+    "body": "Hello IT Support Team,\n\nI am <name>, and I cannot get into my Windows operating system. This situation is significantly hindering my work capacity. I would appreciate it if you could reach out to me at <tel_num> at your soonest opportunity with a solution. Thank you very much.\n\nKind regards,\n<name>",
+    "answer": "Hello <name>,\n\nWe appreciate your message. I'm sorry to learn about the issue you are experiencing with access. Your request is being treated with utmost importance, and we will get in touch with you soon at <tel_num> to find a solution.\n\nWarm regards,\nIT Support Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Urgent Issue",
+      "Login Issue",
+      "System Maintenance",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer unable to access their Windows account after recent update."
+  },
+  {
+    "subject": "Urgent : Assistance n\u00e9cessaire rapidement - L'acc\u00e8s au syst\u00e8me d'exploitation Windows du client est bloqu\u00e9 - Viabilit\u00e9 des affaires en danger",
+    "body": "Bonjour l'\u00e9quipe de support technique,  \n\nJe suis <name>, et je rencontre des difficult\u00e9s pour acc\u00e9der \u00e0 mon syst\u00e8me d'exploitation Windows. Cela perturbe consid\u00e9rablement mon efficacit\u00e9. Merci de bien vouloir m'appeler d\u00e8s que possible au <tel_num> afin que nous puissions trouver une solution.  \n\nBien \u00e0 vous,  \n<name>",
+    "answer": "Bonjour <name>,  \n\nMerci de nous avoir signal\u00e9 ce probl\u00e8me. Je suis navr\u00e9 d'apprendre que vous avez des difficult\u00e9s d'acc\u00e8s. Nous allons traiter votre demande prioritaire et vous appellerons bient\u00f4t au <tel_num> pour r\u00e9soudre la situation.  \n\nCordialement,  \n\u00c9quipe de support technique",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "System Crash",
+      "Problem Resolution",
+      "IT Support",
+      "Service Disruption",
+      "Login Issue"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer unable to access their Windows account after recent update."
+  },
+  {
+    "subject": "Immediate Assistance Needed: Customer Cannot Access Windows OS - Critical for Continuity",
+    "body": "Hello IT Support Team,\n\nMy name is <name>, and I am currently experiencing difficulties accessing my Windows operating system. This problem is severely impacting my ability to work effectively. Could you please get in touch with me as soon as possible at <tel_num> to provide a solution? Thank you very much.\n\nKind regards,\n<name>",
+    "answer": "Hello <name>,\n\nWe appreciate your message. We're sorry to learn about your access problem. Your issue is high priority for us, and we will connect with you soon at <tel_num> to address it.\n\nBest wishes,\nIT Support Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Urgent Issue",
+      "Login Issue",
+      "System Crash",
+      "Technical Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer unable to access their Windows account after recent update."
+  },
+  {
+    "subject": "Renseignement sur le processus de remboursement pour une commande",
+    "body": "Bonjour, \u00e9quipe du service \u00e0 la client\u00e8le. Je souhaiterais obtenir des informations concernant la proc\u00e9dure de remboursement pour une r\u00e9cente commande effectu\u00e9e. Serait-il possible d'obtenir des instructions pr\u00e9cises sur la fa\u00e7on de proc\u00e9der ? Merci d'avance. Bien \u00e0 vous, <name> <tel_num> <acc_num>",
+    "answer": "Bonjour <name>,\n\nPour commencer la d\u00e9marche de remboursement, veuillez vous connecter \u00e0 votre espace client, acc\u00e9der \u00e0 'Historique des commandes', s\u00e9lectionner la commande concern\u00e9e, puis cliquer sur 'Demander un remboursement'. Suivez l\u00e0 les \u00e9tapes indiqu\u00e9es. Les demandes de remboursement sont normalement trait\u00e9es dans un d\u00e9lai de 5 \u00e0 7 jours ouvrables.\n\nCordialement,\nService \u00e0 la client\u00e8le",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "fr",
+    "tags": [
+      "Refund Request",
+      "Customer Service",
+      "Order Issue",
+      "Billing Issue"
+    ],
+    "business_type": "Online Store",
+    "product": "",
+    "extra_info": "Customer inquiring about refund process for a defective item."
+  },
+  {
+    "subject": "Solicitud de informaci\u00f3n sobre el procedimiento de reembolso del pedido",
+    "body": "Hola, equipo de atenci\u00f3n al cliente. Quisiera obtener informaci\u00f3n respecto al procedimiento de reembolso para un pedido que realic\u00e9 recientemente. \u00bfPodr\u00edan proporcionarme una gu\u00eda clara sobre los pasos a seguir? Muchas gracias. Saludos cordiales, <nombre> <tel_num> <num_cuenta>",
+    "answer": "Estimado/a <nombre>,\n\nPara proceder con una solicitud de reembolso, acceda a su cuenta, dir\u00edgete a la secci\u00f3n 'Historial de Pedidos', escoge el pedido correspondiente y pulsa en 'Solicitar Reembolso'. A continuaci\u00f3n, sigue las instrucciones que se mostrar\u00e1n. El tiempo estimado para procesar los reembolsos es de entre 5 y 7 d\u00edas h\u00e1biles.\n\nCordialmente,\nAtenci\u00f3n al Cliente",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Refund Request",
+      "Customer Service",
+      "Order Issue",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "Online Store",
+    "product": "",
+    "extra_info": "Customer inquiring about refund process for a defective item."
+  },
+  {
+    "subject": "Questions Regarding the Order Refund Procedure",
+    "body": "Hello customer service, I am reaching out to ask about the refund procedure for a recent purchase I made. Could you please share the steps I need to follow? Thank you. Sincerely, <name> <tel_num> <acc_num>",
+    "answer": "Hi <name>,\n\nTo begin the refund process, please sign into your account, navigate to 'Order History', select the order in question, and hit 'Request Refund'. Just follow the on-screen instructions. Refunds typically take 5-7 business days to be processed.\n\nBest wishes,\nCustomer Support",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Refund Request",
+      "Customer Service",
+      "Order Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "Online Store",
+    "product": "",
+    "extra_info": "Customer inquiring about refund process for a defective item."
+  },
+  {
+    "subject": "Questions Regarding Order Refund Procedure",
+    "body": "Hello customer service, I'm reaching out to understand the procedure for obtaining a refund for an order I recently made. Could you kindly provide me with detailed steps on how to move forward? Thank you. Sincerely, <name> <tel_num> <acc_num>",
+    "answer": "Hello <name>,\n\nTo start the refund process, please sign into your account, navigate to the 'Order History' section, choose the order in question, and select 'Request Refund'. Just follow the instructions provided. Refunds will typically be processed within 5 to 7 business days.\n\nBest wishes,\nCustomer Support",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Refund Request",
+      "Customer Service",
+      "Order Issue",
+      "Billing Issue"
+    ],
+    "business_type": "Online Store",
+    "product": "",
+    "extra_info": "Customer inquiring about refund process for a defective item."
+  },
+  {
+    "subject": "Anfrage nach umfassenden Informationen zu Ihren IT-Dienstleistungen",
+    "body": "Sehr geehrtes Kundenserviceteam,\n\nich interessiere mich f\u00fcr mehr Informationen zu den unterschiedlichen IT-Dienstleistungen, die Ihr Unternehmen bereitstellt. K\u00f6nnten Sie mir bitte eine detaillierte \u00dcbersicht bereitstellen? Ich danke Ihnen im Voraus.\n\nMit besten Gr\u00fc\u00dfen,\n<name>",
+    "answer": "Sehr geehrte/r <name>,\n\nwir sch\u00e4tzen Ihr Interesse an unseren Dienstleistungen und bedanken uns f\u00fcr Ihre Anfrage. Unser Angebot umfasst verschiedene IT-Dienstleistungen, dazu z\u00e4hlen Netzwerkmanagement, IT-Sicherheit, Cloud-Dienste, professionelle IT-Beratung und technischer Support.\n\nMit freundlichen Gr\u00fc\u00dfen,\nIhr Kundenserviceteam",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "IT Support",
+      "Customer Service",
+      "General Inquiry",
+      "Technical Guidance",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "General inquiry about services offered."
+  },
+  {
+    "subject": "Anfrage nach umfassenden Details zu den angebotenen IT-Services Ihres Unternehmens",
+    "body": "Sehr geehrtes Kundenserviceteam,\n\nich interessiere mich f\u00fcr genauere Informationen \u00fcber die unterschiedlichen IT-Services, die Ihr Unternehmen zur Verf\u00fcgung stellt. W\u00e4re es m\u00f6glich, mir eine detaillierte \u00dcbersicht zuzusenden? Vielen Dank im Voraus.\n\nFreundliche Gr\u00fc\u00dfe,\n<name>",
+    "answer": "Sehr geehrter <name>,\n\nherzlichen Dank f\u00fcr Ihre Anfrage. Unser Unternehmen stellt verschiedene IT-Services zur Verf\u00fcgung, wie zum Beispiel Netzwerkmanagement, Sicherheitsl\u00f6sungen, Cloud-Dienste, IT-Consulting und technischen Support.\n\nFreundliche Gr\u00fc\u00dfe,\nKundenservice",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "IT Support",
+      "Customer Service",
+      "General Inquiry",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "General inquiry about services offered."
+  },
+  {
+    "subject": "Solicitud de informaci\u00f3n detallada sobre los diferentes servicios de TI que su empresa ofrece",
+    "body": "Apreciado equipo de atenci\u00f3n al cliente,\n\nQuisiera recibir m\u00e1s informaci\u00f3n sobre los diferentes servicios de TI que su empresa ofrece. \u00bfSer\u00eda posible proporcionarme una descripci\u00f3n m\u00e1s exhaustiva? Agradezco su ayuda.\n\nSaludos cordiales,\n<name>",
+    "answer": "Apreciado <name>,\n\nAgradecemos su inter\u00e9s. Brindamos una amplia gama de servicios de TI, tales como administraci\u00f3n de redes, protecci\u00f3n cibern\u00e9tica, servicios en la nube, asesor\u00eda en TI y soporte t\u00e9cnico.\n\nSaludos,\nEquipo de Atenci\u00f3n al Cliente",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Customer Service",
+      "Technical Support",
+      "IT Support",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "General inquiry about services offered."
+  },
+  {
+    "subject": "Solicitud de informaci\u00f3n detallada sobre los servicios de TI que ofrece su compa\u00f1\u00eda",
+    "body": "Hola equipo de soporte al cliente,\n\nQuisiera solicitar m\u00e1s informaci\u00f3n detallada sobre los diferentes servicios de TI que brinda su compa\u00f1\u00eda. \u00bfSer\u00eda posible remitirme un resumen completo? Muchas gracias.\n\nCordiales saludos,\n<name>",
+    "answer": "Hola <name>,\n\nAgradecemos tu consulta. Contamos con una variedad de servicios de TI, los cuales abarcan gesti\u00f3n de redes, seguridad inform\u00e1tica, soluciones en la nube, consultor\u00eda en tecnolog\u00eda de la informaci\u00f3n y asistencia t\u00e9cnica.\n\nSaludos,\nSoporte al Cliente",
+    "type": "Problem",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "IT Support",
+      "Customer Service",
+      "General Inquiry",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "General inquiry about services offered."
+  },
+  {
+    "subject": "",
+    "body": "Estimado equipo de soporte t\u00e9cnico,\n\nSoy <name>, mi cuenta es <acc_num>. He encontrado un error del sistema que requiere su atenci\u00f3n. Agradecer\u00eda su ayuda pronta para resolver este inconveniente. Les ruego que se pongan en contacto conmigo a la mayor brevedad. Pueden hacerlo a trav\u00e9s de correo electr\u00f3nico o llamarme al <tel_num>.\n\nSaludos,\n<name>",
+    "answer": "Estimado [Nombre],\n\nGracias por comunicarte con el soporte t\u00e9cnico. Hemos recibido tu requerimiento y estamos trabajando en la soluci\u00f3n del inconveniente relacionado con tu cuenta. Nos comunicatearemos contigo tan pronto como podamos. Si necesitas m\u00e1s asistencia en este \u00ednterin, por favor no dudes en escribirnos por correo electr\u00f3nico o llamarnos al [Tel_num].\n\nAtentamente,\nEl equipo de soporte t\u00e9cnico",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Software Bug",
+      "Account Assistance",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "User requires assistance with system error message when trying to update software."
+  },
+  {
+    "subject": "",
+    "body": "Bonjour \u00e9quipe d'assistance informatique,\n\nJe fais face \u00e0 un probl\u00e8me technique qui requiert votre intervention. Je suis <name>, et mon num\u00e9ro de compte est <acc_num>. Je souhaiterais obtenir votre aide rapidement afin de rem\u00e9dier \u00e0 cette situation au plus vite. Je vous remercie de bien vouloir me contacter d\u00e8s que cela vous sera possible. Je suis disponible par email ou par t\u00e9l\u00e9phone au <tel_num>.\n\nCordialement,\n<name>",
+    "answer": "Bonjour [Nom],\n\nNous vous remercions d'avoir sollicit\u00e9 l'assistance informatique. Votre requ\u00eate est bien enregistr\u00e9e et nous examinons actuellement la difficult\u00e9 rencontr\u00e9e avec votre compte. Nous vous tiendrons inform\u00e9 dans les meilleurs d\u00e9lais. Si d'ici l\u00e0, vous avez besoin d'une aide suppl\u00e9mentaire, n'h\u00e9sitez pas \u00e0 nous contacter par email ou au [Tel_num].\n\nBien \u00e0 vous,\nL'\u00e9quipe d'assistance informatique",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Account Assistance",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "User requires assistance with system error message when trying to update software."
+  },
+  {
+    "subject": "",
+    "body": "Hello IT Support Team,\n\nI am facing a system issue that needs your help. My name is <name> and my account number is <acc_num>. I would greatly appreciate it if you could assist me in resolving this matter quickly. Please contact me at your earliest convenience; I am reachable via email or by phone at <tel_num>.\n\nThank you,\n<name>",
+    "answer": "Hello [Name],\n\nWe appreciate your communication with IT Services Support. Your inquiry has been logged, and we are looking into your account issue. You can expect an update from us shortly. If you require further assistance in the interim, feel free to contact us by email or at [Tel_num].\n\nWarm regards,\nThe IT Services Support Team",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Account Assistance",
+      "Urgent Issue",
+      "Problem Resolution",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "User requires assistance with system error message when trying to update software."
+  },
+  {
+    "subject": "",
+    "body": "Querido equipo de atenci\u00f3n al cliente de servicios inform\u00e1ticos,\n\nEstoy enfrentando un problema en el sistema que necesita su intervenci\u00f3n. Mi nombre es <name> y mi n\u00famero de cuenta es <acc_num>. Agradecer\u00eda un soporte urgente para solucionar este inconveniente lo m\u00e1s pronto posible. Por favor, cont\u00e1ctenme a la brevedad. Pueden comunicarse conmigo a trav\u00e9s de correo electr\u00f3nico o por tel\u00e9fono al <tel_num>.\n\nGracias,\n<name>",
+    "answer": "Estimado [Nombre],\n\nAgradecemos su comunicaci\u00f3n con el equipo de soporte de servicios inform\u00e1ticos. Hemos recibido su mensaje y actualmente estamos revisando el inconveniente relacionado con su cuenta. Nos comunicaremos con usted a la mayor brevedad. Si requiere m\u00e1s asistencia mientras tanto, no dude en contactarnos a trav\u00e9s de correo electr\u00f3nico o al [Tel_num].\n\nSaludos,\nEquipo de soporte de servicios inform\u00e1ticos",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Account Assistance",
+      "Problem Resolution",
+      "IT Support"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "User requires assistance with system error message when trying to update software."
+  },
+  {
+    "subject": "Assistance demand\u00e9e : Besoin de support technique pour des soucis de produit",
+    "body": "Bonjour cher service client, j'esp\u00e8re que vous allez bien. Je me permets de vous \u00e9crire afin de solliciter votre aide pour un probl\u00e8me technique que je fais face. Malheureusement, il n'y a pas de produit en particulier affect\u00e9. Pourriez-vous me conseiller sur la mani\u00e8re de r\u00e9soudre cette situation ? Merci beaucoup. Bien \u00e0 vous, <name>",
+    "answer": "Bonjour <name>,\n\nNous vous remercions de nous avoir contact\u00e9s. Pour que nous puissions vous assister au mieux, pourriez-vous s'il vous pla\u00eet nous donner plus d'informations concernant le probl\u00e8me que vous rencontrez ? Des pr\u00e9cisions telles que le nom du produit, les d\u00e9tails du soucis rencontr\u00e9 et tout message d'erreur seraient vraiment appr\u00e9ci\u00e9s.\n\nCordialement,\nL'\u00e9quipe du service client",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "Problem Resolution",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance where no specific product or issue was specified."
+  },
+  {
+    "subject": "Solicitud de Ayuda: Asistencia T\u00e9cnica Requerida para Dificultades con el Producto",
+    "body": "Saludos al equipo de atenci\u00f3n al cliente, Espero que este mensaje les encuentre bien. Me comunico con ustedes para solicitar ayuda debido a una dificultad t\u00e9cnica que estoy teniendo. Lamentablemente, no tengo un producto concreto que indique como afectado. Agradecer\u00eda su orientaci\u00f3n para resolver esta situaci\u00f3n. Muchas gracias. Atentamente, <name>",
+    "answer": "Estimado/a <name>,\n\nAgradecemos tu mensaje. Para poder asistirte de la mejor manera posible, \u00bfpodr\u00edas compartir m\u00e1s informaci\u00f3n sobre la dificultad t\u00e9cnica que experimentas? Datos como el nombre del producto, la naturaleza del problema y cualquier mensaje de error ser\u00edan de gran ayuda.\n\nSaludos cordiales,\nEquipo de Atenci\u00f3n al Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance where no specific product or issue was specified."
+  },
+  {
+    "subject": "Solicita\u00e7\u00e3o de Ajuda: Necessidade de Suporte T\u00e9cnico para Problemas com Produto",
+    "body": "Prezado Time de Atendimento ao Cliente, espero que estejam bem ao receber este email. Estou escrevendo para pedir ajuda com um desafio t\u00e9cnico que estou enfrentando. Infelizmente, n\u00e3o estou conseguindo identificar um produto espec\u00edfico que esteja afetado. Seria poss\u00edvel me orientar na solu\u00e7\u00e3o desse problema? Agrade\u00e7o desde j\u00e1. Cordialmente, <nome>",
+    "answer": "Prezado <nome>,\n\nAgradecemos pelo seu contato. Para que possamos ajud\u00e1-lo mais efetivamente, poderia nos fornecer mais detalhes sobre o problema t\u00e9cnico que est\u00e1 encontrando? Informa\u00e7\u00f5es como o nome do produto, a dificuldade espec\u00edfica e qualquer mensagem de erro seri\u00e3o extremamente \u00fateis.\n\nCordialmente,\nTime de Atendimento ao Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "pt",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance where no specific product or issue was specified."
+  },
+  {
+    "subject": "Anfrage um Unterst\u00fctzung: Technische Hilfe bei Produktproblemen n\u00f6tig",
+    "body": "Liebes Kundenserviceteam, ich hoffe, es geht Ihnen gut. Ich schreibe Ihnen, weil ich Unterst\u00fctzung bei einem technischen Problem ben\u00f6tige, mit dem ich konfrontiert bin. Leider l\u00e4sst sich kein bestimmtes Produkt nennen, das betroffen ist. Ich w\u00e4hle Ihre Fachkenntnisse, um mir bei der L\u00f6sung zu helfen. Vielen Dank im Voraus. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Sehr geehrte/r <name>,\n\nvielen Dank f\u00fcr Ihre Nachricht. Um Ihnen effektiver zur Seite stehen zu k\u00f6nnen, w\u00e4re es hilfreich, wenn Sie n\u00e4here Informationen zu dem technischen Problem, das Ihnen begegnet, bereitgeben k\u00f6nnten. Details wie der Name des Produkts, die genaue Art des Problems und eventuell auftretende Fehlermeldungen w\u00e4ren sehr unterst\u00fctzend.\n\nMit herzlichen Gr\u00fc\u00dfen,\nIhr Kundenserviceteam",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "Problem Resolution",
+      "General Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance where no specific product or issue was specified."
+  },
+  {
+    "subject": "",
+    "body": "A client has informed us about a disruption in the system.",
+    "answer": "Hello Customer, we acknowledge the reported outage and are actively addressing the issue to ensure a swift resolution. Thank you for your patience.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Service Disruption",
+      "Incident Report",
+      "Service Notification",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer reported a system outage affecting multiple users."
+  },
+  {
+    "subject": "",
+    "body": "El usuario ha reportado un problema en el sistema.",
+    "answer": "Apreciado usuario, hemos tomado nota del inconveniente y estamos dedicando esfuerzos para solucionarlo a la brevedad. Gracias por su comprensi\u00f3n.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Problem Resolution",
+      "System Crash",
+      "Service Disruption",
+      "Urgent Issue"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer reported a system outage affecting multiple users."
+  },
+  {
+    "subject": "",
+    "body": "A customer has indicated that there is a system disruption.",
+    "answer": "Hello, we recognize the issue with the system and are actively addressing it to ensure a prompt resolution. We appreciate your patience.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Service Disruption",
+      "Incident Report",
+      "Technical Support",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer reported a system outage affecting multiple users."
+  },
+  {
+    "subject": "",
+    "body": "Der Kunde hat einen Fehler im System gemeldet.",
+    "answer": "Lieber Kunde, wir haben von dem Systemausfall Kenntnis genommen und setzen alles daran, das Problem schnellstm\u00f6glich zu l\u00f6sen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis.",
+    "type": "Problem",
+    "queue": "Product Support",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "System Crash",
+      "Service Outage",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Customer reported a system outage affecting multiple users."
+  },
+  {
+    "subject": "Immediate Help Required for IT Services Troubleshooting",
+    "body": "Greetings Team, I am facing difficulties with my IT services and urgently need your help. Could a member of your support team please get in touch with me to address this matter at the earliest convenience? My account number is <acc_num>. Thank you, <name>",
+    "answer": "Dear <name>,\n\nThank you for your message. A member of our support team will reach out to you soon to assist with your IT issues. We value your patience.\n\nBest regards,\n[Your Company]",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Technical Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance with troubleshooting a network connectivity issue."
+  },
+  {
+    "subject": "Necesito Ayuda Urgente para Resolver Incidencias en los Servicios de TI",
+    "body": "Saludos equipo, estoy enfrentando dificultades con mis servicios de TI y requiero su ayuda de manera urgente. \u00bfPodr\u00eda alguien de soporte comunicarse conmigo para resolver esto lo m\u00e1s r\u00e1pido posible? Mi n\u00famero de cuenta es <acc_num>. Agradezco su pronta atenci\u00f3n, <name>",
+    "answer": "Estimado/a <name>,\n\nTe agradecemos por ponerte en contacto con nosotros. Un integrante del equipo de soporte se comunicar\u00e1 contigo en breve para solucionar tus inconvenientes con los servicios de TI. Agradecemos tu comprensi\u00f3n y paciencia.\n\nCordialmente,\n[Su Empresa]",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "IT Support",
+      "Urgent Issue",
+      "Technical Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance with troubleshooting a network connectivity issue."
+  },
+  {
+    "subject": "Immediate Help Required for IT Services Challenges",
+    "body": "Hi Team, I am currently facing some difficulties with my IT services and would greatly appreciate your prompt help. Could a representative from your support team get in touch with me to address this matter at their earliest convenience? My account number is <acc_num>. Thank you, <name>",
+    "answer": "Dear <name>,\n\nWe appreciate you contacting us. A member of our support team will reach out to you soon to help with your IT concerns. Thank you for your understanding.\n\nWarm regards,\n[Your Company]",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "IT Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance with troubleshooting a network connectivity issue."
+  },
+  {
+    "subject": "Necesito asistencia urgente para resolver inconvenientes con los servicios de TI",
+    "body": "Hola, equipo. Estoy enfrentando dificultades con mis servicios de TI y necessito su ayuda inmediata. \u00bfPodr\u00eda alguien del equipo de soporte comunicarse conmigo para solucionar el problema lo m\u00e1s pronto posible? Mi n\u00famero de cuenta es <acc_num>. Gracias, <name>",
+    "answer": "Estimado/a <name>,\n\nGracias por ponerte en contacto con nosotros. Un representante de nuestro equipo de soporte se comunicar\u00e1 contigo a la brevedad para ayudar a resolver tus inconvenientes de TI. Agradecemos tu comprensi\u00f3n.\n\nSaludos cordiales,\n[Su Empresa]",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "",
+    "extra_info": "Request for assistance with troubleshooting a network connectivity issue."
+  }
+]

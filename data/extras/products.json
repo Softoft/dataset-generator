@@ -1,21 +1,4 @@
 {
-  "Vehicles": {
-    "Cars": [
-      "Toyota Corolla",
-      "Honda Civic",
-      "BMW 3 Series"
-    ],
-    "Motorcycles": [
-      "Yamaha MT-07",
-      "Kawasaki Ninja 400",
-      "Harley-Davidson Iron 883"
-    ],
-    "Trucks": [
-      "Ford F-150",
-      "Chevrolet Silverado",
-      "Ram 1500"
-    ]
-  },
   "Computers": {
     "Laptops": [
       "Lenovo IdeaPad",

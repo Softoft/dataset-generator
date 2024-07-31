@@ -3,6 +3,8 @@ from dataclasses import dataclass, fields
 from enum import Enum
 from typing import get_type_hints
 
+from random_collections.random_collection import RandomCollectionBuilder
+
 
 class ComparableEnum(Enum):
     def __eq__(self, other):
@@ -10,9 +12,6 @@ class ComparableEnum(Enum):
             return self.value == other.value
         except AttributeError:
             return False
-
-    def __ne__(self, other):
-        return not self.__eq__(other)
 
     def __hash__(self):
         return hash(self.value)
@@ -22,6 +21,16 @@ class InputTicketField:
     @abc.abstractmethod
     def get_description(self):
         pass
+
+
+class RandomTicketField(InputTicketField, ComparableEnum):
+    def __init__(self, value, descriptions):
+        self._value_ = value
+        self.descriptions = descriptions
+        super().__init__(value)
+
+    def get_description(self):
+        RandomCollectionBuilder.build_from_list_of_values(self.descriptions).get_random_value()
 
 
 @dataclass

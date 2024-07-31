@@ -1,0 +1,50 @@
+@startuml
+
+class Storage{
+    - data: Map<string, Object>
+    + {abstract} save(data)
+    + {abstract} load(): Object
+}
+
+class InputType{
+    + get_input_description(): string
+}
+
+class OutputType{
+    + get_output_description(): string
+}
+
+class AIAssistant{
+    + {abstract} get_response(inputs): string
+}
+
+class Node{
+    - parents: List<INode>
+    - was_executed: bool
+    + {async} execute()
+}
+
+
+class Graph{
+    - endNodes: List<INode>
+}
+
+class AINode extends Node{
+    - chat_assistant: ChatAssistant
+    + {async} execute(inputs)
+}
+
+Graph o-- Node
+
+
+Node o-- Storage
+Node o-- Node
+
+
+TicketBuilder o-- Graph
+
+
+AIAssistant o--> InputType
+AIAssistant o--> OutputType
+
+@enduml
