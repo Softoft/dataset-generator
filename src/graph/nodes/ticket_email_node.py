@@ -32,14 +32,14 @@ class TicketEmailNode(ExecutableNode):
 
     def _generate_email_prompt(self, ticket_type, ticket_queue, priority, ticket_extra_information):
         ticket_body_text_length = NumberIntervalGenerator(self.text_length_mean,
-                                                          self.text_length_standard_deviation, ).generate_text_length_bounds()
-        ticket_subject_text_length = NumberIntervalGenerator(round(ticket_body_text_length.lower_bound / 10), 30,
-                                                             lower_number_min_value=-10 ** 12).generate_text_length_bounds()
+                                                          self.text_length_standard_deviation).generate_bounds()
+        ticket_subject_text_length = NumberIntervalGenerator(mean=3, standard_deviation=3,
+                                                             lower_number_min_value=-2).generate_bounds()
         is_ticket_subject_empty = ticket_subject_text_length.lower_bound < 0
-        subject_text_prompt = f"The subject must have between {ticket_subject_text_length.lower_bound} and {ticket_subject_text_length.upper_bound} words" if not is_ticket_subject_empty else "The subject is empty"
+        subject_text_prompt = f"The subject must have between {ticket_subject_text_length.lower_bound} words" if not is_ticket_subject_empty else "The subject is empty"
         return (
-            f"Write an email with a subject and body in JSON Format. For the customer support of a '{ticket_extra_information.business_type}' company."
-            f"About '{ticket_extra_information.extra_info[:40]}', The affected/used product: {ticket_extra_information.product}. "
+            f"Write an email with a subject and body in JSON Format. To the customer support of a '{ticket_extra_information.business_type}' company."
+            f"Write about '{ticket_extra_information.extra_info}', The affected/used product: {ticket_extra_information.product}. "
             f" {ticket_type.get_description()}',"
             f" {ticket_queue.get_description()},"
             f" {priority.get_description()},"

@@ -10,7 +10,7 @@ def get_random_text_length(mean: int, standard_deviation: int, _lower_text_lengt
     NumberInterval]:
     text_length_generator = NumberIntervalGenerator(mean, standard_deviation,
                                                     lower_number_min_value=_lower_text_length_min_value)
-    return [text_length_generator.generate_text_length_bounds() for _ in range(10_000)]
+    return [text_length_generator.generate_bounds() for _ in range(10_000)]
 
 
 def get_random_numbers(*args, **kwargs) -> list[int]:

@@ -13,15 +13,15 @@ class TicketGenerationModule(Module):
     @provider
     def provide_ticket_generation_config(self) -> Config:
         return Config(
-            number_of_tickets=1000,
-            output_file="../data/training/dataset-v3_26_0-big.json",
-            number_translation_nodes=4,
-            batch_size=10,
-            text_length_mean=40,
-            text_length_standard_deviation=20,
+            number_of_tickets=1_000,
+            output_file="../data/training/dataset-v3_27_3-big-release.json",
+            number_translation_nodes=5,
+            batch_size=50,
+            text_length_mean=50,
+            text_length_standard_deviation=30,
             text_similarity_thresholds=TextSimilarityThresholds([
-                TextSimilarityThreshold(100, 0.9),
-                TextSimilarityThreshold(30, 0.95),
+                TextSimilarityThreshold(100, 0.8),
+                TextSimilarityThreshold(20, 0.9),
                 TextSimilarityThreshold(0, 1),
             ]))
 

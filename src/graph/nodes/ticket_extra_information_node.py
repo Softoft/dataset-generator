@@ -12,18 +12,19 @@ from util.key_value_storage import KeyValueStorage
 class TicketExtraInformationNode(ExecutableNode):
     def __init__(self, parents: list[INode]):
         self.ticket_extra_information = None
-        self.topic_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TOPIC_GENERATION, 1.1)
+        self.topic_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TOPIC_GENERATION, 1.5)
         super().__init__(parents)
 
     def generate_topic_prompt(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         return (
             f"Generate {TicketExtraInformation.list_attributes_and_types()} for a ticket:"
-            f"{ticket_type.get_description()}, "
-            f"{ticket_queue.get_description()}, "
-            f"'{ticket_priority.get_description()}'"
+            f"type: '{ticket_type.value}', "
+            f"queue: '{ticket_queue.value}', "
+            f"priority: '{ticket_priority.value}'"
         )
 
-    @retry(stop=stop_after_attempt(6), retry=retry_if_exception_type((TypeError, json.decoder.JSONDecodeError)))
+    @retry(stop=stop_after_attempt(6),
+           retry=retry_if_exception_type((TypeError, json.decoder.JSONDecodeError, AssertionError)))
     async def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         prompt = self.generate_topic_prompt(ticket_type, ticket_queue, ticket_priority)
         return TicketExtraInformation(**json.loads(await self.topic_generation_assistant.chat_assistant(prompt)))

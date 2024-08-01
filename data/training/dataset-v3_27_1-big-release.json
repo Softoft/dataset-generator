@@ -1,0 +1,1774 @@
+[
+  {
+    "id": 6423,
+    "subject": "Request to Exchange Defective MacBook Air M1",
+    "body": "Dear Tech Online Store Support, I purchased a MacBook Air M1. It has defects in the display, and the battery does not hold charge. Please assist in processing an exchange. Thank you, <name>",
+    "answer": "Dear <name>,\nWe're sorry about the issues with your MacBook Air M1. Please provide your order number and a brief description of the defects. We'll assist you with the exchange process promptly.\nBest regards,\nTech Online Store Support",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Service Recovery"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Request to exchange a MacBook Air M1 with defects in display and battery not holding charge."
+  },
+  {
+    "id": 6423,
+    "subject": "Anfrage zum Austausch eines defekten MacBook Air M1",
+    "body": "Sehr geehrter Tech Online Store Support, ich habe ein MacBook Air M1 gekauft. Es gibt M\u00e4ngel im Display, und der Akku h\u00e4lt die Ladung nicht. Bitte helfen Sie mir, einen Austausch zu bearbeiten. Vielen Dank, <name>",
+    "answer": "Sehr geehrte(r) <name>,\nEs tut uns leid, dass Sie Probleme mit Ihrem MacBook Air M1 haben. Bitte geben Sie Ihre Bestellnummer und eine kurze Beschreibung der M\u00e4ngel an. Wir werden Ihnen umgehend beim Austauschprozess helfen.\nMit freundlichen Gr\u00fc\u00dfen,\nTech Online Store Support",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Support",
+      "Customer Service",
+      "Technical Support",
+      "Warranty Claim"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Request to exchange a MacBook Air M1 with defects in display and battery not holding charge."
+  },
+  {
+    "id": 6423,
+    "subject": "Solicitud para intercambiar un MacBook Air M1 defectuoso",
+    "body": "Estimado Soporte de la Tienda en L\u00ednea de Tecnolog\u00eda, compr\u00e9 un MacBook Air M1. Tiene defectos en la pantalla y la bater\u00eda no sostiene carga. Por favor, ayude a procesar un intercambio. Gracias, <name>",
+    "answer": "Estimado <name>, lamento los problemas con su MacBook Air M1. Por favor, proporcione su n\u00famero de pedido y una breve descripci\u00f3n de los defectos. Le ayudaremos con el proceso de intercambio r\u00e1pidamente. Saludos cordiales, Soporte de la Tienda en L\u00ednea de Tecnolog\u00eda",
+    "type": "Request",
+    "queue": "Customer Service",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Request to exchange a MacBook Air M1 with defects in display and battery not holding charge."
+  },
+  {
+    "id": 5155,
+    "subject": "Problem beim Einschalten des Surface Pro 7",
+    "body": "Mein Microsoft Surface Pro 7 l\u00e4sst sich nach \u00dcberladung und mehreren Steckdosen nicht einschalten. Ben\u00f6tige dringend Unterst\u00fctzung bei der Behebung dieses Problems.",
+    "answer": "Sehr geehrte/r <name>,\n\nBitte halten Sie die Einschalttaste 30 Sekunden lang gedr\u00fcckt und dr\u00fccken Sie sie dann erneut 10 Sekunden lang. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte f\u00fcr weitere Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\nService Desk",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Hardware Failure",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Device Issue",
+      "Service Recovery"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Surface Pro 7 refuses to power on after an overcharge despite trying multiple outlets."
+  },
+  {
+    "id": 5155,
+    "subject": "Issue with Powering On Surface Pro 7",
+    "body": "My Microsoft Surface Pro 7 won\u2019t power on after overcharging and trying multiple outlets. Need assistance with fixing this issue urgently.",
+    "answer": "Dear <name>, \n\nPlease try holding the power button down for 30 sec, then press it again for 10 sec. If the issue persists, contact us for further assistance.\n\nBest regards,\nService Desk",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Hardware Failure",
+      "Product Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Surface Pro 7 refuses to power on after an overcharge despite trying multiple outlets."
+  },
+  {
+    "id": 5155,
+    "subject": "Issue with Powering On Surface Pro 7",
+    "body": "My Microsoft Surface Pro 7 won\u2019t power on after overcharging and trying multiple outlets. Need assistance with fixing this issue urgently.",
+    "answer": "Dear <name>, \n\nPlease try holding the power button down for 30 sec, then press it again for 10 sec. If the issue persists, contact us for further assistance.\n\nBest regards,\nService Desk",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Hardware Failure",
+      "Product Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Surface Pro 7 refuses to power on after an overcharge despite trying multiple outlets."
+  },
+  {
+    "id": 3757,
+    "subject": "Problema de Wi-Fi da HP DeskJet 3755",
+    "body": "Prezado Suporte ao Cliente, n\u00e3o consigo conectar minha impressora HP DeskJet 3755 ao Wi-Fi. Voc\u00ea poderia fornecer assist\u00eancia para solu\u00e7\u00e3o de problemas? Sua ajuda na resolu\u00e7\u00e3o deste assunto seria muito apreciada. Obrigado, <name>",
+    "answer": "Prezado <name>,\n\nPara resolver o problema de Wi-Fi com sua HP DeskJet 3755, tente reiniciar sua impressora e roteador. Certifique-se de que a impressora esteja dentro do alcance da rede Wi-Fi. Al\u00e9m disso, reconfigure as configura\u00e7\u00f5es sem fio usando o aplicativo HP Smart.\n\nAtenciosamente,\nSupporte ao Cliente",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "pt",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Problem Resolution",
+      "Wi-Fi Issue",
+      "Customer Service",
+      "Hardware Failure"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer unable to connect their HP DeskJet 3755 printer to Wi-Fi. Needs troubleshooting assistance."
+  },
+  {
+    "id": 3757,
+    "subject": "Problema de Wi-Fi con la HP DeskJet 3755",
+    "body": "Estimado Servicio al Cliente, no puedo conectar mi impresora HP DeskJet 3755 a Wi-Fi. \u00bfPodr\u00eda proporcionar asistencia para la soluci\u00f3n de problemas? Agradecer\u00eda mucho su ayuda para resolver este asunto. Gracias, <name>",
+    "answer": "Estimado <name>, \n\nPara resolver el problema de Wi-Fi con su HP DeskJet 3755, intente reiniciar su impresora y el enrutador. Aseg\u00farese de que la impresora est\u00e9 dentro del alcance de la red Wi-Fi. Adem\u00e1s, vuelva a configurar la configuraci\u00f3n inal\u00e1mbrica utilizando la aplicaci\u00f3n HP Smart.\n\nAtentamente, \nServicio al Cliente",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Problem Resolution",
+      "Customer Service",
+      "Technical Guidance"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer unable to connect their HP DeskJet 3755 printer to Wi-Fi. Needs troubleshooting assistance."
+  },
+  {
+    "id": 3757,
+    "subject": "HP DeskJet 3755 Wi-Fi Issue",
+    "body": "Dear Customer Support, I am unable to connect my HP DeskJet 3755 printer to Wi-Fi. Could you please provide troubleshooting assistance? Your help in resolving this matter would be greatly appreciated. Thank you, <name>",
+    "answer": "Dear <name>, \n\nTo resolve the Wi-Fi issue with your HP DeskJet 3755, try restarting your printer and router. Ensure the printer is within range of the Wi-Fi network. Also, reconfigure the wireless settings using the HP Smart app.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Problem Resolution",
+      "Software Bug"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer unable to connect their HP DeskJet 3755 printer to Wi-Fi. Needs troubleshooting assistance."
+  },
+  {
+    "id": 1825,
+    "subject": "Surface Pro 7 Issue",
+    "body": "The Microsoft Surface Pro 7's touchscreen became intermittently unresponsive. It needs assessment and repair. Kindly assist with the process. Thank you, <name>, <tel_num>.",
+    "answer": "Dear <name>,\n\nSorry to hear about your Surface Pro 7 issue. Please visit your nearest Microsoft service center or contact our support at <tel_num> for assistance with assessment and repair.\n\nBest regards,\nCustomer Support Team",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Service Recovery"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Microsoft Surface Pro 7's touchscreen became unresponsive intermittently. Needs assessment and repair."
+  },
+  {
+    "id": 1825,
+    "subject": "Problema con Surface Pro 7",
+    "body": "La pantalla t\u00e1ctil del Microsoft Surface Pro 7 se volvi\u00f3 intermitentemente poco receptiva. Necesita evaluaci\u00f3n y reparaci\u00f3n. Por favor, ay\u00fadenme con el proceso. Gracias, <name>, <tel_num>.",
+    "answer": "Estimado/a <name>,\n\nLamentamos saber sobre su problema con el Surface Pro 7. Por favor, visite el centro de servicio de Microsoft m\u00e1s cercano o contacte a nuestro soporte al <tel_num> para obtener asistencia con la evaluaci\u00f3n y reparaci\u00f3n.\n\nSaludos cordiales,\nEquipo de Atenci\u00f3n al Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Customer Service"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Microsoft Surface Pro 7's touchscreen became unresponsive intermittently. Needs assessment and repair."
+  },
+  {
+    "id": 1825,
+    "subject": "Problema con Surface Pro 7",
+    "body": "La pantalla t\u00e1ctil del Microsoft Surface Pro 7 se volvi\u00f3 intermitentemente insensible. Necesita una evaluaci\u00f3n y reparaci\u00f3n. Por favor, ayude con el proceso. Gracias, <name>, <tel_num>.",
+    "answer": "Estimado/a <name>,\n\nLamentamos saber sobre el problema con su Surface Pro 7. Por favor, visite el centro de servicio de Microsoft m\u00e1s cercano o contacte a nuestro soporte al <tel_num> para obtener asistencia con la evaluaci\u00f3n y reparaci\u00f3n.\n\nAtentamente,\nEquipo de Soporte al Cliente",
+    "type": "Incident",
+    "queue": "Technical Support",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "The Microsoft Surface Pro 7's touchscreen became unresponsive intermittently. Needs assessment and repair."
+  },
+  {
+    "id": 8574,
+    "subject": "Hilfe ben\u00f6tigt: Dell XPS 13 Mikrofon",
+    "body": "Hallo, ich ben\u00f6tige Hilfe bei der Suche nach den Mikrofoneinstellungen auf meinem Dell XPS 13 9310 Touchpad.",
+    "answer": "Hallo, gehen Sie zu Einstellungen > System > Sound > Eingabe, um die Mikrofoneinstellungen auf Ihrem Dell XPS 13 zu finden und anzupassen.",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Software Bug",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer needs help finding the microphone settings on their Dell XPS 13 9310 touchpad."
+  },
+  {
+    "id": 8574,
+    "subject": "Hilfe ben\u00f6tigt: Dell XPS 13 Mikrofon",
+    "body": "Hallo, ich ben\u00f6tige Unterst\u00fctzung bei der Suche nach den Mikrofoneinstellungen auf meinem Dell XPS 13 9310 Touchpad.",
+    "answer": "Hallo, gehen Sie zu Einstellungen > System > Sound > Eingabe, um die Mikrofoneinstellungen auf Ihrem Dell XPS 13 zu finden und anzupassen.",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "IT Support",
+      "Problem Resolution",
+      "Customer Service",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer needs help finding the microphone settings on their Dell XPS 13 9310 touchpad."
+  },
+  {
+    "id": 8574,
+    "subject": "Hilfe ben\u00f6tigt: Dell XPS 13 Mikrofon",
+    "body": "Hallo, ich ben\u00f6tige Hilfe, um die Mikrofoneinstellungen auf meinem Dell XPS 13 9310 Touchpad zu finden.",
+    "answer": "Hallo, gehen Sie zu Einstellungen > System > Sound > Eingabe, um die Mikrofoneinstellungen auf Ihrem Dell XPS 13 zu finden und anzupassen.",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "IT Support",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer needs help finding the microphone settings on their Dell XPS 13 9310 touchpad."
+  },
+  {
+    "id": 3091,
+    "subject": "Issues with Surface Pro 7",
+    "body": "Dear Tech Online Store support team, I am experiencing intermittent touchscreen unresponsiveness on my Microsoft Surface Pro 7. This issue started after the recent firmware update. Please advise on how to resolve this issue. Regards, <name>",
+    "answer": "Dear <name>,\nPlease try reinstalling the touchscreen driver via Device Manager and ensuring all Windows updates are current. If the issue persists, consider performing a system restore to the point before the update or contact us for further assistance.\n\nRegards,\nTech Online Store Support Team",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Software Bug",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports an intermittent touchscreen unresponsiveness issue with Microsoft Surface Pro 7, specifically after the recent firmware update."
+  },
+  {
+    "id": 3091,
+    "subject": "Problemas con Surface Pro 7",
+    "body": "Estimado equipo de soporte de Tech Online Store, estoy experimentando una falta de respuesta intermitente de la pantalla t\u00e1ctil en mi Microsoft Surface Pro 7. Este problema comenz\u00f3 despu\u00e9s de la actualizaci\u00f3n reciente del firmware. Por favor, ind\u00edqueme c\u00f3mo resolver este problema. Saludos, <name>",
+    "answer": "Estimado <name>, Por favor, intente reinstalar el controlador de la pantalla t\u00e1ctil a trav\u00e9s del Administrador de dispositivos y aseg\u00farese de que todas las actualizaciones de Windows est\u00e9n actualizadas. Si el problema persiste, considere realizar una restauraci\u00f3n del sistema al punto anterior a la actualizaci\u00f3n o cont\u00e1ctenos para obtener m\u00e1s ayuda. Saludos, Equipo de soporte de Tech Online Store",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Software Bug",
+      "System Maintenance",
+      "Performance Tuning"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports an intermittent touchscreen unresponsiveness issue with Microsoft Surface Pro 7, specifically after the recent firmware update."
+  },
+  {
+    "id": 3091,
+    "subject": "Problemas con Surface Pro 7",
+    "body": "Estimado equipo de soporte de Tech Online Store, Estoy experimentando una falta de respuesta intermitente en la pantalla t\u00e1ctil de mi Microsoft Surface Pro 7. Este problema comenz\u00f3 despu\u00e9s de la reciente actualizaci\u00f3n de firmware. Por favor, aconsejen c\u00f3mo resolver este problema. Saludos, <name>",
+    "answer": "Estimado <name>, Por favor, intente reinstalar el controlador de la pantalla t\u00e1ctil a trav\u00e9s del Administrador de dispositivos y aseg\u00farese de que todas las actualizaciones de Windows est\u00e9n actualizadas. Si el problema persiste, considere realizar una restauraci\u00f3n del sistema al punto anterior a la actualizaci\u00f3n o cont\u00e1ctenos para obtener m\u00e1s ayuda. Saludos, Equipo de soporte de Tech Online Store",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Software Bug",
+      "System Maintenance",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports an intermittent touchscreen unresponsiveness issue with Microsoft Surface Pro 7, specifically after the recent firmware update."
+  },
+  {
+    "id": 205,
+    "subject": "Kritische Netzwerkprobleme hoher Priorit\u00e4t: Cisco Router ISR4331 Probleme",
+    "body": "Sehr geehrter Kundenservice,\n\nwir haben kritische Verbindungsprobleme mit unserem Cisco Router ISR4331. Dieses Netzwerkproblem hoher Priorit\u00e4t erfordert sofortige Aufmerksamkeit. Bitte helfen Sie dringend, dieses Problem zu l\u00f6sen.\n\nVielen Dank,\n<name>\n<company_name>\n<tel_num>\n<acc_num>",
+    "answer": "Sehr geehrter <name>,\n\nvielen Dank, dass Sie uns kontaktiert haben. Wir verstehen die Dringlichkeit Ihrer Probleme mit dem Cisco Router ISR4331. Unser Support-Team k\u00fcmmert sich sofort darum. Wir werden uns bald mit einer L\u00f6sung bei Ihnen melden.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Network Issue",
+      "Urgent Issue",
+      "Technical Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Connection issues reported with the Cisco Router ISR4331, critical high-priority network concerns."
+  },
+  {
+    "id": 205,
+    "subject": "Critical high-priority network concerns: Cisco Router ISR4331 issues",
+    "body": "Dear Customer Support,\n\nWe are experiencing critical connection issues with our Cisco Router ISR4331. This high-priority network concern requires immediate attention. Please assist urgently to resolve this matter.\n\nThank you,\n<name>\n<company_name>\n<tel_num>\n<acc_num>",
+    "answer": "Dear <name>,\n\nThank you for contacting us. We understand the urgency of your Cisco Router ISR4331 issues. Our support team is looking into it immediately. We will get back to you shortly with a resolution.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Network Issue",
+      "Urgent Issue",
+      "Technical Support",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Connection issues reported with the Cisco Router ISR4331, critical high-priority network concerns."
+  },
+  {
+    "id": 205,
+    "subject": "Critical high-priority network concerns: Cisco Router ISR4331 issues",
+    "body": "Dear Customer Support,\n\nWe are experiencing critical connection issues with our Cisco Router ISR4331. This high-priority network concern requires immediate attention. Please assist urgently to resolve this matter.\n\nThank you,\n<name>\n<company_name>\n<tel_num>\n<acc_num>",
+    "answer": "Dear <name>,\n\nThank you for contacting us. We understand the urgency of your Cisco Router ISR4331 issues. Our support team is looking into it immediately. We will get back to you shortly with a resolution.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Network Issue",
+      "Urgent Issue",
+      "Technical Support",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Connection issues reported with the Cisco Router ISR4331, critical high-priority network concerns."
+  },
+  {
+    "id": 7556,
+    "subject": "Dringende Probleme mit dem Surface Pro 7",
+    "body": "Sehr geehrter Kundenservice,\n\nich habe erhebliche Bildschirmflimmern und gelegentliche Tastaturprobleme mit meinem Microsoft Surface Pro 7. Das Ger\u00e4t ist aufgrund dieser Probleme nahezu unbrauchbar.\n\nBitte helfen Sie mir dringend, da dies meine Arbeit beeintr\u00e4chtigt. Meine Kontaktdaten sind <name>, Telefonnummer <tel_num> und Kontonummer <acc_num>.\n\nVielen Dank.",
+    "answer": "Sehr geehrter <name>,\n\nvielen Dank, dass Sie uns kontaktiert haben. Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten, die durch die Probleme mit Ihrem Surface Pro 7 verursacht wurden. Bitte starten Sie Ihr Ger\u00e4t neu und stellen Sie sicher, dass es die neuesten Updates hat. Wenn die Probleme weiterhin bestehen, werden wir eine Reparatur oder einen Austausch arrangieren. Unser Team wird Sie in K\u00fcrze unter <tel_num> kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Hardware Failure",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports screen flickering and keyboard malfunction in Microsoft Surface Pro 7 requiring urgent assistance."
+  },
+  {
+    "id": 7556,
+    "subject": "Urgent Surface Pro 7 Issues",
+    "body": "Dear Customer Support,\n\nI am experiencing severe screen flickering and intermittent keyboard malfunction on my Microsoft Surface Pro 7. The device is virtually unusable due to these issues.\n\nPlease assist with an urgent resolution as this is impacting my work. My contact details are <name>, phone number <tel_num>, and account number <acc_num>.\n\nThank you,",
+    "answer": "Dear <name>,\n\nThank you for contacting us. We apologize for the inconvenience caused by your Surface Pro 7 issues. Please restart your device and ensure it has the latest updates. If problems persist, we will arrange a repair or replacement. Our team will contact you at <tel_num> shortly.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Hardware Failure",
+      "Product Support",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports screen flickering and keyboard malfunction in Microsoft Surface Pro 7 requiring urgent assistance."
+  },
+  {
+    "id": 7556,
+    "subject": "Problemas urgentes con Surface Pro 7",
+    "body": "Estimado Atenci\u00f3n al Cliente,\n\nEstoy experimentando un severo parpadeo en la pantalla y un mal funcionamiento intermitente del teclado en mi Microsoft Surface Pro 7. El dispositivo es pr\u00e1cticamente inutilizable debido a estos problemas.\n\nPor favor, ay\u00fadenme con una resoluci\u00f3n urgente ya que esto est\u00e1 afectando mi trabajo. Mis datos de contacto son <name>, n\u00famero de tel\u00e9fono <tel_num>, y n\u00famero de cuenta <acc_num>.\n\nGracias.",
+    "answer": "Estimado <name>,\n\nGracias por contactarnos. Lamentamos los inconvenientes causados por los problemas de su Surface Pro 7. Por favor, reinicie su dispositivo y aseg\u00farese de que tenga las \u00faltimas actualizaciones. Si los problemas persisten, organizaremos una reparaci\u00f3n o reemplazo. Nuestro equipo se pondr\u00e1 en contacto con usted al <tel_num> en breve.\n\nAtentamente,\nAtenci\u00f3n al Cliente",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reports screen flickering and keyboard malfunction in Microsoft Surface Pro 7 requiring urgent assistance."
+  },
+  {
+    "id": 3839,
+    "subject": "Urgent: Keyboard Issue",
+    "body": "Hello, I'm facing issues attaching my detachable keyboard to my Surface Pro 7. Please assist.",
+    "answer": "Hello, try cleaning the connectors and ensuring it's properly aligned. Contact us if the issue persists.",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer requests help with attaching the detachable keyboard to the Surface Pro 7 which isn't responding properly."
+  },
+  {
+    "id": 3839,
+    "subject": "Urgente: Problema com o Teclado",
+    "body": "Ol\u00e1, estou enfrentando problemas para conectar meu teclado destac\u00e1vel ao meu Surface Pro 7. Por favor, ajude.",
+    "answer": "Ol\u00e1, tente limpar os conectores e certificar-se de que est\u00e1 corretamente alinhado. Entre em contato conosco se o problema persistir.",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": "medium",
+    "language": "pt",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer requests help with attaching the detachable keyboard to the Surface Pro 7 which isn't responding properly."
+  },
+  {
+    "id": 3839,
+    "subject": "Urgent : Probl\u00e8me de clavier",
+    "body": "Bonjour, je rencontre des probl\u00e8mes pour connecter mon clavier d\u00e9tachable \u00e0 ma Surface Pro 7. Veuillez m'aider.",
+    "answer": "Bonjour, essayez de nettoyer les connecteurs et de vous assurer qu'ils sont bien align\u00e9s. Contactez-nous si le probl\u00e8me persiste.",
+    "type": "Request",
+    "queue": "IT Support",
+    "priority": "medium",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Hardware Failure",
+      "Problem Resolution",
+      "Urgent Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer requests help with attaching the detachable keyboard to the Surface Pro 7 which isn't responding properly."
+  },
+  {
+    "id": 6635,
+    "subject": "Antrag auf Korrektur der Rechnung f\u00fcr MacBook Air M1",
+    "body": "Hallo, ich habe vor kurzem ein MacBook Air M1 gekauft, aber es gibt einen Fehler auf der Rechnung. K\u00f6nnte mir jemand helfen, das zu korrigieren? Meine Bestell-ID ist <order_id>. Vielen Dank, <name>, <email>, <tel_num>.",
+    "answer": "Hallo <name>,\n\nVielen Dank f\u00fcr Ihre Anfrage. Wir werden die Rechnung f\u00fcr Ihr MacBook Air M1 korrigieren. Bitte erwarten Sie bald ein Update. Wenn Sie weitere Unterst\u00fctzung ben\u00f6tigen, lassen Sie es uns wissen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Ihr Unternehmen]",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Billing Issue",
+      "Product Support",
+      "Order Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer requests an invoice correction for a recently purchased MacBook Air M1."
+  },
+  {
+    "id": 6635,
+    "subject": "Rechnungskorrektanfrage f\u00fcr MacBook Air M1",
+    "body": "Hallo, ich habe k\u00fcrzlich ein MacBook Air M1 gekauft, aber ich habe einen Fehler auf der Rechnung bemerkt. K\u00f6nnte mir jemand helfen, dieses Problem zu beheben? Meine Bestell-ID ist <order_id>. Vielen Dank, <name>, <email>, <tel_num>.",
+    "answer": "Hallo <name>,\n\nWir danken Ihnen, dass Sie uns kontaktiert haben. Wir werden die notwendigen Korrekturen an der Rechnung f\u00fcr Ihr MacBook Air M1 vornehmen. Bitte halten Sie Ausschau nach einem Update in K\u00fcrze. Wenn Sie weitere Unterst\u00fctzung ben\u00f6tigen, z\u00f6gern Sie bitte nicht, sich zu melden.\n\nMit freundlichen Gr\u00fc\u00dfen,\n[Your Company]",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Billing Issue",
+      "Account Assistance",
+      "Order Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer requests an invoice correction for a recently purchased MacBook Air M1."
+  },
+  {
+    "id": 6635,
+    "subject": "Solicitud de correcci\u00f3n de factura del MacBook Air M1",
+    "body": "Hola, recientemente compr\u00e9 un MacBook Air M1, pero hay un error en la factura. \u00bfAlguien podr\u00eda ayudar a corregirlo? Mi ID de pedido es <order_id>. Gracias, <name>, <email>, <tel_num>.",
+    "answer": "Hola <name>,\n\nGracias por contactarnos. Vamos a corregir la factura de tu MacBook Air M1. Por favor, espera una actualizaci\u00f3n pronto. Si necesitas m\u00e1s ayuda, h\u00e1ganoslo saber.\n\nSaludos cordiales,\n[Your Company]",
+    "type": "Request",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Billing Issue",
+      "Order Issue",
+      "Customer Service",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer requests an invoice correction for a recently purchased MacBook Air M1."
+  },
+  {
+    "id": 1728,
+    "subject": "Busca Informa\u00e7\u00f5es de Configura\u00e7\u00e3o Wireless para Impressora Canon",
+    "body": "Ol\u00e1 Suporte ao Cliente da Loja Online Tech,\n\nRecentemente, comprei uma impressora Canon PIXMA MG3620 e preciso de assist\u00eancia com o processo de configura\u00e7\u00e3o wireless. Voc\u00ea poderia fornecer instru\u00e7\u00f5es detalhadas ou um link para o guia de configura\u00e7\u00e3o? Qualquer ajuda seria muito apreciada.\n\nObrigado,\n<name>\n<tel_num>",
+    "answer": "Caro <name>,\n\nObrigado por nos contatar. Por favor, siga este link para instru\u00e7\u00f5es detalhadas sobre como configurar sua impressora Canon PIXMA MG3620 wireless: https://www.usa.canon.com/internet/portal/us/home/support. Se voc\u00ea tiver mais perguntas, fique \u00e0 vontade para entrar em contato.\n\nAtenciosamente,\nSuporte ao Cliente da Loja Online Tech",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "pt",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "General Inquiry",
+      "Customer Service"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests information on wireless setup procedure for the Canon PIXMA MG3620 printer."
+  },
+  {
+    "id": 1728,
+    "subject": "Seeking Wireless Setup Information for Canon Printer",
+    "body": "Hello Tech Online Store Customer Support,\n\nI recently purchased a Canon PIXMA MG3620 printer and need assistance with the wireless setup process. Could you provide detailed instructions or a link to the setup guide? Any help would be greatly appreciated.\n\nThank you,\n<name>\n<tel_num>",
+    "answer": "Dear <name>,\n\nThank you for contacting us. Please follow this link for detailed instructions on setting up your Canon PIXMA MG3620 printer wirelessly: https://www.usa.canon.com/internet/portal/us/home/support. If you have further questions, feel free to reach out.\n\nBest regards,\nTech Online Store Customer Support",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests information on wireless setup procedure for the Canon PIXMA MG3620 printer."
+  },
+  {
+    "id": 1728,
+    "subject": "Seeking Wireless Setup Information for Canon Printer",
+    "body": "Hello Tech Online Store Customer Support,\n\nI recently purchased a Canon PIXMA MG3620 printer and need assistance with the wireless setup process. Could you provide detailed instructions or a link to the setup guide? Any help would be greatly appreciated.\n\nThank you,\n<name>\n<tel_num>",
+    "answer": "Dear <name>,\n\nThank you for contacting us. Please follow this link for detailed instructions on setting up your Canon PIXMA MG3620 printer wirelessly: https://www.usa.canon.com/internet/portal/us/home/support. If you have further questions, feel free to reach out.\n\nBest regards,\nTech Online Store Customer Support",
+    "type": "Request",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests information on wireless setup procedure for the Canon PIXMA MG3620 printer."
+  },
+  {
+    "id": 8620,
+    "subject": "\u00c9cran d\u00e9fectueux Dell XPS 13 9310",
+    "body": "Cher support technique du magasin en ligne, J'ai r\u00e9cemment re\u00e7u un Dell XPS 13 9310, et son \u00e9cran scintille lors de l'ouverture d'applications et de fen\u00eatres. Pourriez-vous m'aider \u00e0 remplacer ou r\u00e9parer cet appareil d\u00e9fectueux ? Mon num\u00e9ro de commande est <acc_num>. Merci, <name>.",
+    "answer": "Cher <name>,\n\nMerci de nous avoir contact\u00e9s. Nous nous excusons pour le probl\u00e8me avec votre Dell XPS 13 9310. Une demande de support a \u00e9t\u00e9 initi\u00e9e pour la commande <acc_num>. Notre \u00e9quipe vous contactera sous peu pour organiser la r\u00e9paration ou le remplacement.\n\nCordialement,\nSupport technique du magasin en ligne",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "fr",
+    "tags": [
+      "Hardware Failure",
+      "Product Support",
+      "Returns and Exchanges",
+      "Technical Support",
+      "Service Recovery",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer reports receiving a defective screen. The device flickers upon opening apps and windows."
+  },
+  {
+    "id": 8620,
+    "subject": "Defekter Dell XPS 13 9310 Bildschirm",
+    "body": "Sehr geehrter Support des Tech Online Stores, ich habe k\u00fcrzlich einen Dell XPS 13 9310 erhalten, und sein Bildschirm flackert beim \u00d6ffnen von Apps und Fenstern. K\u00f6nnen Sie mir helfen, dieses defekte Ger\u00e4t zu ersetzen oder zu reparieren? Meine Bestellnummer ist <acc_num>. Vielen Dank, <name>.",
+    "answer": "Sehr geehrte(r) <name>,\n\nvielen Dank, dass Sie sich an uns gewandt haben. Wir entschuldigen uns f\u00fcr das Problem mit Ihrem Dell XPS 13 9310. Eine Supportanfrage f\u00fcr die Bestellung <acc_num> wurde eingeleitet. Unser Team wird Sie in K\u00fcrze kontaktieren, um die Reparatur oder den Austausch zu arrangieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport des Tech Online Stores",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Product Support",
+      "Hardware Failure",
+      "Returns and Exchanges",
+      "Problem Resolution",
+      "Technical Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer reports receiving a defective screen. The device flickers upon opening apps and windows."
+  },
+  {
+    "id": 8620,
+    "subject": "Defekter Dell XPS 13 9310 Bildschirm",
+    "body": "Sehr geehrter Tech Online Store Support, ich habe vor kurzem einen Dell XPS 13 9310 erhalten, und sein Bildschirm flackert beim \u00d6ffnen von Apps und Fenstern. K\u00f6nnten Sie mir bitte beim Austausch oder der Reparatur dieses defekten Ger\u00e4ts helfen? Meine Bestellnummer ist <acc_num>. Vielen Dank, <name>.",
+    "answer": "Sehr geehrte(r) <name>,\n\nvielen Dank, dass Sie sich gemeldet haben. Wir entschuldigen uns f\u00fcr das Problem mit Ihrem Dell XPS 13 9310. Eine Unterst\u00fctzung Anfrage wurde f\u00fcr die Bestellnummer <acc_num> eingeleitet. Unser Team wird Sie in K\u00fcrze kontaktieren, um die Reparatur oder den Austausch zu arrangieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\nTech Online Store Support",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Product Support",
+      "Hardware Failure",
+      "Returns and Exchanges",
+      "Technical Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer reports receiving a defective screen. The device flickers upon opening apps and windows."
+  },
+  {
+    "id": 1990,
+    "subject": "Discrepancia en la facturaci\u00f3n",
+    "body": "Estimado Soporte al Cliente, necesito ayuda con una discrepancia en la facturaci\u00f3n de mi suscripci\u00f3n al Servicio de Gesti\u00f3n de AWS. He notado un sobrecosto inesperado y necesito asistencia para resolverlo. Gracias.",
+    "answer": "Estimado <name>,\n\nPedimos disculpas por el inconveniente. Por favor, proporcione su n\u00famero de cuenta <acc_num> y detalles adicionales sobre la discrepancia. Investigaremos y lo asistiremos de inmediato.\n\nAtentamente,\nSoporte al Cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Account Assistance",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "AWS Management Service",
+    "extra_info": "Customer needs assistance with a billing discrepancy for their AWS Management Service subscription cost overrun."
+  },
+  {
+    "id": 1990,
+    "subject": "Billing Discrepancy",
+    "body": "Dear Customer Support, I need help with a billing discrepancy in my AWS Management Service subscription. I've noticed an unexpected cost overrun and need assistance resolving it. Thank you.",
+    "answer": "Dear <name>,\n\nWe apologize for the inconvenience. Please provide your account number <acc_num> and additional details on the discrepancy. We'll investigate and assist you promptly.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "AWS Management Service",
+    "extra_info": "Customer needs assistance with a billing discrepancy for their AWS Management Service subscription cost overrun."
+  },
+  {
+    "id": 1990,
+    "subject": "Rechnungsdiskrepanz",
+    "body": "Sehr geehrter Kundenservice, ich ben\u00f6tige Hilfe bei einer Rechnungsdiskrepanz in meinem AWS Management Service-Abonnement. Ich habe eine unerwartete Kosten\u00fcberschreitung festgestellt und ben\u00f6tige Unterst\u00fctzung bei der L\u00f6sung. Vielen Dank.",
+    "answer": "Sehr geehrter <name>,\n\nWir entschuldigen uns f\u00fcr die Unannehmlichkeiten. Bitte geben Sie Ihre Kontonummer <acc_num> und weitere Details zur Diskrepanz an. Wir werden dies untersuchen und Ihnen umgehend helfen.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Billing Issue",
+      "Account Assistance",
+      "Customer Service",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "AWS Management Service",
+    "extra_info": "Customer needs assistance with a billing discrepancy for their AWS Management Service subscription cost overrun."
+  },
+  {
+    "id": 2826,
+    "subject": "Kunde kann dringend nicht auf die Serverdatenbank zugreifen",
+    "body": "Der Kunde kann nach dem OS-Update nicht auf die Serverdatenbank zugreifen.",
+    "answer": "Sehr geehrter Kunde, wir k\u00fcmmern uns umgehend um Ihr Problem mit dem Zugriff auf die Serverdatenbank. Vielen Dank f\u00fcr Ihre Geduld.",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Urgent Issue",
+      "Technical Support",
+      "System Maintenance",
+      "Service Outage",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "IT Consulting Service",
+    "extra_info": "Client unable to access server database after OS update since last Thursday. Urgent resolution needed."
+  },
+  {
+    "id": 2826,
+    "subject": "Client incapable d'acc\u00e9der \u00e0 la base de donn\u00e9es du serveur de mani\u00e8re urgente",
+    "body": "Le client ne peut pas acc\u00e9der \u00e0 la base de donn\u00e9es du serveur apr\u00e8s la mise \u00e0 jour du syst\u00e8me d'exploitation.",
+    "answer": "Cher client, nous examinons imm\u00e9diatement votre probl\u00e8me d'acc\u00e8s \u00e0 la base de donn\u00e9es du serveur. Merci pour votre patience.",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "System Maintenance",
+      "Problem Resolution",
+      "Service Outage"
+    ],
+    "business_type": "IT Services",
+    "product": "IT Consulting Service",
+    "extra_info": "Client unable to access server database after OS update since last Thursday. Urgent resolution needed."
+  },
+  {
+    "id": 2826,
+    "subject": "Client unable to access server database urgently",
+    "body": "Client can\u2019t access server database after OS update.",
+    "answer": "Dear Client, we're looking into your server database access issue immediately. Thank you for your patience.",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Urgent Issue",
+      "System Maintenance",
+      "Network Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "IT Consulting Service",
+    "extra_info": "Client unable to access server database after OS update since last Thursday. Urgent resolution needed."
+  },
+  {
+    "id": 6617,
+    "subject": "Interrupciones intermitentes de red con el router Cisco ISR4331",
+    "body": "Estimado servicio de atenci\u00f3n al cliente, he estado experimentando interrupciones intermitentes de red utilizando el router Cisco ISR4331 durante la \u00faltima semana. Este problema ha afectado gravemente mis operaciones diarias y necesito asistencia urgente para resolverlo. \u00bfPuede revisar y aconsejar sobre qu\u00e9 acciones se pueden tomar? Mi n\u00famero de cuenta es <acc_num>. Espero su pronta respuesta para abordar este asunto.",
+    "answer": "Estimado <name>,\n\nGracias por contactarnos sobre las interrupciones intermitentes de red con su router Cisco ISR4331. Lamentamos la inconveniencia causada. Nuestro equipo t\u00e9cnico investigar\u00e1 este problema de inmediato. Un representante se pondr\u00e1 en contacto con usted en breve para m\u00e1s detalles. Por favor, aseg\u00farese de que el firmware de su router est\u00e9 actualizado como primer paso.\n\nAtentamente,\nServicio de Atenci\u00f3n al Cliente",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Disruption",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "The customer is experiencing intermittent network outages using the Cisco Router ISR4331 since a week ago."
+  },
+  {
+    "id": 6617,
+    "subject": "Zwischenzeitliche Netzwerkunterbrechungen mit Cisco Router ISR4331",
+    "body": "Sehr geehrter Kundenservice, ich erlebe seit der vergangenen Woche zwischenzeitliche Netzwerkunterbrechungen mit dem Cisco Router ISR4331. Dieses Problem hat meine t\u00e4glichen Abl\u00e4ufe stark beeintr\u00e4chtigt, und ich ben\u00f6tige dringend Hilfe, um es zu l\u00f6sen. K\u00f6nnen Sie bitte pr\u00fcfen und beraten, welche Ma\u00dfnahmen ergriffen werden k\u00f6nnen? Meine Kontonummer ist <acc_num>. Ich freue mich auf Ihre umgehende R\u00fcckmeldung zu diesem Thema.",
+    "answer": "Sehr geehrter <name>,\n\nvielen Dank, dass Sie sich bez\u00fcglich der zwischenzeitlichen Netzwerkunterbrechungen mit Ihrem Cisco Router ISR4331 an uns gewandt haben. Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten. Unser technisches Team wird dieses Problem umgehend untersuchen. Ein Vertreter wird sich in K\u00fcrze mit weiteren Details bei Ihnen melden. Bitte stellen Sie sicher, dass die Firmware Ihres Routers auf dem neuesten Stand ist, als ersten Schritt.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Network Issue",
+      "Technical Support",
+      "Service Disruption",
+      "Problem Resolution",
+      "Urgent Issue",
+      "IT Support"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "The customer is experiencing intermittent network outages using the Cisco Router ISR4331 since a week ago."
+  },
+  {
+    "id": 6617,
+    "subject": "Intermittent Network Outages with Cisco Router ISR4331",
+    "body": "Dear Customer Support, I am experiencing intermittent network outages using the Cisco Router ISR4331 for the past week. This issue has severely affected my daily operations, and I need urgent assistance to resolve it. Can you please check and advise on what actions can be taken? My account number is <acc_num>. I look forward to your prompt response to address this matter.",
+    "answer": "Dear <name>,\n\nThank you for reaching out regarding the intermittent network outages with your Cisco Router ISR4331. We're sorry for the inconvenience caused. Our technical team will promptly investigate this issue. A representative will contact you shortly for further details. Please ensure your router's firmware is up to date as an initial step.\n\nBest regards,\nCustomer Support",
+    "type": "Problem",
+    "queue": "Technical Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "The customer is experiencing intermittent network outages using the Cisco Router ISR4331 since a week ago."
+  },
+  {
+    "id": 3734,
+    "subject": "",
+    "body": "Sehr geehrter Kundenservice, ich habe k\u00fcrzlich einen Canon PIXMA MG3620 Drucker in Ihrem Online-Shop gekauft. Ich ben\u00f6tige Unterst\u00fctzung bei der Erstinstallation, insbesondere beim Verbinden des Druckers mit meinem WLAN. Ihre zeitnahe Antwort, die mich durch diesen Prozess f\u00fchrt, w\u00e4re sehr gesch\u00e4tzt. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Lieber <name>,\n\nVielen Dank, dass Sie uns kontaktiert haben. Um Ihren Canon PIXMA MG3620 mit Ihrem WLAN zu verbinden, dr\u00fccken Sie die WLAN-Taste am Drucker, bis die WLAN-Anzeige blinkt. Dr\u00fccken Sie dann innerhalb von 2 Minuten die WPS-Taste an Ihrem Router. Befolgen Sie die Anweisungen auf dem Bildschirm, um die Einrichtung abzuschlie\u00dfen. F\u00fcr detaillierte Schritte konsultieren Sie bitte das Druckermanual.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "General Inquiry",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests assistance with initial setup of the Canon PIXMA MG3620 printer. Connection to Wi-Fi network required."
+  },
+  {
+    "id": 3734,
+    "subject": "",
+    "body": "Sehr geehrter Kundenservice, ich habe k\u00fcrzlich einen Canon PIXMA MG3620 Drucker in Ihrem Online-Shop gekauft. Ich ben\u00f6tige Unterst\u00fctzung bei der Ersteinrichtung, insbesondere beim Verbinden des Druckers mit meinem Wi-Fi-Netzwerk. Ihre schnelle Antwort, die mich durch diesen Prozess f\u00fchrt, w\u00e4re sehr dankbar. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Sehr geehrter <name>,\n\nvielen Dank, dass Sie uns kontaktiert haben. Um Ihren Canon PIXMA MG3620 mit Ihrem Wi-Fi zu verbinden, dr\u00fccken Sie die Wi-Fi-Taste am Drucker, bis die Wi-Fi-Lampe blinkt. Dr\u00fccken Sie dann innerhalb von 2 Minuten die WPS-Taste an Ihrem Router. Folgen Sie den Anweisungen auf dem Bildschirm, um die Einrichtung abzuschlie\u00dfen. F\u00fcr detaillierte Schritte konsultieren Sie bitte das Druckermanual.\n\nMit besten Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Product Support",
+      "Technical Support",
+      "Customer Service",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests assistance with initial setup of the Canon PIXMA MG3620 printer. Connection to Wi-Fi network required."
+  },
+  {
+    "id": 3734,
+    "subject": "",
+    "body": "Prezado Atendimento ao Cliente, recentemente comprei uma impressora Canon PIXMA MG3620 em sua loja online. Preciso de assist\u00eancia com a configura\u00e7\u00e3o inicial, especificamente conectar a impressora \u00e0 minha rede Wi-Fi. Sua resposta r\u00e1pida em me guiar por esse processo seria muito apreciada. Obrigado pelo seu apoio. Atenciosamente, <name>",
+    "answer": "Prezado <name>,\n\nObrigado por entrar em contato conosco. Para conectar sua Canon PIXMA MG3620 \u00e0 sua rede Wi-Fi, pressione o bot\u00e3o Wi-Fi na impressora at\u00e9 que a l\u00e2mpada Wi-Fi pisque. Em seguida, pressione o bot\u00e3o WPS no seu roteador dentro de 2 minutos. Siga as instru\u00e7\u00f5es na tela para completar a configura\u00e7\u00e3o. Para passos detalhados, consulte o manual da impressora.\n\nAtenciosamente,\nAtendimento ao Cliente",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "pt",
+    "tags": [
+      "Customer Service",
+      "Product Support",
+      "Technical Support",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer requests assistance with initial setup of the Canon PIXMA MG3620 printer. Connection to Wi-Fi network required."
+  },
+  {
+    "id": 1989,
+    "subject": "Billing Info Update Issue",
+    "body": "Dear Customer Support, I am facing an issue while updating billing information via admin portal. A syntax error occurs with MySQL 8.0.30. Can you please assist? Regards, <name>",
+    "answer": "Dear <name>, \n\nThank you for reaching out. We recommend verifying your SQL syntax complies with MySQL 8.0.30 standards. If the issue persists, please provide the error message for further assistance.\n\nBest regards,\nCustomer Support",
+    "type": "Problem",
+    "queue": "Billing and Payments",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Technical Support",
+      "Problem Resolution",
+      "Software Bug"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "User unable to update billing information in database via admin portal, encountering a syntax error with MySQL 8.0.30."
+  },
+  {
+    "id": 1989,
+    "subject": "Billing Info Update Issue",
+    "body": "Dear Customer Support, I am facing an issue while updating billing information via admin portal. A syntax error occurs with MySQL 8.0.30. Can you please assist? Regards, <name>",
+    "answer": "Dear <name>, \n\nThank you for reaching out. We recommend verifying your SQL syntax complies with MySQL 8.0.30 standards. If the issue persists, please provide the error message for further assistance.\n\nBest regards,\nCustomer Support",
+    "type": "Problem",
+    "queue": "Billing and Payments",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Technical Support",
+      "Problem Resolution",
+      "Customer Service",
+      "Software Bug"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "User unable to update billing information in database via admin portal, encountering a syntax error with MySQL 8.0.30."
+  },
+  {
+    "id": 1989,
+    "subject": "Billing Info Update Issue",
+    "body": "Dear Customer Support, I am facing an issue while updating billing information via admin portal. A syntax error occurs with MySQL 8.0.30. Can you please assist? Regards, <name>",
+    "answer": "Dear <name>, \n\nThank you for reaching out. We recommend verifying your SQL syntax complies with MySQL 8.0.30 standards. If the issue persists, please provide the error message for further assistance.\n\nBest regards,\nCustomer Support",
+    "type": "Problem",
+    "queue": "Billing and Payments",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Technical Support",
+      "Problem Resolution",
+      "Customer Service",
+      "Software Bug"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "User unable to update billing information in database via admin portal, encountering a syntax error with MySQL 8.0.30."
+  },
+  {
+    "id": 8411,
+    "subject": "Cargo excesivo por la compra de un Microsoft Surface Pro 7",
+    "body": "Estimado servicio de atenci\u00f3n al cliente, he notado un cargo excesivo por mi compra reciente de un Microsoft Surface Pro 7. La factura super\u00f3 el monto total esperado por un m\u00e1rgen significativo. Por favor, revisen esta discrepancia y proporcionen una soluci\u00f3n. Gracias, <name>, <acc_num>.",
+    "answer": "Estimado <name>,\n\nNos disculpamos por la discrepancia con su compra de Microsoft Surface Pro 7. Revisaremos su cuenta <acc_num> y abordaremos el cargo excesivo de inmediato. Gracias por informarnos sobre esto.\n\nAtentamente,\nServicio de Atenci\u00f3n al Cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Refund Request",
+      "Order Issue",
+      "Payment Processing"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reported an overcharge for purchasing the Microsoft Surface Pro 7. Bill discrepancy exceeded the expected total."
+  },
+  {
+    "id": 8411,
+    "subject": "\u00dcberzahlung f\u00fcr den Kauf von Microsoft Surface Pro 7",
+    "body": "Sehr geehrter Kundenservice, ich habe eine \u00dcberzahlung f\u00fcr meinen k\u00fcrzlichen Kauf eines Microsoft Surface Pro 7 bemerkt. Die Rechnung \u00fcberstieg den erwarteten Gesamtbetrag bei weitem. Bitte \u00fcberpr\u00fcfen Sie diese Diskrepanz und bieten Sie eine L\u00f6sung an. Danke, <name>, <acc_num>.",
+    "answer": "Sehr geehrter <name>,\n\nWir entschuldigen uns f\u00fcr die Diskrepanz bei Ihrem Kauf eines Microsoft Surface Pro 7. Wir werden Ihr Konto <acc_num> \u00fcberpr\u00fcfen und die \u00dcberzahlung umgehend beheben. Vielen Dank, dass Sie uns darauf hingewiesen haben.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Refund Request",
+      "Payment Processing",
+      "Product Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reported an overcharge for purchasing the Microsoft Surface Pro 7. Bill discrepancy exceeded the expected total."
+  },
+  {
+    "id": 8411,
+    "subject": "\u00dcberladung beim Kauf eines Microsoft Surface Pro 7",
+    "body": "Sehr geehrter Kundenservice, ich habe eine \u00dcberladung bei meinem k\u00fcrzlichen Kauf eines Microsoft Surface Pro 7 bemerkt. Die Rechnung \u00fcberschritt den erwarteten Gesamtbetrag um einen erheblichen Betrag. Bitte \u00fcberpr\u00fcfen Sie diese Diskrepanz und bieten Sie eine L\u00f6sung an. Vielen Dank, <name>, <acc_num>.",
+    "answer": "Sehr geehrter <name>,\n\nWir entschuldigen uns f\u00fcr die Diskrepanz bei Ihrem Kauf des Microsoft Surface Pro 7. Wir werden Ihr Konto <acc_num> \u00fcberpr\u00fcfen und die \u00dcberladung umgehend angehen. Vielen Dank, dass Sie uns darauf hingewiesen haben.\n\nMit freundlichen Gr\u00fc\u00dfen,\nKundenservice",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Microsoft Surface Pro 7",
+    "extra_info": "Customer reported an overcharge for purchasing the Microsoft Surface Pro 7. Bill discrepancy exceeded the expected total."
+  },
+  {
+    "id": 8021,
+    "subject": "Solicitud de programaci\u00f3n de mantenimiento de AWS",
+    "body": "Por favor, programe el mantenimiento rutinario para nuestra infraestructura de AWS para optimizar el rendimiento y prevenir posibles interrupciones del servicio. Su pronta atenci\u00f3n a esta solicitud es apreciada.",
+    "answer": "Estimado/a <name>,\n\nGracias por su correo electr\u00f3nico sobre la programaci\u00f3n de mantenimiento de AWS. Programaremos de inmediato el mantenimiento rutinario para optimizar el rendimiento y prevenir interrupciones del servicio.\n\nAtentamente,\nService Desk",
+    "type": "Request",
+    "queue": "Service Outages and Maintenance",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "System Maintenance",
+      "Performance Tuning",
+      "Service Notification",
+      "Routine Request"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Request for routine maintenance scheduling on AWS infrastructure to optimize performance and prevent future service outages."
+  },
+  {
+    "id": 8021,
+    "subject": "Scheduling Request for AWS Maintenance",
+    "body": "Kindly arrange the regular maintenance for our AWS resources to enhance performance and avoid possible service disruptions. Your swift response to this request is greatly appreciated.",
+    "answer": "Dear <name>,\n\nThank you for reaching out regarding the scheduling of AWS maintenance. We will ensure that the routine maintenance is arranged promptly to enhance performance and avert service interruptions.\n\nBest regards,\nService Desk",
+    "type": "Request",
+    "queue": "Service Outages and Maintenance",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "System Maintenance",
+      "Performance Tuning",
+      "Service Disruption",
+      "Routine Request",
+      "Technical Guidance"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Request for routine maintenance scheduling on AWS infrastructure to optimize performance and prevent future service outages."
+  },
+  {
+    "id": 8021,
+    "subject": "Request for AWS Maintenance Scheduling",
+    "body": "Please schedule routine maintenance for our AWS infrastructure to optimize performance and prevent potential service outages. Your prompt attention to this request is appreciated.",
+    "answer": "Dear <name>,\n\nThank you for your email regarding AWS maintenance scheduling. We will promptly schedule the routine maintenance to optimize performance and prevent service outages.\n\nBest regards,\nService Desk",
+    "type": "Request",
+    "queue": "Service Outages and Maintenance",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "System Maintenance",
+      "Performance Tuning",
+      "Service Outage",
+      "Routine Request",
+      "Technical Support"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Request for routine maintenance scheduling on AWS infrastructure to optimize performance and prevent future service outages."
+  },
+  {
+    "id": 2553,
+    "subject": "",
+    "body": "Ich habe langsame Ladezeiten und h\u00e4ufige Abst\u00fcrze mit Google Chrome Version 102.0 auf Ihrer Seite.",
+    "answer": "Vielen Dank f\u00fcr Ihre Meldung. Bitte leeren Sie den Cache, deaktivieren Sie Erweiterungen und aktualisieren Sie Ihren Browser.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Software Bug",
+      "System Crash",
+      "Performance Tuning",
+      "Technical Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Google Chrome 102.0",
+    "extra_info": "Customer reported issues with slow loading times and frequent crashes on Google Chrome version 102.0."
+  },
+  {
+    "id": 2553,
+    "subject": "",
+    "body": "I am facing slow loading times and frequent crashes using Google Chrome version 102.0 on your site.",
+    "answer": "Thank you for reporting. Please clear cache, disable extensions, and update your browser.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Software Bug",
+      "Performance Tuning",
+      "Technical Support",
+      "System Crash"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Google Chrome 102.0",
+    "extra_info": "Customer reported issues with slow loading times and frequent crashes on Google Chrome version 102.0."
+  },
+  {
+    "id": 2553,
+    "subject": "",
+    "body": "Ich habe langsame Ladezeiten und h\u00e4ufige Abst\u00fcrze bei der Verwendung von Google Chrome Version 102.0 auf Ihrer Seite.",
+    "answer": "Vielen Dank f\u00fcr Ihre Meldung. Bitte leeren Sie den Cache, deaktivieren Sie Erweiterungen und aktualisieren Sie Ihren Browser.",
+    "type": "Incident",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Software Bug",
+      "System Crash",
+      "Performance Tuning"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Google Chrome 102.0",
+    "extra_info": "Customer reported issues with slow loading times and frequent crashes on Google Chrome version 102.0."
+  },
+  {
+    "id": 1351,
+    "subject": "Incorrect Billing for MySQL 8.0.30 Subscription Reported",
+    "body": "Dear Customer Support Team,\n\nI am writing to report an issue with the billing for my MySQL 8.0.30 subscription. The amount charged appears incorrect. Kindly investigate this matter and provide a resolution at the earliest.\n\nThank you,\n<name>\n<acc_num>",
+    "answer": "Dear <name>,\n\nThank you for bringing this to our attention. We are investigating the billing issue for your MySQL 8.0.30 subscription. Our team will update you with a resolution shortly.\n\nBest regards,\nCustomer Support Team",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Account Assistance",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "Customer reported incorrect billing for MySQL 8.0.30 subscription. Need investigation and resolution."
+  },
+  {
+    "id": 1351,
+    "subject": "Cobran\u00e7a Incorreta para o MySQL 8.0.30 Relato da Assinatura",
+    "body": "Caro time de suporte ao cliente,\n\nEstou escrevendo para relatar um problema com a cobran\u00e7a da minha assinatura do MySQL 8.0.30. O valor cobrado parece estar incorreto. Gentileza investigar esta quest\u00e3o e fornecer uma resolu\u00e7\u00e3o o mais r\u00e1pido poss\u00edvel.\n\nObrigado,\n<name>\n<acc_num>",
+    "answer": "Caro <name>,\n\nObrigado por trazer isso \u00e0 nossa aten\u00e7\u00e3o. Estamos investigando o problema de cobran\u00e7a para sua assinatura do MySQL 8.0.30. Nossa equipe o atualizar\u00e1 com uma resolu\u00e7\u00e3o em breve.\n\nAtenciosamente,\nEquipe de Suporte ao Cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "pt",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "Customer reported incorrect billing for MySQL 8.0.30 subscription. Need investigation and resolution."
+  },
+  {
+    "id": 1351,
+    "subject": "Facturaci\u00f3n incorrecta para la suscripci\u00f3n de MySQL 8.0.30 reportada",
+    "body": "Estimado equipo de soporte al cliente,\n\nEstoy escribiendo para reportar un problema con la facturaci\u00f3n de mi suscripci\u00f3n de MySQL 8.0.30. El monto cargado parece incorrecto. Por favor, investiguen este asunto y proporcionen una resoluci\u00f3n lo antes posible.\n\nGracias,\n<name>\n<acc_num>",
+    "answer": "Estimado <name>,\n\nGracias por informarnos sobre esto. Estamos investigando el problema de facturaci\u00f3n para su suscripci\u00f3n de MySQL 8.0.30. Nuestro equipo le actualizar\u00e1 con una resoluci\u00f3n en breve.\n\nSaludos cordiales,\nEquipo de soporte al cliente",
+    "type": "Incident",
+    "queue": "Billing and Payments",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Billing Issue",
+      "Customer Service",
+      "Problem Resolution",
+      "Account Assistance"
+    ],
+    "business_type": "IT Services",
+    "product": "MySQL 8.0.30",
+    "extra_info": "Customer reported incorrect billing for MySQL 8.0.30 subscription. Need investigation and resolution."
+  },
+  {
+    "id": 3810,
+    "subject": "Suspeita de Interrup\u00e7\u00e3o do AWS Afetando Servi\u00e7os",
+    "body": "Caro Suporte ao Cliente, Nossos clientes est\u00e3o incapazes de acessar v\u00e1rios servi\u00e7os na plataforma AWS. Suspeitamos de uma interrup\u00e7\u00e3o afetando a regi\u00e3o da costa leste durante as horas de pico. O produto em uso \u00e9 o AWS Management Service. Por favor, investiguem. Atenciosamente, <name>",
+    "answer": "Caro <name>,\n\nObrigado pela sua mensagem. Estamos cientes de poss\u00edveis interrup\u00e7\u00f5es no AWS Management Service na regi\u00e3o da costa leste e estamos investigando ativamente. Assim que tivermos mais informa\u00e7\u00f5es, n\u00f3s o atualizaremos.\n\nAtenciosamente,\nSuporte ao Cliente",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": "high",
+    "language": "pt",
+    "tags": [
+      "Service Outage",
+      "Technical Support",
+      "Incident Report",
+      "Service Disruption",
+      "Urgent Issue",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Clients unable to reach multiple services on AWS platform. Suspected outage affecting east coast region during peak hours."
+  },
+  {
+    "id": 3810,
+    "subject": "Sospecha de interrupci\u00f3n de AWS que afecta servicios",
+    "body": "Estimado soporte al cliente, Nuestros clientes no pueden acceder a m\u00faltiples servicios en la plataforma AWS. Sospechamos una interrupci\u00f3n que afecta a la regi\u00f3n de la costa este durante las horas pico. El producto en uso es el servicio de administraci\u00f3n de AWS. Por favor investiga. Saludos, <name>",
+    "answer": "Estimado <name>, \n\nGracias por tu mensaje. Somos conscientes de las posibles interrupciones en el servicio de administraci\u00f3n de AWS en la regi\u00f3n de la costa este y estamos investigando activamente. Te actualizaremos tan pronto como haya m\u00e1s informaci\u00f3n disponible.\n\nSaludos,\nSoporte al Cliente",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": "high",
+    "language": "es",
+    "tags": [
+      "Service Outage",
+      "Technical Support",
+      "Incident Report",
+      "Service Notification",
+      "Urgent Issue",
+      "Product Support",
+      "Service Disruption"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Clients unable to reach multiple services on AWS platform. Suspected outage affecting east coast region during peak hours."
+  },
+  {
+    "id": 3810,
+    "subject": "Interrup\u00e7\u00e3o suspeita da AWS afetando servi\u00e7os",
+    "body": "Caro Suporte ao Cliente, Nossos clientes n\u00e3o conseguem acessar v\u00e1rios servi\u00e7os na plataforma AWS. Suspeitamos de uma interrup\u00e7\u00e3o afetando a regi\u00e3o da costa leste durante as horas de pico. O produto em uso \u00e9 o Servi\u00e7o de Gerenciamento da AWS. Por favor, investiguem. Atenciosamente, <name>",
+    "answer": "Caro <name>, \n\nAgradecemos sua mensagem. Estamos cientes de poss\u00edveis interrup\u00e7\u00f5es no Servi\u00e7o de Gerenciamento da AWS na regi\u00e3o da costa leste e estamos investigando ativamente. Manteremos voc\u00ea atualizado assim que mais informa\u00e7\u00f5es estiverem dispon\u00edveis.\n\nAtenciosamente,\nSuporte ao Cliente",
+    "type": "Incident",
+    "queue": "Service Outages and Maintenance",
+    "priority": "high",
+    "language": "pt",
+    "tags": [
+      "Service Outage",
+      "Incident Report",
+      "Technical Support",
+      "Service Disruption",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "AWS Management Service",
+    "extra_info": "Clients unable to reach multiple services on AWS platform. Suspected outage affecting east coast region during peak hours."
+  },
+  {
+    "id": 9081,
+    "subject": "Anfrage zum Produktumtausch oder zur R\u00fcckerstattung",
+    "body": "Bildschirmflimmern bei MacBook Air M1",
+    "answer": "Es tut uns leid wegen des Problems. Bitte besuchen Sie unseren Laden oder antworten Sie f\u00fcr den R\u00fcckgabe-/R\u00fcckerstattungsprozess.",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Support",
+      "Refund Request",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer reported screen flickering issues with recently purchased MacBook Air M1. Requested exchange or refund."
+  },
+  {
+    "id": 9081,
+    "subject": "Anfrage f\u00fcr Produktauswechslung oder R\u00fcckerstattung",
+    "body": "Bildschirm Flackern Problem mit MacBook Air M1",
+    "answer": "Es tut uns leid f\u00fcr das Problem. Bitte besuchen Sie unser Gesch\u00e4ft oder antworten Sie f\u00fcr den R\u00fcckgabe-/R\u00fcckerstattungsprozess.",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "high",
+    "language": "de",
+    "tags": [
+      "Returns and Exchanges",
+      "Refund Request",
+      "Product Replacement",
+      "Technical Support",
+      "Hardware Failure"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer reported screen flickering issues with recently purchased MacBook Air M1. Requested exchange or refund."
+  },
+  {
+    "id": 9081,
+    "subject": "Request for Product Exchange or Refund",
+    "body": "Screen flickering issue with MacBook Air M1",
+    "answer": "We're sorry for the issue. Please visit our store or reply for a return/refund process.",
+    "type": "Incident",
+    "queue": "Returns and Exchanges",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Returns and Exchanges",
+      "Refund Request",
+      "Product Support",
+      "Hardware Failure"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "MacBook Air M1",
+    "extra_info": "Customer reported screen flickering issues with recently purchased MacBook Air M1. Requested exchange or refund."
+  },
+  {
+    "id": 4930,
+    "subject": "Issue with Constant Paper Jamming Problem",
+    "body": "Dear Tech Online Store Customer Support, My HP DeskJet 3755 printer constantly jams during wireless printing. This disturbance affects my printing job queue. Please assist in resolving this issue promptly. Sincerely, <name>",
+    "answer": "Dear <name>,\nPlease try these steps: 1) Check for obstructions in the paper path. 2) Ensure paper is correctly loaded. 3) Update printer firmware. If the issue persists, contact us for further assistance.\nBest regards,\nTech Online Store Support",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Compact printer is constantly jamming during wireless printing, affecting job queue and causing disturbances."
+  },
+  {
+    "id": 4930,
+    "subject": "Problem mit st\u00e4ndigem Papierstau",
+    "body": "Sehr geehrter Kunde des Tech Online Stores, Mein HP DeskJet 3755 Drucker hat st\u00e4ndig Papierstaus beim drahtlosen Drucken. Diese St\u00f6rung betrifft meinen Druckauftrag. Bitte helfen Sie mir, dieses Problem schnellstm\u00f6glich zu l\u00f6sen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Lieber <name>, bitte versuchen Sie diese Schritte: 1) \u00dcberpr\u00fcfen Sie, ob es Hindernisse im Papierweg gibt. 2) Stellen Sie sicher, dass das Papier korrekt eingelegt ist. 3) Aktualisieren Sie die Druckerfirmware. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte f\u00fcr weitere Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, Support vom Tech Online Store",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Problem Resolution",
+      "Customer Service",
+      "Hardware Failure",
+      "Urgent Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Compact printer is constantly jamming during wireless printing, affecting job queue and causing disturbances."
+  },
+  {
+    "id": 4930,
+    "subject": "Problem mit st\u00e4ndigem Papierstau",
+    "body": "Sehr geehrter Kundenservice des Tech Online Stores, Mein HP DeskJet 3755 Drucker hat st\u00e4ndig Probleme mit dem Papierstau beim drahtlosen Drucken. Diese St\u00f6rung beeintr\u00e4chtigt meine Druckauftr\u00e4ge. Bitte helfen Sie mir, dieses Problem umgehend zu l\u00f6sen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+    "answer": "Sehr geehrter <name>,\nBitte versuchen Sie folgende Schritte: 1) \u00dcberpr\u00fcfen Sie auf Verstopfungen im Papierweg. 2) Stellen Sie sicher, dass das Papier korrekt eingelegt ist. 3) Aktualisieren Sie die Drucker-Firmware. Wenn das Problem weiterhin besteht, kontaktieren Sie uns bitte f\u00fcr weitere Unterst\u00fctzung.\nMit freundlichen Gr\u00fc\u00dfen,\nSupport des Tech Online Stores",
+    "type": "Incident",
+    "queue": "Customer Service",
+    "priority": "medium",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Compact printer is constantly jamming during wireless printing, affecting job queue and causing disturbances."
+  },
+  {
+    "id": 511,
+    "subject": "Probl\u00e8me de r\u00e9union Zoom",
+    "body": "L'employ\u00e9 est incapable de d\u00e9marrer des r\u00e9unions Zoom pour les sessions d'orientation des ressources humaines.",
+    "answer": "Nous examinons le probl\u00e8me Zoom pour l'orientation des ressources humaines. Merci de votre patience.",
+    "type": "Incident",
+    "queue": "Human Resources",
+    "priority": "low",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "Human Resources",
+      "Problem Resolution",
+      "Service Recovery"
+    ],
+    "business_type": "IT Services",
+    "product": "Zoom 5.11.0",
+    "extra_info": "Employee unable to start Zoom meetings for HR orientation sessions. Requires troubleshooting to restore functionality."
+  },
+  {
+    "id": 511,
+    "subject": "Zoom Meeting Issue",
+    "body": "Employee unable to start Zoom meetings for HR orientation sessions.",
+    "answer": "We\u2019re looking into the Zoom issue for HR orientation. Thank you for your patience.",
+    "type": "Incident",
+    "queue": "Human Resources",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Human Resources",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Employee Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "Zoom 5.11.0",
+    "extra_info": "Employee unable to start Zoom meetings for HR orientation sessions. Requires troubleshooting to restore functionality."
+  },
+  {
+    "id": 511,
+    "subject": "Zoom Meeting Issue",
+    "body": "Employee unable to start Zoom meetings for HR orientation sessions.",
+    "answer": "We\u2019re looking into the Zoom issue for HR orientation. Thank you for your patience.",
+    "type": "Incident",
+    "queue": "Human Resources",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Human Resources",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Employee Inquiry"
+    ],
+    "business_type": "IT Services",
+    "product": "Zoom 5.11.0",
+    "extra_info": "Employee unable to start Zoom meetings for HR orientation sessions. Requires troubleshooting to restore functionality."
+  },
+  {
+    "id": 6294,
+    "subject": "",
+    "body": "Hola Soporte al Cliente, uno de nuestros usuarios, <name>, informa de un rendimiento lento al usar la aplicaci\u00f3n de Excel de Microsoft Office 365 en una computadora port\u00e1til de la empresa. Por favor, investigue y proporcione una soluci\u00f3n. Gracias.",
+    "answer": "Estimado Cliente,\n\nGracias por informar sobre este problema. Aseg\u00farese de que la computadora port\u00e1til est\u00e9 actualizada y verifique los complementos de Excel. Si el problema persiste, proporcione las especificaciones del sistema y lo investigaremos m\u00e1s a fondo.\n\nSaludos cordiales,\nSoporte al Cliente",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Problem Resolution",
+      "Performance Tuning",
+      "Product Support"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Office 365",
+    "extra_info": "User reports slow performance while using Microsoft Office 365 Excel application on company laptop."
+  },
+  {
+    "id": 6294,
+    "subject": "",
+    "body": "Hello Customer Support, one of our users, <name>, reports slow performance while using Microsoft Office 365 Excel application on a company laptop. Please investigate and provide a resolution. Thank you.",
+    "answer": "Dear Customer,\n\nThank you for reporting this issue. Please ensure the laptop is updated and check Excel add-ins. If the issue persists, provide system specs and we will investigate further.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Performance Tuning",
+      "Problem Resolution",
+      "Software Bug"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Office 365",
+    "extra_info": "User reports slow performance while using Microsoft Office 365 Excel application on company laptop."
+  },
+  {
+    "id": 6294,
+    "subject": "",
+    "body": "Hello Customer Support, one of our users, <name>, reports slow performance while using Microsoft Office 365 Excel application on a company laptop. Please investigate and provide a resolution. Thank you.",
+    "answer": "Dear Customer,\n\nThank you for reporting this issue. Please ensure the laptop is updated and check Excel add-ins. If the issue persists, provide system specs and we will investigate further.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Performance Tuning",
+      "Problem Resolution",
+      "Software Bug"
+    ],
+    "business_type": "IT Services",
+    "product": "Microsoft Office 365",
+    "extra_info": "User reports slow performance while using Microsoft Office 365 Excel application on company laptop."
+  },
+  {
+    "id": 7256,
+    "subject": "Connectivity Issues",
+    "body": "Dear Tech Online Store support, I am writing to report connectivity issues with my Canon PIXMA MG3620 wireless printer. Despite several troubleshooting attempts, the device fails to connect to my network. Please provide assistance or a possible solution. Thank you, <name>",
+    "answer": "Dear <name>,\n\nWe apologize for the inconvenience with your Canon PIXMA MG3620. Please try restarting your router, ensuring the printer is within range, and re-entering your network credentials. If the issue persists, refer to your printer's manual or contact Canon support for further assistance.\n\nBest regards,\nTech Online Store Support",
+    "type": "Problem",
+    "queue": "General Inquiry",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Network Issue",
+      "Problem Resolution",
+      "Service Recovery"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer is experiencing connectivity issues with their Canon PIXMA MG3620 wireless printer."
+  },
+  {
+    "id": 7256,
+    "subject": "Konnektivit\u00e4tsprobleme",
+    "body": "Sehr geehrter Support des Tech Online Store, ich schreibe, um Konnektivit\u00e4tsprobleme mit meinem Canon PIXMA MG3620 Drahtlosdrucker zu melden. Trotz mehrerer Fehlersuche gelingt es dem Ger\u00e4t nicht, sich mit meinem Netzwerk zu verbinden. Bitte helfen Sie mir oder bieten Sie eine m\u00f6gliche L\u00f6sung an. Vielen Dank, <name>",
+    "answer": "Sehr geehrter <name>,\n\nWir entschuldigen uns f\u00fcr die Unannehmlichkeiten mit Ihrem Canon PIXMA MG3620. Bitte versuchen Sie, Ihren Router neu zu starten, sicherzustellen, dass der Drucker innerhalb der Reichweite ist, und Ihre Netzwerk-Anmeldeinformationen erneut einzugeben. Wenn das Problem weiterhin besteht, konsultieren Sie bitte das Handbuch Ihres Druckers oder wenden Sie sich an den Support von Canon f\u00fcr weitere Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\nSupport des Tech Online Store",
+    "type": "Problem",
+    "queue": "General Inquiry",
+    "priority": "low",
+    "language": "de",
+    "tags": [
+      "Technical Support",
+      "Network Issue",
+      "Product Support",
+      "Problem Resolution",
+      "Service Notification"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer is experiencing connectivity issues with their Canon PIXMA MG3620 wireless printer."
+  },
+  {
+    "id": 7256,
+    "subject": "Problemas de conectividad",
+    "body": "Estimado soporte de Tech Online Store, estoy escribiendo para reportar problemas de conectividad con mi impresora inal\u00e1mbrica Canon PIXMA MG3620. A pesar de varios intentos de soluci\u00f3n de problemas, el dispositivo no logra conectarse a mi red. Por favor, proporcione asistencia o una posible soluci\u00f3n. Gracias, <name>",
+    "answer": "Estimado <name>,\n\nNos disculpamos por las molestias con su Canon PIXMA MG3620. Por favor, intente reiniciar su enrutador, asegur\u00e1ndose de que la impresora est\u00e9 dentro del alcance y volviendo a ingresar sus credenciales de red. Si el problema persiste, consulte el manual de su impresora o comun\u00edquese con el soporte de Canon para obtener m\u00e1s ayuda.\n\nAtentamente,\nSoporte de Tech Online Store",
+    "type": "Problem",
+    "queue": "General Inquiry",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Hardware Failure",
+      "Network Issue",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Canon PIXMA MG3620",
+    "extra_info": "Customer is experiencing connectivity issues with their Canon PIXMA MG3620 wireless printer."
+  },
+  {
+    "id": 4694,
+    "subject": "",
+    "body": "Dear Tech Online Store Support,\n\nI recently purchased a Dell XPS 13 9310, but the screen has malfunctioned. The product is still under warranty, and I am seeking an exchange. My order number is <order_num>. Please advise on the next steps to proceed with the exchange.\n\nBest regards,\n<name>\n<tel_num>",
+    "answer": "Dear <name>,\n\nWe apologize for the inconvenience. Please visit our Returns and Exchanges page on our website and initiate a claim using your order number <order_num>. Follow the provided instructions for your product exchange. If you need further assistance, feel free to call us.\n\nBest regards,\nTech Online Store Support",
+    "type": "Problem",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "en",
+    "tags": [
+      "Returns and Exchanges",
+      "Warranty Claim",
+      "Product Support",
+      "Order Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer seeking exchange due to a malfunctioning ultraportable Dell XPS 13 9310 screen within warranty period."
+  },
+  {
+    "id": 4694,
+    "subject": "",
+    "body": "Estimado soporte de Tech Online Store,\n\nRecientemente compr\u00e9 un Dell XPS 13 9310, pero la pantalla ha fallado. El producto a\u00fan est\u00e1 en garant\u00eda y estoy buscando un cambio. Mi n\u00famero de pedido es <order_num>. Por favor, ind\u00edqueme los pr\u00f3ximos pasos para proceder con el intercambio.\n\nSaludos cordiales,\n<name>\n<tel_num>",
+    "answer": "Estimado <name>,\n\nLamentamos la inconveniencia. Por favor, visite nuestra p\u00e1gina de Devoluciones e Intercambios en nuestro sitio web e inicie un reclamo usando su n\u00famero de pedido <order_num>. Siga las instrucciones proporcionadas para el intercambio de su producto. Si necesita m\u00e1s ayuda, no dude en llamarnos.\n\nSaludos cordiales,\nSoporte de Tech Online Store",
+    "type": "Problem",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "es",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Replacement",
+      "Warranty Claim",
+      "Technical Support"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer seeking exchange due to a malfunctioning ultraportable Dell XPS 13 9310 screen within warranty period."
+  },
+  {
+    "id": 4694,
+    "subject": "",
+    "body": "Caro Suporte da Loja Online de Tecnologia,\n\nRecentemente comprei um Dell XPS 13 9310, mas a tela apresentou uma falha. O produto ainda est\u00e1 dentro da garantia e estou buscando uma troca. Meu n\u00famero do pedido \u00e9 <order_num>. Por favor, me aconselhe sobre os pr\u00f3ximos passos para prosseguir com a troca.\n\nAtenciosamente,\n<name>\n<tel_num>",
+    "answer": "Caro <name>,\n\nPedimos desculpas pelo transtorno. Por favor, visite nossa p\u00e1gina de Devolu\u00e7\u00f5es e Trocas em nosso site e inicie uma reclama\u00e7\u00e3o usando seu n\u00famero do pedido <order_num>. Siga as instru\u00e7\u00f5es fornecidas para a troca do seu produto. Se precisar de mais assist\u00eancia, sinta-se \u00e0 vontade para nos ligar.\n\nAtenciosamente,\nSuporte da Loja Online de Tecnologia",
+    "type": "Problem",
+    "queue": "Returns and Exchanges",
+    "priority": "medium",
+    "language": "pt",
+    "tags": [
+      "Returns and Exchanges",
+      "Product Replacement",
+      "Warranty Claim",
+      "Customer Service",
+      "Order Issue"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "Dell XPS 13 9310",
+    "extra_info": "Customer seeking exchange due to a malfunctioning ultraportable Dell XPS 13 9310 screen within warranty period."
+  },
+  {
+    "id": 245,
+    "subject": "Need Assistance with HP DeskJet 3755 Wireless Setup",
+    "body": "Dear Customer Support,\n\nI recently purchased an HP DeskJet 3755 from your online store and am having trouble connecting its wireless feature. Could you please assist me with the setup? Thank you for your help.\n\nBest regards,\n<name>\n<acc_num>",
+    "answer": "Dear <name>,\n\nThank you for reaching out. To set up your HP DeskJet 3755 wirelessly, please download the HP Smart app, choose \"Set Up a New Printer,\" and follow the on-screen instructions. Should you need further assistance, feel free to contact us.\n\nBest regards,\nCustomer Support",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "General Inquiry",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer requests setup support for HP DeskJet 3755 purchased from the online store. Unable to connect wireless feature."
+  },
+  {
+    "id": 245,
+    "subject": "Necesito asistencia con la configuraci\u00f3n inal\u00e1mbrica del HP DeskJet 3755",
+    "body": "Estimado servicio de atenci\u00f3n al cliente,\n\nRecientemente compr\u00e9 un HP DeskJet 3755 en su tienda en l\u00ednea y tengo problemas para conectar su funci\u00f3n inal\u00e1mbrica. \u00bfPodr\u00eda ayudarme con la configuraci\u00f3n? Gracias por su ayuda.\n\nSaludos cordiales,\n<name>\n<acc_num>",
+    "answer": "Estimado <name>,\n\nGracias por contactarnos. Para configurar su HP DeskJet 3755 de forma inal\u00e1mbrica, descargue la aplicaci\u00f3n HP Smart, elija \"Configurar una nueva impresora\" y siga las instrucciones en la pantalla. Si necesita m\u00e1s ayuda, no dude en contactarnos.\n\nSaludos cordiales,\nServicio de atenci\u00f3n al cliente",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "es",
+    "tags": [
+      "Technical Support",
+      "Product Support",
+      "Customer Service",
+      "Problem Resolution",
+      "General Inquiry"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer requests setup support for HP DeskJet 3755 purchased from the online store. Unable to connect wireless feature."
+  },
+  {
+    "id": 245,
+    "subject": "Need Assistance with HP DeskJet 3755 Wireless Setup",
+    "body": "Dear Customer Support,\n\nI recently purchased an HP DeskJet 3755 from your online store and am having trouble connecting its wireless feature. Could you please assist me with the setup? Thank you for your help.\n\nBest regards,\n<name>\n<acc_num>",
+    "answer": "Dear <name>,\n\nThank you for reaching out. To set up your HP DeskJet 3755 wirelessly, please download the HP Smart app, choose \"Set Up a New Printer,\" and follow the on-screen instructions. Should you need further assistance, feel free to contact us.\n\nBest regards,\nCustomer Support",
+    "type": "Request",
+    "queue": "Product Support",
+    "priority": "low",
+    "language": "en",
+    "tags": [
+      "Product Support",
+      "Technical Support",
+      "Customer Service",
+      "Problem Resolution"
+    ],
+    "business_type": "Tech Online Store",
+    "product": "HP DeskJet 3755",
+    "extra_info": "Customer requests setup support for HP DeskJet 3755 purchased from the online store. Unable to connect wireless feature."
+  },
+  {
+    "id": 1562,
+    "subject": "Urgent: Routeur Cisco ISR4331 hors service",
+    "body": "Cher Service Clients, Notre routeur Cisco ISR4331 est hors service, et cela impacte notre acc\u00e8s au r\u00e9seau. Tous les essais de red\u00e9marrage ont \u00e9chou\u00e9. Nous demandons d'urgence un d\u00e9pannage et une r\u00e9solution imm\u00e9diats. Merci, <name>, D\u00e9partement IT",
+    "answer": "Cher <name>,\n\nMerci pour votre message. Nous comprenons l'urgence et nous avons prioris\u00e9 votre probl\u00e8me avec le routeur Cisco ISR4331. Notre \u00e9quipe de support technique vous contactera sous peu pour vous aider avec le d\u00e9pannage imm\u00e9diat.\n\nCordialement,\nService Clients",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "fr",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Urgent Issue",
+      "Network Issue",
+      "Service Disruption",
+      "Problem Resolution"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Cisco Router ISR4331 is down. Impacting network access, reboot attempts failed, request emergency troubleshooting and immediate resolution."
+  },
+  {
+    "id": 1562,
+    "subject": "Emergency: Cisco Router ISR4331 Down",
+    "body": "Dear Customer Support, Our Cisco Router ISR4331 is down, and this is impacting our network access. All reboot attempts have failed. We urgently request immediate emergency troubleshooting and resolution. Thank you, <name>, IT Department",
+    "answer": "Dear <name>,\n\nThank you for your message. We understand the urgency and are prioritizing your Cisco Router ISR4331 issue. Our technical support team will reach out to you shortly to assist with immediate troubleshooting.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Outage"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Cisco Router ISR4331 is down. Impacting network access, reboot attempts failed, request emergency troubleshooting and immediate resolution."
+  },
+  {
+    "id": 1562,
+    "subject": "Emergency: Cisco Router ISR4331 Down",
+    "body": "Dear Customer Support, Our Cisco Router ISR4331 is down, and this is impacting our network access. All reboot attempts have failed. We urgently request immediate emergency troubleshooting and resolution. Thank you, <name>, IT Department",
+    "answer": "Dear <name>,\n\nThank you for your message. We understand the urgency and are prioritizing your Cisco Router ISR4331 issue. Our technical support team will reach out to you shortly to assist with immediate troubleshooting.\n\nBest regards,\nCustomer Support",
+    "type": "Incident",
+    "queue": "IT Support",
+    "priority": "high",
+    "language": "en",
+    "tags": [
+      "Technical Support",
+      "IT Support",
+      "Network Issue",
+      "Urgent Issue",
+      "Problem Resolution",
+      "Service Outage"
+    ],
+    "business_type": "IT Consulting Firm",
+    "product": "Cisco Router ISR4331",
+    "extra_info": "Cisco Router ISR4331 is down. Impacting network access, reboot attempts failed, request emergency troubleshooting and immediate resolution."
+  }
+]

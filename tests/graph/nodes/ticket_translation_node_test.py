@@ -2,7 +2,7 @@ import asyncio
 
 import pytest
 
-from graph.data.models import Language, Priority, Ticket, TicketQueue, TicketType
+from graph.data.models import Language, Priority, Ticket, TicketExtraInformation, TicketQueue, TicketType
 from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThresholds, TicketSimilarityValidation
 from util.text_similarity_calculator import compute_text_similarity
 
@@ -16,10 +16,8 @@ def test_ticket_translation_validation():
         type=TicketType.PROBLEM,
         priority=Priority.LOW,
         language=Language.EN,
-        business_type="IT",
-        product="Windows",
-        product_category="Software",
-        product_sub_category="Operating System"
+        ticket_extra_information=TicketExtraInformation(),
+        tags=[],
     )
 
     translated_ticket = Ticket(

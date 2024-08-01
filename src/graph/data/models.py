@@ -1,4 +1,5 @@
 import dataclasses
+import random
 from dataclasses import dataclass
 from typing import Optional
 
@@ -70,6 +71,11 @@ class TicketExtraInformation(OutputDataclassField):
     business_type: str
     product: str
     extra_info: str
+
+    def __post_init__(self):
+        assert len(self.business_type) < 60, "Business type must be less than 60 characters."
+        assert len(self.product) < 60, "Product must be less than 60 characters."
+        assert 10 < len(self.extra_info) < 200, "Extra info must be between 10 and 200 characters."
 
     def to_dict(self):
         return dataclasses.asdict(self)
@@ -219,6 +225,25 @@ class TicketType(RandomTicketField):
     ])
 
 
+class UniqueIDGenerator:
+    def __init__(self):
+        self.used_ids = set()
+        self.max_id = 100_000
+
+    def generate_id(self):
+        if len(self.used_ids) >= self.max_id:
+            raise Exception("No more unique IDs available.")
+
+        while True:
+            new_id = random.randint(1, self.max_id)
+            if new_id not in self.used_ids:
+                self.used_ids.add(new_id)
+                return new_id
+
+
+id_generator = UniqueIDGenerator()
+
+
 @dataclass
 class Ticket:
     subject: str
@@ -229,7 +254,6 @@ class Ticket:
     priority: Priority
     language: Language
     ticket_extra_information: TicketExtraInformation
-
     tags: Optional[list[str]] = None
 
     def __repr__(self):
@@ -242,6 +266,7 @@ class Ticket:
 
     def to_dict(self):
         result = {
+            "id": id_generator.generate_id(),
             "subject": self.subject,
             "body": self.body,
             "answer": self.answer,
