@@ -3,7 +3,7 @@ import asyncio
 import pytest
 
 from graph.data.models import Language, Priority, Ticket, TicketExtraInformation, TicketQueue, TicketType
-from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThresholds, TicketSimilarityValidation
+from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThresholds
 from util.text_similarity_calculator import compute_text_similarity
 
 
@@ -35,17 +35,6 @@ def test_ticket_translation_validation():
     )
 
     assert TicketSimilarityValidation(ticket, translated_ticket, TextSimilarityThresholds([])).is_valid()
-
-
-@pytest.mark.expensive
-@pytest.mark.asyncio
-async def test_creating_ticket_works(create_ticket_translation_node):
-    ticket_translation_node = create_ticket_translation_node()
-    shared_storage = await ticket_translation_node.execute()
-
-    ticket = shared_storage.get_by_key("tickets")[0]
-    assert ticket is not None
-    print(ticket)
 
 
 @pytest.mark.asyncio

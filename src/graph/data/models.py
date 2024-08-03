@@ -30,15 +30,15 @@ class Language(ComparableEnum):
 class Priority(RandomTicketField):
     LOW = ("low", [
         "Ticket concerns less urgent matters.",
-        "This ticket does not require immediate attention.",
+        "This ticket_a does not require immediate attention.",
         "Low priority: issue is not time-sensitive.",
-        "Non-urgent ticket.",
-        "This ticket can be addressed at a later time.",
+        "Non-urgent ticket_a.",
+        "This ticket_a can be addressed at a later time.",
         "The issue is of low priority.",
         "Not requiring immediate resolution."
     ])
     MEDIUM = ("medium", [
-        "Medium priority: ticket concerns important matters.",
+        "Medium priority: ticket_a concerns important matters.",
         "Should be addressed promptly but not critical.",
         "Ticket requires timely attention.",
         "Important but not urgent issue.",
@@ -47,13 +47,13 @@ class Priority(RandomTicketField):
         "Needs prompt but not immediate action."
     ])
     HIGH = ("high", [
-        "High priority: ticket concerns urgent matters.",
+        "High priority: ticket_a concerns urgent matters.",
         "Requiring immediate attention and quick resolution.",
         "Critical issue: needs immediate action.",
         "Urgent matter: resolve as soon as possible.",
         "Top priority: address immediately.",
         "High importance: requires fast resolution.",
-        "Immediate attention needed for this ticket."
+        "Immediate attention needed for this ticket_a."
     ])
 
 

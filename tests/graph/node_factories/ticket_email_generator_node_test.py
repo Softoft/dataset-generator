@@ -1,5 +1,3 @@
-import asyncio
-
 import pytest
 
 from graph.data.models import TicketEmail

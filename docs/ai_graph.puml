@@ -14,9 +14,15 @@ class OutputType{
     + get_output_description(): string
 }
 
-class AIAssistant{
+class Generator{
+    + {abstract} generate(inputs): string
+}
+
+class AIAssistant extends Generator{
     + {abstract} get_response(inputs): string
 }
+
+
 
 class Node{
     - parents: List<INode>
@@ -24,25 +30,18 @@ class Node{
     + {async} execute()
 }
 
+Node o--> Generator
 
 class Graph{
     - endNodes: List<INode>
 }
 
-class AINode extends Node{
-    - chat_assistant: ChatAssistant
-    + {async} execute(inputs)
-}
 
 Graph o-- Node
 
 
 Node o-- Storage
 Node o-- Node
-
-
-TicketBuilder o-- Graph
-
 
 AIAssistant o--> InputType
 AIAssistant o--> OutputType

@@ -14,7 +14,6 @@ from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
 from util.key_value_storage import KeyValueStorage
-from util.number_interval_generator import NumberIntervalGenerator, TextLengthNode
 
 
 class KeyEnum(ComparableEnum):
@@ -76,15 +75,6 @@ def create_random_collection_node():
 
 
 @pytest.fixture
-def create_text_length_node():
-    def _create_text_length_node(mean, standard_deviation):
-        text_length_generator = NumberIntervalGenerator(mean=mean, standard_deviation=standard_deviation)
-        return TextLengthNode(text_length_generator)
-
-    return _create_text_length_node
-
-
-@pytest.fixture
 def create_extra_ticket_information_node():
     def _create_extra_ticket_information_node():
         graph = GraphTicketGenerator()
@@ -125,10 +115,10 @@ def execute_ticket_translation_node():
 @pytest.fixture(autouse=True)
 def setup_logging():
     logger = logging.getLogger()
-    logger.setLevel(logging.WARNING)
+    logger.setLevel(logging.INFO)
     handler = logging.StreamHandler()
     formatter = logging.Formatter(
-        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        "%(levelname)s - %(message)s"
     )
     handler.setFormatter(formatter)
     logger.addHandler(handler)

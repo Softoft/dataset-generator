@@ -1,7 +1,5 @@
 from dataclasses import dataclass
 
-from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThresholds
-
 
 @dataclass
 class Config:
@@ -11,4 +9,5 @@ class Config:
     text_length_mean: int
     text_length_standard_deviation: int
     batch_size: int
-    text_similarity_thresholds: TextSimilarityThresholds
+    max_text_similarity: float
+    min_content_similarity: float

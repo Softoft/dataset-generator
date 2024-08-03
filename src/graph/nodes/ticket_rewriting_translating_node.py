@@ -11,7 +11,6 @@ from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from random_collections.random_collection import RandomCollectionBuilder
 from util.key_value_storage import KeyValueStorage
-from util.text_similarity_calculator import compute_text_similarity
 
 
 @dataclass
@@ -26,38 +25,6 @@ class TextSimilarityThresholds:
 
     def get_descending_thresholds(self):
         return sorted(self.text_lengths, key=lambda x: x.text_length, reverse=True)
-
-
-class TicketTranslationValidation:
-    def __init__(self, ticket: Ticket, translated_ticket: Ticket, text_similarity_thresholds: TextSimilarityThresholds):
-        assert ticket.language == translated_ticket.language, "Similarity Comparison is only possible for same language tickets."
-        self.ticket = ticket
-        self.translated_ticket = translated_ticket
-        self.text_similarity_thresholds = text_similarity_thresholds
-
-    def _is_text_pair_valid(self, text1: str, text2: str) -> bool:
-        try:
-            similar_threshold = 1
-            for threshold in self.text_similarity_thresholds.get_descending_thresholds():
-                if len(text1) > threshold.text_length:
-                    similar_threshold = threshold.similarity_threshold
-                    break
-            return compute_text_similarity(text1, text2) <= similar_threshold
-        except AttributeError as e:
-            logging.error(f"Error while comparing texts: {e}")
-            return False
-
-    def _is_translated_ticket_valid(self, ticket: Ticket, translated_ticket: Ticket):
-        return (self._is_text_pair_valid(ticket.subject, translated_ticket.subject)
-                and self._is_text_pair_valid(ticket.body, translated_ticket.body)
-                and self._is_text_pair_valid(ticket.answer, translated_ticket.answer))
-
-    def is_valid(self):
-        try:
-            return self._is_translated_ticket_valid(self.ticket, self.translated_ticket)
-        except Exception as e:
-            logging.error(f"Error while validating ticket translation: {e}")
-            return False
 
 
 class TicketTranslationNode(ExecutableNode):
@@ -89,18 +56,18 @@ class TicketTranslationNode(ExecutableNode):
         )
 
     def _generate_translation_prompt(self, ticket: Ticket, language):
-        return f"Translate following ticket to {language.value}, {self._generate_ticket_text_prompt(ticket)}"
+        return f"Translate following ticket_a to {language.value}, {self._generate_ticket_text_prompt(ticket)}"
 
     def _generate_rewriting_prompt(self, ticket):
-        return f"Rewrite following ticket, {self._generate_ticket_text_prompt(ticket)}"
+        return f"Rewrite following ticket_a, {self._generate_ticket_text_prompt(ticket)}"
 
     def _generate_ticket_tags_prompt(self, ticket):
-        return f"Generate tags for the following ticket, {self._generate_ticket_text_prompt(ticket)}"
+        return f"Generate tags for the following ticket_a, {self._generate_ticket_text_prompt(ticket)}"
 
     async def _generate_rewritten_and_translated_ticket(self, ticket: Ticket, repeats_left=2):
         if repeats_left == 0:
             logging.warning(
-                "Could not generate valid translation; Tickets are too similar, but still returning new ticket")
+                "Could not generate valid translation; Tickets are too similar, but still returning new ticket_a")
             return ticket
         rewritten_ticket = await self._generate_rewritten_ticket(ticket)
         back_translated_ticket = await self._generate_translated_ticket(rewritten_ticket, self.first_ticket.language)
