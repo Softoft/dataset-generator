@@ -5,6 +5,8 @@ from typing import Dict, List
 
 from openai.types.beta.threads import Run
 
+from synthetic_data_generator.ai_graph.ai.chat_assistant import AssistantModel
+
 
 def cost_analyzer(cls):
     original_init = cls.__init__
@@ -14,8 +16,9 @@ def cost_analyzer(cls):
         original_create_run = self.create_run
 
         async def wrapped_create_run(*args, **kwargs):
+            logging.info(f"Creating run with args {args} and kwargs {kwargs}")
             run = await original_create_run(*args, **kwargs)
-            AssistantAnalyzer.get_instance().append_run(run, self.chat_assistant_config.assistant_name)
+            AssistantAnalyzer().append_run(run, self.chat_assistant_config.assistant_name)
             return run
 
         self.create_run = wrapped_create_run
@@ -36,12 +39,12 @@ def per_million_tokens(cost: float) -> float:
 class AssistantRun:
     cost_map = {
         CostType.INPUT: {
-            "gpt-4o": per_million_tokens(5),
-            "gpt-4o-mini": per_million_tokens(0.15),
+            AssistantModel.GPT_4o: per_million_tokens(5),
+            AssistantModel.GPT_4o_MINI: per_million_tokens(0.15),
         },
         CostType.OUTPUT: {
-            "gpt-4o": per_million_tokens(15),
-            "gpt-4o-mini": per_million_tokens(0.6),
+            AssistantModel.GPT_4o: per_million_tokens(15),
+            AssistantModel.GPT_4o_MINI: per_million_tokens(0.6),
         }
     }
 
@@ -60,16 +63,18 @@ class AssistantRun:
 
 
 class AssistantAnalyzer:
-    _instance = None
+    instance = None
 
-    @classmethod
-    def get_instance(cls) -> "AssistantAnalyzer":
-        if cls._instance is None:
-            cls._instance = AssistantAnalyzer()
-        return cls._instance
+    def __new__(cls, *args, **kwargs):
+        if not cls.instance:
+            cls.instance = super(AssistantAnalyzer, cls).__new__(cls)
+        return cls.instance
 
     def __init__(self):
         self.runs: List[AssistantRun] = []
+
+    def clear(self):
+        self.runs.clear()
 
     def append_run(self, run: Run, assistant_name: str):
         self.runs.append(AssistantRun(run, assistant_name))

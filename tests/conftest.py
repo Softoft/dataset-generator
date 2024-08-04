@@ -5,9 +5,12 @@ from unittest.mock import Mock
 
 import pytest
 from openai import AsyncOpenAI, OpenAI
+from openai.types.beta.threads import Run
+from openai.types.beta.threads.run import Usage
 
 from models import Ticket
 from synthetic_data_generator.ai_graph.ai.chat_assistant import AssistantModel, ChatAssistant, ChatAssistantConfig
+from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantRun
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
 from synthetic_data_generator.random_collection_node import RandomCollectionNode
@@ -67,11 +70,23 @@ def chat_assistant_gpt4_o_mini():
     chat_assistant_config = ChatAssistantConfig(
         assistant_name="Simple Chatbot",
         assistant_id=my_assistant.id,
-        model=AssistantModel.GPT4_o_MINI,
+        model=AssistantModel.GPT_4o_MINI,
         temperature=0.5
     )
     yield ChatAssistant(AsyncOpenAI(), chat_assistant_config)
     client.beta.assistants.delete(my_assistant.id)
+
+
+@pytest.fixture
+def create_assistant_run():
+    def _create_assistant_run(assistant_name, completion_tokens, prompt_tokens, model: AssistantModel):
+        run = Mock(spec=Run)
+        run.usage = Usage(completion_tokens=completion_tokens, prompt_tokens=prompt_tokens,
+                          total_tokens=completion_tokens + prompt_tokens)
+        run.model = model.value
+        return AssistantRun(run, assistant_name)
+
+    return _create_assistant_run
 
 
 @pytest.fixture

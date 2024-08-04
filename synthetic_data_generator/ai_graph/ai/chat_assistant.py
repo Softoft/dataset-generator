@@ -1,3 +1,4 @@
+import logging
 from dataclasses import dataclass
 from enum import Enum
 
@@ -9,8 +10,8 @@ from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import cost_an
 
 
 class AssistantModel(Enum):
-    GPT4_O = "gpt4-o"
-    GPT4_o_MINI = "gpt4-o-mini"
+    GPT_4o = "gpt-4o"
+    GPT_4o_MINI = "gpt-4o-mini"
 
 
 @dataclass
@@ -28,6 +29,7 @@ class ChatAssistant:
     chat_assistant_config: ChatAssistantConfig
 
     async def create_run(self, thread_id, assistant_id):
+        logging.info(f"Creating run for thread {thread_id} and assistant {assistant_id}")
         return await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
                                                                    assistant_id=assistant_id,
                                                                    temperature=self.chat_assistant_config.temperature)
