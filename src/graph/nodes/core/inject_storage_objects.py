@@ -1,9 +1,9 @@
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 
 
 def inject_storage_objects(*types):
     def decorator(func):
-        def wrapper(self, shared_storage: KeyValueStorage):
+        def wrapper(self, shared_storage: KeyValueStore):
             loaded_types = [shared_storage.get(type_) for type_ in types]
             return func(self, shared_storage, *loaded_types)
 

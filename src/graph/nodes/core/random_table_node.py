@@ -2,7 +2,7 @@ from enum import Enum
 
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from src.random_collections.random_collection_table import RandomTable
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 
 
 class RandomTableNode[K: Enum, V: Enum](ExecutableNode):
@@ -12,7 +12,7 @@ class RandomTableNode[K: Enum, V: Enum](ExecutableNode):
         self.random_generator = random_generator
         super().__init__(parents)
 
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         key_value = shared_storage.get(self.key_type)
         shared_storage.save(self.random_generator.get_random_value(key_value))
         return shared_storage

@@ -1,13 +1,21 @@
 from dataclasses import dataclass
 
+from ai.chat_assistant import ChatAssistantConfig
+from util.number_interval_generator import NumberIntervalGenerator
+from util.text_similarity_calculator import TicketParaphraseValidator
+
 
 @dataclass
-class Config:
+class BasicConfig:
     number_of_tickets: int
     output_file: str
     number_translation_nodes: int
-    text_length_mean: int
-    text_length_standard_deviation: int
     batch_size: int
-    max_text_similarity: float
-    min_content_similarity: float
+
+
+@dataclass
+class Config:
+    basic_config: BasicConfig
+    assistants: list[ChatAssistantConfig]
+    email_length_generator: NumberIntervalGenerator
+    ticket_paraphrase_validator: TicketParaphraseValidator

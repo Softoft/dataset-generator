@@ -6,11 +6,11 @@ from dataclasses import dataclass
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from config import Config
+from graph.data.models import NumberInterval, Ticket
 
 
 class SimilarityCalculator:
-    def get_content_similarity(self, text1, text2) -> float:
+    def get_content_similarity(self, text1: str, text2: str) -> float:
         if text1 == "" and text2 == "":
             return 1.0
         vectorizer = TfidfVectorizer()
@@ -22,7 +22,7 @@ class SimilarityCalculator:
         logging.info(f"Content similarity score: {score}")
         return score
 
-    def get_text_similarity(self, text1, text2):
+    def get_text_similarity(self, text1: str, text2: str):
         wfs = self.__word_frequency_similarity_score(text1, text2)
         lcs = self.__lcs_score(text1, text2)
         score = min(wfs, lcs)
@@ -65,16 +65,17 @@ class SimilarityCalculator:
 
 @dataclass
 class TicketParaphraseValidator:
-    config: Config
+    text_similarity_bounds: NumberInterval
+    content_similarity_bounds: NumberInterval
     similarity_calculator: SimilarityCalculator
 
     def check_pair_is_valid(self, text1, text2, empty_allowed=False):
         if empty_allowed and (text1 == "" or text2 == ""):
             return True
-        return (self.similarity_calculator.get_text_similarity(text1, text2) <= self.config.max_text_similarity and
-                self.similarity_calculator.get_content_similarity(text1, text2) >= self.config.min_content_similarity)
+        return (self.similarity_calculator.get_text_similarity(text1, text2) in self.text_similarity_bounds and
+                self.similarity_calculator.get_content_similarity(text1, text2) in self.content_similarity_bounds)
 
-    def is_valid_paraphrasing(self, ticket1, ticket2):
+    def is_valid_paraphrasing(self, ticket1: Ticket, ticket2: Ticket):
         valid_subject = self.check_pair_is_valid(ticket1.subject, ticket2.subject, empty_allowed=True)
         valid_body = self.check_pair_is_valid(ticket1.body, ticket2.body)
         valid_answer = self.check_pair_is_valid(ticket1.answer, ticket2.answer)

@@ -4,16 +4,16 @@ import copy
 import logging
 from typing import Optional
 
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 
 
 class INode(abc.ABC):
     @abc.abstractmethod
-    async def execute(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def execute(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass
 
     @abc.abstractmethod
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass
 
 
@@ -21,9 +21,9 @@ class ExecutableNode(INode, abc.ABC):
     def __init__(self, parents: list[INode]):
         self._parents = parents
         self._has_execution_started = False
-        self._shared_storage_state: Optional[KeyValueStorage] = None
+        self._shared_storage_state: Optional[KeyValueStore] = None
 
-    async def execute(self, shared_storage: KeyValueStorage = None) -> KeyValueStorage:
+    async def execute(self, shared_storage: KeyValueStore = None) -> KeyValueStore:
         logging.info(f"{self.__class__.__name__} Execute Function called")
 
         while self._has_execution_started and self._shared_storage_state is None:
@@ -34,7 +34,7 @@ class ExecutableNode(INode, abc.ABC):
 
         logging.info(f"{self.__class__.__name__} Executing")
         self._has_execution_started = True
-        shared_storage = shared_storage or KeyValueStorage()
+        shared_storage = shared_storage or KeyValueStore()
         parent_node_tasks = []
         for parent in self._parents:
             parent_node_tasks.append(parent.execute(copy.deepcopy(shared_storage)))
@@ -46,5 +46,5 @@ class ExecutableNode(INode, abc.ABC):
         return updated_shared_storage
 
     @abc.abstractmethod
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass

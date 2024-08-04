@@ -1,7 +1,7 @@
 from typing import Self
 
 
-class KeyValueStorage:
+class KeyValueStore:
     def __init__(self):
         self.storage: dict[str, object] = { }
 

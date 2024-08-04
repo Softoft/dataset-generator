@@ -1,57 +1,61 @@
 {
-  "number_of_tickets": 1000,
-  "output_file": "../data/training/dataset-v3_26_0-big.json",
-  "number_translation_nodes": 4,
-  "batch_size": 10,
+  "basic": {
+    "number_of_tickets": 1000,
+    "output_file": "../data/training/dataset-v3_26_0-big.json",
+    "number_translation_nodes": 4,
+    "batch_size": 10
+  },
   "text_length": {
     "min_words": 2,
     "mean_words": 40,
     "standard_deviation": 20,
     "max_words": 10000
   },
-  "text_similarity_thresholds": [
-    {
-      "min_words": 100,
-      "similarity": 0.9
+  "text_paraphrasing": {
+    "text_similarity_bounds": {
+      "lower_bound": 0.05,
+      "upper_bound": 0.9
     },
-    {
-      "min_words": 30,
-      "similarity": 0.95
-    },
-    {
-      "min_words": 0,
-      "similarity": 1
+    "content_similarity_bounds": {
+      "lower_bound": 0.35,
+      "upper_bound": 0.99
     }
-  ],
+  },
   "assistants": [
     {
       "name": "email_answer",
       "assistant_id": "asst_OLhh0xGEY7Tu8x0dm8TOtxKu",
+      "model": "gpt4-o",
       "temperature": 1.2
     },
     {
       "name": "email_generation",
       "assistant_id": "asst_015ugl1zMDzfMHCBVfZxnCW4",
+      "model": "gpt4-o",
       "temperature": 1.2
     },
     {
       "name": "topic_generation",
       "assistant_id": "asst_QY6nVFb9s7dGef1U4bZzh6fJ",
+      "model": "gpt4-o",
       "temperature": 1
     },
     {
       "name": "rewriting",
       "assistant_id": "asst_FZTBVnl8Hyg0gXbDuMbiwn9d",
+      "model": "gpt4-o-mini",
       "temperature": 1.2
     },
     {
       "name": "translation",
       "assistant_id": "asst_0u4em1NJRrDdVwpM5zSqLeVx",
+      "model": "gpt4-o-mini",
       "temperature": 1.2
     },
     {
       "name": "tag_generation",
       "assistant_id": "asst_RNCIbm4tFo7VaExVsHZVFPeK",
+      "model": "gpt4-o-mini",
       "temperature": 1.2
     }
   ]

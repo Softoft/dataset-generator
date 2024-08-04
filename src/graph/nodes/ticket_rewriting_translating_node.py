@@ -5,12 +5,11 @@ from dataclasses import dataclass
 
 from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
-from ai.chat_assistant import AssistantId, ChatAssistantFactory
 from graph.data.models import Language, Ticket
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from random_collections.random_collection import RandomCollectionBuilder
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 
 
 @dataclass
@@ -40,7 +39,7 @@ class TicketTranslationNode(ExecutableNode):
         super().__init__(parents)
 
     @inject_storage_objects(Ticket)
-    async def _execute_node(self, shared_storage: KeyValueStorage, ticket: Ticket) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore, ticket: Ticket) -> KeyValueStore:
         self.first_ticket = ticket
         translated_ticket = await self._generate_rewritten_and_translated_ticket(ticket)
         tagged_ticket = await self._generate_ticket_tags(translated_ticket)

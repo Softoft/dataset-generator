@@ -1,11 +1,12 @@
 import asyncio
 import logging
+from enum import auto
+from unittest.mock import Mock
 
 import pytest
 
-from graph.data.models import Ticket
+from graph.data.models import NumberInterval, Ticket
 from graph.data.ticket_field import ComparableEnum
-from graph.graph_ticket_generator import GraphTicketGenerator
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
@@ -13,27 +14,28 @@ from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
 from random_collections.random_collection import RandomCollectionBuilder
 from random_collections.random_collection_table import RandomTableBuilder
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
+from util.number_interval_generator import NormalizedNumberGenerator, NumberIntervalGenerator
 
 
 class KeyEnum(ComparableEnum):
-    K1 = 1
-    K2 = 2
+    K1 = auto()
+    K2 = auto()
 
 
 class ValueEnum(ComparableEnum):
-    V1 = 1
-    V2 = 2
-    V3 = 3
+    V1 = auto()
+    V2 = auto()
+    V3 = auto()
 
 
 class BigEnum(ComparableEnum):
-    B1 = 1
-    B2 = 2
-    B3 = 3
-    B4 = 4
-    B5 = 5
-    B6 = 6
+    B1 = auto()
+    B2 = auto()
+    B3 = auto()
+    B4 = auto()
+    B5 = auto()
+    B6 = auto()
 
 
 class ConfigurableEnumSaveNode(ExecutableNode):
@@ -41,7 +43,7 @@ class ConfigurableEnumSaveNode(ExecutableNode):
         self.key_enum_value = key_enum_value
         super().__init__([])
 
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         if KeyEnum in shared_storage:
             return shared_storage
         shared_storage.save(self.key_enum_value)
@@ -75,36 +77,63 @@ def create_random_collection_node():
 
 
 @pytest.fixture
-def create_extra_ticket_information_node():
-    def _create_extra_ticket_information_node():
-        graph = GraphTicketGenerator()
-        return TicketExtraInformationNode([graph.ticket_queue_node, graph.ticket_type_node])
+def create_random_number_generator():
+    def _create_random_number_generator(mean: int, standard_deviation: int, number_bounds: NumberInterval):
+        return NormalizedNumberGenerator(mean=mean, standard_deviation=standard_deviation, number_bounds=number_bounds)
 
-    return _create_extra_ticket_information_node
+    return _create_random_number_generator
+
+
+@pytest.fixture
+def get_random_numbers(create_random_number_generator):
+    def _get_random_numbers(mean, standard_deviation, number_bounds=None, amount: int = 10_000):
+        random_number_generator = create_random_number_generator(mean, standard_deviation, number_bounds)
+        return [random_number_generator.generate_bounded_number() for _ in range(amount)]
+
+    return _get_random_numbers
+
+
+@pytest.fixture
+def get_mocked_random_interval():
+    def _get_mocked_random_interval(lower_value, min_upper_bound_difference):
+        normalized_number_generator = Mock(spec=NormalizedNumberGenerator)
+        normalized_number_generator.generate_bounded_number.return_value = lower_value
+
+        return NumberIntervalGenerator(mean=0, standard_deviation=1,
+                                       min_upper_bound_difference=min_upper_bound_difference,
+                                       lower_number_generator=normalized_number_generator)
+
+    return _get_mocked_random_interval
+
+
+@pytest.fixture
+def create_key_value_store():
+    def _create_key_value_store(*stored_values):
+        key_value_store = KeyValueStore()
+        for value in stored_values:
+            key_value_store.save(value)
+        return key_value_store
+
+    return _create_key_value_store
+
+
+@pytest.fixture
+def extra_ticket_information_node():
+    return TicketExtraInformationNode()
 
 
 @pytest.fixture
 def create_answer_ticket_node():
     def _create_answer_ticket_node():
-        graph = GraphTicketGenerator()
-        return graph.ticket_answer_node
+        return None
 
     return _create_answer_ticket_node
 
 
 @pytest.fixture
-def create_ticket_translation_node():
-    def _create_ticket_translation_node():
-        graph = GraphTicketGenerator()
-        return graph.ticket_translation_node1
-
-    return _create_ticket_translation_node
-
-
-@pytest.fixture
 def execute_ticket_translation_node():
     async def _create_ticket_translation_node_for_ticket(ticket: Ticket):
-        shared_storage = KeyValueStorage()
+        shared_storage = KeyValueStore()
         shared_storage.save(ticket)
         ticket_translation_node = TicketTranslationNode([])
         return await ticket_translation_node.execute(shared_storage)

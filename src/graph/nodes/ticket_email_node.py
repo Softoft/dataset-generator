@@ -8,7 +8,7 @@ from ai.chat_assistant import AssistantId, ChatAssistantFactory
 from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 from util.number_interval_generator import NumberIntervalGenerator
 
 
@@ -23,8 +23,8 @@ class TicketEmailNode(ExecutableNode):
         super().__init__(parents)
 
     @inject_storage_objects(TicketType, TicketQueue, Priority, TicketExtraInformation)
-    async def _execute_node(self, shared_storage: KeyValueStorage, ticket_type, ticket_queue, ticket_priority,
-                            ticket_extra_information) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore, ticket_type, ticket_queue, ticket_priority,
+                            ticket_extra_information) -> KeyValueStore:
         ticket_email = await self._generate_email(ticket_type, ticket_queue, ticket_priority,
                                                   ticket_extra_information)
         shared_storage.save(ticket_email)

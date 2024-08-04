@@ -1,8 +1,8 @@
 import asyncio
 
 from graph.nodes.core.executable_node import ExecutableNode
-from util.key_value_storage import KeyValueStorage
 from tests.conftest import KeyEnum, ValueEnum
+from util.key_value_storage import KeyValueStore
 
 
 class MyExecutableNode(ExecutableNode):
@@ -10,7 +10,7 @@ class MyExecutableNode(ExecutableNode):
         self.execute_count = 0
         super().__init__(parents)
 
-    async def _execute_node(self, shared_storage: KeyValueStorage) -> KeyValueStorage:
+    async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         self.execute_count += 1
         if ValueEnum in shared_storage:
             return shared_storage
@@ -39,7 +39,7 @@ def test_execute_parents():
 def test_shared_storage(create_enum_save_node):
     key_value = KeyEnum.K2
     node = MyExecutableNode([create_enum_save_node(key_value)])
-    storage: KeyValueStorage = asyncio.run(node.execute())
+    storage: KeyValueStore = asyncio.run(node.execute())
 
     value_enum_loaded = storage.get(ValueEnum)
     key_enum_loaded = storage.get(KeyEnum)

@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from enum import Enum
 
 import openai
@@ -7,13 +8,24 @@ from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_ra
 from ai.chat_assistant_analysis import AssistantAnalyzer
 
 
+class AssistantModel(Enum):
+    GPT4_O = "gpt4-o"
+    GPT4_o_MINI = "gpt4-o-mini"
+
+
+@dataclass
+class ChatAssistantConfig:
+    assistant_name: str
+    assistant_id: str
+    model: AssistantModel
+    temperature: float
+
+
+@dataclass
 class ChatAssistant:
-    def __init__(self, assistant_name: str, assistant_id: str, temperature=1):
-        self.assistant_name = assistant_name
-        self.client = AsyncOpenAI()
-        self.assistant_id = assistant_id
-        self.temperature = temperature
-        self.usage_analyzer = AssistantAnalyzer.get_instance()
+    client: AsyncOpenAI
+    usage_analyzer: AssistantAnalyzer
+    chat_assistant_config: ChatAssistantConfig
 
     async def _create_run_with_retry(self, thread_id, assistant_id):
         run = await self.client.beta.threads.runs.create_and_poll(thread_id=thread_id,
@@ -30,26 +42,3 @@ class ChatAssistant:
         await self._create_run_with_retry(thread.id, open_ai_assistant.id)
         messages = await self.client.beta.threads.messages.list(thread_id=thread.id)
         return messages.data[0].content[0].text.value
-
-
-class AssistantId(Enum):
-    EMAIL_ANSWER = "asst_OLhh0xGEY7Tu8x0dm8TOtxKu"
-    EMAIL_GENERATION = "asst_015ugl1zMDzfMHCBVfZxnCW4"
-    TOPIC_GENERATION = "asst_QY6nVFb9s7dGef1U4bZzh6fJ"
-    REWRITING = "asst_FZTBVnl8Hyg0gXbDuMbiwn9d"
-    TRANSLATION = "asst_0u4em1NJRrDdVwpM5zSqLeVx"
-    TAG_GENERATION = "asst_RNCIbm4tFo7VaExVsHZVFPeK"
-
-
-class ChatAssistantFactory:
-    _instance = None
-
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(ChatAssistantFactory, cls).__new__(cls)
-        return cls._instance
-
-    def create_assistant(self, assistant_type: AssistantId, temperature=1):
-        if not isinstance(assistant_type, AssistantId):
-            raise ValueError(f"Invalid assistant type: {assistant_type}")
-        return ChatAssistant(assistant_type.name.replace('_', ' ').title(), assistant_type.value, temperature)

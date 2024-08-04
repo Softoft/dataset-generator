@@ -5,7 +5,7 @@ from graph.data.models import Language, Priority, Ticket, TicketEmail, TicketExt
     TicketType
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from util.key_value_storage import KeyValueStorage
+from util.key_value_storage import KeyValueStore
 
 
 class TicketAnswerNode(ExecutableNode):
@@ -15,9 +15,9 @@ class TicketAnswerNode(ExecutableNode):
         super().__init__(parents)
 
     @inject_storage_objects(TicketEmail, TicketExtraInformation, TicketQueue, Priority, TicketType)
-    async def _execute_node(self, shared_storage: KeyValueStorage, ticket_email, ticket_extra_information, ticket_queue,
+    async def _execute_node(self, shared_storage: KeyValueStore, ticket_email, ticket_extra_information, ticket_queue,
                             priority,
-                            ticket_type) -> KeyValueStorage:
+                            ticket_type) -> KeyValueStore:
         logging.info(f"TicketAnswerNode: Execute!")
         ticket = await self._generate_ticket(ticket_email, ticket_extra_information, ticket_queue, priority,
                                              ticket_type)
