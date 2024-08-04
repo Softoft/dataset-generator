@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 from ai.chat_assistant import ChatAssistantConfig
+
 from synthetic_data_generator.random_generators.number_interval_generator import NumberIntervalGenerator
 from text_similarity_calculator import TicketParaphraseValidator
 

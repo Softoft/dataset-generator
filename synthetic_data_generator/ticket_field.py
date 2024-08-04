@@ -34,7 +34,7 @@ class RandomDescriptionModel(InputModel, ComparableEnum):
 
 
 @dataclass
-class OutputDataclassField:
+class OutputDataclassModel:
     @classmethod
     def list_attributes_and_types(cls):
         type_hints = get_type_hints(cls)

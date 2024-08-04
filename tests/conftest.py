@@ -4,19 +4,21 @@ from enum import auto
 from unittest.mock import Mock
 
 import pytest
-from graph.data.ticket_field import ComparableEnum
-from graph.nodes.core.executable_node import ExecutableNode
-from graph.nodes.core.random_collection_node import RandomCollectionNode
-from graph.nodes.core.random_table_node import RandomTableNode
-from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
-from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
-from synthetic_data_generator.ai_graph.data.models import NumberInterval, Ticket
+from openai import AsyncOpenAI, OpenAI
 
+from models import Ticket
+from synthetic_data_generator.ai_graph.ai.chat_assistant import AssistantModel, ChatAssistant, ChatAssistantConfig
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
+from synthetic_data_generator.random_collection_node import RandomCollectionNode
 from synthetic_data_generator.random_generators.number_interval_generator import NormalizedNumberGenerator,\
-    NumberIntervalGenerator
+    NumberInterval, NumberIntervalGenerator
 from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 from synthetic_data_generator.random_generators.random_collection_table import RandomTableBuilder
+from synthetic_data_generator.random_table_node import RandomTableNode
+from synthetic_data_generator.ticket_field import ComparableEnum
+from ticket_extra_information_node import TicketExtraInformationNode
+from ticket_rewriting_translating_node import TicketTranslationNode
 
 
 class KeyEnum(ComparableEnum):
@@ -49,6 +51,27 @@ class ConfigurableEnumSaveNode(ExecutableNode):
             return shared_storage
         shared_storage.save(self.key_enum_value)
         return shared_storage
+
+
+@pytest.fixture(scope="session")
+def chat_assistant_gpt4_o_mini():
+    client = OpenAI()
+
+    my_assistant = client.beta.assistants.create(
+        instructions="You are a Simple Chatbot, Answer very simple questions in short sentences.",
+        name="Simple Chatbot",
+        tools=[{ "type": "code_interpreter" }],
+        model="gpt-4o-mini",
+    )
+
+    chat_assistant_config = ChatAssistantConfig(
+        assistant_name="Simple Chatbot",
+        assistant_id=my_assistant.id,
+        model=AssistantModel.GPT4_o_MINI,
+        temperature=0.5
+    )
+    yield ChatAssistant(AsyncOpenAI(), chat_assistant_config)
+    client.beta.assistants.delete(my_assistant.id)
 
 
 @pytest.fixture

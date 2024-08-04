@@ -4,18 +4,19 @@ import logging
 import time
 from typing import Callable
 
+from ai.chat_assistant_analysis import AssistantAnalyzer
+from graph.graph_ticket_generator import GraphTicketGenerator
 from injector import inject
 
-from ai.chat_assistant_analysis import AssistantAnalyzer
 from config import Config
-from graph.graph_ticket_generator import GraphTicketGenerator
 
 
 class TicketGenerator:
+    self.create_ticket_generator = create_ticket_generator
+
     @inject
     def __init__(self, ticket_generation_config: Config,
                  create_ticket_generator: Callable[[], GraphTicketGenerator]):
-        self.create_ticket_generator = create_ticket_generator
         self.number_translation_nodes = ticket_generation_config.number_translation_nodes
         self.number_of_tickets = ticket_generation_config.number_of_tickets
         self.graph_ticket_runs = self.number_of_tickets // self.number_translation_nodes

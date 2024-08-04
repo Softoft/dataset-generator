@@ -3,8 +3,8 @@ import random
 from dataclasses import dataclass
 from typing import Optional
 
-from graph.data.ticket_field import ComparableEnum, InputTicketField, OutputDataclassField,\
-    RandomTicketField
+from synthetic_data_generator.ticket_field import ComparableEnum, InputModel, OutputDataclassModel,\
+    RandomDescriptionModel
 
 
 class Language(ComparableEnum):
@@ -27,7 +27,7 @@ class Language(ComparableEnum):
         return self.value
 
 
-class Priority(RandomTicketField):
+class Priority(RandomDescriptionModel):
     LOW = ("low", [
         "Ticket concerns less urgent matters.",
         "This ticket_a does not require immediate attention.",
@@ -58,7 +58,7 @@ class Priority(RandomTicketField):
 
 
 @dataclass
-class TicketEmail(InputTicketField):
+class TicketEmail(InputModel):
     subject: str
     body: str
 
@@ -67,7 +67,7 @@ class TicketEmail(InputTicketField):
 
 
 @dataclass
-class TicketExtraInformation(OutputDataclassField):
+class TicketExtraInformation(OutputDataclassModel):
     business_type: str
     product: str
     extra_info: str
@@ -81,7 +81,7 @@ class TicketExtraInformation(OutputDataclassField):
         return dataclasses.asdict(self)
 
 
-class TicketQueue(RandomTicketField):
+class TicketQueue(RandomDescriptionModel):
     TECHNICAL_SUPPORT = ("Technical Support", [
         "Technical issues and support requests.",
         "Help with technical problems.",
@@ -174,7 +174,7 @@ class TicketQueue(RandomTicketField):
     ])
 
 
-class TicketType(RandomTicketField):
+class TicketType(RandomDescriptionModel):
     INCIDENT = ("Incident", [
         "Unexpected issue, immediate attention needed.",
         "Urgent problem requiring prompt action.",

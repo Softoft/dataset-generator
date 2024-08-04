@@ -1,11 +1,11 @@
 import json
 
-from graph.nodes.core.executable_node import ExecutableNode, INode
-from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from synthetic_data_generator.ai_graph.data.models import Priority, TicketExtraInformation, TicketQueue, TicketType
 from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
+from models import Priority, TicketExtraInformation, TicketQueue, TicketType
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode, INode
+from synthetic_data_generator.ai_graph.nodes.core.inject_storage_objects import inject_storage_objects
 
 
 class TicketExtraInformationNode(ExecutableNode):

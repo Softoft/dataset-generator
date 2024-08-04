@@ -3,12 +3,12 @@ import json
 import logging
 from dataclasses import dataclass
 
-from graph.nodes.core.executable_node import ExecutableNode, INode
-from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from synthetic_data_generator.ai_graph.data.models import Language, Ticket
 from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
+from models import Language, Ticket
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode, INode
+from synthetic_data_generator.ai_graph.nodes.core.inject_storage_objects import inject_storage_objects
 from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 
 
@@ -30,9 +30,9 @@ class TicketTranslationNode(ExecutableNode):
     def __init__(self, parents: list[INode], text_similarity_thresholds: TextSimilarityThresholds):
         self.text_similarity_thresholds = text_similarity_thresholds
         self.ticket_email = None
-        self.rewriting_assistant = ChatAssistantFactory().create_assistant(AssistantId.REWRITING, 1.3)
-        self.translation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TRANSLATION)
-        self.tag_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TAG_GENERATION, 1.1)
+        self.rewriting_assistant = None
+        self.translation_assistant = None
+        self.tag_generation_assistant = None
         self.language_generator = RandomCollectionFactory.build_from_value_weight_dict(
             { Language.DE: 2, Language.EN: 4, Language.FR: 1, Language.ES: 2, Language.PT: 1 })
         self.first_ticket = None
@@ -70,9 +70,6 @@ class TicketTranslationNode(ExecutableNode):
             return ticket
         rewritten_ticket = await self._generate_rewritten_ticket(ticket)
         back_translated_ticket = await self._generate_translated_ticket(rewritten_ticket, self.first_ticket.language)
-        if not TicketTranslationValidation(self.first_ticket, back_translated_ticket,
-                                           self.text_similarity_thresholds).is_valid():
-            return await self._generate_rewritten_and_translated_ticket(rewritten_ticket, repeats_left - 1)
         random_language = self.language_generator.get_random_value()
         translated_ticket = await self._generate_translated_ticket(ticket, random_language)
         return translated_ticket
