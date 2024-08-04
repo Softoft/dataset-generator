@@ -3,7 +3,7 @@ from dataclasses import dataclass, fields
 from enum import Enum
 from typing import get_type_hints
 
-from random_collections.random_collection import RandomCollectionBuilder
+from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 
 
 class ComparableEnum(Enum):
@@ -17,20 +17,20 @@ class ComparableEnum(Enum):
         return hash(self.value)
 
 
-class InputTicketField:
+class InputModel:
     @abc.abstractmethod
     def get_description(self):
         pass
 
 
-class RandomTicketField(InputTicketField, ComparableEnum):
+class RandomDescriptionModel(InputModel, ComparableEnum):
     def __init__(self, value, descriptions):
         self._value_ = value
         self.descriptions = descriptions
         super().__init__(value)
 
     def get_description(self):
-        RandomCollectionBuilder.build_from_list_of_values(self.descriptions).get_random_value()
+        RandomCollectionFactory().build_from_list_of_values(self.descriptions).get_random_value()
 
 
 @dataclass
@@ -42,7 +42,7 @@ class OutputDataclassField:
         return ", ".join(f"{attr.name}: {type_hints[attr.name].__name__}" for attr in attributes)
 
 
-class CategoricalTicketField(InputTicketField, ComparableEnum):
+class CategoricalModel(InputModel, ComparableEnum):
     def __new__(cls, value, description):
         obj = object.__new__(cls)
         obj._value_ = value

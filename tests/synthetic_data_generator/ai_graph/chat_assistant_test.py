@@ -3,7 +3,7 @@ import json
 import pytest
 
 from ai.chat_assistant import ChatAssistant
-from graph.data.models import TicketEmail
+from synthetic_data_generator.ai_graph.data.models import TicketEmail
 
 EMAIL_GENERATION_ASSISTANT_ID = "asst_015ugl1zMDzfMHCBVfZxnCW4"
 

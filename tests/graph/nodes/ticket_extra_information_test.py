@@ -1,9 +1,9 @@
 import asyncio
 
 import pytest
+from synthetic_data_generator.ai_graph.data.models import Priority, TicketExtraInformation, TicketQueue, TicketType
 
-from graph.data.models import Priority, TicketExtraInformation, TicketQueue, TicketType
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 
 
 @pytest.mark.expensive

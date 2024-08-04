@@ -1,5 +1,6 @@
-from src.random_collections.random_collection import RandomCollectionBuilder
 from graph.data.ticket_field import CategoricalTicketField
+
+from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 
 
 class MyTicketField(CategoricalTicketField):
@@ -15,8 +16,8 @@ def test_categorical_field():
 
 
 def test_categorical_field_random_collection():
-    random_collection = RandomCollectionBuilder.build_from_value_weight_dict(
-        {MyTicketField.LOW: 1, MyTicketField.MEDIUM: 1, MyTicketField.HIGH: 2}
+    random_collection = RandomCollectionFactory.build_from_value_weight_dict(
+        { MyTicketField.LOW: 1, MyTicketField.MEDIUM: 1, MyTicketField.HIGH: 2 }
     )
     for _ in range(1_000):
         random_value = random_collection.get_random_value()

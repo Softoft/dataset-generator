@@ -1,5 +1,5 @@
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 from tests.conftest import KeyEnum, ValueEnum
-from util.key_value_storage import KeyValueStore
 
 
 def test_enum_name():

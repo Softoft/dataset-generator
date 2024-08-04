@@ -3,13 +3,13 @@ import json
 import logging
 from dataclasses import dataclass
 
-from tenacity import retry, retry_if_exception_type, stop_after_attempt
-
-from graph.data.models import Language, Ticket
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from random_collections.random_collection import RandomCollectionBuilder
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.data.models import Language, Ticket
+from tenacity import retry, retry_if_exception_type, stop_after_attempt
+
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 
 
 @dataclass
@@ -33,7 +33,7 @@ class TicketTranslationNode(ExecutableNode):
         self.rewriting_assistant = ChatAssistantFactory().create_assistant(AssistantId.REWRITING, 1.3)
         self.translation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TRANSLATION)
         self.tag_generation_assistant = ChatAssistantFactory().create_assistant(AssistantId.TAG_GENERATION, 1.1)
-        self.language_generator = RandomCollectionBuilder.build_from_value_weight_dict(
+        self.language_generator = RandomCollectionFactory.build_from_value_weight_dict(
             { Language.DE: 2, Language.EN: 4, Language.FR: 1, Language.ES: 2, Language.PT: 1 })
         self.first_ticket = None
         super().__init__(parents)

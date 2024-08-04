@@ -1,13 +1,13 @@
 import json
 from typing import Callable
 
+from graph.graph_ticket_generator import GraphTicketGenerator
+from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThreshold, TextSimilarityThresholds
 from injector import Module, provider, singleton
 
 from config import Config
-from graph.graph_ticket_generator import GraphTicketGenerator
-from graph.nodes.ticket_rewriting_translating_node import TextSimilarityThreshold, TextSimilarityThresholds
+from text_similarity_calculator import SimilarityCalculator
 from ticket_generator.ticket_generator import TicketGenerator
-from util.text_similarity_calculator import SimilarityCalculator
 
 
 class TicketGenerationModule(Module):

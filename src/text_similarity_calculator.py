@@ -6,8 +6,6 @@ from dataclasses import dataclass
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from graph.data.models import NumberInterval, Ticket
-
 
 class SimilarityCalculator:
     def get_content_similarity(self, text1: str, text2: str) -> float:

@@ -1,4 +1,4 @@
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 
 
 def inject_storage_objects(*types):

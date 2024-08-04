@@ -2,8 +2,8 @@ import statistics
 
 import pytest
 
-from graph.data.models import NumberInterval
-from util.number_interval_generator import NumberIntervalGenerator
+from synthetic_data_generator.ai_graph.data.models import NumberInterval
+from synthetic_data_generator.random_generators.number_interval_generator import NumberIntervalGenerator
 
 
 def test_equal_method():

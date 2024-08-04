@@ -1,10 +1,24 @@
 import logging
 import math
+from dataclasses import dataclass
 
 import numpy as np
 from pydantic import BaseModel, Field
 
-from graph.data.models import NumberInterval
+
+@dataclass
+class NumberInterval:
+    lower_bound: float
+    upper_bound: float
+
+    def __contains__(self, item: float | int):
+        return self.lower_bound <= item <= self.upper_bound
+
+    def __eq__(self, other):
+        return self.lower_bound == other.lower_bound and self.upper_bound == other.upper_bound
+
+    def __hash__(self):
+        return hash((self.lower_bound, self.upper_bound))
 
 
 class NormalizedNumberGenerator(BaseModel):

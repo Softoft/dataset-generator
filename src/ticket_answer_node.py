@@ -1,11 +1,13 @@
 import logging
 
-from ai.chat_assistant import AssistantId, ChatAssistantFactory
-from graph.data.models import Language, Priority, Ticket, TicketEmail, TicketExtraInformation, TicketQueue,\
-    TicketType
 from graph.nodes.core.executable_node import ExecutableNode, INode
 from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.data.models import Language, Priority, Ticket, TicketEmail,\
+    TicketExtraInformation, TicketQueue,\
+    TicketType
+
+from ai.chat_assistant import AssistantId, ChatAssistantFactory
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 
 
 class TicketAnswerNode(ExecutableNode):

@@ -1,7 +1,9 @@
 from graph.nodes.core.executable_node import INode
 from graph.nodes.core.random_table_node import RandomTableNode
-from graph.data.models import Priority, TicketQueue
-from random_collections.random_collection_table import RandomTable, RandomTableBuilder
+from synthetic_data_generator.ai_graph.data.models import Priority, TicketQueue
+
+from synthetic_data_generator.random_generators.random_collection_table import RandomTable,\
+    RandomTableBuilder
 
 
 def create_queue_priority_node(ticket_type_queue_node: INode):

@@ -1,21 +1,21 @@
 from dataclasses import dataclass
 
 from config import Config
-from graph.data.models import Ticket, TicketType
-from graph.node_factories.ticket_queue_priority_node import create_queue_priority_node
-from graph.node_factories.ticket_type_queue_node_factory import create_ticket_type_queue_node
-from graph.nodes.core.executable_node import ExecutableNode
-from graph.nodes.core.random_collection_node import RandomCollectionNode
-from graph.nodes.ticket_answer_node import TicketAnswerNode
-from graph.nodes.ticket_email_node import TicketEmailNode
-from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
-from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
-from random_collections.random_collection import RandomCollectionBuilder
-from util.key_value_storage import KeyValueStore
+from models import Ticket, TicketType
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
+from synthetic_data_generator.random_collection_node import RandomCollectionNode
+from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
+from ticket_answer_node import TicketAnswerNode
+from ticket_email_node import TicketEmailNode
+from ticket_extra_information_node import TicketExtraInformationNode
+from ticket_queue_priority_node import create_queue_priority_node
+from ticket_rewriting_translating_node import TicketTranslationNode
+from ticket_type_queue_node_factory import create_ticket_type_queue_node
 
 
 def create_ticket_type_node() -> RandomCollectionNode:
-    ticket_type_collection = RandomCollectionBuilder.build_from_value_weight_dict(
+    ticket_type_collection = RandomCollectionFactory.build_from_value_weight_dict(
         {
             TicketType.INCIDENT: 4,
             TicketType.REQUEST: 3,

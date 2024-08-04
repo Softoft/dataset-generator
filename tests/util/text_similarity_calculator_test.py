@@ -4,7 +4,8 @@ from unittest.mock import Mock
 import pytest
 
 from config import Config
-from src.util.text_similarity_calculator import SimilarityCalculator, TicketParaphraseValidator
+from text_similarity_calculator import SimilarityCalculator,\
+    TicketParaphraseValidator
 
 
 def log_similarity(text1, text2):

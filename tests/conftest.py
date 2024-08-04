@@ -4,18 +4,19 @@ from enum import auto
 from unittest.mock import Mock
 
 import pytest
-
-from graph.data.models import NumberInterval, Ticket
 from graph.data.ticket_field import ComparableEnum
 from graph.nodes.core.executable_node import ExecutableNode
 from graph.nodes.core.random_collection_node import RandomCollectionNode
 from graph.nodes.core.random_table_node import RandomTableNode
 from graph.nodes.ticket_extra_information_node import TicketExtraInformationNode
 from graph.nodes.ticket_rewriting_translating_node import TicketTranslationNode
-from random_collections.random_collection import RandomCollectionBuilder
-from random_collections.random_collection_table import RandomTableBuilder
-from util.key_value_storage import KeyValueStore
-from util.number_interval_generator import NormalizedNumberGenerator, NumberIntervalGenerator
+from synthetic_data_generator.ai_graph.data.models import NumberInterval, Ticket
+
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.random_generators.number_interval_generator import NormalizedNumberGenerator,\
+    NumberIntervalGenerator
+from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
+from synthetic_data_generator.random_generators.random_collection_table import RandomTableBuilder
 
 
 class KeyEnum(ComparableEnum):
@@ -70,7 +71,7 @@ def create_random_table_node(create_enum_save_node):
 @pytest.fixture
 def create_random_collection_node():
     def _create_random_collection_node(value_weight_dict):
-        random_collection = RandomCollectionBuilder.build_from_value_weight_dict(value_weight_dict)
+        random_collection = RandomCollectionFactory.build_from_value_weight_dict(value_weight_dict)
         return RandomCollectionNode(ValueEnum, [], random_collection)
 
     return _create_random_collection_node

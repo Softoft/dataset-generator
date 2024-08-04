@@ -1,8 +1,8 @@
 from enum import Enum
 
-from graph.nodes.core.executable_node import ExecutableNode
-from random_collections.random_collection_interface import IRandom
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
+from synthetic_data_generator.random_generators.random_collection_interface import IRandom
 
 
 class RandomCollectionNode[V: Enum](ExecutableNode):

@@ -1,23 +1,23 @@
-import abc
 import asyncio
 import copy
 import logging
+from abc import ABC, abstractmethod
 from typing import Optional
 
-from util.key_value_storage import KeyValueStore
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 
 
-class INode(abc.ABC):
-    @abc.abstractmethod
+class INode(ABC):
+    @abstractmethod
     async def execute(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass
 
-    @abc.abstractmethod
+    @abstractmethod
     async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass
 
 
-class ExecutableNode(INode, abc.ABC):
+class ExecutableNode(INode, ABC):
     def __init__(self, parents: list[INode]):
         self._parents = parents
         self._has_execution_started = False
@@ -45,6 +45,6 @@ class ExecutableNode(INode, abc.ABC):
         self._shared_storage_state = copy.deepcopy(updated_shared_storage)
         return updated_shared_storage
 
-    @abc.abstractmethod
+    @abstractmethod
     async def _execute_node(self, shared_storage: KeyValueStore) -> KeyValueStore:
         pass

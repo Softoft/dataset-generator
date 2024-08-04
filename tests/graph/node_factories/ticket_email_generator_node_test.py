@@ -1,7 +1,7 @@
 import pytest
-
-from graph.data.models import TicketEmail
 from graph.graph_ticket_generator import GraphTicketGenerator
+
+from synthetic_data_generator.ai_graph.data.models import TicketEmail
 
 
 @pytest.mark.expensive

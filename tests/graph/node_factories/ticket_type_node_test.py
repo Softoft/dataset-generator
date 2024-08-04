@@ -1,7 +1,8 @@
 import asyncio
 
 from graph.graph_ticket_generator import GraphTicketGenerator
-from graph.data.models import TicketType
+
+from synthetic_data_generator.ai_graph.data.models import TicketType
 
 
 def test_random_ticket_type():

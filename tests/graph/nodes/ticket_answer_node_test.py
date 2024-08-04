@@ -1,8 +1,6 @@
-import asyncio
-
 import pytest
 
-from graph.data.models import Ticket
+from synthetic_data_generator.ai_graph.data.models import Ticket
 
 
 @pytest.mark.expensive

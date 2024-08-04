@@ -1,15 +1,16 @@
 import json
 import logging
 
+from graph.nodes.core.executable_node import ExecutableNode, INode
+from graph.nodes.core.inject_storage_objects import inject_storage_objects
 from injector import inject
+from synthetic_data_generator.ai_graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue,\
+    TicketType
 from tenacity import before_sleep_log, retry, retry_if_exception_type, stop_after_attempt
 
 from ai.chat_assistant import AssistantId, ChatAssistantFactory
-from graph.data.models import Priority, TicketEmail, TicketExtraInformation, TicketQueue, TicketType
-from graph.nodes.core.executable_node import ExecutableNode, INode
-from graph.nodes.core.inject_storage_objects import inject_storage_objects
-from util.key_value_storage import KeyValueStore
-from util.number_interval_generator import NumberIntervalGenerator
+from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
+from synthetic_data_generator.random_generators.number_interval_generator import NumberIntervalGenerator
 
 
 class TicketEmailNode(ExecutableNode):
