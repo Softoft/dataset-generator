@@ -1,6 +1,9 @@
+import logging
+
 import pytest
 
-from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantAnalyzer, AssistantRun, AssistantRuns
+from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantAnalysisResult, AssistantRun,\
+    AssistantRuns
 from synthetic_data_generator.ai_graph.ai.chat_assistant_config import AssistantModel
 
 
@@ -13,20 +16,36 @@ from synthetic_data_generator.ai_graph.ai.chat_assistant_config import Assistant
 def test_assistant_run(create_assistant_run, prompt_tokens, completion_tokens, model, expected_cost):
     assistant_run: AssistantRun = create_assistant_run(assistant_name="Test", prompt_tokens=prompt_tokens,
                                                        completion_tokens=completion_tokens, model=model)
-    cost = assistant_run.cost()
+    cost = assistant_run.cost
     assert cost == pytest.approx(expected_cost)
 
 
 def test_assistant_run_composite(create_mocked_assistant_run):
     assistant_run_1 = create_mocked_assistant_run(1e6, 2e6, 100)
     assistant_run_2 = create_mocked_assistant_run(2e6, 1e6, 200)
-    assistant_runs = AssistantRuns(runs=[assistant_run_1, assistant_run_2])
+    assistant_runs = AssistantRuns(_runs=[assistant_run_1, assistant_run_2])
     assert assistant_runs.cost == 300
     assert assistant_runs.prompt_tokens == 3e6
     assert assistant_runs.completion_tokens == 3e6
 
 
-def test_assistant_analyzer_total_cost(create_mocked_assistant_run, chat_assistant_analyzer):
+def test_assistant_analysis_result():
+    assistant_analysis_result = AssistantAnalysisResult(name="Test",
+                                                        cost=100,
+                                                        total_cost=1000,
+                                                        prompt_tokens=int(1e6),
+                                                        completion_tokens=int(2e6)
+                                                        )
+    assert assistant_analysis_result.cost == 100
+    assert assistant_analysis_result.total_cost == 1000
+    assert assistant_analysis_result.percent_total_cost == 10
+    assert assistant_analysis_result.prompt_tokens == 1e6
+    assert assistant_analysis_result.completion_tokens == 2e6
+
+    assert all([text in str(assistant_analysis_result).lower() for text in ["cost", "100", "10"]])
+
+
+def test_assistant_analyzer_total_summary(create_mocked_assistant_run, chat_assistant_analyzer):
     assistant_run_1 = create_mocked_assistant_run(1e6, 2e6, 100)
     assistant_run_2 = create_mocked_assistant_run(2e6, 1e6, 200)
 
@@ -34,11 +53,27 @@ def test_assistant_analyzer_total_cost(create_mocked_assistant_run, chat_assista
     chat_assistant_analyzer.append_assistant_run(assistant_run_2)
 
     assert chat_assistant_analyzer.total_summary().cost == 300
+    assert chat_assistant_analyzer.total_summary().prompt_tokens == 3e6
+    assert chat_assistant_analyzer.total_summary().completion_tokens == 3e6
+
+
+def test_print_assistant_analyzer(create_mocked_assistant_run, chat_assistant_analyzer):
+    assistant_run_1 = create_mocked_assistant_run(1e6, 2e6, 100)
+    assistant_run_2 = create_mocked_assistant_run(2e6, 1e6, 200)
+
+    chat_assistant_analyzer.append_assistant_run(assistant_run_1)
+    chat_assistant_analyzer.append_assistant_run(assistant_run_2)
+
+    assistant_analyzer_text = str(chat_assistant_analyzer)
+    assert all([text in assistant_analyzer_text.lower() for text in ["cost", "300"]])
 
 
 @pytest.mark.asyncio
 @pytest.mark.slow
-async def test_chat_assistant(chat_assistant_gpt4_o_mini):
-    AssistantAnalyzer().clear()
-    await chat_assistant_gpt4_o_mini.chat_assistant("What is the capital of Germany?")
-    assert len(AssistantAnalyzer().runs) == 1
+async def test_chat_assistant_analyzer(chat_assistant_gpt4_o_mini, chat_assistant_analyzer):
+    chat_assistant_analyzer.reset()
+    await chat_assistant_gpt4_o_mini.get_response("What is the capital of Germany?")
+    logging.info(chat_assistant_analyzer)
+    assert chat_assistant_analyzer.total_summary().cost == pytest.approx(0, abs=0.1)
+    assert 30 < chat_assistant_analyzer.total_summary().prompt_tokens < 60
+    assert 0 < chat_assistant_analyzer.total_summary().completion_tokens < 40

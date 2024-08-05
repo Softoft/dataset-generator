@@ -5,6 +5,7 @@ from unittest.mock import Mock, create_autospec
 
 import pytest
 from openai import AsyncOpenAI, OpenAI
+from openai.types.beta import AssistantResponseFormatParam
 from openai.types.beta.threads import Run
 from openai.types.beta.threads.run import Usage
 
@@ -62,9 +63,8 @@ def chat_assistant_gpt4_o_mini():
     client = OpenAI()
 
     my_assistant = client.beta.assistants.create(
-        instructions="You are a Simple Chatbot, Answer very simple questions in short sentences.",
+        instructions="You are a Simple Chatbot, Answer in short sentences.",
         name="Simple Chatbot",
-        tools=[{ "type": "code_interpreter" }],
         model="gpt-4o-mini",
     )
 
@@ -73,6 +73,34 @@ def chat_assistant_gpt4_o_mini():
                         model=AssistantModel.GPT_4o_MINI,
                         temperature=0.5)
     client.beta.assistants.delete(my_assistant.id)
+
+
+@pytest.fixture(scope="session")
+def create_chat_assistant():
+    client = OpenAI()
+    chat_assistants = []
+
+    def _create_chat_assistant(model: AssistantModel, instructions: str, assistant_name="Test Chatbot",
+                               json_response: bool = False,
+                               temperature: float = 0.5):
+        my_assistant = client.beta.assistants.create(
+            instructions=instructions,
+            name=assistant_name,
+            model=model.value,
+            response_format=AssistantResponseFormatParam(type="json_object") if json_response else "auto",
+        )
+
+        test_chat_assistant = ChatAssistant(client=AsyncOpenAI(), assistant_name=assistant_name,
+                                            assistant_id=my_assistant.id,
+                                            model=AssistantModel.GPT_4o_MINI,
+                                            temperature=temperature)
+        chat_assistants.append(test_chat_assistant)
+        return test_chat_assistant
+
+    yield _create_chat_assistant
+
+    for chat_assistant in chat_assistants:
+        client.beta.assistants.delete(chat_assistant.assistant_id)
 
 
 @pytest.fixture
@@ -91,6 +119,8 @@ def create_assistant_run():
 def create_mocked_assistant_run():
     def _create_mocked_assistant_run(completion_tokens, prompt_tokens, cost: float):
         run = create_autospec(AssistantRun, instance=True)
+        run.assistant_name = "Test"
+        run.model = AssistantModel.GPT_4o_MINI
         run.prompt_tokens = prompt_tokens
         run.completion_tokens = completion_tokens
         run.cost = cost

@@ -24,6 +24,11 @@ class AIAssistant extends Generator{
 
 
 
+annotation CostAnalyzer{
+    + get_response(inputs): string
+}
+
+
 class Node{
     - parents: List<INode>
     - was_executed: bool
@@ -33,7 +38,7 @@ class Node{
 Node o--> Generator
 
 class Graph{
-    - endNodes: List<INode>
+    - endNodes: INode
 }
 
 
@@ -43,7 +48,8 @@ Graph o-- Node
 Node o-- Storage
 Node o-- Node
 
-AIAssistant o--> InputType
-AIAssistant o--> OutputType
+AIAssistant ..> InputType
+AIAssistant ..> OutputType
 
+CostAnalyzer ..> AIAssistant
 @enduml

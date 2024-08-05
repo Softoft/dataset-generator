@@ -35,7 +35,7 @@ class TicketAnswerNode(ExecutableNode):
                                ticket_queue: TicketQueue, priority: Priority, ticket_type: TicketType):
         prompt = self._generate_email_prompt(ticket_email)
         logging.info(f"PROMPT: {prompt}")
-        answer_string = await self.chat_assistant.chat_assistant(prompt)
+        answer_string = await self.chat_assistant.get_response(prompt)
         return Ticket(
             subject=ticket_email.subject,
             body=ticket_email.body,

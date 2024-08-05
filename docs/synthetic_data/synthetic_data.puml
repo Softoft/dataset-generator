@@ -1,0 +1,27 @@
+@startuml
+
+
+
+
+package Graph{
+    class Node{
+        - parents: List<INode>
+        - was_executed: bool
+        + {async} execute()
+    }
+    Node o--> Generator
+}
+
+package Random{
+    class RandomCollection{
+    }
+}
+
+class RandomNode extends Graph.Node{
+    - parents: List<INode>
+    - was_executed: bool
+    + {async} execute()
+}
+
+RandomNode o-- RandomCollection
+@enduml

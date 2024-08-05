@@ -77,14 +77,14 @@ class TicketTranslationNode(ExecutableNode):
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
     async def _generate_ticket_tags(self, ticket: Ticket):
         prompt = self._generate_ticket_tags_prompt(ticket)
-        ticket_tags = json.loads(await self.tag_generation_assistant.chat_assistant(prompt))
+        ticket_tags = json.loads(await self.tag_generation_assistant.get_response(prompt))
         ticket.tags = ticket_tags["tags"] if "tags" in ticket_tags else []
         return ticket
 
     @retry(stop=stop_after_attempt(3), retry=retry_if_exception_type(json.decoder.JSONDecodeError))
     async def _generate_rewritten_ticket(self, ticket: Ticket):
         prompt = self._generate_rewriting_prompt(ticket)
-        rewritten_ticket_dict = json.loads(await self.rewriting_assistant.chat_assistant(prompt))
+        rewritten_ticket_dict = json.loads(await self.rewriting_assistant.get_response(prompt))
         rewritten_ticket = copy.deepcopy(ticket).update(subject=rewritten_ticket_dict['subject'],
                                                         body=rewritten_ticket_dict['body'],
                                                         answer=rewritten_ticket_dict['answer'])
@@ -95,7 +95,7 @@ class TicketTranslationNode(ExecutableNode):
         if ticket.language == target_language:
             return ticket
         prompt = self._generate_translation_prompt(ticket, target_language)
-        translated_ticket_dict = json.loads(await self.translation_assistant.chat_assistant(prompt))
+        translated_ticket_dict = json.loads(await self.translation_assistant.get_response(prompt))
         translated_ticket = copy.deepcopy(ticket).update(subject=translated_ticket_dict['subject'],
                                                          body=translated_ticket_dict['body'],
                                                          answer=translated_ticket_dict['answer'])

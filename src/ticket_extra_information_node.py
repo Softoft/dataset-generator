@@ -25,7 +25,7 @@ class TicketExtraInformationNode(ExecutableNode):
            retry=retry_if_exception_type((TypeError, json.decoder.JSONDecodeError, AssertionError)))
     async def generate_topic(self, ticket_type: TicketType, ticket_queue: TicketQueue, ticket_priority: Priority):
         prompt = self.generate_topic_prompt(ticket_type, ticket_queue, ticket_priority)
-        return TicketExtraInformation(**json.loads(await self.topic_generation_assistant.chat_assistant(prompt)))
+        return TicketExtraInformation(**json.loads(await self.topic_generation_assistant.get_response(prompt)))
 
     @inject_storage_objects(TicketType, TicketQueue, Priority)
     async def _execute_node(self, shared_storage: KeyValueStore, ticket_type: TicketType,

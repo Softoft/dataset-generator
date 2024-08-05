@@ -54,6 +54,6 @@ class TicketEmailNode(ExecutableNode):
         prompt = self._generate_email_prompt(ticket_type, ticket_queue, priority,
                                              ticket_extra_information)
         logging.info(f"PROMPT: {prompt}")
-        email_json_string = await self.email_generation_assistant.chat_assistant(prompt)
+        email_json_string = await self.email_generation_assistant.get_response(prompt)
         email_dict = json.loads(email_json_string)
         return TicketEmail(**email_dict)

@@ -1,6 +1,6 @@
 import asyncio
 
-from graph.nodes.core.executable_node import ExecutableNode
+from synthetic_data_generator.nodes import ExecutableNode
 
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 from tests.conftest import KeyEnum, ValueEnum
