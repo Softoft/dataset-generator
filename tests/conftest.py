@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from enum import auto
-from unittest.mock import Mock
+from unittest.mock import Mock, create_autospec
 
 import pytest
 from openai import AsyncOpenAI, OpenAI
@@ -9,8 +9,9 @@ from openai.types.beta.threads import Run
 from openai.types.beta.threads.run import Usage
 
 from models import Ticket
-from synthetic_data_generator.ai_graph.ai.chat_assistant import AssistantModel, ChatAssistant, ChatAssistantConfig
-from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantRun
+from synthetic_data_generator.ai_graph.ai.chat_assistant import ChatAssistant
+from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantAnalyzer, AssistantRun
+from synthetic_data_generator.ai_graph.ai.chat_assistant_config import AssistantModel
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
 from synthetic_data_generator.random_collection_node import RandomCollectionNode
@@ -67,13 +68,10 @@ def chat_assistant_gpt4_o_mini():
         model="gpt-4o-mini",
     )
 
-    chat_assistant_config = ChatAssistantConfig(
-        assistant_name="Simple Chatbot",
-        assistant_id=my_assistant.id,
-        model=AssistantModel.GPT_4o_MINI,
-        temperature=0.5
-    )
-    yield ChatAssistant(AsyncOpenAI(), chat_assistant_config)
+    yield ChatAssistant(client=AsyncOpenAI(), assistant_name="Simple Chatbot",
+                        assistant_id=my_assistant.id,
+                        model=AssistantModel.GPT_4o_MINI,
+                        temperature=0.5)
     client.beta.assistants.delete(my_assistant.id)
 
 
@@ -84,9 +82,26 @@ def create_assistant_run():
         run.usage = Usage(completion_tokens=completion_tokens, prompt_tokens=prompt_tokens,
                           total_tokens=completion_tokens + prompt_tokens)
         run.model = model.value
-        return AssistantRun(run, assistant_name)
+        return AssistantRun(_run=run, assistant_name=assistant_name)
 
     return _create_assistant_run
+
+
+@pytest.fixture
+def create_mocked_assistant_run():
+    def _create_mocked_assistant_run(completion_tokens, prompt_tokens, cost: float):
+        run = create_autospec(AssistantRun, instance=True)
+        run.prompt_tokens = prompt_tokens
+        run.completion_tokens = completion_tokens
+        run.cost = cost
+        return run
+
+    return _create_mocked_assistant_run
+
+
+@pytest.fixture
+def chat_assistant_analyzer():
+    return AssistantAnalyzer()
 
 
 @pytest.fixture

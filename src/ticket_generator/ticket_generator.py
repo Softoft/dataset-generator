@@ -81,7 +81,7 @@ class TicketGenerator:
         logging.warning("=" * 50)
         logging.warning(f"Did {batches_finished} Batches in {round(time_passed)}s")
         logging.warning(f"time left: {time_left_s}s = {time_left_m}m")
-        costs = AssistantAnalyzer().calculate_total_cost()
+        costs = AssistantAnalyzer().cost()
         cost_per_ticket = costs / created_tickets if created_tickets > 0 else 0
         logging.warning(f"Costs per Ticket: {round(cost_per_ticket, 4)}€")
         logging.warning(f"Total Costs: {round(costs, 2)}€")

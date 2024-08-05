@@ -1,11 +1,13 @@
 import enum
 import logging
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
 from enum import Enum
 from typing import Dict, List
 
 from openai.types.beta.threads import Run
 
-from synthetic_data_generator.ai_graph.ai.chat_assistant import AssistantModel
+from synthetic_data_generator.ai_graph.ai.chat_assistant_config import AssistantModel
 
 
 def cost_analyzer(cls):
@@ -18,7 +20,7 @@ def cost_analyzer(cls):
         async def wrapped_create_run(*args, **kwargs):
             logging.info(f"Creating run with args {args} and kwargs {kwargs}")
             run = await original_create_run(*args, **kwargs)
-            AssistantAnalyzer().append_run(run, self.chat_assistant_config.assistant_name)
+            AssistantAnalyzer().append_assistant_run(AssistantRun(run, self.assistant_name))
             return run
 
         self.create_run = wrapped_create_run
@@ -32,34 +34,99 @@ class CostType(Enum):
     OUTPUT = enum.auto()
 
 
-def per_million_tokens(cost: float) -> float:
-    return cost / 10 ** 6
+class CostCalculable(ABC):
+    @property
+    @abstractmethod
+    def cost(self) -> float:
+        pass
+
+    @property
+    @abstractmethod
+    def prompt_tokens(self) -> int:
+        pass
+
+    @property
+    @abstractmethod
+    def completion_tokens(self) -> int:
+        pass
+
+    def create_summary(self, name, total_cost):
+        return AssistantAnalysisResult(
+            name=name,
+            cost=self.cost,
+            total_cost=total_cost,
+            prompt_tokens=self.prompt_tokens,
+            completion_tokens=self.completion_tokens
+        )
 
 
-class AssistantRun:
+@dataclass
+class AssistantRun(CostCalculable):
+    assistant_name: str
+    _run: Run
+
     cost_map = {
         CostType.INPUT: {
-            AssistantModel.GPT_4o: per_million_tokens(5),
-            AssistantModel.GPT_4o_MINI: per_million_tokens(0.15),
+            AssistantModel.GPT_4o: 5e-6,
+            AssistantModel.GPT_4o_MINI: 0.15e-6,
         },
         CostType.OUTPUT: {
-            AssistantModel.GPT_4o: per_million_tokens(15),
-            AssistantModel.GPT_4o_MINI: per_million_tokens(0.6),
+            AssistantModel.GPT_4o: 15e-6,
+            AssistantModel.GPT_4o_MINI: 0.6e-6,
         }
     }
 
-    def __init__(self, run: Run, assistant_name: str):
-        self.run = run
-        self.assistant_name = assistant_name
+    @property
+    def model(self):
+        return AssistantModel(self._run.model)
 
-    def calculate_cost(self) -> float:
-        try:
-            input_cost = self.cost_map[CostType.INPUT][self.run.model] * self.run.usage.prompt_tokens
-            output_cost = self.cost_map[CostType.OUTPUT][self.run.model] * self.run.usage.completion_tokens
-            return input_cost + output_cost
-        except KeyError as e:
-            logging.error(f"Model {self.run.model} not found in cost map: {e}")
-            return 0.0
+    @property
+    def prompt_tokens(self) -> int:
+        return self._run.usage.prompt_tokens
+
+    @property
+    def completion_tokens(self) -> int:
+        return self._run.usage.completion_tokens
+
+    def cost(self) -> float:
+        input_cost = self.cost_map[CostType.INPUT][self.model] * self.prompt_tokens
+        output_cost = self.cost_map[CostType.OUTPUT][self.model] * self.completion_tokens
+        return input_cost + output_cost
+
+
+@dataclass
+class AssistantRuns(CostCalculable):
+    runs: List[AssistantRun]
+
+    @property
+    def cost(self) -> float:
+        return sum(run.cost for run in self.runs)
+
+    @property
+    def prompt_tokens(self):
+        return sum(run.prompt_tokens for run in self.runs)
+
+    @property
+    def completion_tokens(self):
+        return sum(run.completion_tokens for run in self.runs)
+
+
+@dataclass
+class AssistantAnalysisResult:
+    name: str
+    cost: float
+    total_cost: float
+    prompt_tokens: int
+    completion_tokens: int
+
+    @property
+    def percentage_total_cost(self):
+        return (self.cost / self.total_cost) * 100
+
+    def __repr__(self):
+        return (f"{self.name}: Total Cost: {self.total_cost:.2f}€,"
+                f" Percentage Total Cost: {self.percentage_total_cost:.2f}%,"
+                f" Prompt Tokens: {self.prompt_tokens}, Completion Tokens: {self.completion_tokens}")
 
 
 class AssistantAnalyzer:
@@ -76,39 +143,27 @@ class AssistantAnalyzer:
     def clear(self):
         self.runs.clear()
 
-    def append_run(self, run: Run, assistant_name: str):
-        self.runs.append(AssistantRun(run, assistant_name))
-        self._log_run_status(run)
+    def append_assistant_run(self, assistant_run: AssistantRun):
+        self.runs.append(assistant_run)
 
-    def calculate_total_cost(self) -> float:
-        return sum(run.calculate_cost() for run in self.runs)
+    def total_summary(self):
+        return AssistantRuns(runs=self.runs)
 
     def generate_cost_summary(self):
+        assistant_summaries = self.generate_assistant_summaries()
+        logging.info("Assistant Usage Summary:")
+
+        for summary in assistant_summaries:
+            logging.info(summary)
+
+    def generate_assistant_summaries(self):
+        assistant_name_runs = self._group_runs_by_assistant()
+        return [AssistantRuns(runs=runs).create_summary(assistant_name, self.total_summary().cost) for
+                assistant_name, runs in
+                assistant_name_runs.items()]
+
+    def _group_runs_by_assistant(self) -> Dict[str, List[AssistantRun]]:
         assistant_name_runs: Dict[str, List[AssistantRun]] = { }
         for run in self.runs:
             assistant_name_runs.setdefault(run.assistant_name, []).append(run)
-
-        summary_lines = []
-        total_cost = self.calculate_total_cost()
-
-        for assistant_name, runs in assistant_name_runs.items():
-            total_assistant_cost = sum(run.calculate_cost() for run in runs)
-            percentage_total_cost = (total_assistant_cost / total_cost) * 100
-            prompt_tokens = sum(run.run.usage.prompt_tokens for run in runs)
-            completion_tokens = sum(run.run.usage.completion_tokens for run in runs)
-
-            summary_lines.append(
-                f"Assistant: {assistant_name}\n"
-                f"Total Cost: {round(total_assistant_cost, 3)}€\n"
-                f"Percentage of Total Cost: {round(percentage_total_cost, 2)}%\n"
-                f"Prompt Tokens: {prompt_tokens:,}\n"
-                f"Completion Tokens: {completion_tokens:,}\n"
-            )
-
-        logging.warning("\n".join(summary_lines))
-
-    def _log_run_status(self, run: Run):
-        if run.status != "completed":
-            logging.error(f"Run failed with status {run.status} and run {run}")
-        if run.usage:
-            logging.info(f"Run Usage: {run.usage}")
+        return assistant_name_runs
