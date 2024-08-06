@@ -2,19 +2,21 @@ from typing import Self
 
 
 class KeyValueStore:
-    def __init__(self):
+    def __init__(self, *values: any):
         self.storage: dict[str, object] = { }
+        self.save(*values)
 
     def __contains__(self, key: type) -> bool:
         if not isinstance(key, type):
             raise ValueError(f"Key must be a type, not {type(key)}")
         return key.__name__ in self.storage
 
-    def save(self, value: any) -> None:
-        key = type(value).__name__
-        if key in self.storage:
-            raise ValueError(f"Key {key} already exists in storage")
-        self.storage[key] = value
+    def save(self, *values: any) -> None:
+        for value in values:
+            key = type(value).__name__
+            if key in self.storage:
+                raise ValueError(f"Key {key} already exists in storage")
+            self.storage[key] = value
 
     def get(self, value_type: type) -> any:
         return self.storage[value_type.__name__]
@@ -32,3 +34,14 @@ class KeyValueStore:
                     self.storage[key] += value
                 else:
                     self.storage[key] = value
+
+
+def inject_storage_objects(*types):
+    def decorator(func):
+        def wrapper(self, shared_storage: KeyValueStore):
+            loaded_types = [shared_storage.get(type_) for type_ in types]
+            return func(self, shared_storage, *loaded_types)
+
+        return wrapper
+
+    return decorator

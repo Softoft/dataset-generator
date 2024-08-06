@@ -7,8 +7,8 @@ from tenacity import retry, retry_if_exception_type, stop_after_attempt
 
 from models import Language, Ticket
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
-from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode, INode
-from synthetic_data_generator.ai_graph.nodes.core.inject_storage_objects import inject_storage_objects
+from synthetic_data_generator.ai_graph.nodes.executable_node import ExecutableNode, INode
+from synthetic_data_generator.ai_graph.nodes.inject_storage_objects import inject_storage_objects
 from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 
 

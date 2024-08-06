@@ -14,14 +14,14 @@ from synthetic_data_generator.ai_graph.ai.chat_assistant import ChatAssistant
 from synthetic_data_generator.ai_graph.ai.chat_assistant_analysis import AssistantAnalyzer, AssistantRun
 from synthetic_data_generator.ai_graph.ai.chat_assistant_config import AssistantModel
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
-from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
-from synthetic_data_generator.random_collection_node import RandomCollectionNode
+from synthetic_data_generator.ai_graph.nodes.executable_node import ExecutableNode
 from synthetic_data_generator.random_generators.number_interval_generator import NormalizedNumberGenerator,\
     NumberInterval, NumberIntervalGenerator
 from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 from synthetic_data_generator.random_generators.random_collection_table import RandomTableBuilder
-from synthetic_data_generator.random_table_node import RandomTableNode
-from synthetic_data_generator.ticket_field import ComparableEnum
+from synthetic_data_generator.random_nodes.random_collection_node import RandomCollectionNode
+from synthetic_data_generator.random_nodes.random_table_node import RandomTableNode
+from synthetic_data_generator.random_nodes.ticket_field import ComparableEnum
 from ticket_extra_information_node import TicketExtraInformationNode
 from ticket_rewriting_translating_node import TicketTranslationNode
 
@@ -75,7 +75,7 @@ def chat_assistant_gpt4_o_mini():
     client.beta.assistants.delete(my_assistant.id)
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture()
 def create_chat_assistant():
     client = OpenAI()
     chat_assistants = []
@@ -83,6 +83,8 @@ def create_chat_assistant():
     def _create_chat_assistant(model: AssistantModel, instructions: str, assistant_name="Test Chatbot",
                                json_response: bool = False,
                                temperature: float = 0.5):
+        if model == AssistantModel.GPT_4o:
+            logging.error("GPT4o is expensive! Use GPT4o Mini for testing")
         my_assistant = client.beta.assistants.create(
             instructions=instructions,
             name=assistant_name,
@@ -129,9 +131,10 @@ def create_mocked_assistant_run():
     return _create_mocked_assistant_run
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def chat_assistant_analyzer():
-    return AssistantAnalyzer()
+    yield AssistantAnalyzer()
+    AssistantAnalyzer().reset()
 
 
 @pytest.fixture

@@ -1,10 +1,11 @@
 from dataclasses import dataclass
 
+from synthetic_data_generator.core.random_collection_node import RandomCollectionNode
+
 from config import Config
 from models import Ticket, TicketType
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
-from synthetic_data_generator.ai_graph.nodes.core.executable_node import ExecutableNode
-from synthetic_data_generator.random_collection_node import RandomCollectionNode
+from synthetic_data_generator.ai_graph.nodes.executable_node import ExecutableNode
 from synthetic_data_generator.random_generators.random_collection import RandomCollectionFactory
 from ticket_answer_node import TicketAnswerNode
 from ticket_email_node import TicketEmailNode

@@ -3,7 +3,7 @@ import random
 from dataclasses import dataclass
 from typing import Optional
 
-from synthetic_data_generator.ticket_field import ComparableEnum, InputModel, OutputDataclassModel,\
+from synthetic_data_generator.core.ticket_field import ComparableEnum, InputModel, OutputDataclassModel,\
     RandomDescriptionModel
 
 

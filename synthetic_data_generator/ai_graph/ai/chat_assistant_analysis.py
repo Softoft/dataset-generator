@@ -19,7 +19,7 @@ def cost_analyzer(warning_limit: float = 1e-4, error_limit=1e-2):
             original_create_run = self.create_run
 
             async def wrapped_create_run(*args, **kwargs):
-                logging.info(f"Creating run with args {args} and kwargs {kwargs}")
+                logging.info(f"Creating run with args {args} and kwargs {kwargs} for {self.assistant_name}")
                 run = await original_create_run(*args, **kwargs)
                 new_assistant_run = AssistantRun(assistant_name=self.assistant_name, _run=run)
                 if new_assistant_run.cost > warning_limit:
@@ -158,7 +158,9 @@ class AssistantAnalyzer:
         return cls.instance
 
     def __init__(self):
-        self._runs: List[AssistantRun] = []
+        if not hasattr(self, '_initialized'):
+            self._runs = []
+            self._initialized = True
 
     def __repr__(self):
         assistant_summaries = self.generate_assistant_summaries()
@@ -172,6 +174,10 @@ class AssistantAnalyzer:
 
     def total_summary(self):
         return AssistantRuns(_runs=self._runs)
+
+    def get_summary_for_assistant(self, assistant_name):
+        assistant_runs = [run for run in self._runs if run.assistant_name == assistant_name]
+        return AssistantRuns(_runs=assistant_runs)
 
     def generate_assistant_summaries(self):
         assistant_name_runs = self._group_runs_by_assistant()
