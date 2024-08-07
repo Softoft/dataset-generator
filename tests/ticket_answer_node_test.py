@@ -1,6 +1,6 @@
 import pytest
 
-from synthetic_data_generator.ai_graph.data.models import Ticket
+from models import Ticket
 
 
 @pytest.mark.expensive

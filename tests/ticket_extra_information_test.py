@@ -1,8 +1,8 @@
 import asyncio
 
 import pytest
-from synthetic_data_generator.ai_graph.data.models import Priority, TicketExtraInformation, TicketQueue, TicketType
 
+from models import Priority, TicketExtraInformation, TicketQueue, TicketType
 from synthetic_data_generator.ai_graph.key_value_store import KeyValueStore
 
 
