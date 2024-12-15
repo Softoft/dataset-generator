@@ -3,7 +3,7 @@ from typing import Callable
 from injector import Module, provider, singleton
 from openai import AsyncOpenAI
 
-from config import Config
+from config.config import Config
 from graph_ticket_generator import GraphTicketGenerator
 from synthetic_data_generator.ai_graph.ai.chat_assistant import ChatAssistant
 from synthetic_data_generator.ai_graph.ai.chat_assistant_config import AssistantModel
